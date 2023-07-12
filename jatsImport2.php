@@ -9,7 +9,11 @@ ini_set("memory_limit", "4096M");
 
 $verbose=true;
 $file_dir="./xml";
-$jats_xsd_path="./xsd/jats_1_0.xsd";
+$jats_xsd_path=array(   "1.0"=>"C:\\git\\jats_to_ojs\\xsd\\1.0\\JATS-journalpublishing1.xsd",
+                        "1.1"=>"C:\\git\\jats_to_ojs\\xsd\\1.1\\JATS-journalpublishing1.xsd",
+                        "1.2"=>"C:\\git\\jats_to_ojs\\xsd\\1.2\\JATS-journalpublishing1.xsd",
+                        "1.3"=>"C:\\git\\jats_to_ojs\\xsd\\1.3\\JATS-journalpublishing1-3.xsd"
+                    );
 
 try{
 		set_time_limit(0);
@@ -24,45 +28,78 @@ try{
                 $fcontent=file_get_contents($filename);
                 $doc = new DOMDocument();
                 $doc->loadXML($fcontent); // load xml
-                //$is_valid_xml = $doc->schemaValidate($jats_xsd_path); // path to xsd file
-                $is_valid_xml=true;
-                
-                if(!$is_valid_xml){
-                    throw new Exception("XML document :: $file failed validation against :: $jats_xsd_path");
-                }
-                println();
                 if($verbose){
-                    echo "XML document\n$file\npassed validation against\n$jats_xsd_path\n";
+                    echo "Loaded XML document\n$file\n";
                     printLn();
-                    echo "Starting JATS To CSV Import\n";
+                    echo "Starting JATS schema validation\n";
                     printLn();
                 }
 
-                $article = new Article();
-                //import the article
-                $article->setCoverImageFilePath("C:\\Users\\BHCT7767\\Downloads\\02_Goerz-000.png");
-                $article->setCoverImageAltText("Cover Image for this article");
+                libxml_use_internal_errors(true);
+                $is_valid_xml=false;
+                
+                foreach($jats_xsd_path as $key => $value){
+                    println();
+                    echo "Trying XML document :: $file against JATS V$key :: $value\n";
+                    $is_valid_xml = $doc->schemaValidate($value); // path to xsd file
 
-                $article->setGalleyFilePath("C:\Users\BHCT7767\Downloads\Costa dei Trabocchi Map.pdf");
-                $article->setGalleyFileAltText("Galley File for this article");
+                    if(!$is_valid_xml){
+                       
+                        println();
+                        echo "XML document :: $file failed validation against JATS V$key :: $value\n";
+                        $errors = libxml_get_errors();
+                        foreach ($errors as $error) {
+                                printf('XML error "%s" [%d] (Code %d) in %s on line %d column %d' . "\n",
+                                    $error->message, $error->level, $error->code, $error->file,
+                                    $error->line, $error->column);
+                                }
+                        libxml_clear_errors();
+                        println();
+                    } 
+                    else{
+                        println();
+                        echo "XML document :: $file passed validation against JATS V$key :: $value\n";
+                        break;
+                    }   
+                }
 
-                $article->setOJSUserName("ojschris");
-                $article->setVolume(1);
-                $article->setIssue(2);
-                $article->setJournalName("Hertziana Studies in Art History");
-                $article->setKeyword("OJS Upload Tester");
-                $article->setKeyword("Chris Uploader");
-                $article->setKeyword("Native XML Importer");
-                $article->setStartPage(55);
-                $article->setEndPage(72);
-                $article->setSectionRef("ART");
+                libxml_use_internal_errors(false);
+               
+                
+
+                if($is_valid_xml){
+                        println();
+                        if($verbose){
+                            echo "Starting JATS To CSV Import\n";
+                            printLn();
+                        }
+
+                        $article = new Article();
+                        //import the article
+                        $article->setCoverImageFilePath("C:\\Users\\BHCT7767\\Downloads\\02_Goerz-000.png");
+                        $article->setCoverImageAltText("Cover Image for this article");
+
+                        $article->setGalleyFilePath("C:\Users\BHCT7767\Downloads\Costa dei Trabocchi Map.pdf");
+                        $article->setGalleyFileAltText("Galley File for this article");
+
+                        $article->setOJSUserName("ojschris");
+                        $article->setVolume(1);
+                        $article->setIssue(2);
+                        $article->setJournalName("Hertziana Studies in Art History");
+                        $article->setKeyword("OJS Upload Tester");
+                        $article->setKeyword("Chris Uploader");
+                        $article->setKeyword("Native XML Importer");
+                        $article->setStartPage(55);
+                        $article->setEndPage(72);
+                        $article->setSectionRef("ART");
 
 
-                importArticle($fcontent,$outFile,$article);
+                        importArticle($fcontent,$article);
 
-                $xmlFileName=str_replace(".","_",(pathinfo($filename,PATHINFO_BASENAME))).".xml";
-                $xmlWriter = new OJSNativeAdapter($article,$xmlFileName);
-                $xmlWriter->generateXML();
+                        $xmlFileName=str_replace(".","_",(pathinfo($filename,PATHINFO_BASENAME))).".xml";
+                        $xmlWriter = new OJSNativeAdapter($article,$xmlFileName);
+                        $xmlWriter->generateXML();
+                    }
             }
 
         }
@@ -75,7 +112,7 @@ try{
 	}
 
 	
-function importArticle($fcontent,$outFile,$articleObj){
+function importArticle($fcontent,$articleObj){
 	global $verbose;	
 
 	try{						
