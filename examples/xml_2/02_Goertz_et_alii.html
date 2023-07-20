@@ -1,0 +1,2517 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Goerz, Seidl, and Thiering: Linked Biondo: Generating and Processing Research Data Based on
+                    Geographical Feature Modeling</title>
+      <style type="text/css">
+      
+
+/* The following code was modified from CSS provided as part of the NLM/NCBI
+   JATS Preview XSLT (cf https://github.com/ncbi/JATSPreviewStylesheets)
+*/
+
+
+/* --------------- Page setup ------------------------ */
+
+/* page and text defaults */
+
+body { margin-left: 8%;
+margin-right: 8%;
+background-color: cornsilk }
+
+div > *:first-child { margin-top:0em }
+
+div { margin-top: 0.5em }
+
+div.page-header { text-align: center }
+
+div.front, div.footer { }
+
+.back, .body { font-family: serif }
+
+div.metadata { font-family: sans-serif; font-size: 80%; padding: 0.5em;
+  border: thin inset black; background-color: #f5ffdc }
+
+div.grid .grid { margin-left: 1em }
+
+div.centered { text-align: center }
+
+div.table { display: table }
+div.row { display: table-row }
+div.cell { display: table-cell; padding-left: 0.25em; padding-right: 0.25em }
+
+div.branding { text-align: center }
+
+div.book-part { margin-top: 1em; padding-top: 1em; border-top: thin solid black }
+
+div.document-title-notes {
+text-align: center;
+width: 60%;
+margin-left: auto;
+margin-right: auto
+}
+
+div.footnote { font-size: 90% }
+
+/* rules */
+hr.part-rule {
+border: thin solid black;
+width: 50%;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+
+hr.section-rule {
+border: thin dotted black;
+width: 50%;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+
+/* superior numbers that are cross-references */
+.xref {
+color: red;
+}
+
+/* generated text */     
+.generated { color: gray; }
+
+.warning, tex-math {
+font-size:80%; font-family: sans-serif }
+
+.warning {
+color: red }
+
+.tex-math { color: green }
+
+.data {
+color: black;
+}
+
+.formula {
+font-family: sans-serif;
+font-size: 90% }
+
+/* --------------- Titling levels -------------------- */
+
+
+h1, h2, h3, h4, h5, h6 {
+display: block;
+margin-top: 0em;
+margin-bottom: 0.5em;
+font-family: helvetica, sans-serif;
+font-weight: bold;
+color: darkgreen;
+}
+/* titling level 1: document title */
+.document-title {
+text-align: center;
+}
+
+/* callout titles appear in a left column (table cell)
+opposite what they head */
+.callout-title { text-align: right;
+margin-top: 0.5em;
+margin-right: 1em;
+font-size: 140% }
+
+
+
+div.section, div.back-section {
+margin-top: 1em; margin-bottom: 0.5em }
+
+div.panel { background-color: white;
+font-size: 90%;
+border: thin solid black;
+padding-left: 0.5em; padding-right: 0.5em;
+padding-top: 0.5em; padding-bottom: 0.5em;
+margin-top: 0.5em; margin-bottom: 0.5em }
+
+div.fn.inline {
+font-size: 90%; margin-left: 40%;
+border-top: thin dotted black; border-bottom: thin dotted black;
+padding-left: 0.5em; padding-right: 0.5em;
+padding-top: 0.5em; padding-bottom: 0.5em;
+margin-top: 0.5em; margin-bottom: 0.5em }
+
+.collapsed { display: none }
+
+div.blockquote { font-size: 90%;
+margin-left: 1em; margin-right: 1em;
+margin-top: 0.5em; margin-bottom: 0.5em }
+
+div.caption {
+margin-top: 0.5em; margin-bottom: 0.5em }
+
+div.speech {
+margin-left: 1em; margin-right: 1em;
+margin-top: 0.5em; margin-bottom: 0.5em }
+
+div.verse-group {
+margin-left: 1em;
+margin-top: 0.5em; margin-bottom: 0.5em }
+
+div.verse-group div.verse-group {
+margin-left: 1em;
+margin-top: 0em; margin-bottom: 0em }
+
+div.note { margin-top: 0em; margin-left: 1em;
+font-size: 85% }
+
+.ref-label { margin-top: 0em; vertical-align: top }
+
+.ref-content { margin-top: 0em; padding-left: 0.25em }
+
+h5.label { margin-top: 0em; margin-bottom: 0em }
+
+p { margin-top: 0.5em; margin-bottom: 0em }
+
+p.first { margin-top: 0em }
+
+p.verse-line, p.citation { margin-top: 0em; margin-bottom: 0em; margin-left: 2em; text-indent: -2em }
+
+p.address-line { margin-top: 0em; margin-bottom: 0em; margin-left: 2em }
+
+ul, ol { margin-top: 0.5em }
+
+li { margin-top: 0.5em; margin-bottom: 0em }
+li > p { margin-top: 0.2em; margin-bottom: 0em  }
+
+div.def-list { border-spacing: 0.25em }
+
+div.def-list div.cell { vertical-align: top;
+border-bottom: thin solid black;
+padding-bottom: 0.5em }
+
+div.def-list div.def-list-head {
+text-align: left }
+
+/* text decoration */
+.label { font-weight: bold; font-family: sans-serif; font-size: 80% }
+
+.monospace {
+font-family: monospace;
+}
+
+.overline{
+text-decoration: overline;
+}
+
+.smaller { font-size: 90% }
+
+a       { text-decoration: none }
+a:hover { text-decoration: underline }
+
+/* ---------------- End ------------------------------ */
+
+      
+      
+    </style>
+      <style type="text/css">
+table.tgroup { border-collapse: collapse }
+table.tgroup.pgwide { width: 100% }
+table.tgroup.cont { margin-bottom: 0px }
+table.tgroup.contd { margin-top: 0px }
+td, th { border-color: black; border-width: thin; padding: 5px }
+.xxxx-borders { border-top-style: none; border-bottom-style: none; border-left-style: none; border-right-style: none } 
+.txxx-borders { border-top-style: solid; border-bottom-style: none; border-left-style: none; border-right-style: none } 
+.xbxx-borders { border-top-style: none; border-bottom-style: solid; border-left-style: none; border-right-style: none } 
+.xxlx-borders { border-top-style: none; border-bottom-style: none; border-left-style: solid; border-right-style: none } 
+.xxxr-borders { border-top-style: none; border-bottom-style: none; border-left-style: none; border-right-style: solid } 
+.tbxx-borders { border-top-style: solid; border-bottom-style: solid; border-left-style: none; border-right-style: none } 
+.txlx-borders { border-top-style: solid; border-bottom-style: none; border-left-style: solid; border-right-style: none } 
+.txxr-borders { border-top-style: solid; border-bottom-style: none; border-left-style: none; border-right-style: solid } 
+.xblx-borders { border-top-style: none; border-bottom-style: solid; border-left-style: solid; border-right-style: none } 
+.xbxr-borders { border-top-style: none; border-bottom-style: solid; border-left-style: none; border-right-style: solid } 
+.xxlr-borders { border-top-style: none; border-bottom-style: none; border-left-style: solid; border-right-style: solid } 
+.tblx-borders { border-top-style: solid; border-bottom-style: solid; border-left-style: solid; border-right-style: none } 
+.tbxr-borders { border-top-style: solid; border-bottom-style: solid; border-left-style: none; border-right-style: solid } 
+.txlr-borders { border-top-style: solid; border-bottom-style: none; border-left-style: solid; border-right-style: solid } 
+.xblr-borders { border-top-style: none; border-bottom-style: solid; border-left-style: solid; border-right-style: solid } 
+.tblr-borders { border-top-style: solid; border-bottom-style: solid; border-left-style: solid; border-right-style: solid } 
+</style>
+   </head>
+   <body>
+      <div id="article1-front" class="front">
+         <div class="page-header">
+            <h1 class="page-title">Linked Biondo: Generating and Processing Research Data Based on
+               Geographical Feature Modeling</h1>
+            <h3 class="page-authors">Guenther Goerz</h3>
+            <h3 class="page-authors">Chiara Seidl</h3>
+            <h3 class="page-authors">Martin Thiering</h3>
+         </div>
+         <div class="metadata journal-meta">
+            <div class="grid">
+               <p class="label generated">Journal Metadata</p>
+               <p class="grid"><span class="generated">Journal Identifier: </span>BHMPI<span class="generated smaller"> [journal-id-type=publisher-id]</span></p>
+               <div class="grid">
+                  <p class="label generated">Journal Title Group</p>
+                  <p class="grid"><span class="generated">Journal Title (Full): </span>Hertziana Studies in Art History</p>
+                  <p class="grid"><span class="generated">Abbreviated Journal Title: </span>HSAH</p>
+               </div>
+               <div class="grid">
+                  <p class="label generated">ISSN</p>
+               </div>
+               <div class="grid">
+                  <p class="label generated">Publisher</p>
+                  <p class="grid"><span class="generated">Publisher’s Name: </span>Bibliotheca Hertziana - Max Planck Institute for Art
+                     History</p>
+                  <p class="grid"><span class="generated">Publisher’s Location: </span>Rome, Italy</p>
+               </div>
+            </div>
+         </div>
+         <div class="metadata article-meta">
+            <div class="grid">
+               <p class="label generated">Article Metadata</p>
+               <p class="grid"><span class="generated">Article Identifier: </span>10.48431/hsah.0102<span class="generated smaller"> [pub-id-type=doi]</span></p>
+               <p class="grid"><span class="generated">: </span>accepted<span class="generated smaller"> [article-version-type=status]</span></p>
+               <div class="grid">
+                  <p class="label generated">Article Grouping Data</p>
+                  <div class="grid">
+                     <p class="label generated">Subject Group [subj-group-type=display-channel]</p>
+                     <p class="grid"><span class="generated">Subject Grouping Name: </span>Original Article</p>
+                  </div>
+               </div>
+               <div class="grid">
+                  <p class="label generated">Title Group</p>
+                  <p class="grid"><span class="generated">Article Title: </span>Linked Biondo: Generating and Processing Research Data Based on
+                     Geographical Feature Modeling</p>
+                  <p class="grid"><span class="generated">Alternate Title: </span>Linked Biondo</p>
+               </div>
+               <div class="grid">
+                  <p class="label generated">Contributor Group</p>
+                  <div class="grid">
+                     <p class="label generated">Contributor [contrib-type=author; corresp=yes; equal-contrib=yes; deceased=no; id=jjgieeajee]</p>
+                     <p class="grid"><span class="generated">Contributor Identifier: </span>https://orcid.org/0000-0001-7769-3050<span class="generated smaller"> [contrib-id-type=orcid; authenticated=false]</span></p>
+                     <div class="grid">
+                        <p class="label generated">Name of Person [name-style=western]</p>
+                        <p class="grid"><span class="generated">Surname: </span>Goerz</p>
+                        <p class="grid"><span class="generated">Given (First) Names: </span>Guenther</p>
+                     </div>
+                     <p class="grid"><span class="generated">Email Address: </span>guenther.goerz@fau.de</p>
+                     <div class="grid">
+                        <p class="label generated">X (cross) Reference [ref-type=aff; rid=affjcbcjcfiijb]</p>
+                     </div>
+                     <div class="grid">
+                        <p class="label generated">X (cross) Reference [ref-type=award; rid=fund165362]</p>
+                     </div>
+                  </div>
+                  <div class="grid">
+                     <p class="label generated">Contributor [contrib-type=author; corresp=no; equal-contrib=yes; deceased=no; id=biicdfebbe]</p>
+                     <div class="grid">
+                        <p class="label generated">Name of Person [name-style=western]</p>
+                        <p class="grid"><span class="generated">Surname: </span>Seidl</p>
+                        <p class="grid"><span class="generated">Given (First) Names: </span>Chiara</p>
+                     </div>
+                     <p class="grid"><span class="generated">Email Address: </span>chiara.seidl0510@gmail.com</p>
+                     <div class="grid">
+                        <p class="label generated">X (cross) Reference [ref-type=aff; rid=affjbjadjjhd]</p>
+                     </div>
+                  </div>
+                  <div class="grid">
+                     <p class="label generated">Contributor [contrib-type=author; corresp=no; equal-contrib=yes; deceased=no; id=jbhhjfgdife]</p>
+                     <p class="grid"><span class="generated">Contributor Identifier: </span>https://orcid.org/0000-0003-3995-578X<span class="generated smaller"> [contrib-id-type=orcid; authenticated=false]</span></p>
+                     <div class="grid">
+                        <p class="label generated">Name of Person [name-style=western]</p>
+                        <p class="grid"><span class="generated">Surname: </span>Thiering</p>
+                        <p class="grid"><span class="generated">Given (First) Names: </span>Martin</p>
+                     </div>
+                     <p class="grid"><span class="generated">Email Address: </span>thiering@ue-germany.de</p>
+                     <div class="grid">
+                        <p class="label generated">X (cross) Reference [ref-type=aff; rid=affjbajbjgaijf]</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="grid">
+                  <p class="label generated">Affiliation [id=affjcbcjcfiijb]</p>
+                  
+                  <p class="grid"><span class="generated">Institution Name: in an Address: </span>Computer Science<span class="generated smaller"> [content-type=orgname]</span></p>
+                  
+                  <p class="grid"><span class="generated">Institution Name: in an Address: </span>Friedrich-Alexander-Universität
+                     Erlangen-Nürnberg<span class="generated smaller"> [content-type=orgdiv1]</span></p>
+                  
+                  <div class="grid">
+                     <p class="label generated">Address Line</p>
+                  </div>
+                  
+                  <p class="grid"><span class="generated">City: </span>Erlangen</p>
+                  
+                  <p class="grid"><span class="generated">Country: in an Address: </span>DE</p>
+                  </div>
+               <div class="grid">
+                  <p class="label generated">Affiliation [id=affjbjadjjhd]</p>
+                  
+                  <p class="grid"><span class="generated">Institution Name: in an Address: </span>FAU Erlangen-Nuernberg<span class="generated smaller"> [content-type=orgname]</span></p>
+                  
+                  <p class="grid"><span class="generated">Institution Name: in an Address: </span>Digital Humanities<span class="generated smaller"> [content-type=orgdiv1]</span></p>
+                  
+                  <div class="grid">
+                     <p class="label generated">Address Line</p>
+                  </div>
+                  
+                  <p class="grid"><span class="generated">City: </span>Erlangen</p>
+                  
+                  <p class="grid"><span class="generated">Country: in an Address: </span>DE</p>
+                  </div>
+               <div class="grid">
+                  <p class="label generated">Affiliation [id=affjbajbjgaijf]</p>
+                  
+                  <p class="grid"><span class="generated">Institution Name: in an Address: </span>University of Europe for Applied Sciences Campus
+                     Berlin <span class="generated smaller"> [content-type=orgname]</span></p>
+                  
+                  <p class="grid"><span class="generated">Institution Name: in an Address: </span>Departement of Art &amp; Design<span class="generated smaller"> [content-type=orgdiv1]</span></p>
+                  
+                  <p class="grid"><span class="generated">Address Line: </span>Dessauer Str. 3-5 </p>
+                  
+                  <p class="grid"><span class="generated">City: </span>Berlin</p>
+                  
+                  <p class="grid"><span class="generated">Country: in an Address: </span>DE</p>
+                  </div>
+               <div class="grid">
+                  <p class="label generated">Publication Date [publication-format=electronic; date-type=pub; iso-8601-date=2022-12-31]</p>
+                  <p class="grid"><span class="generated">Day: </span>31</p>
+                  <p class="grid"><span class="generated">Month: </span>12</p>
+                  <p class="grid"><span class="generated">Year: </span>2022</p>
+               </div>
+               <div class="grid">
+                  <p class="label generated">Publication Date [pub-type=collection]</p>
+                  <p class="grid"><span class="generated">Year: </span>2022</p>
+               </div>
+               <p class="grid"><span class="generated">Volume Number: </span>1</p>
+               <p class="grid"><span class="generated">Electronic Location Identifier: </span>2</p>
+               <div class="grid">
+                  <p class="label generated">History: Document History</p>
+                  <div class="grid">
+                     <p class="label generated">Date [date-type=received]</p>
+                     <p class="grid"><span class="generated">Day: </span>28</p>
+                     <p class="grid"><span class="generated">Month: </span>5</p>
+                     <p class="grid"><span class="generated">Year: </span>2020</p>
+                  </div>
+                  <div class="grid">
+                     <p class="label generated">Date [date-type=accepted]</p>
+                     <p class="grid"><span class="generated">Day: </span>28</p>
+                     <p class="grid"><span class="generated">Month: </span>10</p>
+                     <p class="grid"><span class="generated">Year: </span>2020</p>
+                  </div>
+               </div>
+               <div class="grid">
+                  <p class="label generated">Permissions</p>
+                  <p class="grid"><span class="generated">Copyright Statement: </span>This material is distributed under the terms of the Creative
+                     Commons Attribution License, which permits unrestricted use, distribution, and
+                     reproduction in any medium, provided the original work is properly
+                     cited.</p>
+                  <p class="grid"><span class="generated">Copyright Year: </span>2022</p>
+                  <p class="grid"><span class="generated">Copyright Holder: </span>Bibliotheca Hertziana - Max Planck Institute for Art
+                     History</p>
+                  <div class="grid">
+                     <p class="label generated">License Information [license-type=open-access; xlink:href=https://creativecommons.org/licenses/by/4.0/]</p>
+                     <p class="grid">This work is licensed under Creative Commons Attribution 4.0
+                        International (CC BY 4.0).</p>
+                  </div>
+               </div>
+               <div class="grid">
+                  <p class="label generated">Abstract [id=fttekk99rrlq]</p>
+                  <p class="grid"><span class="generated">Title: </span>Abstract</p>
+                  <p class="grid">Bibliotheca Hertziana's project “<a target="xrefwindow" href="https://www.biblhertz.it/en/dept-michalsky/historical-spaces-texts-maps" id="d6e118">Historical spaces in texts and maps</a>” ( <a target="xrefwindow" href="https://web.archive.org/web/20190504034811/http://www.biblhertz.it/en/research/research-projects-of-the-institute/historical-spaces-in-texts-and-maps-biondo-project/" id="d6e121">original site</a>) aims at a cognitive-semantic analysis of Flavio
+                     Biondo's “Italia Illustrata” (1474) linking with contemporary maps. At focus are
+                     relations between historical maps and texts aiming to explore the historical
+                     understanding of space and the knowledge associated with it. Our research
+                     combines cognitive-semantic parameters such as toponyms, landmarks, spatial
+                     frames of reference, geometric relations, gestalt principles and different
+                     perspectives with computational linguistic analysis. Contributing to Spatial
+                     Humanities, we are convinced that all maps are cognitive maps, depicting
+                     culture-specific spatial knowledge and practices. This chapter focuses on data
+                     modelling comprising all research data generated within the project, their
+                     storage and access as well as their publication as Linked Open Data in the
+                     Semantic Web. Recogito is being used as the main tool for static annotations of
+                     places and persons/peoples in text and maps. These are complemented by
+                     cognitive-linguistic spatial role markups by means of the BRAT tool. To achieve
+                     a deeper and more generic semantic level of linguistic and map-related
+                     annotations, we pursue the transition to an ontology-based representation. For
+                     this purpose, we defined a domain ontology based on the event-based CIDOC
+                     Conceptual Reference Model (CRM) and its spatiotemporal extension CRMgeo in
+                     OWL-DL, and appropriate mappings to be applied to the annotations exported in
+                     CSV, RDF and JSON formats. Using the CRM opens up a wide spectrum of
+                     interoperability and linking to many web resources, such as the gazetteers being
+                     used with Recogito. For ontological enrichment and processing of the primary
+                     data, we use the Virtual Research Environment WissKI with CRM as the top
+                     conceptual model. This allows for a semantic interpretation of annotations such
+                     that, e.g., for each place, we generate an instantiated CRM description in
+                     triple format, ready for storage and publication as Linked Data. In the same
+                     fashion, mappings are applied to the results of spatial role labeling – these
+                     triples encode cognitive parameters, primarily <i>figure –
+                        spatial_indicator – ground</i> constructions. </p>
+               </div>
+               <div class="grid">
+                  <p class="label generated">Keyword Group [kwd-group-type=author]</p>
+                  <p class="grid"><span class="generated">Keyword: </span>spatial cognition</p>
+                  <p class="grid"><span class="generated">Keyword: </span>text analysis</p>
+                  <p class="grid"><span class="generated">Keyword: </span>text annotation</p>
+                  <p class="grid"><span class="generated">Keyword: </span>map annotation</p>
+                  <p class="grid"><span class="generated">Keyword: </span>Linked Open Data</p>
+               </div>
+               <div class="grid">
+                  <p class="label generated">Funding Group</p>
+                  <div class="grid">
+                     <p class="label generated">Award Group [id=fund165362]</p>
+                     <div class="grid">
+                        <p class="label generated">Funding Source [country=DE]</p>
+                        
+                        <div class="grid">
+                           <p class="label generated">Institution Wrapper</p>
+                           <p class="grid"><span class="generated">Institution Identifier: </span>http://dx.doi.org/10.13039/501100001659<span class="generated smaller"> [institution-id-type=http://dx.doi.org/10.13039/501100001659]</span></p>
+                           <p class="grid"><span class="generated">Institution Name: in an Address: </span>Deutsche Forschungsgemeinschaft</p>
+                        </div>
+                        </div>
+                     <p class="grid"><span class="generated">Award Identifier: </span>GO452/6</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="article1-body" class="body">
+         <div class="section"><a id="introduction-research-question-and-methodological-approach"><!-- named anchor --></a><h2 class="main-title">1. Introduction: Research Question and Methodological Approach</h2>
+            <p id="t9s2zt15aaz">This chapter deals with the generation and processing of research
+               data in the Bibliotheca Hertziana’s research project “<a target="xrefwindow" href="https://www.biblhertz.it/en/dept-michalsky/historical-spaces-texts-maps" id="d6e148">Historical Spaces in Flavio Biondo’s <i>Italia Illustrata</i>
+                  </a>”, investigating the historical understanding of social space and its
+               evolution in the Renaissance. The study of the relations between historical maps and
+               texts aims to explore the historical understanding of space and the knowledge
+               associated with it by taking up approaches from cognitive science and in particular
+               cognitive linguistics. Cognitive maps depict culture-specific spatial knowledge and
+               practices. This knowledge is represented in different ways, which change
+               historically through different processes and practices. The epistemological focus
+               is
+               therefore framed by questions such as which forms of knowledge represent spatial
+               relations, how can processes of spatial transformation be represented and analyzed,
+               and what is the connection between culture-specific practices and cognitive
+               representations? In order to approach this complex of questions, the project
+               combines cognitive-semantic parameters such as toponyms, landmarks, spatial frames
+               of reference, geometric relations, gestalt principles, and different perspectives
+               with computational linguistic analysis methods deployed according to our ‘Common
+               Sense Geography’<a href="#xzxv5fudljnf">1</a> approach.</p>
+            <p id="yktjagrarlco">The project design had its starting point in the introduction and
+               description of its general objectives, as stated in the project outline on the
+               Bibliotheca Hertziana’s website.<a href="#fn2">2</a> The project
+               design is based on the assumption that precise research questions can be derived
+               from it that will lead to operationalized hypotheses, which in turn can be tested
+               on
+               data. In the following, the data aspect of the project is addressed, i.e., the
+               generation, organization, indexing, storage, and publication of research data. In
+               principle, the underlying theoretical ([art]-historical, cognitive) framework had
+               determined which data should be obtained from the available sources and in what way.
+               The selection of sources was guided by various parameters: availability and effort
+               for provision as well as the quality of digital reproductions (especially
+               readability) of the texts and map images in digital form. For our work with
+               geographic/cartographic data, we owe valuable suggestions to the geographic research
+               group around Werner Kuhn<a href="#fn3">3</a> (formerly of the
+               Universität Münster, now UCSB) and Simon Scheider<a href="#fn4">4</a> (previously at Universität Münster, now Universiteit Utrecht),
+               particularly for their clear reference to cognition and knowledge representation and
+               processing. Accordingly, we developed a three-phase structure for the project:</p>
+            <div class="list"><a id="d6e168"><!-- named anchor --></a><ol style="list-style-type: decimal">
+                  <li>
+                     <p id="yam8w6g201te">Analysis</p>
+                  </li>
+                  <li>
+                     <p id="su4njwjcye5b">Cognitive-linguistic and (art-) historical
+                        interpretation</p>
+                  </li>
+                  <li>
+                     <p id="wrzjkpq9zi5">Synthesis (sketch reconstruction).</p>
+                  </li>
+               </ol>
+            </div>
+            <p id="byctxcxjgozt">In the analysis phase, historical texts are processed and
+               reinterpreted using new text and map markups and corpus-specific quantitative
+               methods. The very general categorization pattern of spatial relations in visual
+               perception is based on the gestalt theoretic figure-ground asymmetry adapted from
+               the founders of cognitive linguistics, Ronald. W. Langacker<a href="#fn5">5</a> and Leonard Talmy.<a href="#fn6">6</a> This
+               asymmetry is not only constitutive in visual perception, but also in components of
+               linguistic meaning in a sentence; hence, rather than clausal phrases with a subject
+               and object, the theory instead uses figure and ground. Here the “figure” is a moving
+               or conceptually movable entity whose site, path, or orientation is conceived as a
+               variable, whose particular value is the relevant issue. The “ground”, meanwhile, is
+               a reference entity, one that has a stationary setting relative to a frame of
+               reference, with respect to which the figure’s site, path, or orientation is
+               characterized.<a href="#ljr6rehirbg">7</a>
+               </p>
+            <p id="mwmf7b76fivs">Flavio Biondo’s (1392–1463) work <i>Italia
+                  Illustrata</i>, published posthumously in 1474, serves as the key text. Flavio
+               Biondo is rightly regarded as the true founder of archaeological science and
+               antiquarian topography. Particularly in his <i>Italia Illustrata</i>, the
+               first premodern description of Italy, he draws on famous authors of Roman antiquity
+               such as Livy, Virgil, and Pliny. Greek authors such as Strabo and Ptolemy, on the
+               other hand, are rarely considered – despite their geographical and topographical
+               content and despite the intentions of Biondo’s work. An exception is the Latium
+               chapter (“Regio Latina”), in which Biondo draws intensively on a hitherto
+               undiscovered Latin translation of Strabo. Strabo’s work not only serves as a data
+               basis but also as a structural principle: Biondo uses Strabo’s hodological
+               description technique to locate all the Latin cities and settlements relative to
+               each other and transforms them into a narrative structure on the west coast of Italy
+               and three Roman roads (Via Appia, Via Latina, Via Valeria). This raises the question
+               of whether the <i>Italia Illustrata</i> was actually written using many
+               maps, as current Biondo research<a href="#fn8">8</a> generally
+               assumes. Since only a few regional sheet maps from the early fifteenth century have
+               been preserved and even literary references to cartographic knowledge are rare, this
+               problem has to be put into a larger context and possible alternatives have to be
+               discussed in an interdisciplinary approach. Our main hypothesis within a
+               cognitive-linguistic framework is that Biondo’s narrative is based on cognitive maps
+               or mental models enabling the reader to mentally triangulate different spatial
+               references. In particular, it is necessary to discuss which strategies Biondo used
+               to collect, filter, and process his heterogeneous material of historical,
+               geographical, archaeological, and art-historical information and to translate it
+               into a text that could be read by a contemporary audience. Because the Latium
+               chapter (Book II) plays a key role within <i>Italia Illustrata</i>, the
+               interdisciplinary project begins with the analysis and commentary of “Regio tertia:
+               Latina”. In contrast to previous publications on Biondo, which are comprehensive in
+               textual criticism, biographical, literary, and art-historical references as well as
+               in the ‘afterlife’ of Biondo’s writings, we pay particular attention to the
+               identification of toponyms and the geographical vocabulary, spatial relations, the
+               reception of Strabo, contemporary cartography, and mental maps.</p>
+            <p id="anzm00v6tiiq">Thus, after preparing and conditioning the sources, our next step
+               entailed elementary text statistics, concordance generation, morphosyntactic
+               tagging, dependency parsing, and the creation of geographical annotations.
+               Furthermore, the spatial relations expressed in the text were annotated according
+               to
+               the above-mentioned cognitive-linguistic parameters, especially
+               <i>figure–spatial_indicator–ground</i> triples. All research data
+               (text and map annotations) developed so far were semantically represented by an
+               application ontology for historical texts and maps as well as annotated content and
+               stored in the Virtual Research Environment WissKI (see section <a href="#generated-research-data-and-their-semantic-enhancement-through-ontology-based-data-modeling">5. Generated Research Data and Their Semantic Enhancement through
+                  Ontology-Based Data Modeling</a>). They are thus available as linked open
+               data (LOD) for publication on the Semantic Web. Further research data, especially
+               the linguistic analyses, are stored in a repository in the framework of WissKI.</p>
+            <p id="uld2dr54uc1n">The second phase – cognitive-linguistic and (art-) historical
+               interpretation of the data (i.e., the text compared to contemporary maps) –
+               constitutes the center of the project. To answer questions about the historical
+               understanding of geographic space and its shifting development in premodern times,
+               the research topic is “cognitive maps” in the broadest sense, as stated above in the
+               paragraph on Biondo. The interpretation phase is not the subject of this paper; the
+               first results of a cognitive-linguistic analysis are available in the contribution
+               by Berthele and Thiering<a href="#yvuvluud66y">9</a> in this
+               volume.</p>
+            <p id="wk6cf42ukyz">Finally, it should be mentioned that the plan to reconstruct map
+               sketches from the data (synthesis phase) was from the very beginning part of the
+               agenda as a long-term project goal. This would require the following steps at the
+               least:</p>
+            <div class="list"><a id="d6e221"><!-- named anchor --></a><ul>
+                  <li>
+                     <p id="zp4wshq68n29">Extraction of triples (in particular
+                        <i>figure–spatial_relation–ground</i>) from spatial role
+                        labeling</p>
+                  </li>
+                  <li>
+                     <p id="kbignjcvzil">Generation of relation graphs<a href="#fn9">10</a>
+                        </p>
+                  </li>
+                  <li>
+                     <p id="xsm4wvbk7g6p">Graphical realization of sketches on a coordinate grid
+                        based on an outline map of Italy<a href="#fn10">11</a>
+                        </p>
+                  </li>
+                  <li>
+                     <p id="gy881gyry0nd">Evaluation based on the existing geovisualization.</p>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="section"><a id="sources-their-preparation-and-conditioning"><!-- named anchor --></a><h2 class="main-title">2. Sources, Their Preparation, and Conditioning</h2>
+            <p id="s7x69ianfs1m">First of all, there are some fundamental issues regarding the
+               available text sources. The textual transmission of Flavio Biondo’s <i>Italia
+                  Illustrata</i> is rather complex due to different available editions.
+               Modern editions are based on the surviving manuscripts,<a href="#liq3oi39z69">12</a> or the first printed edition <a href="#Blondus.1559">(Biondo 1474)</a> as supervised by Gaspare Biondo,<a href="#fn12">13</a> or purportedly the “best-known, most-cited
+               early printed edition” <a href="#Blondus.1559">(Biondo (1531)
+                  1559)</a>. <a href="#fn13">14</a>The manuscripts, written
+               and reworked over a long time span, are not uniform in orthography, punctuation, or
+               style, thus making it difficult to use the text for digital and linguistic analyses.
+               According to his own confession, Gaspare changed Flavio’s original for stylistic
+               reasons before printing; and the Froben edition clearly deviates in many instances
+               from the earlier ones. The editio princeps has been transmitted in two versions,
+               which are, contrary to common belief, not identical, and there are, for instance,
+               more than one hundred textual deviations between White’s and Castner’s texts in the
+               Latium chapter alone. In the long run, our study will be extended to apply to the
+               complete text. We decided to work with the White edition because it is still the
+               closest one to the editio princeps; unfortunately, his English translation is not
+               error-free and is inspected in this analysis purely for heuristic reasons and as a
+               reference point for comparative studies.</p>
+         </div>
+         <div class="section"><a id="preprocessing-steps-word-lists-concordance-and-part-of-speech-tagging"><!-- named anchor --></a><h2 class="main-title">3. Preprocessing Steps, Word Lists, Concordance, and Part-of-Speech
+               Tagging</h2>
+            <p id="pl66utzx4vvg">As a prerequisite for the analysis and interpretation of Biondo’s
+               text in the framework of cognitive semantics, we designed a workflow for text
+               analysis, which contains automatic and semi-automatic processing steps. Its ultimate
+               goal is to annotate, that is, to markup individual words or word sequences such as
+               proper names of places (and also of persons and events) in different text sources
+               as
+               well as spatial relations in texts in the framework of cognitive semantics.
+               Moreover, these annotations will be related to similar annotations in (historical)
+               geographical maps.</p>
+            <p id="gdkdun7coa1m">Basically, we worked with two UTF-8<a href="#fn14">15</a> encoded text representations, plain text and TEI/XML.<a href="#fn15">16</a> All texts have been generated digitally,
+               mostly based on spelling-corrected OCR (Optical Character Recognition).</p>
+            <p id="p6wjrguavu5t">To get a first overview of the language register used in our
+               selected text passage, we ran some simple analysis procedures on the Latin text and
+               its English translation as a whole. As for the tools, we used some command line
+               scripts of our own, and we applied a KWIC (Key Word in Context) concordance
+               program<a href="#fn16">17</a> and the TreeTagger with the
+               Stuttgart-Tübingen Tagset (STTS).<a href="#fn17">18</a> For word
+               lists and statistics, concordances, n-grams, and collocations (by de facto word
+               co-occurrences), we also found the interactive AntConc<a href="#fn18">19</a> tool and the browser-based online Voyant tools<a href="#fn19">20</a> very useful. All results for Latin and English acquired in
+               batch processing mode have been posted on a project webpage<a href="#fn20">21</a> for quick lookup. They include:<a href="#fn21">22</a>
+               </p>
+            <div class="list"><a id="d6e299"><!-- named anchor --></a><ul>
+                  <li>
+                     <p id="e5o9k7xdtnr4">Alphabetic word (form) list with frequencies,
+                        endings-sorted word (form) list with frequencies, ascending and descending
+                        word (form) lists with frequencies</p>
+                  </li>
+                  <li>
+                     <p id="iuaxhktd2x3f">Concordance (KWIC), and word index for concordance</p>
+                  </li>
+                  <li>
+                     <p id="irms2js3f7o">TreeTagged (STTS) word list with lemmata, TreeTagged (STTS)
+                        word list with frequencies, sorted by tags.</p>
+                  </li>
+               </ul>
+            </div>
+            <p id="z3mteuht5qfk">For the annotation of Latin, there are still only a few
+               computational resources and tools available. Besides a few scanned classical lexica,
+               there is an online version of WordNet for Latin as a lexical resource.<a href="#fn22">23</a> Powerful lemmatizers and morphological
+               analyzers for Latin are Collatinus,<a href="#fn23">24</a> freely
+               available in web-based and standalone versions, and the recent LEMLAT 3.0.<a href="#fn24">25</a> The Perseus Digital Library provides access
+               to its “word study tool”, an online version of a Latin morphological analyzer.<a href="#fn25">26</a> The well-known TreeTagger<a href="#fn26">27</a> – a tool for annotating text word by word with
+               part-of-speech, lemma, word class, and inflection information – is available for
+               many language models, among them Latin and English. We therefore decided to work in
+               parallel language mode for some steps, that is, with Latin <i>and</i>
+               English, as far as appropriate tools were available, synchronized sentence by
+               sentence. Ideally, we could synchronize glossing word by word using linguistic
+               terminology, as is known in field linguistics research.<a href="#g6tatw0ofmdf">28</a>
+               </p>
+            <p id="cfl6ms8p7ueh">Our goal in the first phase of analyzing and interpreting Biondo’s
+               text in a cognitive-semantic framework was the identification of places by toponyms
+               or definite descriptions, and of spatial relations between them. Hence, beyond the
+               morphosyntactic and semantic information on words as provided by the above-mentioned
+               tools, we also needed information about grammatical structures. Parsers are
+               computational tools for grammatical analysis beyond the word level which provide
+               structural data about constructions and collocations and reveal the constituent and
+               dependency structures of sentences. In particular, the latter grammatical structures
+               are particularly important for semantic representation.<a href="#hwqfd0hv15z">29</a> For Latin, a promising dependency parser has only
+               recently become available,<a href="#fn29">30</a> which we applied
+               to the full text with promising results.<a href="#fn30">31</a>
+               </p>
+            <p id="npyznkh0efyf">Finally, we aim for annotated logical forms which express the
+               spatial relations of different geographical objects described in the text. Because
+               up to now no general tools for spatial role labeling have been available, we opted
+               for a semi-automatic annotation procedure.</p>
+         </div>
+         <div class="section"><a id="toponyms-and-spatial-relations-text-and-map-annotation"><!-- named anchor --></a><h2 class="main-title">4. Toponyms and Spatial Relations: Text and Map Annotation</h2>
+            <div class="section"><a id="s-text-annotation"><!-- named anchor --></a><h3 class="section-title">4.1 Text Annotation</h3>
+               <p id="x97278l8qbk">For semi-automatic markup of places (but also of persons and
+                  named events) in the Latin and English texts, we use the Recogito 2 annotation
+                  tool,<a href="#fn31">32</a> which contains a good named
+                  entity recognition (NER) component. The plain text annotation provides an
+                  integrated geographical verification mode with several gazetteers that provide
+                  the necessary information, whereas for historical texts we prefer using
+                  Pleiades,<a href="#fn32">33</a> but also the Digital Atlas
+                  of the Roman Empire (DARE)<a href="#fn33">34</a> and GeoNames.
+                  The annotation results can be exported in several formats, for example as Open
+                  Annotation/RDF<a href="#fn34">35</a> data or as tables
+                  (containing comma-separated values, CSV: particularly useful for comparison and
+                  further processing), GeoJSON,<a href="#fn35">36</a> and also
+                  as simple TEI/XML<a href="#fn36">37</a> files containing
+                  appropriate tags that are well suited as a basis for further tagging.
+                  Furthermore, Recogito (see below and <a href="#vg652zz6o4k">Figure 1</a> and <a href="#mpx1hku6gawq">Figure
+                     3</a>) also allows users to annotate map images and display (annotated)
+                  places on different types of maps like OpenStreetMap<a href="#fn37">38</a> or DARE.</p>
+               <p id="sjwzpqq033lj">The most important step of text processing is spatial role
+                  labeling (i.e., the markup of spatial object descriptors and the relations
+                  between them). For this purpose, international standard proposals have been
+                  developed,<a href="#fn38">39</a> including, for example,
+                  the “SpaceEval Annotation Guidelines”<a href="#fn39">40</a>
+                  and competitions on automatic Spatial Role Labeling by means of machine-learning
+                  techniques organized at several international computational linguistics
+                  conferences, most notably at LREC (Linguistic Resources and Evaluation
+                  Conference).<a href="#fn40">41</a>
+                  </p>
+               <div class="fig panel" style="display: float; clear: both"><a id="vg652zz6o4k"><!-- named anchor --></a><h5 class="label">Figure&nbsp;1.</h5>
+                  <div class="caption">
+                     <h3 class="title">Screenshot from Recogito2 with text annotation example</h3>
+                  </div><img alt="https://hertz-foto-os1.biblhertz.it/iiif/3/dpub%2Fhsah0102%2Fhsah_0102_01.jp2/full/max/0/default.jpg" src="https://hertz-foto-os1.biblhertz.it/iiif/3/dpub%2Fhsah0102%2Fhsah_0102_01.jp2/full/max/0/default.jpg"><img alt="hsah_0102_01.jpg" src="hsah_0102_01.jpg"></div>
+               <p id="gyr59h3xncef">In this case, labeled texts have to be provided as training
+                  data. Independent of our decision to apply machine learning in the long run, we
+                  still had to label our actual text manually anyway so as to create a labeled
+                  training corpus of considerable size. Therefore, we decided to use the
+                  interactive <i>brat rapid annotation tool</i>
+                  <a href="#fn41">42</a> (BRAT) and made a configuration file
+                  defining all entities, relations, and events to be annotated according to the
+                  requirements for spatial construals (i.e., the ascriptions of meaning components
+                  such as figure-ground asymmetries) and its parameters. To be compatible with the
+                  subsequent step of semantic modeling, we selected the entity types of the
+                  Pleiades vocabulary.</p>
+               <p id="kenr6fghzz0u">The Latin text and its English translation were split into
+                  individual, aligned sentences. In BRAT, the marks and lines are entered
+                  graphically using the mouse-track function – essentially allowing the user to
+                  drag and drop a landmark, toponym, or other spatial encoding from point A to
+                  point B, and thus relate these two points to form a unit or construction. The
+                  results are stored in a purely text-based standoff format that can also be
+                  exported in an XML version. BRAT also allows for a parallel display of aligned
+                  sentences, so that the already labeled English sentence can be shown statically
+                  together with the Latin yet to be labeled.</p>
+               <div class="fig panel" style="display: float; clear: both"><a id="r75byudgm93s"><!-- named anchor --></a><h5 class="label">Figure&nbsp;2.</h5>
+                  <div class="caption">
+                     <h3 class="title">Screenshot from BRAT annotation tool.</h3>
+                     <p id="d6e412"></p>
+                  </div><img alt="https://hertz-foto-os1.biblhertz.it/iiif/3/dpub%2Fhsah0102%2Fhsah_0102_02.jp2/full/max/0/default.jpg" src="https://hertz-foto-os1.biblhertz.it/iiif/3/dpub%2Fhsah0102%2Fhsah_0102_02.jp2/full/max/0/default.jpg"><img alt="hsah_0102_02.jpg" src="hsah_0102_02.jpg"></div>
+               <p id="gw899r4ik8jm">The annotation principles were first identified according to
+                  the cognitive-linguistic foundation of our project. We identified the following
+                  basic abstract spatial parameters that in turn apply to a number of theoretic
+                  principles:</p>
+               <div class="list"><a id="d6e418"><!-- named anchor --></a><ul>
+                     <li>
+                        <p id="hgexjqzrrvd6">Toponyms (place names, buildings, roads, squares,
+                           regions, etc.) and landmarks, natural (mountains, rivers, forests, etc.)
+                           versus man-made</p>
+                     </li>
+                     <li>
+                        <p id="mf17nse8cfim">Gestalt principles of figure–ground asymmetries
+                           as<i>figure–trajectory/path
+                              [=spatial_indicator]–ground</i> triples</p>
+                     </li>
+                     <li>
+                        <p id="ei65zkf5dfj">Spatial frames of reference: relative/deictic,
+                           intrinsic/geometrical, absolute/allocentric</p>
+                     </li>
+                     <li>
+                        <p id="fsiwud4a9rkg">Topology and geometry</p>
+                     </li>
+                     <li>
+                        <p id="zd8uwivmylzb">Perspective: bird’s eye perspective/frog’s-eye view,
+                           hodological perspective, vectoral perspective</p>
+                     </li>
+                     <li>
+                        <p id="eqhs3xlwic1">Distances: scale, scope, size – linguistically encoded
+                           in adjectives, adverbs, verbs, but mostly in adpositions and case
+                           systems</p>
+                     </li>
+                     <li>
+                        <p id="g9hdlqypkslh">Metrical systems – encoded in verbal systems such as
+                           posture verbs and case systems</p>
+                     </li>
+                     <li>
+                        <p id="ps8s5h0me57p">Motion events: source–trajectory–goal</p>
+                     </li>
+                     <li>
+                        <p id="a3xmn6zux03k">References to common-sense knowledge, such as
+                           itineraries or travel reports.</p>
+                     </li>
+                  </ul>
+               </div>
+               <p id="ou1ar0o2lcpq">Biondo’s narrative presents enough spatial cues to reconstruct
+                  a cognitive map; he even gives detailed references to distances between
+                  places.</p>
+               <p id="nxqyihhd2u4i">In the long run, the ideal scenario is the adoption of an
+                  automatic annotation procedure that not only annotates lemmas (word forms) but
+                  bases its analysis on the above-mentioned cognitive parameters. This would not
+                  only result in a text and its lexical semantics being searched for spatial
+                  encodings such as upstream/downstream or up/down a mountain slope, but for
+                  absolute frames of reference, such as upstream/downstream in some cultures.
+                  Again, a frame of reference is an abstract cognitive representation of spatial
+                  alignment between different participants, enabling spatial orientation. For an
+                  absolute frame of reference, no perceiver is indicated, as it is in the case of
+                  the relative frame of reference (encoded as “left” and “right” in many
+                  languages).<a href="#fn42">43</a>
+                  </p>
+            </div>
+            <div class="section"><a id="s-map-annotation"><!-- named anchor --></a><h3 class="section-title">4.2 Map Annotation</h3>
+               <p id="f5xjfqfscms9">Besides the survey of text, it is also important to annotate
+                  maps in their relation to each other. Biondo mentions his use of (not
+                  identifiable) maps, but further discussion of the role they played in aiding him
+                  is essential. In any case, it is worth studying fourteenth- and
+                  fifteenth-century maps of Italy in detail for a comparison of toponyms mentioned
+                  in Biondo’s text and those displayed on maps. We are convinced that texts, maps,
+                  and images were often used in parallel as a complement to each other rather than
+                  existing in a hierarchical order. Nevertheless, some maps are known to have been
+                  produced based on textual sources (see, for instance, Ptolemy’s
+                  <i>Geography</i>, or portolan texts versus portolan charts).
+                  Furthermore, limitations of space are more restrictive when it comes to drawing
+                  up and reading map images than is the case for written descriptions.
+                  Nevertheless, visualization adds a new dimension to the understanding of
+                  geographical texts.<a href="#fn43">44</a> (see MacEachren
+                  1995).</p>
+               <p id="n1q50in3two3">Our selection of maps for annotation comprises the earliest
+                  single sheet maps of Italy by Paulinus Minorita (fourteenth century), six
+                  further maps of Italy from the fifteenth century (chosen here according to the
+                  excellent selection by Marica Milanesi),<a href="#fn44">45</a>
+                  two relevant sections of the <i>Tabula Peutingeriana</i> (showing
+                  Roman roads), some portolan charts dating from before 1465 for coastal towns,
+                  and more than twenty-five Ptolemaic maps from the fifteenth century, both of the
+                  traditional variety as well as <i>Tabulae Novae</i> from the edition
+                  of Donnus Nicolaus Germanus, after 1466.</p>
+               <p id="wmemnbvseqjm">In order to annotate toponyms and ethnonyms in maps, the online
+                  tool Recogito 2 with its geographic verification mode is being used as well
+                  (<a href="#mpx1hku6gawq">Figure 3</a>). Up to now a
+                  sufficient number of maps – ‘traditional’ and ‘novae’ Ptolemaic maps, as well as
+                  others – have been annotated and their corresponding tables analyzed, comparing
+                  the occurrences of toponyms and their spellings, in relation to the text. With
+                  the results of geographic verification, spatial relations and distances between
+                  the places can be calculated for maps and the text as well. Furthermore, we plan
+                  to visualize Biondo’s imaginary routes in historical and modern maps. It is
+                  still a matter of debate whether further investigations such as cartometric
+                  measurements would provide useful information for the interpretation. At this
+                  point, we are performing some experiments with MapAnalyst,<a href="#fn45">46</a> an image registration tool for the analysis of ancient
+                  maps.<a href="#fn46">47</a>
+                  </p>
+            </div>
+            <div class="section"><a id="s-nbx48egeq58o"><!-- named anchor --></a><h3 class="section-title"> 4.3 Case Study: Ptolemaic <i>Tabulae Novae</i>
+                  </h3>
+               <p id="xzhdu3i6e19q">In a case study, we completely annotated and analyzed three
+                  <i>Tabulae Novae</i> of Italy, from the second and third editions
+                  of Donnus Nicolaus Germanus.<a href="#fn47">48</a> Over the
+                  course of several centuries, many ancient places have been renamed or
+                  disappeared, while many new places have sprung up. Therefore, it was an obvious
+                  task to ‘update’ the maps by way of juxtaposing more recent maps with the older
+                  ones. Which early modern sources the <i>Tabulae Novae</i> were based
+                  upon is not known, but they were probably the same kind of sources also
+                  available to Biondo. The maps in the Latin editions of Ptolemy translated from
+                  the Greek provide the names of ancient places in accordance with the respective
+                  coordinate tables in the text (<i>Geography</i>, Book 3, Europe,
+                  Tabula 6), but there are no coordinate lists of the <i>Tabulae
+                     Novae</i>. </p>
+               <div class="fig panel" style="display: float; clear: both"><a id="mpx1hku6gawq"><!-- named anchor --></a><h5 class="label">Figure&nbsp;3.</h5>
+                  <div class="caption">
+                     <h3 class="title">Map annotation in Recogito2 of Ptolemaic <i>Tabula Nova</i>
+                        by Donnus Nicolaus Germanus</h3>
+                     <p id="d6e519"></p>
+                  </div><img alt="https://hertz-foto-os1.biblhertz.it/iiif/3/dpub%2Fhsah0102%2Fhsah_0102_03.jp2/full/max/0/default.jpg" src="https://hertz-foto-os1.biblhertz.it/iiif/3/dpub%2Fhsah0102%2Fhsah_0102_03.jp2/full/max/0/default.jpg"><img alt="hsah_0102_03.jpg" src="hsah_0102_03.jpg"></div>
+               <p id="mgs08jlinflb">The selection of these three maps from the <i>Tabulae
+                     Novae</i> – all ascribed to Donnus Nicolaus Germanus known as <a target="xrefwindow" href="https://n2t.net/ark:/65666/v1/110619" id="d6e528">L20-nova</a>
+                  <a href="#fn48">49</a> from the year 1466, L23-nova from 1467,
+                  and L26-nova from 1468 – are to be understood as a preliminary case study
+                  comparing contemporary cartographic representations with Biondo’s text. Three
+                  different re-editions are known today which were prepared by himself or under
+                  his supervision. While L20-nova and L23-nova were part of the second edition,
+                  L26-nova appeared in the third.</p>
+               <p id="unh54l3x5zha">
+                  <a target="xrefwindow" href="https://digi.vatlib.it/view/MSS_Urb.lat.277/0179" id="d6e536">L23-nova</a> is dated just one year later than L20-nova and is part
+                  of <i>
+                     <a target="xrefwindow" href="https://digi.vatlib.it/mss/detail/Urb.lat.277" id="d6e541">Codex Urbinas
+                        Latinus 277</a>
+                     </i> (Bibliotheca Vaticana). In appearance, this map is nearly identical to
+                  its predecessor in the edition before it. Minor differences are to be found,
+                  however, in the inscriptions. The names of the islands are mostly set on the
+                  blue ground of the surrounding sea, not on the area of the islands themselves.
+                  Due to discoloration through aging, these inscriptions are more difficult to
+                  read. In general, however, both maps feature the same style of writing, so one
+                  may assign them to the same scribe. This conjecture is further confirmed by the
+                  identical use of abbreviations and diacritics. For instance, suffixes such as
+                  <i>–us</i> and <i>–um</i> are replaced by
+                  <i>ũ</i> (“alsinũ” = alsinum), and the tilde is set within a word
+                  to replace the following <i>n</i> (“pallestrĩa” = pallestrina). Both
+                  maps (L20-nova and L23-nova) do not write the usual <i>s</i>, but
+                  instead use the <i>ſ</i> (as in “oſtia” or “aſtura”).</p>
+               <p id="vg35ydu0t91b">
+                  <a target="xrefwindow" href="https://digi.vatlib.it/view/MSS_Vat.lat.3811/0053" id="d6e566">L26-nova</a> is a map taken from Germanus’s third edition of 1486
+                  and covers a double page of the <i>
+                     <a target="xrefwindow" href="https://digi.vatlib.it/mss/detail/Vat.lat.3811" id="d6e571">Codex
+                        Vaticanus Latinus 3811</a>
+                     </i>. The information inscribed on the map is similar insofar as place
+                  names are set horizontally in dark brown script and combined with the same
+                  pictograms. But a distinction is made between major cities, where the names are
+                  rendered in majuscules, and smaller towns with names in minuscules. The names of
+                  rivers are also set parallel to the curvature of the river, and the names of
+                  islands are mostly placed in the blue water zone, like on map L23-nova. A golden
+                  inscription in majuscules, “ITALIA”, has been placed on the violet ground in a
+                  black-framed box, the only indication of the name of the whole country on any of
+                  the three maps. In addition to these differences, close inspection of all the
+                  writing makes it evident that it was executed by another hand. This scribe
+                  sometimes uses the long <i>s</i> ( <i>ſ</i>) (as in
+                  “oſtia”), but also the standard <i>s</i> when it stands as an initial
+                  (as in “subiaco”). Furthermore, suffixes are partially marked by diacritics like
+                  in the older maps (“alsinũ” = alsinum), partially written out (“paliam”). The
+                  tilde is used only rarely to replace the <i>n</i> (“belmõte” =
+                  belmonte).</p>
+               <p id="ekayb7pu0kh">Using <i>Recogito</i>, it was possible to identify
+                  further differences with reference to the names of places. L20-nova was
+                  indicated with 626 annotations, L23-nova with 647, and L26-nova with 615
+                  annotations. For places, point annotation was used, whereas mountains, rivers,
+                  and also lakes were annotated with rectangular boxes. A short description of the
+                  annotation (text color, readability, pictogram) was added and completed by
+                  geographic verification. If possible, the respective location was verified with
+                  the <i>Pleiades</i> gazetteer, in other cases also with DARE or, as
+                  the last option, with GeoNames. If a location could not be verified,<a href="#fn49">50</a> the annotation was marked “flag this
+                  place” and tagged with “settlement”, “river”, etc.</p>
+               <p id="ldvl8keeeg3u">A problem in verification with a gazetteer is encountered when
+                  the available places do not refer to a town or city as such but to theaters,
+                  spas, or other physical objects named after the city. In such cases we tried, if
+                  possible, not to work with Pleiades but to use DARE or GeoNames (as long as it
+                  contained the city or town).<a href="#fn50">51</a> In general,
+                  by way of the annotations and verifications, it could be shown that there are
+                  several differences amounting to a general shift between the maps of the second
+                  and third edition, especially with regard to outline and handwriting. For some
+                  places, naming or spelling had changed or even disappeared completely.</p>
+               <div class="list"><a id="d6e604"><!-- named anchor --></a><ol style="list-style-type: decimal">
+                     <li>
+                        <p id="bq5pohj4kayh">Singular letter:</p>
+                        <p id="y64rwzqhd34">L20-nova/L23-nova: <i>lexi</i>; L26-nova:
+                           <i>Lesi</i> ( <a target="xrefwindow" href="https://pleiades.stoa.org/places/442642" id="d6e616">Pleiades:
+                              442642</a>) </p>
+                     </li>
+                     <li>
+                        <p id="c66jo4e7u1dq">
+                           <i>ſ</i> and s:</p>
+                        <p id="yiydpbu2yoq">L20-nova: <i>chiverſ</i>; L23-nova:
+                           <i>chiaverſ</i>; L26-nova: <i>chiavers</i> (
+                           <a target="xrefwindow" href="https://pleiades.stoa.org/places/383555" id="d6e636">Pleiades:
+                              383555</a>) </p>
+                     </li>
+                     <li>
+                        <p id="xdsw2bu1gtpf">Tilde:</p>
+                        <p id="ewm5ofmbobg">L20-nova/L23-nova: <i>levãto</i>; L26-nova:
+                           <i>levanto</i> ( <a target="xrefwindow" href="https://www.geonames.org/3174793" id="d6e650">GeoNames:
+                              3174793</a>) </p>
+                     </li>
+                     <li>
+                        <p id="qackvmbujaoh">Upper and lower case of initial letters:</p>
+                        <p id="i0othassqzmj9">L20-nova/L23-nova: <i>lamatrice</i>;
+                           L26-nova: <i>Lamatrice</i> ( <a target="xrefwindow" href="https://www.geonames.org/3183121" id="d6e664">GeoNames:
+                              3183121</a>) </p>
+                     </li>
+                     <li>
+                        <p id="vcta6do1f4ef">Shift of lines:</p>
+                        <p id="z8qzxd3l5rz9">L20-nova/L23-nova: <i>alagno</i> (in one
+                           line)</p>
+                        <p id="i5r4o1byfb2">L26-nova: <i>alag-no</i> (over two lines)
+                           (<a target="xrefwindow" href="https://pleiades.stoa.org/places/422833" id="d6e680">Pleiades:
+                              422833</a>) </p>
+                     </li>
+                     <li>
+                        <p id="w5tsyusgrjev">Places not indicated on L26-nova:</p>
+                        <p id="hlwxper3ggzn">
+                           <i>Sora</i> ( <a target="xrefwindow" href="https://pleiades.stoa.org/places/433126" id="d6e691">Pleiades:
+                              433126</a>), <i>Sausa</i> ( <a target="xrefwindow" href="https://pleiades.stoa.org/places/167919" id="d6e697">Pleiades:
+                              167919</a>), <i>Fumione</i> ( <a target="xrefwindow" href="https://www.geonames.org/3176486" id="d6e704">GeoNames: 3176486</a>), <i>Asti</i> ( <a target="xrefwindow" href="https://pleiades.stoa.org/places/383669" id="d6e710">Pleiades:
+                              383669</a>), <i>Ostiglia</i> ( <a target="xrefwindow" href="https://pleiades.stoa.org/places/393438" id="d6e716">Pleiades:
+                              393438</a>), <i>Frusolone</i> ( <a target="xrefwindow" href="https://pleiades.stoa.org/places/432851" id="d6e723">Pleiades:
+                              432851</a>) </p>
+                     </li>
+                     <li>
+                        <p id="dyer4t72ukm9">Places not indicated on L23-nova at all:</p>
+                        <p id="m973scd4u0a">
+                           <i>Panego</i> ( <a target="xrefwindow" href="https://www.geonames.org/3170937" id="d6e734">GeoNames:
+                              3170937</a>), the indication of the
+                           <i>Anguillare</i> ( <a target="xrefwindow" href="https://pleiades.stoa.org/places/413015" id="d6e740">Pleiades:
+                              413015</a>). </p>
+                     </li>
+                  </ol>
+               </div>
+               <p id="reiq26s8q4to">The observation that there must have been a change of scribe
+                  between the second and third edition is also confirmed by the Recogito analysis
+                  of these three maps. Specific changes are recognizable over the course of the
+                  maps’ reproduction during the three years considered here (1466–1468). Single
+                  letters have been exchanged, or the <i>ſ</i> has been replaced by the
+                  regular <i>s</i>, there is less frequent use of tildes, and the names
+                  of places are written out more often. Conspicuously, some names are not
+                  indicated any more in the later version, perhaps because they could no longer be
+                  identified. In two cases where places are indicated in L20-nova and L26-nova but
+                  not in L23-nova, a scribal error might be the cause, but the frequency of places
+                  which are missing in L26-nova should make us wary of leaping to this
+                  assumption.</p>
+               <p id="dz6n6ft0z8m">Although there were obviously formal restrictions of space for
+                  placing toponyms on a map, it nevertheless seemed reasonable to compare the
+                  toponym lists of the three maps with the downloaded table of Biondo’s Latium
+                  chapter in the <i>Italia Illustrata</i>. The annotated toponyms in the
+                  White edition (“Lazio”) amount to a total of 334. But there are also many
+                  repetitions of the same places with different names (in English and Latin), such
+                  as “Campagna”, “Campania”, or “Campania and Marittima”. Also, some places are
+                  titled with two different names, for example “Subiaco” and “Sublaqueum” or
+                  “Supine” and “Trasacco”.<a href="#fn51">52</a> Furthermore,
+                  these labels are not limited to towns and settlements, but also apply to trails
+                  (“Via Latina”, “Via Salaria”), rivers and lakes (“Lake of Subiaco”, “Tiber”),
+                  regions (“Lazio”, “Sicily”, “Umbria”), hills (“Mt. Alban”, “Mt. Algidus”), and
+                  other names (“Roman Empire”, “Roman Republic”, “Kingdom of Naples”, “Italy”), as
+                  well as names not located in Italy (“Nicaea”, “Athens”).</p>
+               <p id="maqjbk9iww8q">Regarding our research question for the relation of historical
+                  spaces in text and maps, we consider the use of the toponyms in both. Although
+                  the space for placing toponyms on maps is restricted, it seems reasonable to
+                  compare the geographical annotations in the CSV tables of the three maps with
+                  the table of annotations from Biondo’s Latium chapter as translated by Jeffrey
+                  White, drawn from Recogito. It was found that of 191 place names stated in the
+                  text, the maps indicated 48 place names. Among these, 33 are written identically
+                  in the text and on the maps, while the remaining 15 are also spelled differently
+                  among the maps themselves. Among the 33 identical toponyms, 14 toponyms are
+                  written identically on all three maps as well as matching the spelling in the
+                  White edition.<a href="#fn52">53</a> With all other
+                  annotations, the spelling changes mostly only minimally (“Anagnia” becomes, for
+                  example, “Alagno”, “Celano” becomes “Cela”). In two individual cases, L20-nova
+                  and L23-nova contain the toponym, but L26-nova does not.<a href="#fn53">54</a>
+                  </p>
+               <p id="yc37ajfurad">What is the result of this analysis? It is interesting that the
+                  White edition titles the same places with different spellings. Whether this is
+                  due to White’s translation or not is questionable. Within the maps, there are
+                  only minimal differences in spelling.</p>
+               <p id="s6c80k7mule3">The first conclusions we can draw are: (a) geographical
+                  knowledge changed considerably during the fifteenth century; and (b) this change
+                  is reflected in the differences between the maps as well as between them and the
+                  <i>Tabulae Novae</i>. Part of this change can be understood as the
+                  evolving geographical knowledge which took place in the process of re-editing
+                  and revision. Thus, it may be assumed that the editions of Donnus Nicolaus
+                  Germanus were based on similar – if not the selfsame – sources on which Biondo
+                  drew.</p>
+            </div>
+         </div>
+         <div class="section"><a id="generated-research-data-and-their-semantic-enhancement-through-ontology-based-data-modeling"><!-- named anchor --></a><h2 class="main-title">5. Generated Research Data and Their Semantic Enhancement through Ontology-Based
+               Data Modeling</h2>
+            <p id="b8wt4htzweuc">As already mentioned, Recogito offers several formats for exporting
+               text and image annotation results. Annotations of toponyms, but also of persons (in
+               our case also geographically important, because names of peoples often reflect names
+               of regions), and named events can be exported, grosso modo, on two different levels
+               of information:</p>
+            <div class="list"><a id="d6e779"><!-- named anchor --></a><ul>
+                  <li>
+                     <p id="igf449sh3u5">In RDF Open Annotation format and equivalently in
+                        JSON-LD,<a href="#fn54">55</a> which identify the
+                        described object, the annotator, the data of annotation, the comment, and,
+                        if identified in a gazetteer, the URI of the identified place</p>
+                  </li>
+                  <li>
+                     <p id="kj7ow6mbo2hc">As a CSV table or equivalently in GeoJSON, which presents
+                        the annotation content in more detail, including geographical information
+                        from the gazetteer(s).</p>
+                  </li>
+               </ul>
+            </div>
+            <p id="fjcbh9wogqy">In the latter format, in particular CSV tables, the following
+               information is contained:</p>
+            <div class="list"><a id="d6e791"><!-- named anchor --></a><ul>
+                  <li>
+                     <p id="w8xpeihoyx1f">UUID, a unique identifier for the particular annotation</p>
+                  </li>
+                  <li>
+                     <p id="j88p8yusehgc">QUOTE_TRANSCRIPTION, the textual transcription of the
+                        inscription</p>
+                  </li>
+                  <li>
+                     <p id="t50arim4xig">ANCHOR, the position of the annotated item in the text
+                        (character position) or image (pixel coordinates)</p>
+                  </li>
+                  <li>
+                     <p id="bgt04mh9u52i">TYPE, either PLACE or PERSON or EVENT</p>
+                  </li>
+                  <li>
+                     <p id="h0839vhur57oy">URI, the unique web identifier of the place in a
+                        gazetteer, if the place can be geographically verified</p>
+                  </li>
+                  <li>
+                     <p id="o6sj2riamra7">VOCAB_LABEL, the spelling of the name in the gazetteer,
+                        including variants</p>
+                  </li>
+                  <li>
+                     <p id="znh1epafa4wi">LAT, geographical latitude of the place</p>
+                  </li>
+                  <li>
+                     <p id="grdwxrjyu7fa">LNG, geographical longitude of the place</p>
+                  </li>
+                  <li>
+                     <p id="du61hwnpyi3s">PLACE_TYPE, a descriptor from a standardized vocabulary,
+                        such as the Pleiades vocabulary, e.g., “settlement”, “river”, “mountain”,
+                        etc.</p>
+                  </li>
+                  <li>
+                     <p id="b9e6nu7vqpzv">VERIFICATION_STATUS, either geographically VERIFIED, or
+                        NOT_IDENTIFIABLE, if the place cannot be found in one of the available
+                        gazetteers, or UNVERIFIED, if the verification step has not been
+                        completed</p>
+                  </li>
+                  <li>
+                     <p id="x73otnzt3v19">TAGS, a free field which can be used for place types in the
+                        case of not identifiable places</p>
+                  </li>
+                  <li>
+                     <p id="e7ba09ule58">COMMENTS.</p>
+                  </li>
+               </ul>
+            </div>
+            <p id="wi8fwmgs6k1">Recently, a possibility for annotating relations between annotated
+               entities in the text has been introduced in Recogito 2. Relations can be exported
+               as
+               CSV tables – nodes and edges lists – ready for processing with the Gephi<a href="#fn55">56</a> graph visualization platform. Generally, the
+               relations can be chosen arbitrarily, but we found it more useful to have a
+               predefined set, as is given in BRAT configurations and the constraints that come
+               with them, which is why we chose to use BRAT instead. For now, we are focusing on
+               the <i>figure–spatial_indicator–ground</i> triples.</p>
+            <p id="llkdeqlreqkb">The annotations described so far are bound to the linguistic level
+               (i.e., directly related to the text and map image “surface”). To achieve a deeper
+               and more generic semantic level, we pursued a transition to the methodological level
+               of general knowledge representation.<a href="#fn56">57</a> This
+               allows the toponyms and other place descriptions in the cognitive-linguistic spatial
+               role annotations – primarily <i>figure–spatial_indicator–ground</i>
+               constructions – to be identified, enriched with general geographic information, and
+               linked to a variety of (online) resources. The semantic and epistemic level in which
+               these representations are anchored is determined by domain models, so-called ‘formal
+               ontologies’,<a href="#fn57">58</a> which may be regarded as
+               the conceptual core of appropriate domain theories. Their underlying abstractions
+               are hence integrated, providing much more content about the conceptualization of
+               space<a href="#fn58">59</a> and the geographic domain.<a href="#fn59">60</a>
+               </p>
+            <p id="yp9a2ahcqglj">For the conceptual framework we built upon the CIDOC CRM (the
+               conceptual reference model of the International Council for
+               Documentation/International Council of Museums), a fairly generic (‘reference’)
+               ontology,<a href="#fn60">61</a> originally defined for the
+               cultural heritage sector, and acknowledged as an ISO<a href="#fn61">62</a> standard 21127 since 2006.<a href="#fn62">63</a> A
+               decisive reason for choosing the CRM and its spatiotemporal extension CRMgeo<a href="#b9j7d0d272r">64</a> was that being a standard, it opens up
+               a wide spectrum of interoperability and linking to many web resources. Ontological
+               enrichment with the CRM as a top conceptual model, which, in its basic design, is
+               <i>event-based</i>, provides, for example, a generic ‘assignment
+               event’ which has open positions to be filled or linked with the semantic roles,
+               regarding agent, constituents (material and immaterial), time span, and place.<a href="#fn64">65</a>
+               </p>
+            <p id="zfkmux7v10q4">A remarkable feature of Recogito is that – if defined by the
+               gazetteer – the places are further tagged with controlled terms from a thesaurus,
+               for example the Pleiades vocabulary.<a href="#fn65">66</a> It
+               allows for a more detailed characterization of the named place (for example, as a
+               settlement, a river, or a mountain), which can immediately be integrated with the
+               ontology-based representation. The same controlled vocabulary is used for
+               classifying the linguistically annotated entities in spatial role labeling, defined
+               in a BRAT configuration.</p>
+            <p id="xdyqrnieh13q">With formal ontologies, we provide an answer to the question: what
+               is the meaning of annotations? And, at the same time, in particular with the use of
+               a standardized formal ontology like CRM, we can directly transform the annotations
+               into semantic representations ready for publication as linked open data.</p>
+            <p id="xpwp3dycdvmd">First of all, we defined a domain ontology for the description of
+               historical maps and their content (“hmap:”), connected to the generic CRM/CRMgeo
+               (“ecrm:” for Erlangen CRM), based on an extension of an ontology we had already
+               developed for a database of medieval maps several years ago.<a href="#fn66">67</a> The ontology offers a framework for the general metadata of
+               maps and geographical texts as well as for descriptions of their content as provided
+               by the above-mentioned annotations.<a href="#fn67">68</a> The
+               meaning of each metadata component (property) is defined by a so-called ‘ontology
+               path’ (i.e., a sequence of triples built from entities and properties of the
+               ontology). As an example, in a map production event
+               (<i>hmap:M9_Map_Production</i>) there is an actor, the creator,
+               defined by:</p>
+            <div class="blockquote"><a id="d6e894"><!-- named anchor --></a><p class="first" id="aif4myl1vhsj">
+                  <i>hmap:M28_Map –&gt; hmap:A3i_was_produced_by –&gt; hmap:M9_Map_Production
+                     –&gt; hmap:A4_carried_out_by_map_author –&gt; hmap:M1_Map_Author –&gt;
+                     ecrm:P131_is_identified_by –&gt; ecrm:E82_Actor_Appellation</i>
+                  </p>
+            </div>
+            <p id="tgcjjy4z96qf">As an illustration, we shall present a small selection of metadata
+               components of a historical map (<i>hmap:E28_Map</i>) in a simplified
+               manner:</p>
+            <div class="list"><a id="d6e905"><!-- named anchor --></a><ul>
+                  <li>
+                     <p id="ttluv2o225gd">ID: an <i>ecrm:E42_Identifier</i>
+                        </p>
+                  </li>
+                  <li>
+                     <p id="yew8u3ve3n35">Title: a <i>hmap:M2_Title</i>
+                        </p>
+                  </li>
+                  <li>
+                     <p id="o1c6s861tpzr">Creator: an <i>ecrm:E82_Actor_Appellation</i>
+                        </p>
+                  </li>
+                  <li>
+                     <p id="rj83mwe0f86i">Material: an
+                        <i>ecrm:E75_Conceptual_Object_Appellation</i>
+                        </p>
+                  </li>
+                  <li>
+                     <p id="ccp76gko1qa">Production Place: an
+                        <i>ecrm:E44_Place_Appellation</i>
+                        </p>
+                  </li>
+                  <li>
+                     <p id="j7n9asm8s6v6">Production Date: an
+                        <i>hmap:M10_Production_Date</i>
+                        </p>
+                  </li>
+                  <li>
+                     <p id="lhew8s10rqpm">Scale: an
+                        <i>ecrm:E75_Conceptual_Object_Appellation</i>
+                        </p>
+                  </li>
+               </ul>
+            </div>
+            <p id="j7i84un1ffkt">For each map we may have several images in which depicted objects
+               are annotated. For this reason we have an analogous data model for images
+               (<i>hmap:M34_Image</i>). For each annotated place
+               (<i>hmap:M3_Annotated_Place</i> is a subclass of
+               <i>crmgeo:SP6_Declarative_Place</i>) where the (geographical) contents
+               of the annotations are encoded in the columns of the CSV tables, each column is
+               transformed into a component, with similar ontology paths defined for it. The
+               annotated place is linked to the image by:</p>
+            <div class="blockquote"><a id="d6e959"><!-- named anchor --></a><p class="first" id="thctvn58o48">
+                  <i>hmap:M3_Annotated_Place –&gt; hmap:A43i_is_depicted by –&gt;
+                     E36_Visual_Item –&gt; P65i_is_shown_by –&gt; hmap:M34_Image</i>
+                  </p>
+            </div>
+            <p id="fxl1007krcgk">So, for example, the path for QUOTE_TRANSCRIPTION is:</p>
+            <div class="blockquote"><a id="d6e967"><!-- named anchor --></a><p class="first" id="p01690fhjjf8v">
+                  <i>hmap:M3_Annotated_Place –&gt; P48_has_preferred_identifier
+                     –&gt;hmap:M42_Transcribed_Place_Appellation</i>
+                  </p>
+            </div>
+            <p id="ssc6kdp19vo">Each annotation, represented as a line in the table, has a
+               universally unique identifier (UUID) and refers to a visual item
+               (<i>E36</i>) which represents at least an inscription (and may in some
+               cases also consist of an image like a wall or tower, etc.), for example:</p>
+            <div class="list"><a id="d6e978"><!-- named anchor --></a><ul>
+                  <li>
+                     <p id="ow28ahwifghp">QUOTE_TRANSCRIPTION: an
+                        <i>hmap:M42_Transcribed_Place_Appellation</i>
+                        </p>
+                  </li>
+                  <li>
+                     <p id="zthkiolvkr2">Type: an <i>ecrm:E55_Type</i> (here: PLACE,
+                        PERSON, or EVENT)</p>
+                  </li>
+                  <li>
+                     <p id="ifcwe6b2193o">URL: an <i>ecrm:E51_Contact_Point</i>
+                        </p>
+                  </li>
+                  <li>
+                     <p id="rdrje9o5737">VOCAB_LABEL: an <i>ecrm:E44_Place_Appellation</i>
+                        </p>
+                  </li>
+                  <li>
+                     <p id="k7z0n6un1gr7">LAT/LNG:
+                        <i>crmgeo:SP5_Geometric_Place_Expression</i>
+                        </p>
+                  </li>
+               </ul>
+            </div>
+            <p id="ytkz1wmxs5vc">There are also further data models for image series and suites or
+               portfolios of works, such as map collections or atlases. The triples resulting from
+               the BRAT annotation are modeled as “Annotated Connections” with a Source (figure),
+               a
+               Label (spatial_indicator), and a Target (ground).</p>
+            <p id="mn3ylb8mlkil">Recogito also offers an export option for annotated texts in
+               TEI/XML format. To define the semantics of TEI annotations<a href="#fn68">69</a> of named entities (i.e., place, person, and event names in
+               texts), a mapping is applied to the respective TEI tags (thus defining the meaning
+               of these tags in terms of CRM), as outlined, for example, by Christian-Emil Smith
+               Ore and Øyvind Eide.<a href="#fn69">70</a> Of course, in terms of
+               Recogito annotations, there is a strict equivalence between TEI tags and CSV table
+               entries.</p>
+         </div>
+         <div class="section"><a id="linked-open-data-with-the-virtual-research-environment-wisski"><!-- named anchor --></a><h2 class="main-title">6. Linked Open Data with the Virtual Research Environment WissKI</h2>
+            <p id="gwbyprcxzcfs">In recent years, semantic technologies have become increasingly
+               popular to represent, manage, and publish data in the humanities. Therefore, virtual
+               research environments with semantic backends are used to build complex knowledge
+               networks. Data is exposed as triples using RDF, and important vocabularies and
+               thesauri are available as linked data. Ontologies like the CIDOC CRM, mentioned
+               above, are the semantic backbone of this approach and provide interoperability and
+               data exchange beyond pure linking.</p>
+            <p id="dq821umdaari">WissKI<a href="#fn70">71</a> is a
+               ready-to-be-used web-based virtual research environment and publishing framework
+               that, at its core, relies on Semantic Web technologies to represent curated
+               knowledge. The system enables digital humanists to produce high-quality linked data
+               without having to cope with the technical issues of the Semantic Web and ontologies,
+               in particular those of CIDOC CRM. This is achieved by defining, on the one hand, a
+               mapping between traditional index card or tabular styles and, on the other,
+               graph-based linked data. The mapping may be opaque to the users and only managed by
+               a (modeling) administrator.</p>
+            <p id="pegaidsckef7">By default, data may be input and displayed either as structured
+               data via forms or as free text. Free text may be input through a graphical editor
+               and is semantically indexed in terms of named entity recognition results, calendar
+               date specifications, mentioned events, and also technical terms as far as
+               appropriate authority files such as gazetteers are available.</p>
+            <p id="ee4yd6td6jsr">Form input provides mechanisms for error reduction by showing
+               autocompletion hints that are backed by available authority files. From the textual
+               annotations, RDF triples may be generated and reused as structured data.
+               Furthermore, the system allows the upload, derivation, display, and processing of
+               images based on IIIF (International Image Interoperability Framework).<a href="#fn71">72</a>
+               </p>
+            <p id="vh0zfdhggdt">From a technical perspective, WissKI is based on Drupal<a href="#fn72">73</a> (version 8), a widely used web content
+               management system with a big and active user and developer community. It has a
+               modular architecture with a vast variety of third-party extensions available. Being
+               such an extension, WissKI profits from a stable core system and also from these
+               community contributions, providing all sorts of functionality.</p>
+            <div class="fig panel" style="display: float; clear: both"><a id="cu2qzosli4sk"><!-- named anchor --></a><h5 class="label">Figure&nbsp;4.</h5>
+               <div class="caption">
+                  <h4 class="subsection-title">Overview of the processing ontology</h4>
+                  <p id="d6e1044"></p>
+               </div><img alt="https://hertz-foto-os1.biblhertz.it/iiif/3/dpub%2Fhsah0102%2Fhsah_0102_04.jp2/full/max/0/default.jpg" src="https://hertz-foto-os1.biblhertz.it/iiif/3/dpub%2Fhsah0102%2Fhsah_0102_04.jp2/full/max/0/default.jpg"><img alt="hsah_0102_04.jpg" src="hsah_0102_04.jpg"></div>
+            <p id="lom5syi0mymg">We decided to use WissKI for the representation, storage, and
+               access of all research data which are produced in our project.<a href="#fn73">74</a> First of all, the system has to be configured with the
+               ontology introduced above, ECRM with CRMgeo, extended by hmap. Then, with its
+               Pathbuilder tool, all ontology paths for the metadata of images, image series, maps,
+               and work suites (collections) have been defined. In addition, for images, the paths
+               for the annotated content are defined in the same way; a URL provides access to the
+               digital image. For each object type, WissKI generates an input form (and also an
+               equivalent search form), based on the paths. Whenever the value of a metadata
+               component is entered, the underlying ontology path is instantiated and broken down
+               into triples, which are stored in a triple database. For the transfer of the
+               annotations in CSV tables, WissKI provides a table input mode. Images and raw data
+               of different types can be stored in WissKI as well, using Drupal pages for the
+               latter ones. Hence, everything represented in the lower part of <a href="#cu2qzosli4sk">Figure 4</a> is implemented in WissKI (and Drupal).</p>
+            <p id="tjtdgc3uq8nm">Using the semantically enriched geoinformation from text (and map)
+               annotations as CRM instances, the spatial entities (<i>figure</i>,
+               <i>ground</i>) and relations obtained by spatial role labeling as
+               <i>figure–spatial_indicator–ground</i> triples can now be upgraded to
+               this rich semantic level by linking data. Due to the fundamental underlying triple
+               structure for all kinds of annotations, the data are immediately ready for
+               publication as standardized Linked (Open) Data. For this purpose, WissKI provides
+               a
+               SPARQL query interface. These triple data constitute a huge knowledge graph; they
+               are the ‘raw material’ for further research steps (i.e., the exploration of the
+               historical understanding of spaces and the associated knowledge). It is crucial to
+               operationalize the research questions in order to address them as questions to the
+               processing of data. Of course, a SPARQL query interface is primarily suited for
+               machine access. For a user-friendly exploration of the database and the formulation
+               of queries in accordance with the dimensions of space and time as well as other
+               semantic concepts, a graphical interface would be the first choice. At this point
+               we
+               can only refer to the experimental query interfaces of the British Museum’s
+               ResearchSpace project<a href="#fn74">75</a> and the exploratory
+               query system adopted by Simon Scheider et al.<a href="#tfby47ae0nw5">76</a> In this context, standardized query forms in the sense of
+               (cultural-historical) ‘query patterns’ would be helpful.<a href="#fn76">77</a>
+               </p>
+         </div>
+         <div class="section"><a id="an-outlook-on-cognitive-maps-and-spatial-reasoning"><!-- named anchor --></a><h2 class="main-title">7. An Outlook on Cognitive Maps and Spatial Reasoning</h2>
+            <p id="lyxicz1zk37h">The statement that “[i]n the last analysis all maps are cognitive
+               maps” by Michael Blakemore and Brian J. Harley<a href="#qfnf649qh5ca">78</a> indicates an important topic of recent research in the history of
+               cartography. Georeferencing (i.e., reference to geographical locations), is the
+               underlying principle for organizing and presenting all kinds of information in maps.
+               In addition to the analytic perspective, as described in the above sections, the
+               idea of cognitive maps also provides us with a synthetic view, in the sense that we
+               will use the data found by the analytic steps to reconstruct plausible sketch
+               maps.</p>
+            <p id="e9gk3ioqwu1">Easy access to cognitive mapping can be achieved by systematically
+               investigating the questions of “where”, “what”, and “when”.<a href="#fn78">79</a> For the “where” question (i.e., spatial information in a
+               proper sense), naming is an elementary means to determine identity. It should be
+               noted, though, that “where” and “what” questions are not readily applicable to all
+               languages. Hence, it is not clear how universal these markers are.<a href="#fn79">80</a>
+               </p>
+            <p id="euo8sg12kcin">For a description of places, depending on the frame of reference, a
+               specification of states or processes and of distance and direction must be added.
+               An
+               example of a process specification would be a route description, how a certain place
+               can be reached. “What” (the objective) and “when” become important for the solution
+               of spatial problems: a set of suitable properties must be given which are useful in
+               finding a solution by means of cognitive mapping. In other words, first of all, we
+               have to identify the elements which are necessary for an epistemological
+               organization of spatial knowledge. And then, in a second step, we need to develop
+               an
+               analogical or depictional representation suitable for computational processing.
+               Obviously, regions and their relative positions play a key role as do directions,
+               orientation, and distance. We argue that perceiving and identifying these elements
+               and refering to them in discourse is an accomplishment in abstraction which has in
+               any case also a cognitive foundation. Hence, we are considering the assembly of maps
+               and their description in terms of those primarily qualitative categories with
+               (qualitative) spatial reasoning in mind.</p>
+            <p id="zwau03jrygzk">There are several formal approaches to qualitative theories of
+               geographic (Euclidean) space which are suitable for spatial reasoning.<a href="#fn80">81</a> Thus, the most obvious approach is to combine
+               spatial reasoning with logical inferences in the framework of the formal ontology,
+               expressed in OWL-DL. Laure Vieu has elaborated a theory which is particularly well
+               suited for our approach.<a href="#fn81">82</a> On the basis of
+               mereology as an axiomatized part-whole relation, she provides a formalization of
+               topological concepts as well as geometrical concepts, in particular distance and
+               orientation in first-order logic.</p>
+            <p id="qcj21cdjyfvf">The Region Connection Calculus (RCC-8),<a href="#fn82">83</a> developed by Anthony Cohn et al. is an elementary
+               topological theory with regard to qualitative spatial reasoning. An interesting
+               question here is whether or not the theoretically identified primitives (in RCC-8,
+               for instance) are not only epistemologically but also cognitively plausible. We are
+               aware of the fact that testing the plausibility of cognitive salience is commonly
+               outlined based on online psycholinguistic test designs with individual participants.
+               Our argument is that a large database of historical encodings in texts and maps does
+               indeed reveal fundamental spatial patterns grounded in general cognitive principles
+               of, for example, visual perception processes. On the other hand, there are
+               theoretical considerations which point in the same direction, such as the concept
+               of
+               ‘primary theory’ in cognition, in particular in the geographical domain.<a href="#fn83">84</a>
+               </p>
+            <p id="zn4zmlscr0y8">For the final step of generating a cognitive map representation of
+               Biondo’s <i>Italia Illustrata</i>, the salient data to be considered from
+               linguistic analysis are:</p>
+            <div class="list"><a id="d6e1115"><!-- named anchor --></a><ul>
+                  <li>
+                     <p id="l40evneponc5">Toponyms</p>
+                  </li>
+                  <li>
+                     <p id="jh6uwnb0cu2v">Enumeration of ethno-geographical terms including modifiers
+                        of size, shape, etc.</p>
+                  </li>
+                  <li>
+                     <p id="wmgl753rlhd">Spatial relations, directions, etc., from prepositional
+                        phrases</p>
+                  </li>
+                  <li>
+                     <p id="g0ti0rmgq6naq">Subject/object from predicate-argument structures</p>
+                  </li>
+                  <li>
+                     <p id="nk5z9ldq8gj">Frame of reference with the help of movement and position
+                        verbs and toponyms.</p>
+                  </li>
+               </ul>
+            </div>
+            <p id="sykcxocl8wfd">Starting with the analysis based on spatial role labeling, we plan
+               to transform the descriptions of spatial objects and their spatial relations
+               extracted from the text into plausible cognitive sketch maps.<a href="#fn84">85</a>
+               </p>
+            <p id="f0t16l8ctxpa">Cognitive-linguistic annotation results in the
+               <i>figure–spatial_indicator–ground</i> triples – geographically
+               adjusted and semantically enriched – that deliver a set of cognitive parameters from
+               which we can build spatial property graphs. With the help of these graphs, we will
+               survey the possibilities to generate plausible cognitive sketch maps, similar to the
+               procedures outlined by Maria Vasardani and Junchul Kim and others.<a href="#fn85">86</a> Technically, we will fall back to the
+               approach of ‘cellular geography’ developed by the geographer Waldo Tobler in
+               1979<a href="#rn9t8p29lke">87</a>, which, built upon a
+               coordinate grid, offers advantages over the irregular spatial polygons following
+               political or other borderlines. Similarly, in IBM’s LILOG project,<a href="#fn87">88</a> Mohammed Nadjib Khenkar developed a procedure
+               for the object-oriented representation of depictions on the basis of a (coordinate)
+               grid, the so-called ‘cell matrices’.<a href="#fn88">89</a>
+               Finally, these sketch maps will be evaluated in comparison to the above-mentioned
+               geo-visualization and contemporary maps as well.</p>
+         </div>
+         <div class="section"><a id="conclusion"><!-- named anchor --></a><h2 class="main-title">8. Conclusion</h2>
+            <p id="haw27yz3pzuh">We built a semi-automatic environment designed to facilitate
+               annotating and analyzing historical texts and maps with linguistic and geographical
+               content and outlined a new methodology based on the generated data which may help
+               scholars understand and compare cognitive maps. Biondo presents a number of
+               different spaces in his (re)construction of Italy. Our main aim is to analyze
+               historical constructions of spaces, but also the spatial encodings from a
+               cognitive-semantic point of view. In <a href="#Thiering.2022">Thiering/Berthele 2022</a>, referring to Biondo’s text, we present the
+               different forms of knowledge represented in spatial relations and spatial perception
+               as elaborated from these representations. Particularly in his many quotations of
+               classical authors, Biondo makes frequent reference to their naming of places,
+               landmarks, toponyms, and spatial relations. Facing the problem that many place names
+               and ancient places were no longer extant or at least no longer identifiable in his
+               time, he was unable to refer to many places as a reference system. The text also
+               refers to a number of different semiotic encodings such as other texts and maps.
+               These intertextual traces are one of the major tasks facing scholars in tackling
+               spatial conceptions of the Renaissance with respect to the ancient world as the
+               guiding spatial matrix.</p>
+         </div>
+      </div>
+      <div id="article1-back" class="back">
+         <div class="back-section"><a id="d6e1161"><!-- named anchor --></a><div class="section ref-list"><a id="d6e1161"><!-- named anchor --></a><h2 class="main-title">References</h2>
+               <div class="ref-list table">
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Ágel/Fischer&nbsp;2010</span>&nbsp;<a id="Agel.2010"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1165"><!-- named anchor --></a>
+                           Vilmos Ágel
+                           Klaus Fischer
+                           2010Dependency Grammar and Valency TheoryThe Oxford Handbook of Linguistic Analysis</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Allemang/Hendler&nbsp;2011</span>&nbsp;<a id="Allemang.2011b"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1181"><!-- named anchor --></a>
+                           Dean Allemang
+                           James Hendler
+                           2011Semantic Web for the Working Ontologist</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Biondo&nbsp;1474</span>&nbsp;<a id="Blondus.1474"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1196"><!-- named anchor --></a>
+                           Flavio Biondo
+                           
+                           Gaspare Biondo
+                           1474Johannes Philippus de LignamineRomaItalia Illustrata<a target="xrefwindow" href="http://resolver.staatsbibliothek-berlin.de/SBB00028B4F00000000" id="d6e1213">Digitalization SBB</a><a target="xrefwindow" href="https://transkribus.humanitiesconnect.pub/#/documents/1226317" id="d6e1215">
+                              Transcription HumanitiesConnect</a></p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Biondo&nbsp;(1531)&nbsp;1559</span>&nbsp;<a id="Blondus.1559"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1219"><!-- named anchor --></a>
+                           Flavio Biondo
+                           1559De Roma triumphante: Libri X priscorum scriptorum lectoribus
+                           utilissimi, ad totius romanae antiquitatis cognitionem pernecessarii. Romae
+                           instauratae libri III. De origine ac gestis Venetorum liber.1531per Hieron. Frobenium
+                           et Nicol. EpiscopiumBasileae<a target="xrefwindow" href="https://dlib.biblhertz.it/Zs-BIO4869-1310-a" id="d6e1232">Digitalization
+                              BHMPI</a><a target="xrefwindow" href="https://transkribus.humanitiesconnect.pub/#/documents/856971" id="d6e1234">
+                              Transcription HumanitiesConnect</a></p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Biondo&nbsp;2005a</span>&nbsp;<a id="Biondo.2005"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1238"><!-- named anchor --></a>
+                           Flavio Biondo
+                           
+                           Catherine J. Castner
+                           2005Biondo Flavio’s Italia illustrata: Text, Translation, and
+                           Commentary1: Northern Italy</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Biondo&nbsp;2005b</span>&nbsp;<a id="Biondo.2005b"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1256"><!-- named anchor --></a>
+                           Flavio Biondo
+                           
+                           Jeffrey A. White
+                           2005Italy Illuminated: Books I-IV</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Biondo&nbsp;2010</span>&nbsp;<a id="Biondo.2010"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1273"><!-- named anchor --></a>
+                           Flavio Biondo
+                           
+                           Catherine J. Castner
+                           2010Biondo Flavio’s Italia illustrata: Text, Translation, and
+                           Commentary2: Central and southern Italy</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Biondo&nbsp;2011</span>&nbsp;<a id="Biondo.2011"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1291"><!-- named anchor --></a>
+                           Flavio Biondo
+                           
+                           Paolo Pontari
+                           2011Italia Illustrata1</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Biondo&nbsp;2014</span>&nbsp;<a id="Biondo.2014"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1309"><!-- named anchor --></a>
+                           Flavio Biondo
+                           
+                           Paolo Pontari
+                           2014Italia Illustrata2</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Biondo&nbsp;2016</span>&nbsp;<a id="Biondo.2016"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1327"><!-- named anchor --></a>
+                           Flavio Biondo
+                           
+                           Jeffrey A. White
+                           2016Italy Illuminated: Books V-VIII</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Biondo&nbsp;2017</span>&nbsp;<a id="Biondo.2017"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1345"><!-- named anchor --></a>
+                           Flavio Biondo
+                           
+                           Paolo Pontari
+                           2017Italia Illustrata3</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Blakemore/Harley/Dahl&nbsp;1980</span>&nbsp;<a id="Blakemore.1980"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1363"><!-- named anchor --></a>
+                           Michael J. Blakemore
+                           John Brian Harley
+                           Edward H. Dahl
+                           1980Concepts in the History of Cartography: A Review and
+                           Perspective17/4</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Chalkias/Vradis/Kokla&nbsp;2017</span>&nbsp;<a id="Chalkias.2017"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1383"><!-- named anchor --></a>
+                           Christos Chalkias
+                           Christophoros Vradis
+                           Margarita Kokla
+                           2017Managing Geospatial Information and Ontologies of Historical
+                           Maps: Empirical Evidences from the Analysis of Kitchener’s Survey of
+                           CyprusBridging Space, Time, and Semantics in GIScience</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Clavuot&nbsp;1990</span>&nbsp;<a id="Clavuot.1990"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1403"><!-- named anchor --></a>
+                           Ottavio Clavuot
+                           1990Biondos “Italia illustrata” - Summa oder Neuschöpfung: Über die
+                           Arbeitsmethoden eines Humanisten69</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Cohn&nbsp;et&nbsp;al.&nbsp;1997</span>&nbsp;<a id="Cohn.1997"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1415"><!-- named anchor --></a>
+                           Anthony G. Cohn
+                           Brandon Bennett
+                           John Gooday
+                           Nicholas M. Gotts
+                           1997Representing and Reasoning with Qualitative Spatial Relation
+                           about RegionsSpatial and Temporal Reasoning10.1007/978-0-585-28322-7_4</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Constantopoulos&nbsp;2008</span>&nbsp;<a id="Constantopoulos.2008"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1441"><!-- named anchor --></a>
+                           Panos Constantopoulos
+                           2008Query Patterns: Foundations and Analysis</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Dalché&nbsp;2007</span>&nbsp;<a id="Dalche.2007"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1452"><!-- named anchor --></a>
+                           Patrick Gautier Dalché
+                           
+                           David Woodward
+                           2007The Reception of Ptolemy’s Geography: (End of the Fourteenth to
+                           Beginning of the Sixteenth Century)The History of Cartography</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Dan&nbsp;et&nbsp;al.&nbsp;2016</span>&nbsp;<a id="Dan.2016"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1470"><!-- named anchor --></a>
+                           Anca Dan
+                           Wolfgang Crom
+                           Klaus Geus
+                           Günther Görz
+                           Kurt Guckelsberger
+                           2016Common Sense Geography and Ancient Geographical
+                           TextseTopoi. Journal for Ancient Studies610.17169/FUDOCS_document_000000026012</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Doerr/Eide/Hiebel&nbsp;2017</span>&nbsp;<a id="Doerr.2017"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1501"><!-- named anchor --></a>
+                           Martin Doerr
+                           Øyvind Eide
+                           Gerald Hiebel
+                           2017CRMgeo: A Spatiotemporal Extension of CIDOC-CRMInternational Journal of Digital
+                           Libraries1810.1007/s00799-016-0192-4</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Egenhofer/Mark&nbsp;1995</span>&nbsp;<a id="Egenhofer.1995"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1524"><!-- named anchor --></a>
+                           Max J. Egenhofer
+                           David M. Mark
+                           
+                           Frank Kuhn
+                           1995Naive GeographySpatial Information Theory: A Theoretical Basis for GIS10.1007/3-540-60392-1_1</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Geus&nbsp;2009</span>&nbsp;<a id="Geus.2009"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1548"><!-- named anchor --></a>
+                           Klaus Geus
+                           
+                           Florian Mittenhuber
+                           Alfred Stückelberger
+                           2009Der lateinische PtolemaiosHandbuch der Geographie</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Geus/Thiering&nbsp;2014</span>&nbsp;<a id="Geus.2014"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1571"><!-- named anchor --></a>
+                           Klaus Geus
+                           Martin Thiering
+                           2014Features of Common Sense Geography: Implicit Knowledge Structures
+                           in Ancient Geographical Texts16</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Gkadolou/Stefanakis&nbsp;2013</span>&nbsp;<a id="Gkadolou.2014"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1587"><!-- named anchor --></a>
+                           Eleni Gkadolou
+                           Emmanuel Stefanakis
+                           
+                           Manfred F. Buchroithner
+                           Nikolas  Prechtel
+                           2013A Formal Ontology for Historical MapsProceedings of the 26th International Cartographic
+                           Conference<a target="xrefwindow" href="https://icaci.org/files/documents/ICC_proceedings/ICC2013/_extendedAbstract/182_proceeding.pdf" id="d6e1611"> Online</a></p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Görz&nbsp;2007</span>&nbsp;<a id="Gorz.2007"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1615"><!-- named anchor --></a>
+                           Günther Görz
+                           
+                           Daniel Burckhardt
+                           Rüdiger  Hohls
+                           Claudia  Prinz
+                           2007Kognitive Karten des Mittelalters. Digitale Erschließung
+                           mittelalterlicher WeltkartenGeschichte im Netz. Praxis, Chancen, Visionen</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Görz/Oischinger/Schiemann&nbsp;2008</span>&nbsp;<a id="Gorz.2008"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1641"><!-- named anchor --></a>
+                           Günther Görz
+                           Martin Oischinger
+                           Bernhard Schiemann
+                           2008An Implementation of the CIDOC Conceptual Reference Model (4.2.4)
+                           in OWL-DLProceedings CIDOC 2008 – The Digital Curation of Cultural
+                           Heritage</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Görz/Scholz&nbsp;2012</span>&nbsp;<a id="Gorz.2012"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1661"><!-- named anchor --></a>
+                           Günther Görz
+                           Martin Scholz
+                           2012WissKI: A Virtual Research Environment for Cultural
+                           Heritage20th European Conference on Artificial Intelligence, ECAI10.3233/978-1-61499-098-7-1017</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Görz&nbsp;et&nbsp;al.&nbsp;2018</span>&nbsp;<a id="Goerz.2018"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1679"><!-- named anchor --></a>
+                           Günther Görz
+                           Klaus Geus
+                           Tanja Michalsky
+                           Martin Thiering
+                           2018Spatial Cognition in Historical Geographical Texts and Maps:
+                           Towards a Cognitive-Semantic Analysis of Flavio Biondo’s Italia
+                           IllustrataDigital Approaches to Cartographic Heritage</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Grossner/Janowicz/Kessler&nbsp;2016</span>&nbsp;<a id="Grossner.2016"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1703"><!-- named anchor --></a>
+                           Karl Grossner
+                           Krysztof Janowicz
+                           Karsten Kessler
+                           2016Place, Period, and Setting for Linked Data
+                           GazetteersPlacing Names. Enriching and Integrating Gazetteers</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Guarino&nbsp;1998</span>&nbsp;<a id="Guarino.1998b"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1723"><!-- named anchor --></a>
+                           Nicola Guarino
+                           
+                           Nicola Guarino
+                           1998Formal Ontology and Information SystemFormal Ontology in Information Systems</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Guckelsberger/Geus&nbsp;2022</span>&nbsp;<a id="Guckelsberger.2022"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1741"><!-- named anchor --></a>
+                           Kurt Guckelsberger
+                           Klaus Geus
+                           
+                           Tanja Michalsky
+                           Martin Thiering
+                           2022Measurements, Maps, and Other Source Material in Biondo’s Italia
+                           Illustrata: The Example of LatiumWalking through history. An Interdisciplinary Approach
+                           to Flavio
+                           Biondo’s Spaces in the Italia Illustrata10.48431/hsah.0103</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Hernández&nbsp;1994</span>&nbsp;<a id="Hernandez.1994"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1769"><!-- named anchor --></a>
+                           Daniel Hernández
+                           1994Qualitative Representation of Spatial Knowledge804</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Herzog/Rollinger&nbsp;1991</span>&nbsp;<a id="Herzog.1991b"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1781"><!-- named anchor --></a>
+                           Otthein Herzog
+                           Claus-Rainer Rollinger
+                           1991Text Understanding in LILOG: Integrating Computational
+                           Linguistics and Artificial Intelligence546</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Kim/Vasardani/Winter&nbsp;2016</span>&nbsp;<a id="Kim.2016"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1798"><!-- named anchor --></a>
+                           Junchul Kim
+                           Maria Vasardani
+                           Stephan Winter
+                           2016From Descriptions to Depictions: A Dynamic Sketch Map Drawing
+                           StrategySpatial Cognition and Computation10.1080/13875868.2015.1084509</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Kuhn&nbsp;2013</span>&nbsp;<a id="Kuhn.2013"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1820"><!-- named anchor --></a>
+                           Werner Kuhn
+                           2013Cognitive and Linguistic Ideas in Geographic Information
+                           SemanticsCognitive and Linguistic Aspects of Geographic Space10.1007/978-3-642-34359-9_9</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Landau/Jackendoff&nbsp;1993</span>&nbsp;<a id="Landau.1993"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1834"><!-- named anchor --></a>
+                           Barbara Landau
+                           Ray Jackendoff
+                           1993‘What’ and ‘Where’ in Spatial Language and Spatial
+                           CognitionBehavioral and Brain Sciences10.1017/S0140525X00029733</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Langacker&nbsp;2008</span>&nbsp;<a id="Langacker.2008"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1852"><!-- named anchor --></a>2008Cognitive Grammar: A Basic Introduction10.1093/acprof:oso/9780195331967.001.0001</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Levinson&nbsp;2003</span>&nbsp;<a id="Levinson.2003"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1860"><!-- named anchor --></a>
+                           Stephen C. Levinson
+                           2003Space in Language and Cognition: Explorations in Cognitive
+                           Diversity510.1080/13875868.2015.1084509</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Levinson/Wilkins&nbsp;2006</span>&nbsp;<a id="Levinson.2006"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1874"><!-- named anchor --></a>
+                           Stephen C. Levinson
+                           David P. Wilkins
+                           2006Grammars of Space: Explorations in Cognitive
+                           Diversity10.1017/CBO9780511486753</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">MacEachren&nbsp;1995</span>&nbsp;<a id="MacEachren.1995"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1891"><!-- named anchor --></a>
+                           Alan M. MacEachren
+                           1995How Maps Work: Representation, Visualization, and
+                           Design</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Mani&nbsp;et&nbsp;al.&nbsp;2010</span>&nbsp;<a id="Mani.2010"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1902"><!-- named anchor --></a>
+                           Inderjeet Mani
+                           Christy Doran
+                           Dave Harris
+                           Janet Hitzeman
+                           Rob Quimby
+                           Justin Richer
+                           Ben Wellner
+                           Scott Mardis
+                           Seamus Clancy
+                           2010SpatialML: Annotation Scheme, Resources, and
+                           EvaluationLanguage Resources and Evaluation310.1007/s10579-010-9121-0</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Menzel&nbsp;2002</span>&nbsp;<a id="Menzel.2002"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1950"><!-- named anchor --></a>
+                           Christopher Menzel
+                           2002Ontology TheoryOntologies and Semantic Interoperability</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Milanesi&nbsp;2008</span>&nbsp;<a id="Milanesi.2008"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1962"><!-- named anchor --></a>
+                           Marica Milanesi
+                           2008Antico e moderno nella cartografia umanistica: Le grandi carte
+                           d’Italia nel QuattrocentoGeographia Antiqua16–17</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Nadjib&nbsp;Khenkar&nbsp;1991</span>&nbsp;<a id="NadjibKhenkar.1991"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1975"><!-- named anchor --></a>
+                           Mohammed Nadjib Khenkar
+                           
+                           Otthein Herzog
+                           Claus-Rainer Rollinger
+                           1991Object-Oriented Representation of Depictions on the Basis of Cell
+                           MatricesText Understanding in LILOG</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Noy&nbsp;2003</span>&nbsp;<a id="Noy.2003"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e1998"><!-- named anchor --></a>
+                           Natalya Noy
+                           2003OntologiesHandbook for Language Engineers</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Rahtz&nbsp;2010'</span>&nbsp;<a id="Rahtz.2010"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e2010"><!-- named anchor --></a>
+                           Sebastian Rahtz
+                           2010TEI to CRM<a target="xrefwindow" href="http://tei.it.ox.ac.uk/Talks/2010-11-12-CRM/talk.pdf" id="d6e2019">
+                              Online(defunct)</a></p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Scheider&nbsp;2014</span>&nbsp;<a id="Scheider.2014"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e2023"><!-- named anchor --></a>
+                           Simon Scheider
+                           2014Encoding and Querying Historic Map ContentConnecting a Digital Europe Through
+                           Location and Place10.1007/978-3-319-03611-3_15</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Scheider&nbsp;et&nbsp;al.&nbsp;2017</span>&nbsp;<a id="Scheider.2017"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e2037"><!-- named anchor --></a>
+                           Simon Scheider
+                           2017Exploratory Querying of SPARQL Endpoints in Space and
+                           TimeSemantic Web Journal8.110.3233/SW-150211</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Simon&nbsp;et&nbsp;al.&nbsp;2015</span>&nbsp;<a id="Soto.2015"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e2052"><!-- named anchor --></a>
+                           Pau de Soto Cañamares
+                           Rainer Simon
+                           Elton Barker
+                           Leif Isaksen
+                           2015Linking Early Geospatial Documents, One Place at a Time:
+                           Annotation of Geographic Documents with Recogitoe-Perimetron10.2<a target="xrefwindow" href="http://www.e-perimetron.org/Vol_10_2/Simon_et_al.pdf" id="d6e2075">Online</a></p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Smith/Mark&nbsp;2001</span>&nbsp;<a id="Smith.2001"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e2079"><!-- named anchor --></a>
+                           Barry Smith
+                           David M. Mark
+                           2001Geographical Categories: An Ontological
+                           InvestigationInternational Journal of Geographical Information Science710.1080/13658810110061199</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Smith&nbsp;Ore/Eide&nbsp;2009</span>&nbsp;<a id="SmithOre.2009"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e2098"><!-- named anchor --></a>
+                           Christian-Emil Smith Ore
+                           Øyvind Eide
+                           2009TEI and Cultural Heritage Ontologies: Exchange of
+                           Information?Literary &amp; Linguistic Computing210.1093/llc/fqp010</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Straka/Straková&nbsp;2017</span>&nbsp;<a id="Straka.2017"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e2117"><!-- named anchor --></a>
+                           Milan Straka
+                           Jana Straková
+                           2017Tokenizing, POS Tagging, Lemmatizing and Parsing UD 2.0 with
+                           UDPipeProceedings of the CoNLL 2017<a target="xrefwindow" href="https://ufal.mff.cuni.cz/~straka/papers/2017-conll_udpipe.pdf" id="d6e2131">https://ufal.mff.cuni.cz/~straka/papers/2017-conll_udpipe.pdf</a></p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Talmy&nbsp;2000</span>&nbsp;<a id="Talmy.2000"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e2135"><!-- named anchor --></a>
+                           Leonard Talmy
+                           2000Toward a cognitive semantics0.7551/mitpress/6847.001.0001</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Talmy&nbsp;2003</span>&nbsp;<a id="Talmy.2003"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e2148"><!-- named anchor --></a>
+                           Leonard Talmy
+                           2003Toward a Cognitive Semantics10.7551/mitpress/6848.001.0001</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Thiering&nbsp;2015</span>&nbsp;<a id="Thiering.2015"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e2161"><!-- named anchor --></a>
+                           Martin Thiering
+                           2015Spatial Semiotics and Spatial Mental Models: Figure-Ground
+                           Asymmetries in Language10.1515/9783110356878</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Thiering/Berthele&nbsp;2022</span>&nbsp;<a id="Thiering.2022"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e2175"><!-- named anchor --></a>
+                           Martin Thiering
+                           Raphael Berthele
+                           
+                           Tanja Michalsky
+                           Martin Thiering
+                           2022Some Thoughts on a Spatial Language Analysis of Flavio Biondo’s
+                           Illustrated ItalyWalking through history. An Interdisciplinary Approach to Flavio
+                           Biondo’s Spaces in the Italia Illustrata10.48431/hsah.0107</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Tobler&nbsp;1979</span>&nbsp;<a id="Tobler.1979"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e2203"><!-- named anchor --></a>
+                           Waldo Tobler
+                           1979Cellular GeographyPhilosophy in Geography10.1007/978-94-009-9394-5_18</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Vasardani&nbsp;et&nbsp;al.&nbsp;2013</span>&nbsp;<a id="Vasardani.2013b"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e2217"><!-- named anchor --></a>
+                           Maria Vasardani
+                           Sabine  Timpf
+                           Stephan Winter
+                           Martin Tomko
+                           2013From Descriptions to Depictions: A Conceptual
+                           FrameworkSpatial Information Theory10.1007/978-3-319-01790-7_17</p>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="ref-label cell">
+                        <p class="ref-label"><span class="label">Vieu&nbsp;1997</span>&nbsp;<a id="Vieu.1997"><!-- named anchor --></a></p>
+                     </div>
+                     <div class="ref-content cell">
+                        <p class="citation"><a id="d6e2243"><!-- named anchor --></a>
+                           Laure Vieu
+                           1997Spatial Representation and Reasoning in Artificial
+                           IntelligenceSpatial and Temporal Reasoning10.1007/978-0-585-28322-7_1</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="back-section"><a id="d6e2255"><!-- named anchor --></a><h2 class="main-title">Footnotes</h2>
+            <div class="footnote"><a id="xzxv5fudljnf"><!-- named anchor --></a><p id="d6e2259"><span class="generated">[1]</span> 
+                  <a href="#Geus.2014">(Geus/Thiering 2014)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn2"><!-- named anchor --></a><p id="d6e2266"><span class="generated">[2]</span> URL: <a target="xrefwindow" href="https://www.biblhertz.it/en/dept-michalsky/historical-spaces-texts-maps" id="d6e2268">https://www.biblhertz.it/en/dept-michalsky/historical-spaces-texts-maps</a>.
+                  All links in this paper were accessed and verified on May 4, 2020, and again on
+                  August 4, 2020.</p>
+            </div>
+            <div class="footnote"><a id="fn3"><!-- named anchor --></a><p id="d6e2273"><span class="generated">[3]</span> For example, <a href="#Kuhn.2013">(Kuhn 2013)</a>; see also
+                  his “Research Questions” page: <a target="xrefwindow" href="http://geog.ucsb.edu/~kuhn/Questions.htm" id="d6e2278">http://geog.ucsb.edu/~kuhn/Questions.htm</a>
+                  </p>
+            </div>
+            <div class="footnote"><a id="fn4"><!-- named anchor --></a><p id="d6e2283"><span class="generated">[4]</span> In particular <a href="#Scheider.2014">(Scheider 2014)</a>
+                  and Simon Scheider’s website “Geographic Knowledge Representation”, URL:
+                  <a target="xrefwindow" href="http://www.geographicknowledge.de" id="d6e2288">http://www.geographicknowledge.de</a>
+                  </p>
+            </div>
+            <div class="footnote"><a id="fn5"><!-- named anchor --></a><p id="d6e2293"><span class="generated">[5]</span>  See <a href="#Langacker.2008">(Langacker 2008)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn6"><!-- named anchor --></a><p id="d6e2300"><span class="generated">[6]</span> 
+                  <a href="#Talmy.2000">(Talmy 2000)</a> and <a href="#Talmy.2003">(Talmy 2003)</a>. </p>
+            </div>
+            <div class="footnote"><a id="ljr6rehirbg"><!-- named anchor --></a><p id="d6e2310"><span class="generated">[7]</span> 
+                  <a href="#Talmy.2003">(Talmy 2003, 184)</a>. See note <a href="#fn6">6</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn8"><!-- named anchor --></a><p id="d6e2320"><span class="generated">[8]</span> See, for example, <a href="#Clavuot.1990">(Clavuot 1990)</a>.
+                  </p>
+            </div>
+            <div class="footnote"><a id="yvuvluud66y"><!-- named anchor --></a><p id="d6e2327"><span class="generated">[9]</span> 
+                  <a href="#Thiering.2022">(Thiering/Berthele 2022)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn9"><!-- named anchor --></a><p id="d6e2334"><span class="generated">[10]</span> As outlined by, for example, <a href="#Vasardani.2013b">(Vasardani et al. 2013)</a>, algorithms 1 and 2.</p>
+            </div>
+            <div class="footnote"><a id="fn10"><!-- named anchor --></a><p id="d6e2342"><span class="generated">[11]</span>  Compare <a href="#Tobler.1979">(Tobler 1979)</a>. </p>
+            </div>
+            <div class="footnote"><a id="liq3oi39z69"><!-- named anchor --></a><p id="d6e2349"><span class="generated">[12]</span> 
+                  <a href="#Biondo.2011">(Biondo 2011)</a>, <a href="#Biondo.2014">(Biondo 2014)</a>, <a href="#Biondo.2017">(Biondo 2017)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn12"><!-- named anchor --></a><p id="d6e2362"><span class="generated">[13]</span> 
+                  <a href="#Biondo.2005b">(Biondo 2005b)</a>; <a href="#Biondo.2016">(Biondo 2016)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn13"><!-- named anchor --></a><p id="d6e2372"><span class="generated">[14]</span> 
+                  <a href="#Biondo.2005">(Biondo 2005a)</a>, <a href="#Biondo.2010">(Biondo 2010)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn14"><!-- named anchor --></a><p id="d6e2382"><span class="generated">[15]</span> UTF-8 is a Unicode character encoding; see URL: <a target="xrefwindow" href="http://unicode.org/" id="d6e2384">http://unicode.org/.</a>
+                  </p>
+            </div>
+            <div class="footnote"><a id="fn15"><!-- named anchor --></a><p id="d6e2389"><span class="generated">[16]</span> TEI: Text Encoding Initiative, providing a modular set of tags for various text
+                  types; see URL: <a target="xrefwindow" href="http://www.tei-c.org/" id="d6e2391">http://www.tei-c.org/</a>. Although many software tools already
+                  accept TEI encoding as a text input format, there are still some which require
+                  plain text.</p>
+            </div>
+            <div class="footnote"><a id="fn16"><!-- named anchor --></a><p id="d6e2396"><span class="generated">[17]</span> KWIC for Windows Version 4.7 and 5.3 by Satoru Tsukamoto; URL: <a target="xrefwindow" href="https://kwic-concordance.software.informer.com/4.7/" id="d6e2398">https://kwic-concordance.software.informer.com/4.7/</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn17"><!-- named anchor --></a><p id="d6e2403"><span class="generated">[18]</span> See “German Tagsets”, Universität Stuttgart, Institut für Maschinelle
+                  Sprachverarbeitung (IMS), URL: <a target="xrefwindow" href="http://www.ims.uni-stuttgart.de/forschung/ressourcen/lexika/TagSets/stts-table.html" id="d6e2405">http://www.ims.uni-stuttgart.de/forschung/ressourcen/lexika/TagSets/stts-table.html</a>.
+                  </p>
+            </div>
+            <div class="footnote"><a id="fn18"><!-- named anchor --></a><p id="d6e2410"><span class="generated">[19]</span> AntConc is an easy to use word statistics and concordance program. It has several
+                  options to support semantic analysis, such as annotating clusters or marking
+                  single lexical items embedded in their textual context, etc. See URL: <a target="xrefwindow" href="http://www.laurenceanthony.net/software/antconc/" id="d6e2412">http://www.laurenceanthony.net/software/antconc/</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn19"><!-- named anchor --></a><p id="d6e2417"><span class="generated">[20]</span> URL: <a target="xrefwindow" href="https://voyant-tools.org" id="d6e2419">https://voyant-tools.org</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn20"><!-- named anchor --></a><p id="d6e2424"><span class="generated">[21]</span> URL: <a target="xrefwindow" href="https://www.biblhertz.it/en/dept-michalsky/historical-spaces-texts-maps" id="d6e2426">https://www.biblhertz.it/en/dept-michalsky/historical-spaces-texts-maps</a>,
+                  containing links to the freely available results.</p>
+            </div>
+            <div class="footnote"><a id="fn21"><!-- named anchor --></a><p id="d6e2432"><span class="generated">[22]</span> For English, we also used Lancaster University’s Wmatrix3 toolbox (URL: <a target="xrefwindow" href="http://ucrel.lancs.ac.uk/wmatrix/" id="d6e2434">http://ucrel.lancs.ac.uk/wmatrix/</a>), which also provides a
+                  semantic tagger. These tools are flexible in a variety of output formats,
+                  including XML.</p>
+            </div>
+            <div class="footnote"><a id="fn22"><!-- named anchor --></a><p id="d6e2439"><span class="generated">[23]</span> URL: <a target="xrefwindow" href="http://multiwordnet.fbk.eu/online/multiwordnet.php" id="d6e2441">http://multiwordnet.fbk.eu/online/multiwordnet.php</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn23"><!-- named anchor --></a><p id="d6e2446"><span class="generated">[24]</span> URL: <a target="xrefwindow" href="http://outils.biblissima.fr/en/collatinus/" id="d6e2448">http://outils.biblissima.fr/en/collatinus/</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn24"><!-- named anchor --></a><p id="d6e2453"><span class="generated">[25]</span> URL: <a target="xrefwindow" href="http://www.lemlat3.eu/" id="d6e2455">http://www.lemlat3.eu/</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn25"><!-- named anchor --></a><p id="d6e2460"><span class="generated">[26]</span> URL: <a target="xrefwindow" href="http://www.perseus.tufts.edu/hopper/morph?redirect=true&amp;lang=la" id="d6e2462">http://www.perseus.tufts.edu/hopper/morph?redirect=true&amp;lang=la</a>.
+                  </p>
+            </div>
+            <div class="footnote"><a id="fn26"><!-- named anchor --></a><p id="d6e2467"><span class="generated">[27]</span> URL: <a target="xrefwindow" href="http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/" id="d6e2469">http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/</a>. </p>
+            </div>
+            <div class="footnote"><a id="g6tatw0ofmdf"><!-- named anchor --></a><p id="d6e2474"><span class="generated">[28]</span> 
+                  <a href="#Levinson.2006">(Levinson/Wilkins 2006)</a>; <a href="#Thiering.2015">(Thiering 2015)</a>. </p>
+            </div>
+            <div class="footnote"><a id="hwqfd0hv15z"><!-- named anchor --></a><p id="d6e2484"><span class="generated">[29]</span> 
+                  <a href="#Agel.2010">(Ágel/Fischer 2010)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn29"><!-- named anchor --></a><p id="d6e2491"><span class="generated">[30]</span> 
+                  <a href="#Straka.2017">(Straka/Straková 2017)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn30"><!-- named anchor --></a><p id="d6e2498"><span class="generated">[31]</span> UDPipe Dependency Parser UD 2.4 (URL: <a target="xrefwindow" href="http://ufal.mff.cuni.cz/udpipe" id="d6e2500">http://ufal.mff.cuni.cz/udpipe</a>) with the Latin language model
+                  latin-ittb-ud-2.4-190531. The check against the results of the manually
+                  generated spatial role labeling is still awaiting completion. For heuristic
+                  reasons, we initially used the Stanford Parser (URL: <a target="xrefwindow" href="https://nlp.stanford.edu/software/lex-parser.shtml" id="d6e2503">https://nlp.stanford.edu/software/lex-parser.shtml</a>) on the
+                  English translation, a lexicalized stochastic parser whose English language
+                  model generates dependency trees of reliable and sufficient quality.</p>
+            </div>
+            <div class="footnote"><a id="fn31"><!-- named anchor --></a><p id="d6e2508"><span class="generated">[32]</span>  Compare <a href="#Soto.2015">(Simon et al. 2015)</a>;
+                  Recogito, URL: <a target="xrefwindow" href="http://recogito.pelagios.org/" id="d6e2513">http://recogito.pelagios.org/</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn32"><!-- named anchor --></a><p id="d6e2519"><span class="generated">[33]</span> URL: <a target="xrefwindow" href="https://Pleiades.stoa.org/" id="d6e2521">https://Pleiades.stoa.org/</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn33"><!-- named anchor --></a><p id="d6e2526"><span class="generated">[34]</span> URL: <a target="xrefwindow" href="http://dare.ht.lu.se/" id="d6e2528">http://dare.ht.lu.se/</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn34"><!-- named anchor --></a><p id="d6e2533"><span class="generated">[35]</span> Open Annotation Data Model, URL: <a target="xrefwindow" href="http://www.openannotation.org/spec/core/" id="d6e2535">http://www.openannotation.org/spec/core/</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn35"><!-- named anchor --></a><p id="d6e2540"><span class="generated">[36]</span> JSON (JavaScript Object Notation) format for encoding geographic data, URL:
+                  <a target="xrefwindow" href="http://geojson.org/" id="d6e2542">http://geojson.org/</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn36"><!-- named anchor --></a><p id="d6e2547"><span class="generated">[37]</span> TEI: Text Encoding Initiative, URL: <a target="xrefwindow" href="https://tei-c.org/" id="d6e2549">https://tei-c.org/</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn37"><!-- named anchor --></a><p id="d6e2554"><span class="generated">[38]</span> URL: <a target="xrefwindow" href="https://www.openstreetmap.org/" id="d6e2556">https://www.openstreetmap.org/</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn38"><!-- named anchor --></a><p id="d6e2561"><span class="generated">[39]</span> 
+                  <a href="#Mani.2010">(Mani et al. 2010)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn39"><!-- named anchor --></a><p id="d6e2568"><span class="generated">[40]</span> URL: <a target="xrefwindow" href="http://jamespusto.com/wp-content/uploads/2014/07/SpaceEval-guidelines.pdf" id="d6e2570">http://jamespusto.com/wp-content/uploads/2014/07/SpaceEval-guidelines.pdf</a>.
+                  </p>
+            </div>
+            <div class="footnote"><a id="fn40"><!-- named anchor --></a><p id="d6e2575"><span class="generated">[41]</span> URL: <a target="xrefwindow" href="https://www.cs.york.ac.uk/semeval-2013/task3/" id="d6e2577">https://www.cs.york.ac.uk/semeval-2013/task3/</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn41"><!-- named anchor --></a><p id="d6e2582"><span class="generated">[42]</span> URL: <a target="xrefwindow" href="http://brat.nlplab.org/index.html" id="d6e2584">http://brat.nlplab.org/index.html</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn42"><!-- named anchor --></a><p id="d6e2589"><span class="generated">[43]</span> See the cognitive-linguistic evaluation of the chapter by <a href="#Thiering.2022">(Thiering/Berthele 2022)</a> in this volume, as well
+                  as <a href="#Goerz.2018">(Görz et al. 2018)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn43"><!-- named anchor --></a><p id="d6e2600"><span class="generated">[44]</span>  See <a href="#MacEachren.1995">(MacEachren 1995)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn44"><!-- named anchor --></a><p id="d6e2607"><span class="generated">[45]</span> 
+                  <a href="#Milanesi.2008">(Milanesi 2008)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn45"><!-- named anchor --></a><p id="d6e2614"><span class="generated">[46]</span> URL: <a target="xrefwindow" href="http://mapanalyst.org/" id="d6e2616">http://mapanalyst.org/</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn46"><!-- named anchor --></a><p id="d6e2621"><span class="generated">[47]</span> See also the contribution by <a href="#Guckelsberger.2022">Guckelsberger/Geus</a> in this volume.</p>
+            </div>
+            <div class="footnote"><a id="fn47"><!-- named anchor --></a><p id="d6e2628"><span class="generated">[48]</span>  Compare <a href="#Dalche.2007">(Dalché 2007)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn48"><!-- named anchor --></a><p id="d6e2635"><span class="generated">[49]</span> The identification labels given here are cited after Joseph Fischer, see <a href="#Geus.2009">(Geus 2009)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn49"><!-- named anchor --></a><p id="d6e2642"><span class="generated">[50]</span> This was true of 25 percent in L20-nova, 26 percent in L23-nova, and 24 percent
+                  in L26-nova.</p>
+            </div>
+            <div class="footnote"><a id="fn50"><!-- named anchor --></a><p id="d6e2645"><span class="generated">[51]</span> L20-nova: 63 percent annotated with Pleiades, 2 percent annotated with DARE, 35
+                  percent annotated with GeoNames. L23-nova: 65 percent annotated with Pleiades, 2
+                  percent annotated with DARE, 33 percent annotated with GeoNames. L26-nova: 63
+                  percent annotated with Pleiades, 2 percent annotated with DARE, 35 percent
+                  annotated with GeoNames.</p>
+            </div>
+            <div class="footnote"><a id="fn51"><!-- named anchor --></a><p id="d6e2648"><span class="generated">[52]</span> Further examples include: Alatri/Aletrium, Anxur/Terracine, Capua/Casilinum,
+                  Praeneste/Palestrina, Astura/Torre Astura, Veroli/Verulae.</p>
+            </div>
+            <div class="footnote"><a id="fn52"><!-- named anchor --></a><p id="d6e2651"><span class="generated">[53]</span> These places are Alba, Astura, Benevento, Civitella, Capua, Bologna, Velletri,
+                  Gaeta, Itri, Roma, Suessa, Ravenna, Ostia, Tagliacozzo.</p>
+            </div>
+            <div class="footnote"><a id="fn53"><!-- named anchor --></a><p id="d6e2654"><span class="generated">[54]</span> Celano (L20-nova/L23-nova Cela), Fratte (L20-nova/L23-nova Fratta).</p>
+            </div>
+            <div class="footnote"><a id="fn54"><!-- named anchor --></a><p id="d6e2658"><span class="generated">[55]</span> JSON (JavaScript Object Notation) for Linking Data, URL: <a target="xrefwindow" href="https://json-ld.org/" id="d6e2660">https://json-ld.org/</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn55"><!-- named anchor --></a><p id="d6e2665"><span class="generated">[56]</span> URL: <a target="xrefwindow" href="https://gephi.org/" id="d6e2667">https://gephi.org/</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn56"><!-- named anchor --></a><p id="d6e2672"><span class="generated">[57]</span> Compare, for example, <a href="#Allemang.2011b">(Allemang/Hendler 2011)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn57"><!-- named anchor --></a><p id="d6e2679"><span class="generated">[58]</span> A formal ontology defines the conceptual system of a domain of discourse, see,
+                  for example, <a href="#Noy.2003">(Noy 2003)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn58"><!-- named anchor --></a><p id="d6e2686"><span class="generated">[59]</span> The concept of space is related to the question of the spatial orientation of the
+                  ancients, and more specifically to Biondo’s adaption of ancient spatial
+                  thinking. Traditionally, ancient geographical literature uses natural points of
+                  orientation (coastlines, rivers, mountains, winds, etc.), with which the
+                  observer may locate different directions or geographical objects. All
+                  geographical points of orientation depend on the perspective of an imaginary
+                  observer. See, for example, papers on ‘Common Sense Geography’ in <a href="#Geus.2014">(Geus/Thiering 2014)</a>; see also <a href="#Dan.2016">(Dan et al. 2016)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn59"><!-- named anchor --></a><p id="d6e2696"><span class="generated">[60]</span> Compare, for example, <a href="#Guarino.1998b">(Guarino
+                     1998)</a>; and <a href="#Menzel.2002">(Menzel
+                     2002)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn60"><!-- named anchor --></a><p id="d6e2706"><span class="generated">[61]</span> URL: <a target="xrefwindow" href="http://www.cidoc-crm.org/" id="d6e2708">http://www.cidoc-crm.org/</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn61"><!-- named anchor --></a><p id="d6e2713"><span class="generated">[62]</span> International Organization for Standardization.</p>
+            </div>
+            <div class="footnote"><a id="fn62"><!-- named anchor --></a><p id="d6e2716"><span class="generated">[63]</span> We implemented CRM in a description logic language, the Semantic Web Ontology
+                  Language (OWL-DL) <a href="#Gorz.2008">(Görz/Oischinger/Schiemann 2008)</a>. URL: <a target="xrefwindow" href="http://erlangen-crm.org/" id="d6e2721">http://erlangen-crm.org/</a>.
+                  For OWL-DL, URL: <a target="xrefwindow" href="https://www.w3.org/TR/owl2-primer/" id="d6e2724">https://www.w3.org/TR/owl2-primer/.</a>
+                  </p>
+            </div>
+            <div class="footnote"><a id="b9j7d0d272r"><!-- named anchor --></a><p id="d6e2729"><span class="generated">[64]</span>  See <a href="#Doerr.2017">(Doerr/Eide/Hiebel 2017)</a>; URL:
+                  <a target="xrefwindow" href="http://new.cidoc-crm.org/crmgeo/sites/default/files/CRMgeo1_2.pdf" id="d6e2734">http://new.cidoc-crm.org/crmgeo/sites/default/files/CRMgeo1_2.pdf</a>
+                  (accessed 04.08.2020).</p>
+            </div>
+            <div class="footnote"><a id="fn64"><!-- named anchor --></a><p id="d6e2739"><span class="generated">[65]</span> For a similar approach, see the ontological framework developed by <a href="#Grossner.2016">(Grossner/Janowicz/Kessler 2016)</a>,
+                  and in particular their Ontological Design Pattern for “setting” which comes
+                  close to the definition of “spacetime volume” in CRM.</p>
+            </div>
+            <div class="footnote"><a id="fn65"><!-- named anchor --></a><p id="d6e2747"><span class="generated">[66]</span> URL: <a target="xrefwindow" href="https://pleiades.stoa.org/docs/partners/pleiades-rdf-vocabulary" id="d6e2749">https://pleiades.stoa.org/docs/partners/pleiades-rdf-vocabulary</a>.
+                  In principle, other controlled vocabularies could be considered as well, such as
+                  the ones released by the Getty, available as linked open data, see URL:
+                  <a target="xrefwindow" href="http://www.getty.edu/research/tools/vocabularies/" id="d6e2752">http://www.getty.edu/research/tools/vocabularies/</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn66"><!-- named anchor --></a><p id="d6e2757"><span class="generated">[67]</span>  See <a href="#Gorz.2007">(Görz 2007, 539–572)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn67"><!-- named anchor --></a><p id="d6e2764"><span class="generated">[68]</span> For very similar work, compare <a href="#Gkadolou.2014">(Gkadolou/Stefanakis 2013, 813 or p. 6 in online version)</a>; and <a href="#Chalkias.2017">(Chalkias/Vradis/Kokla 2017, 6)</a>,
+                  with their historical map ontology design pattern, URL: <a target="xrefwindow" href="http://ontologydesignpatterns.org/wiki/Submissions:HistoricalMap " id="d6e2772">http://ontologydesignpatterns.org/wiki/Submissions:HistoricalMap
+                     </a>(accessed 04.08.2020). See also <a href="#Scheider.2014">(Scheider 2014, 251–73)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn68"><!-- named anchor --></a><p id="d6e2780"><span class="generated">[69]</span> For the verbal, albeit not formal definition of tags, see the TEI Guidelines,
+                  URL: <a target="xrefwindow" href="http://www.tei-c.org/" id="d6e2782">http://www.tei-c.org/</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn69"><!-- named anchor --></a><p id="d6e2787"><span class="generated">[70]</span> 
+                  <a href="#SmithOre.2009">(Smith Ore/Eide 2009)</a>. As
+                  suggested by the late Sebastian Rahtz, the mappings are expressed by
+                  transformation rules, see <a href="#Rahtz.2010">(Rahtz
+                     2010)</a>, URL: <a target="xrefwindow" href="http://tei.it.ox.ac.uk/Talks/2010-11-12-CRM/talk.pdf" id="d6e2795">http://tei.it.ox.ac.uk/Talks/2010-11-12-CRM/talk.pdf</a> (accessed
+                  04.08.2020).</p>
+            </div>
+            <div class="footnote"><a id="fn70"><!-- named anchor --></a><p id="d6e2800"><span class="generated">[71]</span> WissKI (URL: <a target="xrefwindow" href="http://wiss-ki.eu/" id="d6e2802">http://wiss-ki.eu/</a>) was developed by our Digital Humanities
+                  Research Group at FAU Erlangen-Nuremberg in cooperation with the Germanisches
+                  Nationalmuseum, Nuremberg, and is currently in use in more than 150 projects,
+                  see <a href="#Gorz.2012">(Görz/Scholz 2012, 2)</a>, URL:
+                  <a target="xrefwindow" href="http://www2.lirmm.fr/ecai2012/" id="d6e2808">http://www2.lirmm.fr/ecai2012/</a> (accessed 04.08.2020).</p>
+            </div>
+            <div class="footnote"><a id="fn71"><!-- named anchor --></a><p id="d6e2813"><span class="generated">[72]</span> URL: <a target="xrefwindow" href="http://iiif.io/technical-details/" id="d6e2815">http://iiif.io/technical-details/</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn72"><!-- named anchor --></a><p id="d6e2820"><span class="generated">[73]</span> URL: <a target="xrefwindow" href="http://drupal.org/" id="d6e2822">http://drupal.org/</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn73"><!-- named anchor --></a><p id="d6e2827"><span class="generated">[74]</span> URL: <a target="xrefwindow" href="http://wisski.biblhertz.it" id="d6e2829">http://wisski.biblhertz.it</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn74"><!-- named anchor --></a><p id="d6e2834"><span class="generated">[75]</span> URL: <a target="xrefwindow" href="https://researchspace.org" id="d6e2836">https://researchspace.org</a>, in particular the “Demo” link
+                  (Semantic Search).</p>
+            </div>
+            <div class="footnote"><a id="tfby47ae0nw5"><!-- named anchor --></a><p id="d6e2841"><span class="generated">[76]</span> 
+                  <a href="#Scheider.2017">(Scheider et al. 2017)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn76"><!-- named anchor --></a><p id="d6e2849"><span class="generated">[77]</span> Compare, for example, <a href="#Constantopoulos.2008">(Constantopoulos 2008)</a>. </p>
+            </div>
+            <div class="footnote"><a id="qfnf649qh5ca"><!-- named anchor --></a><p id="d6e2856"><span class="generated">[78]</span> 
+                  <a href="#Blakemore.1980">(Blakemore/Harley/Dahl 1980)</a>.
+                  </p>
+            </div>
+            <div class="footnote"><a id="fn78"><!-- named anchor --></a><p id="d6e2863"><span class="generated">[79]</span> 
+                  <a href="#Levinson.2003">(Levinson 2003)</a>; <a href="#Landau.1993">(Landau/Jackendoff 1993)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn79"><!-- named anchor --></a><p id="d6e2873"><span class="generated">[80]</span> For an extensive crosslinguistic overview, <a href="#Levinson.2006">(Levinson/Wilkins 2006)</a>; <a href="#Thiering.2015">(Thiering 2015)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn80"><!-- named anchor --></a><p id="d6e2883"><span class="generated">[81]</span> For example, <a href="#Egenhofer.1995">(Egenhofer/Mark
+                     1995)</a>; <a href="#Vieu.1997">(Vieu 1997)</a>;
+                  <a href="#Hernandez.1994">(Hernández 1994)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn81"><!-- named anchor --></a><p id="d6e2896"><span class="generated">[82]</span> 
+                  <a href="#Vieu.1997">(Vieu 1997)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn82"><!-- named anchor --></a><p id="d6e2903"><span class="generated">[83]</span> 
+                  <a href="#Cohn.1997">(Cohn et al. 1997)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn83"><!-- named anchor --></a><p id="d6e2910"><span class="generated">[84]</span>  See <a href="#Smith.2001">(Smith/Mark 2001)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn84"><!-- named anchor --></a><p id="d6e2917"><span class="generated">[85]</span>  See <a href="#Vasardani.2013b">(Vasardani et al. 2013)</a>;
+                  <a href="#Kim.2016">(Kim/Vasardani/Winter 2016)</a>.
+                  </p>
+            </div>
+            <div class="footnote"><a id="fn85"><!-- named anchor --></a><p id="d6e2927"><span class="generated">[86]</span> 
+                  <a href="#Vasardani.2013b">(Vasardani et al. 2013)</a>;
+                  <a href="#Kim.2016">(Kim/Vasardani/Winter 2016)</a>.
+                  </p>
+            </div>
+            <div class="footnote"><a id="rn9t8p29lke"><!-- named anchor --></a><p id="d6e2937"><span class="generated">[87]</span> 
+                  <a href="#Tobler.1979">(Tobler 1979)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn87"><!-- named anchor --></a><p id="d6e2945"><span class="generated">[88]</span> For an overview of LILOG, see <a href="#Herzog.1991b">(Herzog/Rollinger 1991)</a>. </p>
+            </div>
+            <div class="footnote"><a id="fn88"><!-- named anchor --></a><p id="d6e2952"><span class="generated">[89]</span> 
+                  <a href="#NadjibKhenkar.1991">(Nadjib Khenkar 1991)</a>.
+                  </p>
+            </div>
+         </div>
+      </div>
+      <div id="article1-footer" class="footer">
+         <hr class="part-rule">
+         <div class="metadata">
+            <h4 class="generated">Article Information (continued)</h4>
+            <div class="metadata-group">
+               <div class="metadata-area">
+                  <p class="metadata-entry subj-group"><span class="generated">Categories: </span></p>
+                  <div class="metadata-chunk">
+                     <p class="metadata-entry subject"><span class="generated">Subject: </span>Original Article</p>
+                  </div>
+               </div>
+               <div class="metadata-area">
+                  <p class="metadata-entry kwd-group"><span class="generated">Keywords: </span></p>
+                  <div class="metadata-chunk">
+                     <p class="metadata-entry kwd"><span class="generated">Keyword: </span>spatial cognition</p>
+                     <p class="metadata-entry kwd"><span class="generated">Keyword: </span>text analysis</p>
+                     <p class="metadata-entry kwd"><span class="generated">Keyword: </span>text annotation</p>
+                     <p class="metadata-entry kwd"><span class="generated">Keyword: </span>map annotation</p>
+                     <p class="metadata-entry kwd"><span class="generated">Keyword: </span>Linked Open Data</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <hr class="part-rule">
+         <div class="branding">
+            <p>This display is generated from NISO JATS XML with <b>jatskit-html.xsl</b>. The XSLT engine is Saxonica.</p>
+         </div>
+      </div>
+   </body>
+</html>

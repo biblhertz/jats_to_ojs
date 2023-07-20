@@ -1,0 +1,13 @@
+{
+    "name": "biblhertz/jats_to_ojs",
+    "description": "JATS to OJS native XML conversion package",
+    "type": "project",
+    "license": "open_source",
+    "autoload": {
+        "psr-4": {
+            "Biblhertz\\JatsToOjs\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}

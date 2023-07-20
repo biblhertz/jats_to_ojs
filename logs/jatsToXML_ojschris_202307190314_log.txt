@@ -1,0 +1,189 @@
+Running issue JATS-to-XML conversion...
+----------------------------------------
+Input Directory Detected :: ./examples/xml
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Found XML File :: 01Intro_hsah.0101.xml
+Loaded XML document
+01Intro_hsah.0101.xml
+----------------------------------------
+Starting JATS schema validation
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Trying XML document :: 01Intro_hsah.0101.xml against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+----------------------------------------
+XML document :: 01Intro_hsah.0101.xml failed validation against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+----------------------------------------
+----------------------------------------
+Trying XML document :: 01Intro_hsah.0101.xml against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+----------------------------------------
+XML document :: 01Intro_hsah.0101.xml failed validation against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+----------------------------------------
+----------------------------------------
+Trying XML document :: 01Intro_hsah.0101.xml against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+----------------------------------------
+XML document :: 01Intro_hsah.0101.xml passed validation against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+----------------------------------------
+Found XML File :: 02_Goertz_et_alii.xml
+Loaded XML document
+02_Goertz_et_alii.xml
+----------------------------------------
+Starting JATS schema validation
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Trying XML document :: 02_Goertz_et_alii.xml against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+----------------------------------------
+XML document :: 02_Goertz_et_alii.xml failed validation against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+----------------------------------------
+----------------------------------------
+Trying XML document :: 02_Goertz_et_alii.xml against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+----------------------------------------
+XML document :: 02_Goertz_et_alii.xml failed validation against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+----------------------------------------
+----------------------------------------
+Trying XML document :: 02_Goertz_et_alii.xml against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+----------------------------------------
+XML document :: 02_Goertz_et_alii.xml failed validation against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+----------------------------------------
+----------------------------------------
+Trying XML document :: 02_Goertz_et_alii.xml against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd
+----------------------------------------
+XML document :: 02_Goertz_et_alii.xml passed validation against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd
+----------------------------------------
+Found XML File :: 03_geus.xml
+Loaded XML document
+03_geus.xml
+----------------------------------------
+Starting JATS schema validation
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Trying XML document :: 03_geus.xml against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+----------------------------------------
+XML document :: 03_geus.xml failed validation against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+----------------------------------------
+----------------------------------------
+Trying XML document :: 03_geus.xml against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+----------------------------------------
+XML document :: 03_geus.xml failed validation against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+----------------------------------------
+----------------------------------------
+Trying XML document :: 03_geus.xml against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+----------------------------------------
+XML document :: 03_geus.xml failed validation against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+----------------------------------------
+----------------------------------------
+Trying XML document :: 03_geus.xml against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd
+----------------------------------------
+XML document :: 03_geus.xml passed validation against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd
+----------------------------------------
+Found XML File :: 04_Guckelsberger.xml
+Loaded XML document
+04_Guckelsberger.xml
+----------------------------------------
+Starting JATS schema validation
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Trying XML document :: 04_Guckelsberger.xml against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+----------------------------------------
+XML document :: 04_Guckelsberger.xml failed validation against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+----------------------------------------
+----------------------------------------
+Trying XML document :: 04_Guckelsberger.xml against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+----------------------------------------
+XML document :: 04_Guckelsberger.xml failed validation against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+----------------------------------------
+----------------------------------------
+Trying XML document :: 04_Guckelsberger.xml against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+----------------------------------------
+XML document :: 04_Guckelsberger.xml failed validation against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+----------------------------------------
+----------------------------------------
+Trying XML document :: 04_Guckelsberger.xml against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd
+----------------------------------------
+XML document :: 04_Guckelsberger.xml passed validation against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd
+----------------------------------------
+Found XML File :: 05Laureys.xml
+Loaded XML document
+05Laureys.xml
+----------------------------------------
+Starting JATS schema validation
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Trying XML document :: 05Laureys.xml against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+----------------------------------------
+XML document :: 05Laureys.xml failed validation against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+----------------------------------------
+----------------------------------------
+Trying XML document :: 05Laureys.xml against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+----------------------------------------
+XML document :: 05Laureys.xml failed validation against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+----------------------------------------
+----------------------------------------
+Trying XML document :: 05Laureys.xml against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+----------------------------------------
+XML document :: 05Laureys.xml failed validation against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+----------------------------------------
+----------------------------------------
+Trying XML document :: 05Laureys.xml against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd
+----------------------------------------
+XML document :: 05Laureys.xml passed validation against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd
+----------------------------------------
+Found XML File :: 08_Richter.xml
+Loaded XML document
+08_Richter.xml
+----------------------------------------
+Starting JATS schema validation
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Trying XML document :: 08_Richter.xml against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+----------------------------------------
+XML document :: 08_Richter.xml failed validation against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+----------------------------------------
+----------------------------------------
+Trying XML document :: 08_Richter.xml against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+----------------------------------------
+XML document :: 08_Richter.xml failed validation against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+----------------------------------------
+----------------------------------------
+Trying XML document :: 08_Richter.xml against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+----------------------------------------
+XML document :: 08_Richter.xml failed validation against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+----------------------------------------
+----------------------------------------
+Trying XML document :: 08_Richter.xml against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd
+----------------------------------------
+XML document :: 08_Richter.xml passed validation against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd
+----------------------------------------
+Found XML File :: 09Harvey.xml
+Loaded XML document
+09Harvey.xml
+----------------------------------------
+Starting JATS schema validation
+----------------------------------------
+----------------------------------------
+----------------------------------------
+Trying XML document :: 09Harvey.xml against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+----------------------------------------
+XML document :: 09Harvey.xml failed validation against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+----------------------------------------
+----------------------------------------
+Trying XML document :: 09Harvey.xml against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+----------------------------------------
+XML document :: 09Harvey.xml failed validation against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+----------------------------------------
+----------------------------------------
+Trying XML document :: 09Harvey.xml against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+----------------------------------------
+XML document :: 09Harvey.xml failed validation against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+----------------------------------------
+----------------------------------------
+Trying XML document :: 09Harvey.xml against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd
+----------------------------------------
+XML document :: 09Harvey.xml passed validation against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd

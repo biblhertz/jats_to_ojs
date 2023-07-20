@@ -1,0 +1,2102 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="publisher-id">HSAH</journal-id>
+            <journal-title-group>
+                <journal-title>Hertziana Studies in Art History</journal-title>
+                <abbrev-journal-title>HSAH</abbrev-journal-title>
+            </journal-title-group>
+            <issn/>
+            <publisher>
+                <publisher-name>Bibliotheca Hertziana - Max Planck Institute for Art
+                    History</publisher-name>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="doi">10.48431/hsah.0103</article-id>
+            <article-id pub-id-type="publisher-id">HSAH</article-id>
+            <article-version article-version-type="status">accepted</article-version>
+            <title-group>
+                <article-title>Measurements, Maps, and Other Source Material in Biondo’s
+                        <italic>Italia Illustrata</italic>
+                </article-title>
+                <subtitle>The Example of Latium</subtitle>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="person" corresp="yes" equal-contrib="yes" deceased="no"
+                    id="hiijaaidi">
+                    <name>
+                        <surname>Guckelsberger</surname>
+                        <given-names>Kurt</given-names>
+                    </name>
+                    <email>kurt.guckelsberger@gmx.de</email>
+                    <xref ref-type="aff" rid="affjbdcghfhedc"/>
+                </contrib>
+                <contrib contrib-type="person" corresp="yes" equal-contrib="yes" deceased="no"
+                    id="biheejehhd">
+                    <contrib-id contrib-id-type="orcid"
+                        >https://orcid.org/0000-0003-1758-9061</contrib-id>
+                    <name>
+                        <surname>Geus</surname>
+                        <given-names>Klaus</given-names>
+                    </name>
+                    <email>klaus.geus@fu-berlin.de</email>
+                    <xref ref-type="aff" rid="affjbdcghfhedc"/>
+                </contrib>
+            </contrib-group>
+            <aff id="affjbdcghfhedc">
+                <institution content-type="orgname">Freie Universität Berlin</institution>
+                <institution content-type="orgdiv1">Friedrich-Meinecke-Institut</institution>
+                <addr-line/>
+                <city>Berlin</city>
+                <country>DE</country>
+            </aff>
+            <pub-date publication-format="electronic" date-type="pub" iso-8601-date="2022-12-31">
+                <day>31</day>
+                <month>12</month>
+                <year>2022</year>
+            </pub-date>
+            <pub-date pub-type="collection">
+                <year>2022</year>
+            </pub-date>
+            <volume>1</volume>
+            <elocation-id>3</elocation-id>
+            <history>
+                <date date-type="received">
+                    <day>28</day>
+                    <month>5</month>
+                    <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                    <day>28</day>
+                    <month>10</month>
+                    <year>2020</year>
+                </date>
+            </history>
+            <permissions>
+                <copyright-year>2022</copyright-year>
+                <copyright-holder>Bibliotheca Hertziana - Max Planck Institute for Art
+                    History</copyright-holder>
+                <license license-type="open-access"
+                    xlink:href="https://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This material is distributed under the terms of the Creative Commons
+                        Attribution License, which permits unrestricted use, distribution, and
+                        reproduction in any medium, provided the original work is properly
+                        cited.</license-p>
+                </license>
+            </permissions>
+            <abstract id="seafm66fdx9c">
+                <title>Abstract</title>
+                <p id="cd94fgj4u8hk">In his chorographic work <italic>Italia Illustrata</italic>,
+                    Flavio Biondo wishes to generate in his readers’ minds a more or less complete
+                    image of Italy. The present paper aims at elucidating how he does that.
+                    Surprisingly, Biondo makes only sporadic use of maps. The line of thought which
+                    he expects his readers to envisage, is, in the end, an imagined itinerary: the
+                    reader is invited to follow strings of locations along the coasts, rivers,
+                    streets etc., without resorting to maps, sketches or other pictorial devices.
+                    Ubiquitous measurement data helps in qualifying and enhancing the underlying
+                    mental map or script. In this sense, <italic>Italia Illustrata</italic> must be
+                    considered a typical work of 'common sense geography' which was the master model
+                    for geographical and chorographical descriptions in Antiquity, Middle Ages, and
+                    Early modern time.</p>
+            </abstract>
+            <kwd-group kwd-group-type="author">
+                <kwd>spatial cognition</kwd>
+                <kwd>text analysis</kwd>
+                <kwd>text annotation</kwd>
+                <kwd>map annotation</kwd>
+                <kwd>Linked Open Data</kwd>
+            </kwd-group>
+        </article-meta>
+    </front>
+    <body>
+        <sec id="describing-italy-in-italia-illustrata-some-problems" sec-type="chapter">
+            <title>1. Describing Italy in <italic>Italia Illustrata</italic>: Some Problems</title>
+            <p id="ehpmj1pvzp4a">Flavio Biondo’s project of writing an ‘Italia
+                    Illustrata<italic>’</italic> was a huge and daunting task. It started in 1448,
+                was cut short in 1453,<xref ref-type="fn" rid="fn1">1</xref> taken up again over a
+                period of several months in 1462, and, sadly, was never brought to the end which
+                Biondo originally envisaged. His work was finally published posthumously in 1474 by
+                his son Gaspare Biondo <xref ref-type="bibr" rid="Blondus.1474">(Biondo
+                1474)</xref>. Although – indeed because – Biondo was a thoughtful, experienced, and
+                prolific writer, he faced some major challenges and unexpected problems while
+                working on his <italic>Italia Illustrata</italic>.<xref ref-type="fn" rid="fn2"
+                    >2</xref> He himself points to this in his first chapter:</p>
+            <disp-quote>
+                <p id="f6zxmyd8zzw7">It is very difficult indeed, amidst such huge changes in the
+                    history and topography (as those who have carefully read Roman history realize),
+                    to find a means to delimit the regions and to verify the names of their cities,
+                    towns, mountains, and rivers in proper fashion.</p>
+                <p id="s7pjufxk0o33">(<italic>Est vero perdifficile in tanta mutatione rerum
+                        regionumque – quantam vident factam qui Romanas historias attente legunt –
+                        modum adinvenire dividendis regionibus, recensendisque ordine civitatum,
+                        oppidorum, montium, fluminumque vocabulis</italic>.)(1.5)<xref ref-type="fn"
+                        rid="fn3">3</xref>
+                </p>
+            </disp-quote>
+            <p id="ewuot5uoi6nk">In the following, we analyze and discuss some of the problems
+                related to writing a geographical or topographical treatise in premodern times.
+                These problems especially concern the availability and usage of Biondo’s sources. In
+                approaching the challenge, we pay particular attention to the measurement data which
+                figure prominently in Biondo’s text.</p>
+            <p id="sje2iyg8wcn">Biondo’s <italic>Italia Illustrata</italic> is, as far as the
+                geographical information is concerned, a mixture of different sources and literary
+                genres. Biondo has the habit of citing his sources regularly throughout the text.
+                They are, first and foremost, literary sources from antiquity. Among them are
+                Ptolemy’s <italic>Geography</italic> (clearly in a Latin translation), Strabo’s
+                    <italic>Geography</italic> (most probably in Guarino’s then unpublished Latin
+                    translation),<xref ref-type="fn" rid="fn4">4</xref> Pomponius Mela’s
+                    <italic>Chorography</italic>, and – because of the geographical information
+                connected with Hannibal’s campaigns in Italy – Livy’s <italic>History of
+                    Rome</italic>. Of primary importance for the geographical framework of
+                    <italic>Italia Illustrata</italic> are Pliny the Elder’s chapters on Italy in
+                his <italic>Natural History</italic> (III.95–131). Biondo cites – and uses – Pliny
+                more often than any other geographical author. He even considers Pliny more reliable
+                than Ptolemy, the ultimate authority in geographical matters in the fifteenth
+                    century.<xref ref-type="fn" rid="fn5">5</xref>
+            </p>
+            <p id="j511btf444ow">But, as <xref ref-type="fig" rid="i81d9fb6zn6u">Figure 1</xref> and
+                    <xref ref-type="fig" rid="ykzxmezmyhvf">Figure 2</xref> below show, Biondo is
+                not shy of diverging from his Roman literary model, Pliny. His changes are not only
+                ‘updates’ of nomenclature or historical transformation, often involving the
+                insertion of modern towns into his text, but also concern traditionally held factual
+                truths, like the boundaries of regions or the numbering and ordering of the Italian
+                    regions.<xref ref-type="fn" rid="fn6">6</xref>
+            </p>
+            <fig id="i81d9fb6zn6u" fig-type="content-image">
+                <label>Figure 1.</label>
+                <caption>
+                    <title>Roman <italic>Regiones</italic>
+                    </title>
+                    <p>Image by author</p>
+                </caption>
+                <alternatives>
+                    <graphic specific-use="online"
+                        xlink:href="https://hertz-foto-os1.biblhertz.it/iiif/3/dpub%2Fhsah0103%2Fhsah_0103_01.jp2/full/max/0/default.jpg"/>
+                    <graphic specific-use="archival" xlink:href="hsah_0103_01.jpg"/>
+                </alternatives>
+            </fig>
+            <fig id="ykzxmezmyhvf" fig-type="content-image">
+                <label>Figure 2.</label>
+                <caption>
+                    <title>Biondo Regions</title>
+                    <p>Image by author</p>
+                </caption>
+                <alternatives>
+                    <graphic specific-use="online"
+                        xlink:href="https://hertz-foto-os1.biblhertz.it/iiif/3/dpub%2Fhsah0103%2Fhsah_0103_02.jp2/full/max/0/default.jpg"/>
+                    <graphic specific-use="archival" xlink:href="hsah_0103_02.jpg"/>
+                </alternatives>
+            </fig>
+            <p id="k7ycqghwplqn">Why does Biondo choose different boundaries to Pliny? And how does
+                he do it? A key may be found in 12.1, where Biondo, when starting to describe the
+                region of Abruzzo, drastically modifies the traditional boundaries (see <xref
+                    ref-type="fig" rid="trbkm0nm3b7i">Figure 3</xref>).<xref ref-type="fn" rid="fn7"
+                    >7</xref>
+            </p>
+            <fig id="trbkm0nm3b7i" fig-type="content-image">
+                <label>Figure 3.</label>
+                <caption>
+                    <title>Superimposition</title>
+                    <p>In this sketch the previous two maps are superimposed to emphasize the
+                        changes Biondo introduces with his textual mind-map of Latium compared to
+                        Pliny’s earlier version (broken lines). Only the Tiber, Biferno, and Sele
+                        rivers remain as defining features. The former unity of Latium and Campagna
+                        is now divided along the Liris/Garigliano. Pliny’s Samnium is redeployed
+                        with regio Latina advancing to the main ridge of the Apennines. Ancient
+                        Picenum, once reaching from the River Esino to the River Pescara is nearly
+                        cut in half to form newly founded Aprutium between the Tronto and Biferno
+                        (14.1: “Having dealt above with the region of the Samnites on the right bank
+                        of the River Biferno, I should have passed over to the left bank and started
+                        on Puglia”). Finally, Umbria advances from the River Nera to the Aniene,
+                        barely three miles from Rome.</p>
+                </caption>
+                <alternatives>
+                    <graphic specific-use="online"
+                        xlink:href="https://hertz-foto-os1.biblhertz.it/iiif/3/dpub%2Fhsah0103%2Fhsah_0103_03.jp2/full/max/0/default.jpg"/>
+                    <graphic specific-use="archival" xlink:href="hsah_0103_03.jpg"/>
+                </alternatives>
+            </fig>
+            <p id="nfcew24btmmr">Here Biondo writes of the remaining regions to be described
+                (Samnium, Campania, Apulia, Lucania, and the territories of the Salentini, Calabri,
+                and Bruttii). These seven regions had since been fused into a single entity called
+                “the Kingdom” (“<italic>septem hae regiones</italic> in unicam regni appellationem
+                sunt confusae”). The political landscape of central and southern Italy had
+                drastically changed in the century before Biondo, and therefore so too had the
+                organization of the different regions.<xref ref-type="fn" rid="fn8">8</xref> In the
+                same passage Biondo goes on to say:</p>
+            <disp-quote>
+                <p id="fkpobqhh1v0p">[...] what and where the enemies of these regions in more
+                    ancient times did will be easily gathered from the <italic>Histories</italic> of
+                    our ancestors or from my own, and will be easily expounded through the
+                    individual descriptions of cities and places, as I have done earlier […]([...]
+                        <italic>a maiorum aut nostris Historiis sumere et per singulas civitatum
+                        locorumque descriptiones [sicut supra fecimus] edocere</italic>
+                    [...]).(14.1)</p>
+            </disp-quote>
+            <p id="z8igc7samq9">Biondo explicitly enumerates the sources he has used in his previous
+                chapters. Interestingly, these are <italic>descriptions</italic> – not maps – of
+                cities and places.<xref ref-type="fn" rid="fn9">9</xref> Note also that such
+                    <italic>descriptiones, </italic>i.e., literary texts, often consisting of simple
+                lists of place names, remained popular until the eighteenth century. If one only
+                takes into account the literature of the ‘Western’ world, the tradition harkens back
+                to the Catalogue of Ships in Homer’s <italic>Iliad </italic>(II.494–759), if not
+                earlier. Ancient geographical literature such as Strabo’s
+                <italic>Geography</italic>, Pomponius Mela’s <italic>Chorography</italic>, and the
+                books on Europe, Asia, and Africa in Pliny’s <italic>Natural History</italic> were
+                full of lists and lacked maps, which, after all, were expensive and difficult to
+                produce (and reproduce). As modern geographical information systems are mostly
+                image-based (atlases, GPS systems, Google Earth, etc.), it is sometimes not easy for
+                us to appreciate the importance of such lists and the skill of authors who compiled,
+                arranged, and ‘narrated’ seemingly endless lines of place names.</p>
+            <p id="m1xaj5csov69">Of course, the lists and borders in Biondo’s sources needed to be
+                updated and organized according to contemporary (i.e., fifteenth century)
+                administrative and ecclesiastical domains. How exactly Biondo approached this kind
+                of updating remains unclear. He almost exclusively quotes authors from Greco-Roman
+                and early medieval times. That he indeed makes use of very few contemporary sources
+                can be gleaned from a passage in the <italic>Additiones correctionesque Italiae
+                    illustratae</italic>. In this passage, Biondo claims that he has prefaced the
+                original version of his <italic>Italia Illustrata</italic> with a catalogue of the
+                authors of his time. It was later deleted by the “perfidious bishop” (Francesco
+                Conduler?) who brought his work – prematurely – to light <italic>(“viros aetatis
+                    nostrae in catalogum principio promissum multis in operis urbibus et oppidis a
+                    me positos”</italic>).<xref ref-type="fn" rid="swo0nt9ixr6">10</xref> As such a
+                catalogue has not come down to us, we can only speculate about the quantity and
+                quality of contemporary authors. Occasionally, Biondo mentions modern historical and
+                regional studies (for example, Leonardo Bruni’s <italic>History of the Florentine
+                    People)</italic> which was surely important for his own chapter on Etruria
+                (Tuscany) in the <italic>Italia Illustrata</italic>. It is difficult to make an
+                educated guess as to the extent of use of contemporary sources. This is especially
+                true for the source material outside the humanist canon of exemplary authors: travel
+                reports, archival material, administrative documents, oral sources,<xref
+                    ref-type="fn" rid="fn11">11</xref> and – perhaps – regional maps may have been
+                used by Biondo. But, again, this falls into the realm of speculation.<xref
+                    ref-type="fn" rid="fn12">12</xref>
+            </p>
+        </sec>
+        <sec id="describing-italy-without-maps" sec-type="chapter">
+            <title>2. Describing Italy without Maps</title>
+            <p id="fm4566ns73u">Despite the huge differences between the regions of Italy in terms
+                of morphology, culture, and history, Biondo constructs and narrates spaces
+                throughout his work in a rather stereotypical fashion. Of primary importance are the
+                waterways. The larger regions in Italy are mostly shaped by the coastlines and by
+                the rivers emptying into the sea. Quite often, rivers subdivide these larger regions
+                into smaller units, thus also structuring the interior of the country.</p>
+            <p id="uk1kxq459kws">The Puglia chapter at the end of Biondo’s work illustrates his
+                method. It consists of only eight paragraphs but contains no less than 57
+                    toponyms<xref ref-type="fn" rid="fn13">13</xref> and 23 distance specifications.
+                As we may be dealing here with a section of <italic>Italia Illustrata</italic> that
+                has to a large extent remained a fragment, it is best suited to study Biondo’s
+                methodology. At the very beginning<xref ref-type="fn" rid="fn14">14</xref> we find
+                an explanation for his approach:</p>
+            <disp-quote>
+                <p id="czvasepu6g5l">Having dealt above with the region of the Samnites on the right
+                    bank of the River Tifernus [Samnium or Aprutium in <italic>regio</italic> 12],
+                    we could have passed over to the left bank of the river and started there with
+                    Puglia; but we were obliged to describe Campania first, because Campania is
+                        connected<xref ref-type="fn" rid="fn15">15</xref> with Samnium (as was shown
+                    before). But with Campania completed, we therefore must go back [to
+                        Puglia].(<italic>Oportuit supra Samnitium regione ad Tiferni amnis dexteram
+                        a nobis expedita ad eiusdem fluvii sinistram transire et ibi inchoantem
+                        Apuliam exordiri, sed connexam [sicut ostensum est] Samnio Campaniam prius
+                        describere coacti fuimus. Itaque ad Apuliam, finita Campania, redeundum
+                        est.</italic>)(14.1)</p>
+            </disp-quote>
+            <p id="hug2kudkbbyc">Here Biondo explains why he feels the urge to abandon the ‘natural’
+                course of his narrative. And here, as elsewhere,<xref ref-type="fn" rid="fn16"
+                    >16</xref> we see Biondo prioritizing historical considerations over
+                geographical ones. In the following, Biondo, like a virtual ship captain, cruises
+                along the Adriatic coastline of Puglia to the mouth of the first river, Tifernus
+                (Biforno), which he follows upstream. In the beginning, he only names the places
+                lying on the one side (the right-hand side) of the river. The distances between the
+                locations are indicated in miles, whenever they are known to him. Having arrived at
+                the source of the river, Biondo does not ‘sail back’, now describing the locations
+                on the other (left-hand) side of the river, but instead starts his voyage anew at
+                the mouth of the River Tifernus.<xref ref-type="fn" rid="fn17">17</xref> This
+                ‘redeployment’ was probably induced by his source material. Having again reached the
+                source of the river, Biondo now turns to the second Apulian river, the
+                Fortorius/Fortore, the mouth of which is claimed to be twenty miles from that of the
+                River Tifernus “along the coast [<italic>viginti milia passuum in litore
+                    distat</italic>]” (14.4). And once again, the virtual cruising along the river
+                enables Biondo to enumerate the towns, castles, lakes, etc. in the interior of
+                Puglia. This kind of narrative – which is reminiscent, <italic>mutatis
+                    mutandis</italic>, of a string of pearls or rosary – is both simple and
+                effective.</p>
+            <p id="u1bt7pkils4l">Again, it harkens back to ancient times, when geographical authors
+                like Strabo and Pliny employed it on a regular basis to describe regions and spaces
+                without resorting to a map (arguably resorting instead to a cognitive map). We may
+                call Biondo’s method ‘hodological’ (from the Greek <italic>hodós,</italic> for road,
+                path, way),<xref ref-type="fn" rid="fn18">18</xref> as the reader is left without a
+                bird’s-eye view, i.e., without a cartographic perspective of the region, and has
+                instead only the ‘street view’ of someone traveling virtually along a road or
+                coastline (or any other route).</p>
+            <p id="g48rv59h8f8n">Sticking to such a ‘one-dimensional’ view has certain consequences.
+                For one, the transmitted distances between two locations are rarely meant as linear
+                distances, but as routes along roads or coastlines, which deviate more or less from
+                any lines that may be drawn ‘as the crow flies’.<xref ref-type="fn" rid="fn19"
+                    >19</xref> Such distances, regularly expressed in miles (or rather, in steps, as
+                a mile is defined as 1000 steps: <italic>mille passuum</italic>), are contingent to
+                many factors, among them the length of the stride, the morphology of the terrain,
+                the condition of roads, the currents of the waterways, the possible existence of
+                barriers and obstacles, etc. In fact, in premodern times, when there was no
+                practical means to measure distances between towns, distances were either calculated
+                or rather counted in steps or recalculated based on the amount of time (normally in
+                hours) spent walking or sailing. It goes without saying that distances in this
+                ‘hodological’ system provide a relatively good estimation of the time required for a
+                journey between any two points, but are difficult to use and adapt for a
+                cartographical or geographical representation of space. In other words, depending on
+                the context, distances can be of either a more ‘practical’ or more ‘theoretical’
+                nature.</p>
+            <p id="ptc8pm0v4h8m">Biondo is obviously aware of this intrinsic problem. For him,
+                distances are neither geometrical lines nor simple roads. Therefore, every once in a
+                while, he adds some qualification to his measurement data, as the following in his
+                Aprutium (Abruzzo) chapter (14.54): “[…] these places are ten miles from Beneventum
+                (at the points where the crossing of the rivers is possible) [<italic>absunt haec
+                    loca a Benevento (fluviis ubi expedit transmissis) decimo </italic>[sc.
+                    miliario]]<italic>”.</italic>
+                <xref ref-type="fn" rid="fn20">20</xref>
+            </p>
+            <p id="vl87p6psm95q">While the number of distances transmitted by Biondo is impressive
+                in itself, he is also interested in the <italic>quality</italic> of the data. As
+                Biondo often cites the sources of the measurement data – in nearly all instances
+                works from Greco-Roman antiquity – this underlines his broad reading and diligent
+                extraction from sources.<xref ref-type="fn" rid="fn21">21</xref> Apparently, he pays
+                much attention to distances throughout his work, which eventually resulted in a
+                considerable amount of metrological information. Sometimes, he even makes an
+                explicit effort to evaluate his data by refining his numbers with certain qualifiers
+                like “plus/minus” (3.8). To his mind, informing the readers about the exact
+                distances is an integral part of his endeavor. But distances are rarely simple
+                elements of geographical information. Distances are very important for conveying a
+                    <italic>sense</italic> of spatiality.<xref ref-type="fn" rid="fn22">22</xref> By
+                using words and numbers, Biondo evokes mental images not only of the absolute and
+                relative location of places, but also of the intervals between them and thus of the
+                position, shape, and size of the regions described in <italic>Italia
+                    Illustrata</italic>. </p>
+        </sec>
+        <sec id="measurement-data-according-to-the-regions-in-italia-illustrata-some-remarks"
+            sec-type="chapter">
+            <title>3. Measurement Data According to the Regions in <italic>Italia
+                    Illustrata</italic>: Some Remarks</title>
+            <disp-quote>
+                <p id="if1eadiy3nnt">So in describing the eighteen regions of Italy (excluding the
+                    islands) – for we determined that she could be most conveniently divided so – we
+                    shall follow that nomenclature (out of the many possible) that is most familiar
+                    to our era [<italic>quae cum in aetate nostra sint notiora</italic>]<xref
+                        ref-type="fn" rid="fn23">23</xref> and seems best adapted to my purpose.
+                    These names are: Liguria (or the Genoese territory), Tuscany (Etruria), Latium
+                    (or Campania and the coastal region [<italic>Campania et Maritima</italic>]),
+                    Umbria (or the Duchy of Spoleto), Picenum (or the March of Ancona), Romandiola
+                    (or Flaminia et Aemilia), Cisalpine Gaul (or Lombardy), Venice, Transpadine
+                    Italy (or the March of Treviso), Aquileia (or Foroiuliana), Istria, Samnium or
+                    Aprutium, Terra di Lavoro (or Old Campania), Lucania, Apuglia, the Salentines
+                    (or Terra d’Otranto), Calabria and the land of the Brutii.(1.9)<xref
+                        ref-type="fn" rid="fn24">24</xref>
+                </p>
+            </disp-quote>
+            <p id="ryslvf169gsi">For reasons explained in quite vague detail in the appendix titled
+                    <italic>Additiones correctionesque</italic> in later editions, Biondo was unable
+                to finish the task he himself outlined in the passage cited above. <italic>Italia
+                    Illustrata</italic> has remained a torso. Out of the eighteen regions of Italy
+                mentioned in his introduction, the last four are not treated at all. And the
+                fourteenth region, Puglia, contains some features that suggest it was worked on
+                hastily, not the least because, as can be seen from Biondo’s text cited above,
+                Puglia should have come behind Lucania as <italic>regio</italic> 15.</p>
+            <p id="zg1mbtk8vjm">In the following, we discuss the measurement data in Biondo’s
+                    <italic>Italia Illustrata</italic>. As outlined in the previous paragraph,
+                distances play a crucial role in establishing a cognitive map<xref ref-type="fn"
+                    rid="fn25">25</xref> of Italy in the minds of Biondo’s readers. We present some
+                numerical tables for the whole <italic>Italia Illustrata</italic> at the outset,
+                then analyze Biondo’s source material, and finally go into detail by looking at
+                Biondo’s Latium chapter more closely. A summary will conclude our findings.</p>
+            <fig id="cf2lw7sxgj9" fig-type="content-image">
+                <label>Figure 4.</label>
+                <caption>
+                    <title>Toponyms and distances</title>
+                </caption>
+                <alternatives>
+                    <graphic specific-use="online"
+                        xlink:href="https://hertz-foto-os1.biblhertz.it/iiif/3/dpub%2Fhsah0103%2Fhsah_0103_04.jp2/full/max/0/default.jpg"/>
+                    <graphic specific-use="archival" xlink:href="hsah_0103_04.jpg"/>
+                </alternatives>
+            </fig>
+            <p id="v04b84h4v2cwy">
+                <xref ref-type="fig" rid="cf2lw7sxgj9">Figure 4</xref> presents the toponyms and
+                distances in Biondo’s <italic>Italia Illustrata,</italic> arranged according to the
+                fourteen regions he describes.<xref ref-type="fn" rid="fn26">26</xref> The first two
+                columns give the number and names of the regions in Biondo’s ordering.<xref
+                    ref-type="fn" rid="fn27">27</xref> As Biondo has a paragraph on the size of
+                Italy as a whole (1.3), we have excluded four distance specifications on the length
+                and width of Italy contained therein. On the other hand, we have included from the
+                    <italic>Additiones correctionesque</italic> the toponyms and distances for
+                Liguria and Etruria. The third column shows the number of words for each chapter. As
+                Paolo Pontari’s definitive “national edition” has not yet been completed, we have
+                used Jeffrey A. White’s version of 2005–2016.<xref ref-type="fn" rid="fn28"
+                    >28</xref> The fourth column states the number of <italic>regional
+                    toponyms</italic>. In this, we excluded generic terms like “Italy”, “Latium”, or
+                the “Tyrrhenian Sea”, names of locations which do not in fact lie in the described
+                region (for example, Alexandria in Egypt, or Verona, which is mentioned in the
+                Liguria chapter: “a Plinio Veronense”), variants of names, subcategories (for
+                example, a church within a settlement or town), anonymous towns, and – quite often –
+                mountains and rivers. Mountains and rivers are included, however, whenever Biondo
+                indicates a specific ‘landmark’ in association with them, such as the source or
+                mouth of a river, or a part of a mountain, island, or coast. In other words, we have
+                taken “toponym” to mean “point in the landscape”. The sixth column states the number
+                of distances in the chapter.<xref ref-type="fn" rid="fn29">29</xref> Distances are
+                defined here as the “extension of space between two points on a measured course”.
+                The “extension” is usually expressed in a specific unit of measurement and defined
+                by a certain quantity. “The distance from A to B is x miles” is an example of the
+                standard phrasing used in Biondo’s <italic>Italia Illustrata</italic>. In most
+                cases, Biondo’s mile is the traditional Roman mile, equaling, roughly,<xref
+                    ref-type="fn" rid="fn30">30</xref> 1.5 kilometers. This can be inferred from
+                passages when Biondo feels compelled to make a conversion to the ‘modern’ mile<xref
+                    ref-type="fn" rid="fn31">31</xref> or adds a qualification to his numerical
+                statement, like “as today [<italic>ut nunc</italic>]”.<xref ref-type="fn" rid="fn32"
+                    >32</xref> That said, however, he also uses other units of measurement, like
+                    feet,<xref ref-type="fn" rid="fn33">33</xref> steps,<xref ref-type="fn"
+                    rid="fn34">34</xref> stades,<xref ref-type="fn" rid="fn35">35</xref> or day’s
+                    journeys,<xref ref-type="fn" rid="fn36">36</xref> often depending in each case
+                on his ancient and medieval sources. In our statistics, we have not included
+                unspecific general statements such as “in the vicinity” or “not far from” and have
+                only included <italic>numerical</italic> distances.<xref ref-type="fn" rid="fn37"
+                    >37</xref>
+            </p>
+            <p id="sw2t7ajlx8n8">The fifth and eighth columns give the numbers of toponyms per
+                10,000 words in <italic>Italia Illustrata</italic>, which helps us understand how
+                often distances appear in the text and how Biondo attempts to create a mental map of
+                Italy.</p>
+            <p id="sgqmrpmkxvt">In all, we find 297 distance specifications in the <italic>Italia
+                    Illustrata</italic>. As an average, this equates to 21 stated distances per
+                region or a ratio of 423 words of description per every numerical distance. For the
+                sake of comparison: Strabo’s <italic>Geography</italic>, which lends itself to
+                comparison with <italic>Italia Illustrata</italic> in scope and form, has an average
+                of 77 measurements of distance per country (or more exactly, 65 for the northern
+                part of Italy and 94 for the southern), which in turn equates to a ratio of 211
+                words of description for every numerical distance.<xref ref-type="fn" rid="fn38"
+                    >38</xref> This means that Biondo conveys less than half the measured distances
+                that Strabo gives over the same amount of words. Even if we do account for
+                differences in language, historical period, and topic, the discrepancy is
+                nevertheless remarkable. To our mind, it cannot be explained merely by the
+                difference in availability of source material. In fact, the most comprehensive
+                collection of measured distances in the Greco-Roman world, the <italic>Itinerarium
+                    Antonini or Antonine Itinerary</italic>, which contains nearly 2900 distance
+                specifications, was indeed known to Biondo – he actually quotes it twice in his
+                    <italic>Italia Illustrata.</italic>
+                <xref ref-type="fn" rid="fn39">39</xref> However, it remains, strangely enough,
+                hardly exploited, if at all, in this regard. The same holds true for the
+                eighth-century <italic>Ravenna Cosmography</italic>, which Biondo attributes to a
+                “Guido of Ravenna” or “Guido Presbyter of Ravenna”.<xref ref-type="fn" rid="fn40"
+                    >40</xref> Most likely, Biondo’s approach to the topography of Italy was induced
+                by <italic>historical</italic> rather than geographical considerations. As we have
+                seen while discussing the changes of the regional border made by Biondo, his
+                ‘Herodotean’ objective consists in battling against historical oblivion.
+                Geographical exhaustiveness is not his primary goal.</p>
+            <p id="h5hen6bxeruq">We turn now to the measurement data in Biondo’s chapter on Latium,
+                which contains 53 distance specifications.<xref ref-type="fn" rid="fn41">41</xref>
+                Several of them are taken from Strabo’s <italic>Geography</italic>. </p>
+        </sec>
+        <sec id="a-change-of-plan-biondos-latium-chapter" sec-type="chapter">
+            <title>4. A Change of Plan? Biondo’s Latium Chapter</title>
+            <disp-quote>
+                <p id="rz1uy2ysj6t">In order to follow the most knowledgeable author in antiquity
+                    and also Pliny (who drew on him), we are compelled to attach the region of the
+                    Latins to our present-day Campania and the coastal region [<italic>Campania et
+                        Maritima</italic>]. And I do not know for sure as to whether I can do
+                    justice to the present-day Latium in the same way as I could do justice – with
+                    the help of Livy of Padua, the divine Augustus, Vergil, Strabo, and Pliny – to
+                    the ancient times […]</p>
+                <p id="blfqcjo1sbg9">(<italic>Unde peritissimum hunc vetustatis scriptorem et simul
+                        Plinium [qui ab eo sumpsit] secuturi, eam Latinorum regionem nostrae nunc
+                        Campaniae et Maritimae cogimur applicare. Nec satis scio si in nostra Latina
+                        regione rebus praesentibus ita satis potero facere sicut Livii Patavini,
+                        Divi Augusti, Vergilii, Strabonis</italic> […])(3.2)</p>
+            </disp-quote>
+            <p id="xi0ve9t5zjd">In the Latium chapter, Biondo claims to follow – among other authors
+                like “Augustus”,<xref ref-type="fn" rid="fn42">42</xref> Vergil,<xref ref-type="fn"
+                    rid="fn43">43</xref> and Livy<xref ref-type="fn" rid="fn44">44</xref> – both
+                Strabo, “peritissimum hunc vetustatis scriptorem” (3.2), and Pliny, who allegedly
+                drew upon his predecessor.<xref ref-type="fn" rid="fn45">45</xref> The last
+                statement is pure guesswork on Biondo’s part. Nowhere in his <italic>Natural History
+                    does</italic> Pliny mention Strabo and according to modern scholarship it is
+                questionable that he even knew his writings.<xref ref-type="fn" rid="fn46">46</xref>
+            </p>
+            <p id="bjbi01x5eu3m">While Biondo names more than 200 toponyms and ethnonyms in this
+                chapter, 143 can be defined as toponyms of Latium.<xref ref-type="fn" rid="fn47"
+                    >47</xref>
+            </p>
+            <p id="o62fv51vazqm">Here is a list of the toponyms in Biondo’s Latium chapter
+                (3.3ff.):</p>
+            <disp-quote>
+                <p id="vyufhj531sj">1 = Ostia; 2 = Antium; 3 = Neptunium; 4 = Lanuvium/Lavinia
+                    (White: Civita Indivina Prosperi Columnae cardinalis); Lavinium (the reading has
+                    rightly been emended to Lanuvium); 5 = Ardea ; 6 = Astura/Astur; 7 = Mons
+                    Circeius/Oppidum Sanctae Felicitatis; 8 = Pontine Sea; 9 =
+                    Terracina/Terracinae/Anxur/Anxurus/Amyklai; 10 = Satura; 11 = Praetorium; 12 =
+                    Formium/Formiae/Formia/Hormiae; 13 = Fundana/Fondi/Funda; 14 = Villa; 15 = Lacus
+                    Fundanus; 16 = Itrum; 17 = Caieta; 18 = Turris Sancti Anastasii; 19 =
+                    Spelunca/Sperlonga; 20 = “well-known village”; 21 = Castellonum oppidum et
+                    Honorarum villa; 22 = (island of) Pandana; 23 = (island of) Pontia; 24 =
+                    Caecubum; 25= Sinuessa/mouth of Liris/Gaurianus; 26 = Speninum; 27 = Fractae; 28
+                    = Pons Corvus (Fregellae); 29 = Ceperanum; 30 = Marinum/Villa
+                    Mariana/Portium/Marianum; 31 = Velitrae; 32 = Cora; 33 = Mons Catilius; 34 =
+                    Sarmineta; 35 = Aquae Foetidae; 36 = Setia; 37 = Privernum; 38 = Maientia
+                    (oppidula); 39 = Gorga (arx); 40 = Sicca (arx); 41 = Somnianum; 42 = Alba; 43 =
+                    village of the Savelli (with monastery); 44 = Aricia; 45 = Forum Appi/Fossa
+                    Nova; 46 = Columna; 47 = Valmontonum (= Lavici?); 48 = Gallicanum (= Gabii?); 49
+                    = Praeneste/Palestrina; 50 = Cavae; 51 = Zinazanum; 52 = Anagnia; 53 =
+                    Ferentinum; 54 = Frusinona; 55 = Pallianum; 56 = Serronum; 57 = Pillium; 58 =
+                    Acutum; 59 = Trivilianum; 60 = Colla Pardi; 61 = Anticulum; 62 = Verulae; 63 =
+                    Alatrum; 64 = Babucum (= Bovillae); 65 = Turritium; 66 = Pofae; 67 = Vicus; 68 =
+                    Ripae; 69 = Porcilianum; 70 = Trevum; 71 = Felectinum;
+                    Lavicanum/Lavici/Lavicum/Valmontone (= no. 47); 72 = Monsfortinus; 73 =
+                    Zanchatum; 74 = Gavignanum; 75 = Signia; 76 = Scurcula; 77 = Merulum; 78 =
+                    Supinum; 79 = Patrica; 80 = Caecanum; 81 = Castrum; 82 = Tibur; 83 = Vicus
+                    Varroni; 84 = Portella; 85 = Cantalupum; 86 = Rivus Frigidus (mountain); 87 =
+                    Arceolum/Carseoli; 88 = Cellae; 89 = Sculcula; 90= Peretum; 91 =
+                    Taliacotium/Tallacoccium; 92 = Valeria/(= town of the) Marsi; 93 = Alba
+                    (probably not the same as no. 42, but Alba Marsorum); 94 = Marubia; 95 = Sanctus
+                    Apetitus (castellum); 96 = Sancta Iona (castellum); 97 = Paternum; 98 =
+                    Transacum; 99 = Gaianum; 100 = Avecianum; 101 = Mallianum; 102 = Celanum; 103 =
+                    Piscina; 104 = Oppidum Veneris; 105 = Viticula; 106 = Castrum Vetus; 107 =
+                    Gorgianum; 108 = Rhoca Cavarum; 109 = Guadagnolum; 110 = Folium; 111 = Casa
+                    Corbola; 112 = Sanctus Gregorius; 113 = Rocha Liricis; 114 = Caecilianum; 115 =
+                    Sambuca; 116 = Sarracinescum; 117 = Rocha Mutiorum; 118 = Giranum; 119 =
+                    Ceretum; 120 = Anticulum; 121 = Rivate; 122 = Afile; 123 = Civitella; 124 =
+                    Olibanum; 125= Piscianum; 126 = Sanctus Vitus; 127 = Sublacum/Sublaquaeum; 128 =
+                    Tusculum; 129 = Sanctus Iohannes in Campo Horatii; 130 = Sancta Maria de Gripta
+                    Ferrata/Tusculanum Ciceronis; 131 = Rocha Papae; 132 = Lucullanum/Frascatum; 133
+                    = Lake Alban; 134 = Lake Nemorensic; 135 = Nemus; 136 = Cinthianum; 137 =
+                    Castrum Gandulfum; 138 = Pons Mamolus; 139 = Bridge of the Via Numentana; 140 =
+                    Bridge of the Via Salaria; 141 = Fidenae/Fidena; 142 = Vatican; 143 =
+                    Pupinia.</p>
+            </disp-quote>
+            <p id="kczzaf0i3fnm">The sheer number dwarfs the toponyms we find in the descriptions
+                and catalogues of Ptolemy, Strabo, Pliny, Mela, Livy, and others. In fact, the sum
+                of toponyms found in Biondo’s Latium chapter is much higher than the sum of all the
+                ancient sources combined.</p>
+            <p id="c7inmptf3urf">It goes without saying that the list of toponyms presented in the
+                previous paragraph shows only cumulative and average numbers per chapter. The actual
+                distribution of toponyms in the text is rather uneven. Biondo has a propensity of
+                assembling consecutive toponyms into clusters, without explanatory text. According
+                to Ottavio Clavuot, “[...] nearly two thirds of the place names are given as
+                uncommented clusters”.<xref ref-type="fn" rid="fn48">48</xref>
+            </p>
+            <p id="t40jggmt95uu">The structure of such conglomerations of toponyms, hereafter termed
+                “clusters”, reveal what type of source Biondo may have used:</p>
+            <list list-type="order">
+                <list-item>
+                    <p id="jt66p0z7pa3o">a) a ‘one-dimensional’ itinerary or a two-dimensional sheet
+                        map or</p>
+                </list-item>
+                <list-item>
+                    <p id="wxjjbfwdj6ik">b) an administrative document (be it civil, military, or
+                        clerical), organized in exhaustive lists or</p>
+                </list-item>
+                <list-item>
+                    <p id="kmi48t0ovqva">c) a mixture of two or three types.</p>
+                </list-item>
+            </list>
+            <p id="www39cm1dfaa">Especially the latter may have a geographically random sequence of
+                names, their structure dominated by other considerations such as date of
+                acquisition, economic importance, or similar principles.</p>
+            <p id="sc9vci4gll09">For Latium we find four clusters.<xref ref-type="fn" rid="fn49"
+                    >49</xref> They are all related to the ancient roads (<italic>viae</italic>),
+                which Biondo intends to follow, by declaring:</p>
+            <disp-quote>
+                <p id="azf8x76espi">But in the inland areas there were many cities and almost
+                    numberless towns and castles, of which, according to Pliny, fifty-three peoples
+                    have perished without trace. In describing this inland region, we shall not be
+                    able to adhere to the method which we have used in other [regions] – starting
+                    with the mouths, sources, and courses of the rivers. But we shall adopt another,
+                    which will meet our needs better and which cannot be applied to other regions of
+                    Italy: by proceeding along the three roads – <italic>Appia</italic>,
+                        <italic>Latina</italic>, and <italic>Tiburtina</italic> – which by different
+                    routes will lead to the River Liris and to Sinuessa and Caieta. Nor will we be
+                    able to advance with such steady progress step by step, to avoid the appearance
+                    of digressing and going astray (inevitably so, since the roads have sometimes
+                    deviated from their route), when bridges have been ruined, sometimes because
+                    they have since been completely destroyed and are completely unknown as a
+                    result.(3.18–19)</p>
+            </disp-quote>
+            <p id="b4j3acw23bw">Interestingly, Biondo does not inform his readers that he has
+                inherited the “new method” of presenting locations “on”, “near”, and “between” from
+                the Greek geographer Strabo. In Book V of <italic>Geography</italic>, Strabo, an
+                ardent admirer of Roman craftmanship, writes as follows:</p>
+            <disp-quote>
+                <p id="rzgd6e4ib1sr">As for the rest of the cities of Latium, their position may be
+                    defined, some by a different set of distinctive marks, and others by the
+                    best-known roads that have been constructed through Latium; for they are
+                    situated either on these roads, or near them, or between them. The best known of
+                    the roads are the Via Appia, the Via Latina, and the Via Valeria […].(V.3.9, C
+                    236)</p>
+            </disp-quote>
+            <p id="k5o504uiw6rr">Why does Biondo choose to pass over this fact in silence, given his
+                fondness of citing Strabo as his main authority throughout the Latium chapter?</p>
+            <p id="zifgp2itxdoc">In 3.19, after “narrating” the coastline of Latium until Sinuessa
+                and some settlements along the River Liris, Biondo claims that he can longer use the
+                “traditional method”, “Ariadne’s thread”, as employed in his description of the
+                previous regions (i.e., using the rivers from their mouth and heading upstream as
+                his ‘unspooling’ guide in describing the inland regions). Instead he declares his
+                intention of following the three <italic>viae</italic>
+                <italic>Appia, Latina, and Tiburtina,</italic> which lead to the River Liris and the
+                towns of Sinuessa and Caieta.</p>
+            <p id="ds0nkulqngp8">As one may guess from the titular endpoints of these three roads
+                (which are in fact rivers!), Biondo, like his predecessor Strabo, is unwilling to
+                entirely give up his proven ‘river method’. For example, in 3.33, when describing
+                locations along the <italic>Via Tiburtina</italic>, he writes as follows: “To the
+                left of the River Aniene in these mountains is first a town called Vicovaro […].
+                Higher up are the little towns of Portella and Cantalupo. Then there is Riofreddo on
+                a steep hill […] <italic>etc</italic>.” Obviously, even the “new method” was unable
+                to solve every problem.</p>
+            <p id="m6xzmbs3d19">The three ‘surrogate rivers’ (i.e., the ancient roads first skirting
+                the Pontine Marches [<italic>Via Appia</italic>], then following the River Sacco
+                    [<italic>Via Latina</italic>], before heading eastwards [<italic>Via
+                    Tiburtina</italic>]) were separated by the western Monti Lepini and the eastern
+                Monti Ernici respectively.<xref ref-type="fn" rid="fn50">50</xref> In the case of
+                the central valley, the route taken was the <italic>Via Lavicana</italic> of the
+                    <italic>Itinerarium Antonini</italic>, but in other documents and in other times
+                or sections it was variously known as the <italic>Via Latina</italic> or <italic>Via
+                    Casilina</italic>. East of the Monti Ernici, Biondo follows the <italic>Via
+                    Tiburtina</italic> which changes its name beyond Tivoli/Tibur to <italic>Via
+                    Valeria</italic> and still further east in the vicinity of Lake Fucino to
+                    <italic>Via Claudia Valeria</italic>. Biondo is perfectly clear by saying that
+                he is unable to follow these ancient roads, due to their general disintegration and
+                changes to the landscape since ancient times. In fact, in Biondo’s time, the
+                    <italic>Via Appia</italic> was replaced by an <italic>Appia
+                Pedemontana</italic>, following the foothills of the Monti Lipini.<xref
+                    ref-type="fn" rid="fn51">51</xref>
+            </p>
+            <fig id="quvx23dlkb4b" fig-type="content-image">
+                <label>Figure 5.</label>
+                <caption>
+                    <title>Foothills Monti Ernici</title>
+                </caption>
+                <alternatives>
+                    <graphic specific-use="online"
+                        xlink:href="https://hertz-foto-os1.biblhertz.it/iiif/3/dpub%2Fhsah0103%2Fhsah_0103_05.jp2/full/max/0/default.jpg"/>
+                    <graphic specific-use="archival" xlink:href="hsah_0103_05.jpg"/>
+                </alternatives>
+            </fig>
+            <p id="u9fhlj52yq86">The first cluster, consisting of eight towns and settlements,
+                apparently follows the fifteenth-century road from Palestrina to Frosinone:</p>
+            <disp-quote>
+                <p id="hppkevi39z7j">But on the road near this town [Frosinone], are, on the right
+                    side of Zinazani [Genazzano]: Pallianum, Serronum, Pillium, Acutum, Trivilianum,
+                    Collis Pardi, Anticulum [and] the ancient town of Verulae, about which Livy in
+                    Book IX says […].(3.29)</p>
+            </disp-quote>
+            <p id="zfk1rv7ya5k">This is indeed a collection of ‘interior towns’ mostly located in
+                the Monti Ernici and surely lying, on our map, all “to the right of Zinazani
+                [Genazzano]”, as Biondo says. Except for Frosinone, Biondo’s selection occupies the
+                foothills dominating the valley and following the ancient road at a distance of
+                roughly eight kilometers. The wrong sequence between Acutum (modern-day Acuto) and
+                Trivilianum (modern-day Véroli) is difficult to explain. It may be a simple
+                    <italic>lapsus</italic>
+                <italic>calami</italic>.<xref ref-type="fn" rid="fn52">52</xref> We cannot trace it
+                to either a map or an itinerary as a single source. Both types of records
+                occasionally feature two switched points but rarely see-saw back and forth between
+                several.</p>
+            <p id="awd466mufpl">The second cluster closely follows 3.29, consisting of nine towns
+                and settlements:</p>
+            <disp-quote>
+                <p id="biu2iu3tqhv">Then comes Alatrum […] and Babucum, formerly a town by the name
+                    Bovillae in Livy, [then] Turritium, Pofae, Vicus, Ripae, Porcilianum, Trevum,
+                    [and] Felectinum.</p>
+            </disp-quote>
+            <fig id="mz0jxnd87bjm" fig-type="content-image">
+                <label>Figure 6.</label>
+                <caption>
+                    <title>Monti Ernici</title>
+                </caption>
+                <alternatives>
+                    <graphic specific-use="online"
+                        xlink:href="https://hertz-foto-os1.biblhertz.it/iiif/3/dpub%2Fhsah0103%2Fhsah_0103_06.jp2/full/max/0/default.jpg"/>
+                    <graphic specific-use="archival" xlink:href="hsah_0103_06.jpg"/>
+                </alternatives>
+            </fig>
+            <p id="cudruhjmp4jb">This cluster appears to be a disorderly complement to the previous
+                selection, which is difficult to trace to an itinerary as a possible single
+                    source.<xref ref-type="fn" rid="fn53">53</xref> Searching for a (hypothetical)
+                use of historical records, we have not found any statistically relevant information
+                on ‘family records’ of any kind in this selection of towns. During Biondo’s
+                lifetime, only Alatri, Vico, and Ripi belonged to the Colonna family.</p>
+            <p id="zrh3hki8o6ck">The third cluster of six towns occurs in 3.31:</p>
+            <disp-quote>
+                <p id="sa97sj6oc80i">And farther on [beyond Segni] are Scurcula, Merulum, Supinum,
+                    Patrica, Caecanum, and Castrum, where there is another border of our region of
+                    Latium [now Campania].</p>
+            </disp-quote>
+            <fig id="oyjaxczm87yr" fig-type="content-image">
+                <label>Figure 7.</label>
+                <caption>
+                    <title>Foothills Monti Lepini</title>
+                    <p/>
+                </caption>
+                <alternatives>
+                    <graphic specific-use="online"
+                        xlink:href="https://hertz-foto-os1.biblhertz.it/iiif/3/dpub%2Fhsah0103%2Fhsah_0103_07.jp2/full/max/0/default.jpg"/>
+                    <graphic specific-use="archival" xlink:href="hsah_0103_07.jpg"/>
+                </alternatives>
+            </fig>
+            <p id="wny38f5dwco">As in the previous clusters, the settlements do not follow the
+                ancient road, the <italic>Via Labicana</italic>,<xref ref-type="fn" rid="fn54"
+                    >54</xref> but a somewhat parallel course in the foothills of the Monti Lepini.
+                Again, there is no trace of dominance by the Colonna family and, by extension, no
+                archival documentation.</p>
+            <p id="is8tg5jpl6a">The fourth cluster in 3.38, consisting of no less than thirteen
+                settlements, is grouped around Lake Fucine, including an ‘excursion’ along the
+                    <italic>Via Claudia</italic> Valeria, the main road across the Apennines,
+                connecting Latium to the Adriatic Sea.<xref ref-type="fn" rid="fn55">55</xref>
+            </p>
+            <disp-quote>
+                <p id="pzn4y4ot3s2">Around the lake stand the castles of St. Apetitus and St. Iona
+                    and the towns of Paternum, Transacum, Gaianum, Avecianum, and Mallianum and also
+                    Celanum, which is ruled by Leonellus, who, distinguished by the title of Count,
+                    is very dedicated to the liberal arts and history in particular. And along the
+                    shores of [Lake] Fucine and Celano there are also Piscina, the town of Venus,
+                    Viticula, Castrum Vetus, [and] Gorgianum, which also forms the border in this
+                    part of our region of Latium.</p>
+            </disp-quote>
+            <fig id="w9bmcb4a7qiu" fig-type="content-image">
+                <label>Figure 8.</label>
+                <caption>
+                    <title>Fucine Lake</title>
+                </caption>
+                <alternatives>
+                    <graphic specific-use="online"
+                        xlink:href="https://hertz-foto-os1.biblhertz.it/iiif/3/dpub%2Fhsah0103%2Fhsah_0103_08.jp2/full/max/0/default.jpg"/>
+                    <graphic specific-use="archival" xlink:href="hsah_0103_08.jpg"/>
+                </alternatives>
+            </fig>
+            <p id="t4ebdips1c6b">The sequence of towns and settlements does not follow the ancient
+                road nor the shoreline and seems unlikely to have been read off a map. Perhaps it is
+                ordered into three localized sub-clusters: the first lies to the northwest of the
+                lake (San Potito–Magliano), the second is connected to the eastern part of the lake
+                (Celano–Venere), and the third would be the three settlements marking the outer
+                limits of Latium (Goriano Sicoli–Vittorito). Note that these last three towns are
+                beyond the watershed on the Adriatic side of the Apennines range.</p>
+            <p id="zn5fusd40grd">Another statement by Biondo adds to the confusion. In 3.38 he
+                informs his readers that he “has left out some <italic>castella</italic> and
+                    <italic>oppida</italic> […] which do not lie in the vicinity of the three roads
+                mentioned above [<italic>omissa vero sunt a nobis superius nulli praedictarum trium
+                    viarum propinqua aliquot castella et oppida</italic>].” What a bewildering
+                statement! Effectively, Biondo admits here that he has deliberately chosen to ignore
+                geographical information which does not fit in to his preconceived authorial
+                framework. He nevertheless then mentions Rhoca Cavarum, “lying between Palestrina
+                and Tivoli as well as Vicovaro and Gennezauno [<italic>Praeneste Tiburque inter et
+                    Vicum Varronis ac Zinazanum sita</italic>]” as the origin of the “Capranica”.
+                After an <italic>elogium</italic> on the noble ancestry of this family, he then
+                spouts the names of another eighteen settlements, whose location remains unclear as
+                Biondo merely uses the adverbial expressions <italic>deinceps</italic>, <italic>his
+                    proxima</italic>, <italic>post, propinquum</italic>, without, however, bothering
+                to state the directions (a common circumstance in the <italic>Italia
+                    Illustrata</italic>, which has very few indications of compass roses or
+                winds).</p>
+            <p id="l5suwhrv8x2t">None of the clusters describes the modern sites along the ancient
+                roads, rather they broadly follow their path through the foothills in Latium. The
+                structure of the sequence of settlements suggests Biondo was drawing from a mixture
+                of literary records, maps, and personal experience as possible sources. Family
+                estates (after all, Biondo was apostolic secretary to Pope Eugene IV and the next
+                two popes) do not seem to play a role. Indeed, the many <italic>Baroni di
+                    Roma</italic>, including the papal administration of Campania et Maritima,
+                presided over estates in Latium that were exceedingly scattered – territorially and
+                temporally.</p>
+            <p id="ql5t7dvgczyl">The number of cluster names – 36 – compared to a total of 143
+                toponyms shows, on the one hand, that Biondo resorts to this means in presenting
+                geographical information at his disposal (and, moreover, feels at liberty to leave
+                it out, if inconvenient). On the other hand, however, it does not support, at least
+                not in the case of Latium, Ottavio Clavuot’s exaggerated claim that on average 65
+                percent of them are to be found in textual conglomerations of such kind.</p>
+            <p id="ifssv66chq8">Interestingly, Biondo makes no mention anywhere of maps for the
+                Latium chapter. In fact, our discussion of the distances suggests that Biondo has
+                neither a map of Latium nor an itinerary with all the distances. He seems not even
+                to have had access to a ‘road map’ containing distances for points along the
+                    <italic>Via Latina</italic>. </p>
+            <p id="zebz275gre7">On a final note: despite the fact that Biondo cites Strabo
+                throughout the Latium chapter more often than any other source, we nevertheless can
+                state that the Greek geographer played only a limited, if not marginal role. It is
+                true, Biondo loves to quote Strabo, especially for distances and information
+                otherwise unknown, but he clearly does not adopt his structure or narrative
+                accordingly. These were already defined <italic>before</italic> his acquaintance
+                with Strabo. And even his novel idea of illustrating Latium, not by rivers but by
+                roads – an idea which does indeed date back to Strabo – is not really carried
+                out.</p>
+        </sec>
+        <sec id="conclusion" sec-type="chapter">
+            <title>Conclusion</title>
+            <p id="kbtrgq2fl8o">As we have seen, Biondo’s <italic>Italia Illustrata</italic> makes
+                (at best) sporadic use of maps; neither does Biondo require it of readers to use a
+                map alongside his text. Following <italic>le tre corone</italic> of the fourteenth
+                century, Biondo wishes to generate in his readers’ minds a more or less complete
+                image of Italy.<xref ref-type="fn" rid="mz7yc1jdpzws">56</xref> The line of thought
+                which Biondo expects his readers to follow, is, in the end, an
+                    <italic>imagined</italic> itinerary, based on a mental map or cognitive script.
+                For this purpose, he does not feel the need to rely on a map (certainly not for his
+                description of Latium, although he uses or claims to have used them for other
+                regions), and instead employs the dominant master-model of premodern times, the
+                hodological view. Those rare passages where he does employ a bird’s eye view change
+                neither his basic approach to topography nor the fundamental construction principle
+                of his narrative.</p>
+            <p id="hlioxhu42xe">Common sense geography in the broadest sense is concerned with a
+                premodern ‘geometric’ model of reality which is intuitive and therefore
+                non-mathematical. It works surprisingly well with approximated directions and
+                distances because it can ‘crystalize’ into real locations and meeting places (like
+                Stonehenge, for example) by way of a sequence of remembered and memorized
+                landmarks.</p>
+            <p id="bqjrxpvacrek">Seen like this, a river or a road is a reassuring sequence of
+                landmarks leading to sites of reverence (like Rome or Jerusalem) as well as being of
+                military or mercantile nature. In this sense, Biondo appears to stand at the turning
+                point in history, solidly anchored in traditional and proven usage while collecting
+                the proud but non-mathematical heritage of the past. The future lies ahead of him –
+                already in sight, but still vague and fuzzy: Ptolemy’s purely mathematical model,
+                rendering the surface of the earth to scale and defining its respective elements in
+                pairs of geodesic coordinates (i.e., longitudes and latitudes). In the absence of
+                sufficiently precise instruments and methods to properly locate the landmarks in
+                mathematical terms, this task would eventually take several centuries to
+                complete.</p>
+        </sec>
+    </body>
+    <back>
+        <ref-list>
+            <title>References</title>
+            <ref id="Barbetta.1995">
+                <label>Barbetta 1995</label>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Barbetta</surname>
+                            <given-names>Silvia</given-names>
+                        </name>
+                    </person-group>
+                    <year>1995</year>
+                    <article-title>Via Labicana</article-title>
+                </element-citation>
+            </ref>
+            <ref id="Blondus.1474">
+                <label>Biondo 1474</label>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Biondo</surname>
+                            <given-names>Flavio</given-names>
+                        </name>
+                    </person-group>
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Biondo</surname>
+                            <given-names>Gaspare</given-names>
+                        </name>
+                    </person-group>
+                    <year>1474</year>
+                    <publisher-name>Johannes Philippus de Lignamine</publisher-name>
+                    <publisher-loc>Roma</publisher-loc>
+                    <article-title>Italia Illustrata</article-title>
+                    <uri xlink:href="http://resolver.staatsbibliothek-berlin.de/SBB00028B4F00000000"
+                        >Digitalization SBB</uri>
+                    <uri xlink:href="https://transkribus.humanitiesconnect.pub/#/documents/1226317">
+                        Transcription HumanitiesConnect</uri>
+                </element-citation>
+            </ref>
+            <ref id="Biondo.1927">
+                <label>Biondo 1927</label>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Biondo</surname>
+                            <given-names>Flavio</given-names>
+                        </name>
+                    </person-group>
+                    <year>1927</year>
+                    <article-title>Scritti inediti e rari di Flavio Biondo</article-title>
+                    <volume>48</volume>
+                </element-citation>
+            </ref>
+            <ref id="Biondo.2005b">
+                <label>Biondo 2005b</label>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Biondo</surname>
+                            <given-names>Flavio</given-names>
+                        </name>
+                    </person-group>
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>White</surname>
+                            <given-names>Jeffrey A.</given-names>
+                        </name>
+                    </person-group>
+                    <year>2005</year>
+                    <article-title>Italy Illuminated: Books I-IV</article-title>
+                </element-citation>
+            </ref>
+            <ref id="Biondo.2011">
+                <label>Biondo 2011</label>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Biondo</surname>
+                            <given-names>Flavio</given-names>
+                        </name>
+                    </person-group>
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Pontari</surname>
+                            <given-names>Paolo</given-names>
+                        </name>
+                    </person-group>
+                    <year>2011</year>
+                    <article-title>Italia Illustrata</article-title>
+                    <volume>1</volume>
+                </element-citation>
+            </ref>
+            <ref id="Biondo.2014">
+                <label>Biondo 2014</label>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Biondo</surname>
+                            <given-names>Flavio</given-names>
+                        </name>
+                    </person-group>
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Pontari</surname>
+                            <given-names>Paolo</given-names>
+                        </name>
+                    </person-group>
+                    <year>2014</year>
+                    <article-title>Italia Illustrata</article-title>
+                    <volume>2</volume>
+                </element-citation>
+            </ref>
+            <ref id="Biondo.2016">
+                <label>Biondo 2016</label>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Biondo</surname>
+                            <given-names>Flavio</given-names>
+                        </name>
+                    </person-group>
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>White</surname>
+                            <given-names>Jeffrey A.</given-names>
+                        </name>
+                    </person-group>
+                    <year>2016</year>
+                    <article-title>Italy Illuminated: Books V-VIII</article-title>
+                </element-citation>
+            </ref>
+            <ref id="Boshnakov.forthcoming">
+                <label>Boshnakov, forthcoming</label>
+                <element-citation publication-type="chapter">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Boshnakov</surname>
+                            <given-names>Konstantin</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>The Danube Tributary Account in Herodotus 4.48–49</article-title>
+                    <source>Studies in “Common Sense Geography”</source>
+                    <comment>Forthcoming</comment>
+                </element-citation>
+            </ref>
+            <ref id="Bouloux.2002">
+                <label>Bouloux 2002</label>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Bouloux</surname>
+                            <given-names>Nathalie</given-names>
+                        </name>
+                    </person-group>
+                    <year>2002</year>
+                    <article-title>Culture et savoirs géographiques en Italie au XIVe
+                        siècle</article-title>
+                    <volume>2</volume>
+                </element-citation>
+            </ref>
+            <ref id="Bouloux.2006">
+                <label>Bouloux 2006</label>
+                <element-citation publication-type="article-journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Bouloux</surname>
+                            <given-names>Nathalie</given-names>
+                        </name>
+                    </person-group>
+                    <year>2006</year>
+                    <article-title>Encore quelques reflexions sur l’usage des cartes par
+                        Pétrarque</article-title>
+                    <source>Quaderns d’Italià</source>
+                    <volume>11</volume>
+                    <uri xlink:href="https://raco.cat/index.php/QuadernsItalia/article/view/52998"
+                        >https://raco.cat/index.php/QuadernsItalia/article/view/52998</uri>
+                </element-citation>
+            </ref>
+            <ref id="Cesareo.1904">
+                <label>Cesareo 1904</label>
+                <element-citation publication-type="chapter">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Cesareo</surname>
+                            <given-names>Giovanni Alfredo</given-names>
+                        </name>
+                    </person-group>
+                    <year>1904</year>
+                    <article-title>La ‘carta d’Italia’ del Petrarca</article-title>
+                    <source>Dai tempi antichi ai tempi moderni, da Dante al Leopardi</source>
+                </element-citation>
+            </ref>
+            <ref id="Cesareo.1918">
+                <label>Cesareo 1918</label>
+                <element-citation publication-type="article-journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Cesareo</surname>
+                            <given-names>Giovanni Alfredo</given-names>
+                        </name>
+                    </person-group>
+                    <year>1918</year>
+                    <article-title>Ancora della “Pictura Italiae” attribuita al Petrarca e a Roberto
+                        d’Angiò</article-title>
+                    <source>Rivista geografica italiana</source>
+                    <uri
+                        xlink:href="http://digitale.bnc.roma.sbn.it/tecadigitale/giornale/UFI0147478/1918/unico"
+                        >http://digitale.bnc.roma.sbn.it/tecadigitale/giornale/UFI0147478/1918/unico</uri>
+                </element-citation>
+            </ref>
+            <ref id="Clavuot.1990">
+                <label>Clavuot 1990</label>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Clavuot</surname>
+                            <given-names>Ottavio</given-names>
+                        </name>
+                    </person-group>
+                    <year>1990</year>
+                    <article-title>Biondos “Italia illustrata” - Summa oder Neuschöpfung: Über die
+                        Arbeitsmethoden eines Humanisten</article-title>
+                    <volume>69</volume>
+                </element-citation>
+            </ref>
+            <ref id="Clavuot.2007">
+                <label>Clavuot 2007</label>
+                <element-citation publication-type="paper-conference">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Clavuot</surname>
+                            <given-names>Ottavio</given-names>
+                        </name>
+                    </person-group>
+                    <year>2007</year>
+                    <article-title>Visuelle Erfahrung, literarische Tradition und ideologisches
+                        Konzept in Biondos Italia Illustrata</article-title>
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Donattini</surname>
+                            <given-names>Massimo</given-names>
+                        </name>
+                    </person-group>
+                    <source>L’Italia dell’Inquisitore</source>
+                </element-citation>
+            </ref>
+            <ref id="Dalche.2017">
+                <label>Dalché 2017</label>
+                <element-citation publication-type="chapter">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Dalché</surname>
+                            <given-names>Patrick Gautier</given-names>
+                        </name>
+                    </person-group>
+                    <year>2017</year>
+                    <article-title>Strabo’s Reception in the West (Fifteenth–Sixteenth
+                        Centuries)</article-title>
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Dueck</surname>
+                            <given-names>Daniela</given-names>
+                        </name>
+                    </person-group>
+                    <source>The Routledge Companion to Strabo</source>
+                </element-citation>
+            </ref>
+            <ref id="Dan.2016">
+                <label>Dan et al. 2016</label>
+                <element-citation publication-type="article-journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Dan</surname>
+                            <given-names>Anca</given-names>
+                        </name>
+                        <name>
+                            <surname>Crom</surname>
+                            <given-names>Wolfgang</given-names>
+                        </name>
+                        <name>
+                            <surname>Geus</surname>
+                            <given-names>Klaus</given-names>
+                        </name>
+                        <name>
+                            <surname>Görz</surname>
+                            <given-names>Günther</given-names>
+                        </name>
+                        <name>
+                            <surname>Guckelsberger</surname>
+                            <given-names>Kurt</given-names>
+                        </name>
+                    </person-group>
+                    <year>2016</year>
+                    <article-title>Common Sense Geography and Ancient Geographical
+                        Texts</article-title>
+                    <source>eTopoi. Journal for Ancient Studies</source>
+                    <volume>6</volume>
+                    <pub-id pub-id-type="doi">10.17169/FUDOCS_document_000000026012</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="Diller.1971">
+                <label>Diller/Kristeller 1971</label>
+                <element-citation publication-type="chapter">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Diller</surname>
+                            <given-names>Aubrey</given-names>
+                        </name>
+                    </person-group>
+                    <year>1971</year>
+                    <article-title>Strabo</article-title>
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Kristeller</surname>
+                            <given-names>Paul Oskar</given-names>
+                        </name>
+                    </person-group>
+                    <source>Catalogus translationum et commentariorum</source>
+                    <uri xlink:href="http://catalogustranslationum.org/PDFs/volume02/v02_strabo.pdf"
+                        >http://catalogustranslationum.org/PDFs/volume02/v02_strabo.pdf</uri>
+                </element-citation>
+            </ref>
+            <ref id="Edson.2008">
+                <label>Edson 2008</label>
+                <element-citation publication-type="chapter">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Edson</surname>
+                            <given-names>Evelyn</given-names>
+                        </name>
+                    </person-group>
+                    <year>2008</year>
+                    <article-title>Petrarch’s Journey between Two Maps</article-title>
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Bork</surname>
+                            <given-names>Robert</given-names>
+                        </name>
+                        <name>
+                            <surname>Kann</surname>
+                            <given-names>Andrea</given-names>
+                        </name>
+                    </person-group>
+                    <source>The Art, Science, and Technology of Medieval Travel</source>
+                </element-citation>
+            </ref>
+            <ref id="Engels.2006">
+                <label>Engels 2006</label>
+                <element-citation publication-type="chapter">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Engels</surname>
+                            <given-names>Johannes</given-names>
+                        </name>
+                    </person-group>
+                    <year>2006</year>
+                    <article-title>Raum</article-title>
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Sonnabend</surname>
+                            <given-names>Holger</given-names>
+                        </name>
+                    </person-group>
+                    <source>Mensch und Landschaft in der Antike</source>
+                    <pub-id pub-id-type="doi">10.1007/978-3-476-00218-1</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="Gentile.1992b">
+                <label>Gentile 1992</label>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Gentile</surname>
+                            <given-names>Sebastiano</given-names>
+                        </name>
+                    </person-group>
+                    <year>1992</year>
+                    <article-title>Firenze e la scoperta dell’America: Umanesimo e geografia nel
+                        ’400 Fiorentino: Catalogo</article-title>
+                </element-citation>
+            </ref>
+            <ref id="Geus.2014">
+                <label>Geus/Thiering 2014</label>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Geus</surname>
+                            <given-names>Klaus</given-names>
+                        </name>
+                        <name>
+                            <surname>Thiering</surname>
+                            <given-names>Martin</given-names>
+                        </name>
+                    </person-group>
+                    <year>2014</year>
+                    <article-title>Features of Common Sense Geography: Implicit Knowledge Structures
+                        in Ancient Geographical Texts</article-title>
+                    <volume>16</volume>
+                </element-citation>
+            </ref>
+            <ref id="Geus.2017">
+                <label>Geus/Guckelsberger 2017</label>
+                <element-citation publication-type="chapter">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Geus</surname>
+                            <given-names>Klaus</given-names>
+                        </name>
+                        <name>
+                            <surname>Guckelsberger</surname>
+                            <given-names>Kurt</given-names>
+                        </name>
+                    </person-group>
+                    <year>2017</year>
+                    <article-title>Measurement Data in Strabo’s Geography</article-title>
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Dueck</surname>
+                            <given-names>Daniela</given-names>
+                        </name>
+                    </person-group>
+                    <source>The Routledge companion to Strabo</source>
+                </element-citation>
+            </ref>
+            <ref id="Geus.2020">
+                <label>Geus 2020</label>
+                <element-citation publication-type="chapter">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Geus</surname>
+                            <given-names>Klaus</given-names>
+                        </name>
+                    </person-group>
+                    <year>2020</year>
+                    <article-title>Lectura Blondiana: Zwei Anmerkungen zum Latium-Buch in Flavio
+                        Biondos Italia Illustrata</article-title>
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Albaladejo Vivero</surname>
+                            <given-names>Manuel</given-names>
+                        </name>
+                    </person-group>
+                    <source>Non sufficit orbis</source>
+                </element-citation>
+            </ref>
+            <ref id="Geus.forthcoming">
+                <label>Geus/Thiering, forthcoming</label>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Geus</surname>
+                            <given-names>Klaus</given-names>
+                        </name>
+                        <name>
+                            <surname>Thiering</surname>
+                            <given-names>Martin</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Studies in “Common Sense Geography”: New Perspectives on Ancient
+                        Texts</article-title>
+                </element-citation>
+            </ref>
+            <ref id="Janni.1984">
+                <label>Janni 1984</label>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Janni</surname>
+                            <given-names>Pietro</given-names>
+                        </name>
+                    </person-group>
+                    <year>1984</year>
+                    <article-title>La mappa e il periplo: Cartografia antica e spazio
+                        odologico</article-title>
+                    <volume>19</volume>
+                </element-citation>
+            </ref>
+            <ref id="Michalsky.2019">
+                <label>Michalsky 2019</label>
+                <element-citation publication-type="chapter">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Michalsky</surname>
+                            <given-names>Tanja</given-names>
+                        </name>
+                    </person-group>
+                    <year>2019</year>
+                    <article-title>Mentale Karten der Frühen Neuzeit: Die Bewältigung des
+                        historischen Raumes in der Italia illustrata von Flavio
+                        Biondo</article-title>
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Boschung</surname>
+                            <given-names>Dietrich</given-names>
+                        </name>
+                        <name>
+                            <surname>Schäfer</surname>
+                            <given-names>Alfred</given-names>
+                        </name>
+                    </person-group>
+                    <source>Monumenta Illustrata</source>
+                </element-citation>
+            </ref>
+            <ref id="Parthey.1860">
+                <label>Parthey/Pinder 1860</label>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <string-name> Anonymous Ravennas </string-name>
+                        <name>
+                            <surname>Pisanus</surname>
+                            <given-names>Guido</given-names>
+                        </name>
+                    </person-group>
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Parthey</surname>
+                            <given-names>Gustav</given-names>
+                        </name>
+                        <name>
+                            <surname>Schäfer</surname>
+                            <given-names>Alfred</given-names>
+                        </name>
+                    </person-group>
+                    <year>1860</year>
+                    <article-title>Ravennatis anonymi cosmographia et Guidonis geographica: Accedit
+                        tabula</article-title>
+                    <uri xlink:href="https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10429908-7"
+                        >https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb10429908-7</uri>
+                </element-citation>
+            </ref>
+            <ref id="Pontari.2009">
+                <label>Pontari 2009a</label>
+                <element-citation publication-type="article-journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Pontari</surname>
+                            <given-names>Paolo</given-names>
+                        </name>
+                    </person-group>
+                    <year>2009</year>
+                    <article-title>Pictura latens: La dispersa carta geografica d’Italia di Petrarca
+                        e Roberto d’Angiò</article-title>
+                    <source>Rinascimento</source>
+                </element-citation>
+            </ref>
+            <ref id="Pontari.2009b">
+                <label>Pontari 2009b</label>
+                <element-citation publication-type="paper-conference">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Pontari</surname>
+                            <given-names>Paolo</given-names>
+                        </name>
+                    </person-group>
+                    <year>2009</year>
+                    <article-title>Picturae et elocutiones: fonti storiche e geografiche dell’Italia
+                        illustrata di Biondo</article-title>
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Defilippis</surname>
+                            <given-names>Domenico</given-names>
+                        </name>
+                    </person-group>
+                    <source>Da Flavio Biondo a Leandro Alberti</source>
+                </element-citation>
+            </ref>
+            <ref id="Purton.2010">
+                <label>Purton 2010</label>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Purton</surname>
+                            <given-names>Peter Fraser</given-names>
+                        </name>
+                    </person-group>
+                    <year>2010</year>
+                    <article-title>A History of the Early Medieval Siege, c.
+                        450–1200</article-title>
+                </element-citation>
+            </ref>
+            <ref id="Richter.2022">
+                <label>Richter 2022</label>
+                <element-citation publication-type="paper-conference">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Richter</surname>
+                            <given-names>Kai-Florian</given-names>
+                        </name>
+                    </person-group>
+                    <year>2022</year>
+                    <article-title>The Description of Places in Biondo’s Italia Illustrata:
+                        Outlining a Quantitative Analysis of Their Granularity and Spatial
+                        Relationships</article-title>
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Michalsky</surname>
+                            <given-names>Tanja</given-names>
+                        </name>
+                        <name>
+                            <surname>Thiering</surname>
+                            <given-names>Martin</given-names>
+                        </name>
+                    </person-group>
+                    <source>Walking through history. An Interdisciplinary Approach to Flavio
+                        Biondo’s Spaces in the Italia Illustrata</source>
+                    <pub-id pub-id-type="doi">10.48431/hsah.0108</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="Salmeri.1988">
+                <label>Salmeri 1988</label>
+                <element-citation publication-type="chapter">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Salmeri</surname>
+                            <given-names>Giovanni</given-names>
+                        </name>
+                    </person-group>
+                    <year>1988</year>
+                    <article-title>Tra politica e antiquaria: Letture di Strabone nel XV e XVI
+                        secolo</article-title>
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Maddoli</surname>
+                            <given-names>Gianfranco</given-names>
+                        </name>
+                    </person-group>
+                    <source>Strabone e l’Italia antica</source>
+                </element-citation>
+            </ref>
+            <ref id="Siragusa.1918">
+                <label>Siragusa 1918</label>
+                <element-citation publication-type="article-journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Siragusa</surname>
+                            <given-names>G. B.</given-names>
+                        </name>
+                    </person-group>
+                    <year>1918</year>
+                    <article-title>La “pictura Italiae” attribuita al Petrarca e al re Roberto
+                        d’Angiò</article-title>
+                    <source>Rivista geografica italiana</source>
+                    <uri
+                        xlink:href="http://digitale.bnc.roma.sbn.it/tecadigitale/giornale/UFI0147478/1918/unico"
+                        >http://digitale.bnc.roma.sbn.it/tecadigitale/giornale/UFI0147478/1918/unico</uri>
+                </element-citation>
+            </ref>
+            <ref id="Srensen.2017">
+                <label>Sørensen 2017</label>
+                <element-citation publication-type="chapter">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Sørensen</surname>
+                            <given-names>Søren Lund</given-names>
+                        </name>
+                    </person-group>
+                    <year>2017</year>
+                    <article-title>So Says Strabo’: The Reception of Strabo’s Work in
+                        Antiquity</article-title>
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Dueck</surname>
+                            <given-names>Daniela</given-names>
+                        </name>
+                    </person-group>
+                    <source>The Routledge Companion to Strabo</source>
+                </element-citation>
+            </ref>
+            <ref id="Stauber.2005">
+                <label>Stauber 2005</label>
+                <element-citation publication-type="article-journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Stauber</surname>
+                            <given-names>Reinhard</given-names>
+                        </name>
+                    </person-group>
+                    <year>2005</year>
+                    <article-title>Kultur – Raum – Politik: Italiens Bild von sich selbst in der
+                        Renaissance</article-title>
+                    <source>Archiv für Kulturgeschichte</source>
+                    <volume>2</volume>
+                    <pub-id pub-id-type="doi">10.7788/akg.2005.87.2.285</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="Thiering.2014">
+                <label>Thiering 2014</label>
+                <element-citation publication-type="chapter">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Thiering</surname>
+                            <given-names>Martin</given-names>
+                        </name>
+                    </person-group>
+                    <year>2014</year>
+                    <article-title>Implicit Knowledge Structures as Mental Models in Common Sense
+                        Geography</article-title>
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Geus</surname>
+                            <given-names>Klaus</given-names>
+                        </name>
+                        <name>
+                            <surname>Thiering</surname>
+                            <given-names>Martin</given-names>
+                        </name>
+                    </person-group>
+                    <source>Features of Common Sense Geography: Implicit knowledge structures in ancient geographical texts</source>
+                    <fpage>265</fpage>
+                    <lpage>317</lpage>
+                </element-citation>
+            </ref>
+            <ref id="Thiering.2022">
+                <label>Thiering/Berthele 2022</label>
+                <element-citation publication-type="paper-conference">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Thiering</surname>
+                            <given-names>Martin</given-names>
+                        </name>
+                        <name>
+                            <surname>Berthele</surname>
+                            <given-names>Raphael</given-names>
+                        </name>
+                    </person-group>
+                    <year>2022</year>
+                    <article-title>Some Thoughts on a Spatial Language Analysis of Flavio Biondo’s
+                        Illustrated Italy</article-title>
+                    <person-group person-group-type="editor">
+                        <name>
+                            <surname>Michalsky</surname>
+                            <given-names>Tanja</given-names>
+                        </name>
+                        <name>
+                            <surname>Thiering</surname>
+                            <given-names>Martin</given-names>
+                        </name>
+                    </person-group>
+                    <source>Walking through history. An Interdisciplinary Approach to Flavio
+                        Biondo’s Spaces in the Italia Illustrata</source>
+                    <pub-id pub-id-type="doi">10.48431/hsah.0107</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="Tolias.2015">
+                <label>Tolias 2015</label>
+                <element-citation publication-type="article-journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Tolias</surname>
+                            <given-names>Giōrgos</given-names>
+                        </name>
+                    </person-group>
+                    <year>2015</year>
+                    <article-title>Penser les régions: Histoire brève d’une conception
+                        cosmographique</article-title>
+                    <source>Geographia Antiqua</source>
+                </element-citation>
+            </ref>
+        </ref-list>
+        <fn-group content-type="footnotes">
+            <title>Footnotes</title>
+            <fn id="fn1">
+                <label>1</label>
+                <p>On the genesis of the <italic>Italia Illustrata</italic>, see esp. <xref
+                        ref-type="bibr" rid="Biondo.1927">(Biondo 1927, 241)</xref>; <xref
+                        ref-type="bibr" rid="Gentile.1992b">(Gentile 1992)</xref>; <xref
+                        ref-type="bibr" rid="Salmeri.1988">(Salmeri 1988, 303–5)</xref>; Paolo
+                    Pontari’s introduction, in <xref ref-type="bibr" rid="Biondo.2011">(Biondo
+                        2011)</xref>; and <xref ref-type="bibr" rid="Dalche.2017">(Dalché 2017, esp.
+                        p. 370)</xref>. </p>
+            </fn>
+            <fn id="fn2">
+                <label>2</label>
+                <p>The concept of physical changes to the human environment, especially regarding
+                    toponyms, can be traced not only to Petrarch and Boccaccio, see <xref
+                        ref-type="bibr" rid="Gentile.1992b">(Gentile 1992)</xref>, but to Pliny’s
+                        <italic>Naturalis historia</italic> (VI.105): “[…] quae omnia [...] nomina
+                    apud neminem priorium reperiuntur, quo apparet mutari locorum status.”</p>
+            </fn>
+            <fn id="fn3">
+                <label>3</label>
+                <p>The English translations are our own.</p>
+            </fn>
+            <fn id="fn4">
+                <label>4</label>
+                <p> See <xref ref-type="bibr" rid="Diller.1971">(Diller/Kristeller 1971)</xref>; see
+                        <xref ref-type="bibr" rid="Geus.2020">(Geus 2020)</xref>. </p>
+            </fn>
+            <fn id="fn5">
+                <label>5</label>
+                <p>See 12.36: “Ptolemy lists Ortona, along with the mouth of the Aterno, as being in
+                    Paelignian territory. But Pliny (who when it comes to Italian matters is in my
+                    view more trustworthy) assigned the whole stretch from the mouth of the Aterno
+                    to the territory of Larino to the land of the Frentani. Not only that, but
+                    Ptolemy himself puts the city of Frentana to the left of the Aterno, where
+                    Francavilla now is, as Pliny does too, so that I am quite sure that either
+                    Ptolemy’s map was distorted [<italic>ut aut Ptolemaei picturam esse
+                        depravatam</italic>], since it is self-contradictory, or his informants were
+                    in error.”</p>
+            </fn>
+            <fn id="fn6">
+                <label>6</label>
+                <p>In 1.7 Biondo claims that Iginius (elsewhere “Hyginus”, i.e., the ‘Ravenna
+                    Cosmographer’) and Guido of Pisa knew of 700 towns in Italy see (<xref
+                        ref-type="bibr" rid="Parthey.1860">(Parthey/Pinder 1860,
+                        249.15-287.17)</xref>) but Biondo, who follows the <italic>Romanae ecclesiae
+                        stilum</italic> (i.e., <italic>loca quae episcopos habent</italic>), counts
+                    only 264, ignoring 40 <italic>civitates</italic>, which now belong to other
+                        <italic>dioeceses</italic>. Biondo concludes from these numbers that since
+                    the time of Guido (which was, according to his statement in 1.8, around 600
+                    years ago), 396 towns or settlements had been destroyed or abandoned. He adds
+                    his personal observation that more than 30 <italic>civitates et oppida</italic>
+                    were razed to the ground in his own lifetime. That Biondo cites a number of 700
+                    towns is puzzling. In the standard edition of the <italic>Ravenna
+                        Cosmography</italic> we find 492 entries. Subtracting the number of
+                    duplications in the text and adding the additional toponyms from Guido’s
+                    periplus in Book V of his <italic>Geographia</italic>, we arrive at
+                    approximately 450 towns at the very most. This huge discrepancy is difficult to
+                    explain. As the first edition was only published by David Placidus Porcheron in
+                    1688, Biondo may have had access to more or different manuscripts than the
+                    surviving three (now in Paris, Basel, and the Vatican).</p>
+            </fn>
+            <fn id="fn7">
+                <label>7</label>
+                <p>In this sketch the previous two maps are superimposed to emphasize the changes
+                    Biondo introduces with his textual mind-map of Latium compared to Pliny’s
+                    earlier version (broken lines). Only the Tiber, Biferno, and Sele rivers remain
+                    as defining features. The former unity of Latium and Campagna is now divided
+                    along the Liris/Garigliano. Pliny’s Samnium is redeployed with regio Latina
+                    advancing to the main ridge of the Apennines. Ancient Picenum, once reaching
+                    from the River Esino to the River Pescara is nearly cut in half to form newly
+                    founded Aprutium between the Tronto and Biferno (14.1: “Having dealt above with
+                    the region of the Samnites on the right bank of the River Biferno, I should have
+                    passed over to the left bank and started on Puglia”). Finally, Umbria advances
+                    from the River Nera to the Aniene, barely three miles from Rome.</p>
+            </fn>
+            <fn id="fn8">
+                <label>8</label>
+                <p>For the concept of “regional geography” in early modern times, see <xref
+                        ref-type="bibr" rid="Tolias.2015">(esp. Tolias 2015)</xref>. </p>
+            </fn>
+            <fn id="fn9">
+                <label>9</label>
+                <p>For the current <italic>communis opinio</italic> that Biondo depends heavily on
+                    maps, see, for example, <xref ref-type="bibr" rid="Stauber.2005">(Stauber 2005,
+                        294)</xref>, (here in translation): “Time and again, Biondo’s basic idea of
+                    roaming, wandering through the country is to be heard, and, correspondingly, a
+                        <italic>cartographically</italic> [our emphasis] inspired ordering of the
+                    lore and maps [our emphasis] were of importance for Biondo’s work.” (“Immer
+                    wieder klingt bei Biondo die Grundidee des Durchstreifens, des Durchwandern des
+                    Landes an, und entsprechend wichtig war ein kartographisch inspiriertes Ordnen
+                    der Überlieferung und waren Karten selbst für Biondos Arbeit.”) Especially on
+                    the use of maps, see <xref ref-type="bibr" rid="Clavuot.1990">(Clavuot 1990,
+                        55–84)</xref>; see <xref ref-type="bibr" rid="Clavuot.2007">(also Clavuot
+                        2007, 146)</xref>: “ausgiebig von Kartenmaterial Gebrauch gemacht”. See
+                        <xref ref-type="bibr" rid="Pontari.2009b">(also Pontari 2009b)</xref>; <xref
+                        ref-type="bibr" rid="Pontari.2009">(Pontari 2009a)</xref>; Pontari’s
+                    extensive introduction in <xref ref-type="bibr" rid="Biondo.2014">(Biondo 2014,
+                        155–78)</xref>; and rather more cautiously now Tanja Michalsky, who speaks
+                    of “mental maps” from a historical point of view, see <xref ref-type="bibr"
+                        rid="Michalsky.2019">(Michalsky 2019)</xref>. We cannot discuss Biondo’s use
+                    (or non-use) of maps here due to the constraints and objectives of this article.
+                    We plan to come to this point in another paper soon.</p>
+            </fn>
+            <fn id="swo0nt9ixr6">
+                <label>10</label>
+                <p>
+                    <xref ref-type="bibr" rid="Biondo.2016">(Biondo 2016)</xref>, appendix 1.2. One
+                    may wonder why Biondo (or his son) did not insert this list into the book again.
+                    Did the author (or the editor) feel it was no longer up to date?</p>
+            </fn>
+            <fn id="fn11">
+                <label>11</label>
+                <p>The role of oral reports (and, probably, autopsy, too) is underestimated in
+                    modern scholarship. Biondo did indeed question the locals for geographical
+                    information. See, for example, 13.18: “But who later effected the relocation of
+                    the city to a spot two miles away, where it is now, and when I have been unable
+                    to find out, either from reading or from the local inhabitants [ab his, qui
+                    inhabitant civibus]…”.</p>
+            </fn>
+            <fn id="fn12">
+                <label>12</label>
+                <p>Biondo makes mention of maps only six times in his whole Italia Illustrata,
+                    citing only the “maps of Ptolemy”, “carte nautiche”, and the mysterious “carta
+                    d’Italia” of Petrarch. See, for example, <xref ref-type="bibr"
+                        rid="Pontari.2009">(Pontari 2009a)</xref>. For Petrarch’s map, see also
+                        <xref ref-type="bibr" rid="Cesareo.1904">(Cesareo 1904)</xref>; <xref
+                        ref-type="bibr" rid="Cesareo.1918">(Cesareo 1918)</xref>; <xref
+                        ref-type="bibr" rid="Siragusa.1918">(Siragusa 1918)</xref>; and, for its
+                    cultural context, <xref ref-type="bibr" rid="Bouloux.2002">(Bouloux
+                    2002)</xref>; <xref ref-type="bibr" rid="Bouloux.2006">(Bouloux 2006)</xref>;
+                    and <xref ref-type="bibr" rid="Edson.2008">(Edson 2008)</xref>. </p>
+            </fn>
+            <fn id="fn13">
+                <label>13</label>
+                <p>We find 51 toponyms, excluding those of 14.1, and 57, if one includes the
+                    overview.</p>
+            </fn>
+            <fn id="fn14">
+                <label>14</label>
+                <p>In 14.1 Biondo also gives a general overview where Bari, Aequum Tuticum,
+                    Argyrippa, and Tarentum are located in (our understanding of) Apulia, before
+                    starting his proper description of Puglia in 14.2.</p>
+            </fn>
+            <fn id="fn15">
+                <label>15</label>
+                <p>White, in <xref ref-type="bibr" rid="Biondo.2016">(Biondo 2016, 351)</xref>,
+                    translates connexam with “adjacent” but, clearly, the relation between Samnium
+                    and Campania is more than a ‘topological’ connection.</p>
+            </fn>
+            <fn id="fn16">
+                <label>16</label>
+                <p>See, for example, 3.3: “Near the mouth of the Aniene, where it enters the Tiber,
+                    but beyond it in the region of Umbria, was where I calculate the ancient city of
+                    Fidenae was located. In his Life of Tiberius, Suetonius writes of Fidenae […].”
+                    Biondo then goes on to describe the “Umbrian” city in his chapter on Latium.</p>
+            </fn>
+            <fn id="fn17">
+                <label>17</label>
+                <p>We have not found any instance where Biondo does not adhere to his alternate
+                    definition of orientation on a river. One always finds him looking upstream,
+                    regardless of starting point: the sea, a tributary, or even a shore of a lake.
+                    Our modern convention of looking downstream was only instituted in Germany in
+                    the eighteenth century (see, for example, Wikipedia, URL: <ext-link
+                        ext-link-type="uri"
+                        xlink:href="https://de.wikipedia.org/wiki/Orographisch_links_und_rechts"
+                        >https://de.wikipedia.org/wiki/Orographisch_links_und_rechts</ext-link>,
+                    accessed 20.04.2020). For the upstream/downstream perspective in early Greek
+                    prose, especially Herodotus, see<xref ref-type="bibr"
+                        rid="Boshnakov.forthcoming">( Boshnakov, forthcoming)</xref>. </p>
+            </fn>
+            <fn id="fn18">
+                <label>18</label>
+                <p> See <xref ref-type="bibr" rid="Janni.1984">(Janni 1984)</xref>. This hodological
+                    principle can be interpreted as the application of a device known from ancient
+                    rhetoric and mnemonics (described in <xref ref-type="bibr" rid="Engels.2006"
+                        >(Engels 2006, 409)</xref>) to transform complex entities into linear
+                    structures and to connect the various elements of this scheme. With the help of
+                    measurement data it is even possible to define the size and distances of these
+                    elements and thus make them well-structured and reproducible for others.</p>
+            </fn>
+            <fn id="fn19">
+                <label>19</label>
+                <p>Very rarely, Biondo gives linear distances, qualified as being “on a straight
+                    line, directly [recto itinere instituto]”, for example, in 3.21, between
+                    Velitrae and Sarmineta. In <xref ref-type="bibr" rid="Biondo.2005b">(Biondo
+                        2005, 110)</xref>, White translates the passage concerning the distance
+                    between Viterbo and Valeria as: “six miles […] as the crow flies […].” But this
+                    is not in the Latin text and contradicts Biondo’s geographical vocabulary, with
+                    ad sextum lapidem (“at the sixth milestone”) being reserved for distances along
+                    roads. In modern literature, such deviations are often exaggerated. In a few
+                    cases they may even yield multiples of the linear distances and contribute to
+                    some geographical confusion and misconceptions in geographical literature. On
+                    the contrary, as our database on measurement data shows, on average, such
+                    deviations are approximately 30 percent off. Ingeniously, Ptolemy in his
+                    Geography (I.12.3; cf. I.13.2) gives the practical advice of shortening such
+                    distances by a third in order to arrive at the linear distance.</p>
+            </fn>
+            <fn id="fn20">
+                <label>20</label>
+                <p>As an example, see also 4.18: “Close to these [towns] and to Interamnia [Terni],
+                    too – were it not for the River Nar [Nera] – is Sanctus Geminus [San Gemini], a
+                    prominent town in the region [of Umbria].” The ‘proximity’ of a place – in this
+                    case between Interamnia/Terni and Sanctus Geminus/San Gemini – is clearly not
+                    measured in terms of distance (which here is approximately twelve kilometers or
+                    eight miles), but by the accessibility of a place, which was apparently
+                    obstructed by the flow of the river. Both modern Terni and San Gemini are
+                    located north of the Nera but the ancient name of Interamnia (literally,
+                    “between the rivers”) shows that Terni was thought to lie to the south of the
+                    Nera.</p>
+            </fn>
+            <fn id="fn21">
+                <label>21</label>
+                <p>We tend to think here – to a large extent – of textual sources, as it is
+                    difficult to read off distances from premodern maps, which either have no scale
+                    whatsoever or often exhibit toponyms of settlements which lie only a few
+                    kilometers from each other. Only the Tabula Peutingeriana and, centuries later,
+                    Erhard Etzlaub show numbers in miles next to the intervals.</p>
+            </fn>
+            <fn id="fn22">
+                <label>22</label>
+                <p>See, for example, <xref ref-type="bibr" rid="Thiering.2014">(Thiering
+                        2014)</xref>. </p>
+            </fn>
+            <fn id="fn23">
+                <label>23</label>
+                <p>In 1.11, Biondo is more precise: “[…] regarding it sufficient if I adapt to our
+                    own times the regional division of Italy obtained while the Roman state was at
+                    the height of its power (satis fore tenemus, si divisionem Italiae, quae Romana
+                    re publica florente fuit, nostris temporibus accomodare poterimus).” In his 2005
+                    translation, <xref ref-type="bibr" rid="Biondo.2005b">(Biondo 2005, 11)</xref>,
+                    White translates res publica here with “Republic”, which we consider wrong in
+                    this context – the Roman state was at the height of its power and most expansive
+                    in imperial times.</p>
+            </fn>
+            <fn id="fn24">
+                <label>24</label>
+                <p>For the sake of clarity, we do not follow in our translations an abstract rule in
+                    nomenclature but use interchangeably the Latin, old Italian, and modern names,
+                    selecting according to the context the ones which we deem most common and
+                    familiar to our readers.</p>
+            </fn>
+            <fn id="fn25">
+                <label>25</label>
+                <p>In recent years, some scholars – Martin Thiering first and foremost among them –
+                    have advocated the utilization of theories and methods of cognitive linguistics
+                    in a diachronic perspective. This novel approach, adopted by the Berlin ‘Common
+                    Sense Geography’ group, first bore fruit in <xref ref-type="bibr"
+                        rid="Geus.2014">(Geus/Thiering 2014)</xref>. See also <xref ref-type="bibr"
+                        rid="Dan.2016">(Dan et al. 2016)</xref>; and <xref ref-type="bibr"
+                        rid="Geus.forthcoming">(Geus/Thiering, forthcoming)</xref>. </p>
+            </fn>
+            <fn id="fn26">
+                <label>26</label>
+                <p>See also the contributions by <xref ref-type="bibr" rid="Thiering.2022">Thiering
+                        and Berthele</xref> in this volume; and <xref ref-type="bibr"
+                        rid="Richter.2022">Richter</xref> in this volume.</p>
+            </fn>
+            <fn id="fn27">
+                <label>27</label>
+                <p>From regio 8 (Venetiae) through to regio 11 (Histria), attributing toponyms is
+                    complicated by the fact that Biondo states in regio 8.2 that: “the region of the
+                    duchy is 80 miles long from Aquae Gradatae/San Canzian to Lauretum/Loreo […] and
+                    variable in breadth (habet autem eius ducatus regio longitudinem milium
+                    octoginta, ab Aquis olim Gradatis […] Latitudo autem varia).” The problem arises
+                    from the fact that San Canzian is east of the Isonzo and some coastal towns
+                    belong to Venice but are again listed as being in either regio 9 or regio 10.
+                    Here we have chosen all names mentioned in regio 8 south of the swamp line, as
+                    compared to places mentioned in regio 9 and regio 10. The sole remaining
+                    ambiguity is Monselice near Este, but that was only mentioned in regio 8.</p>
+            </fn>
+            <fn id="fn28">
+                <label>28</label>
+                <p>A preliminary comparison shows only minuscule differences in terms of toponyms
+                    and distances.</p>
+            </fn>
+            <fn id="fn29">
+                <label>29</label>
+                <p>Distance specifications concerning measurement across boundaries are counted
+                    separately.</p>
+            </fn>
+            <fn id="fn30">
+                <label>30</label>
+                <p>As mentioned above, the Roman mile simply equals 1000 steps, the latter
+                    contingent to the height of the body, the terrain, weather, and other
+                    factors.</p>
+            </fn>
+            <fn id="fn31">
+                <label>31</label>
+                <p>See 1.38: “The ancients have passed on to us a figure for the length of the
+                    Ligurian coast which we have surveyed from the River Varus to the mouth of the
+                    River Macra as being more than 211 miles, but in our era the length is
+                    calculated as hardly 180 miles”; 12.24: “[Hadria] was three miles from the sea
+                    according to Pliny, but five miles as calculated now”. See also 3.13, where
+                    Biondo has a conversion rate of 1:5 (instead of 1:8) for miles:stades. Cf. also
+                    13.4.</p>
+            </fn>
+            <fn id="fn32">
+                <label>32</label>
+                <p>13.4.</p>
+            </fn>
+            <fn id="fn33">
+                <label>33</label>
+                <p>5.6; 11.3; 11.8; 13.30; 13.56.</p>
+            </fn>
+            <fn id="fn34">
+                <label>34</label>
+                <p>1.22; 3.15; 5.14.</p>
+            </fn>
+            <fn id="fn35">
+                <label>35</label>
+                <p>3.5; 3.8; 3.11; 3.12; 3.13; 3.40; 4.10; 5.7 (where White, vol. 1, p. 253,
+                    translates secundo […] stadio as “a quarter of a mile”!); 6.58; 12.58.</p>
+            </fn>
+            <fn id="fn36">
+                <label>36</label>
+                <p>7.44; 10.5.</p>
+            </fn>
+            <fn id="fn37">
+                <label>37</label>
+                <p>To cite just a few examples in Latin: “paululum abest” (1.35), “paribus prope
+                    intervallis” (1.35), “remotius ad sinistram” (2.14), “proximo” (2.21), “paulo
+                    inde abest” (2.25), etc. It needs to be added here that we find far fewer
+                    expressions of such kind in Biondo than in ancient authors like Strabo and
+                    Pliny. The scope of this paper prevents us from discussing this interesting
+                    element of common sense geography.</p>
+            </fn>
+            <fn id="fn38">
+                <label>38</label>
+                <p> See <xref ref-type="bibr" rid="Geus.2017">(Geus/Guckelsberger 2017)</xref>. </p>
+            </fn>
+            <fn id="fn39">
+                <label>39</label>
+                <p>In 7.4, Biondo quotes among his sources the Itinerarium Antonini, but makes no
+                    use of it for the many distances it offers for Lombardy. In 12.55, Biondo
+                    writes: “Nam Antoninus Pius in Itinerario viam describens a Benevento ad
+                    Columnas, ad Mercurialem primum, post ad Matrem Magnam posuit.” Neither the
+                    plural “ad Columnas” nor the site of Mercurialis are mentioned in the
+                    Itinerarium Antonini. Is Biondo perhaps playing here with the homonymy of
+                    Columna in order to flatter his patron Colonna?</p>
+            </fn>
+            <fn id="fn40">
+                <label>40</label>
+                <p>1.7; 1.8; 12.43; 13.24, see also note <xref ref-type="custom" custom-type="cross"
+                        rid="fn6">6</xref>. </p>
+            </fn>
+            <fn id="fn41">
+                <label>41</label>
+                <p>We do not include measurement data which feature as ‘non-itinerary’ expressions,
+                    such as “the Neptunians cover all the shoreland’s dunes of ancient Antium with
+                    continuous netting for a space of five miles” (3.7) or “circuit of the island of
+                    Circeo as being eighty stades” (3.11).</p>
+            </fn>
+            <fn id="fn42">
+                <label>42</label>
+                <p>With the “divine Augustus”, Biondo is surely thinking of the so-called Divisio
+                    orbis terrarum, a late-antique topography, which claims to have been initiated
+                    by Augustus: “Terrarum orbis divitur tribus nominibus: Europa, Asia, Libya. quem
+                    divus Augustus primus omnium per chorographiam ostendit” (Praefatio).</p>
+            </fn>
+            <fn id="fn43">
+                <label>43</label>
+                <p>The mentioning of Vergil/Virgil in this context may come as a surprise here. But
+                    the laudes Italiae passage in the second book of Vergil’s Georgics was
+                    considered not only a literary masterpiece but also a traditional model in terms
+                    of topography.</p>
+            </fn>
+            <fn id="fn44">
+                <label>44</label>
+                <p>Due to his description of Hannibal’s campaigns in Italy, Livy’s History of Rome
+                    is, next to Pliny, Biondo’s most important source for his Latium chapter.</p>
+            </fn>
+            <fn id="fn45">
+                <label>45</label>
+                <p>On the coastline of Latium, Pliny (NH III.56) says: “[formerly] from Ostia to
+                    Circei 50 miles”. The Tabula Peutingeriana has it as 70 miles; the geodesic
+                    would be 87 kilometers or 1.74 kilometers/mile for Pliny and 1.24
+                    kilometers/mile for the Tabula Peutingneriana (which equates to a 16 percent
+                    discrepancy, which is reasonable). Pliny then goes on to state “from whence the
+                    name Latium reached as far as the River Liris”, before listing several points
+                    along the coast, starting with Ostia, the town of Laurentum, the sacred grove of
+                    Jupiter Indiges, the River Numicius and Ardea, the former site of Aphrodisium,
+                    the colony of Antium, the river and island of Astura, the River Nymphaeus, the
+                    Clostra Romana, Circeii (formerly an island), the River Ufens, the city of
+                    Terracina (“called in the language of the Volsci ‘Anxur’”), Amyclae, a cave,
+                    Lake Fundanus, the port of Caieta, the town of Formiae (formerly Hormiae), the
+                    town of Pyrae, the colony of Minturnae, through which the River Liris flows
+                    (also known as the Glanis), and the town of Sinuessa – the last point of the new
+                    Latii (NH III.56–60). We do not claim that Biondo is citing Pliny here, but it
+                    is useful to compare the distances with those Biondo read elsewhere. This also
+                    highlights the reliability of ancient sources in the area. At the very least,
+                    such a literary comparison gives us a sense of the ‘variability’ in the length
+                    of a mile, as compared to those which Biondo reports.</p>
+            </fn>
+            <fn id="fn46">
+                <label>46</label>
+                <p>For Strabo as a source for later authors, <xref ref-type="bibr"
+                        rid="Srensen.2017">(see Sørensen 2017)</xref>. </p>
+            </fn>
+            <fn id="fn47">
+                <label>47</label>
+                <p>As outlined above, we have neither included toponyms from other regions and
+                    countries (e.g., Capua, Olympus, Crete), nor names of rivers or roads (except
+                    where they form a crossroads), nor parts of a city (e.g., a temple or forum),
+                    nor names of peoples (e.g., Ausoni), nor areas (e.g., Campus Pontinus). If a
+                    toponym shows up more than once in Biondo’s narrative, we have assigned the
+                    number according to its geographical position.</p>
+            </fn>
+            <fn id="fn48">
+                <label>48</label>
+                <p>
+                    <xref ref-type="bibr" rid="Clavuot.1990">(Clavuot 1990, 85)</xref>: “Von den
+                    [...] Ortsnamen hat Biondo 65% ohne Erläuterungen [...] aufgelistet.” On p. 86
+                    Clavuot continues: “[...] in my opinion they were read off from maps and other
+                    documents including autopsy [...]” (our translation).</p>
+            </fn>
+            <fn id="fn49">
+                <label>49</label>
+                <p>One finds along the Via Appia also a small aggregation of three names (3.22):
+                    “Around Priverno are the little towns of Maenza, Roccagorga, and Roccasecca
+                    [...]” We do not consider a body of less than four elements to constitute a
+                    “cluster”.</p>
+            </fn>
+            <fn id="fn50">
+                <label>50</label>
+                <p>It is obvious that – even in the vicinity of Rome – the requirements of a system
+                    of local roads were in medieval times quite different to those of antiquity.
+                    This essay merely contains a collection of known distances from various epochs,
+                    with the focus (unfortunately) lying predominantly on ancient sources.
+                    Throughout, our kilometric distances are geodesic shortest paths. An effort was
+                    made to retrace medieval pilgrim and trade routes using visible roads on the
+                    ground. Evidently, many of these roads have since been subsumed by modern
+                    construction, especially in the heavily urbanized centers of Rome, Naples, and
+                    the cities in Lombardy. However, none of these ‘modern’ (i.e., fifteenth
+                    century) routes are available in Latium (the only exception being the former Via
+                    Flaminia).</p>
+            </fn>
+            <fn id="fn51">
+                <label>51</label>
+                <p>Most toponyms in Biondo’s Latium do not follow classical roads or urban sites but
+                    trace out hilltop settlements. This is unsurprising in the context of historical
+                    evolution after the decline and fall of the Roman Empire. Climate change and the
+                    breakdown of infrastructure such as roads and engineering (drainage, Pontine
+                    Marshes) made fertile valleys unsafe for habitation. Later, Arab raids increased
+                    the necessity to ‘take to the hills’ (<xref ref-type="bibr" rid="Purton.2010"
+                        >(see Purton 2010, 99)</xref>). Subsequent marauding French (Angevin),
+                    German (Suebian), and Spanish (Aragonese) soldiery sustained the pressure and
+                    reinforced the transition to the medieval feudal system, in which protection,
+                    control, and exploitation of the population at large emanated from these
+                    predominantly hilltop installations. Regional variants arose and are subject to
+                    intense archaeological study with findings that are still ongoing.</p>
+            </fn>
+            <fn id="fn52">
+                <label>52</label>
+                <p>Biondo writes: A-T-C-F-V-F. A more realistic itinerary would read A-F-T-C-V-F.
+                    Single line switches do occur occasionally in manuscript copies of records. But
+                    the above sequence requires a double line switch: Biondo (or the scribe he
+                    consulted) had to amend the omission of Fiuggi two lines later, which is
+                    rare.</p>
+            </fn>
+            <fn id="fn53">
+                <label>53</label>
+                <p>As we have no clue as to an archival documentation, the sequence could be
+                    randomly read off from a map.</p>
+            </fn>
+            <fn id="fn54">
+                <label>54</label>
+                <p> See <xref ref-type="bibr" rid="Barbetta.1995">(Barbetta 1995)</xref>. </p>
+            </fn>
+            <fn id="fn55">
+                <label>55</label>
+                <p>As a dominant feature, the Apennines are readily apparent in our first three maps
+                    (see above), marking the political divisions along the ridge’s spine.</p>
+            </fn>
+            <fn id="mz7yc1jdpzws">
+                <label>56</label>
+                <p>
+                    <xref ref-type="bibr" rid="Michalsky.2019">(See Michalsky 2019)</xref>. </p>
+            </fn>
+        </fn-group>
+    </back>
+</article>

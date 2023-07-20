@@ -1,0 +1,752 @@
+Running issue JATS-to-XML conversion...
+---------------------------------------------------------------------------------------------------------------------------------------
+Input Directory Detected :: ./examples/xml
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Found XML File :: 01Intro_hsah.0101.xml
+Loaded XML document
+01Intro_hsah.0101.xml
+---------------------------------------------------------------------------------------------------------------------------------------
+Starting JATS schema validation
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 01Intro_hsah.0101.xml against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 01Intro_hsah.0101.xml failed validation against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+Error(s) as follows;
+---------------------------------------------------------------------------------------------------------------------------------------
+!!! XML Error :: Line 17 :: Message = Element 'article-version': This element is not expected. Expected is one of ( article-id, article-categories, title-group ).
+
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 01Intro_hsah.0101.xml against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 01Intro_hsah.0101.xml failed validation against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+Error(s) as follows;
+---------------------------------------------------------------------------------------------------------------------------------------
+!!! XML Error :: Line 17 :: Message = Element 'article-version': This element is not expected. Expected is one of ( article-id, article-categories, title-group ).
+
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 01Intro_hsah.0101.xml against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 01Intro_hsah.0101.xml passed validation against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+Starting JATS To OJS XML Import
+---------------------------------------------------------------------------------------------------------------------------------------
+Affiliation Keys :: affjgadbjgiad :: affjgadbjgiad
+Affiliation Keys :: affjgadbjgiad :: affjbajbjgaijf
+Affiliation Keys :: affjbajbjgaijf :: affjgadbjgiad
+Affiliation Keys :: affjbajbjgaijf :: affjbajbjgaijf
+DOI String :: doi
+---------------------------------------------------------------------------------------------------------------------------------------
+Created Article Object
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Found XML File :: 02_Goertz_et_alii.xml
+Loaded XML document
+02_Goertz_et_alii.xml
+---------------------------------------------------------------------------------------------------------------------------------------
+Starting JATS schema validation
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 02_Goertz_et_alii.xml against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 02_Goertz_et_alii.xml failed validation against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+Error(s) as follows;
+---------------------------------------------------------------------------------------------------------------------------------------
+!!! XML Error :: Line 19 :: Message = Element 'article-version': This element is not expected. Expected is one of ( article-id, article-categories, title-group ).
+
+!!! XML Error :: Line 2572 :: Message = Element 'xref', attribute 'ref-type': [facet 'enumeration'] The value 'custom' is not an element of the set {'aff', 'app', 'author-notes', 'bibr', 'boxed-text', 'chem', 'contrib', 'corresp', 'disp-formula', 'fig', 'fn', 'kwd', 'list', 'plate', 'scheme', 'sec', 'statement', 'supplementary-material', 'table', 'table-fn', 'other'}.
+
+!!! XML Error :: Line 2572 :: Message = Element 'xref', attribute 'custom-type': The attribute 'custom-type' is not allowed.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 02_Goertz_et_alii.xml against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 02_Goertz_et_alii.xml failed validation against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+Error(s) as follows;
+---------------------------------------------------------------------------------------------------------------------------------------
+!!! XML Error :: Line 19 :: Message = Element 'article-version': This element is not expected. Expected is one of ( article-id, article-categories, title-group ).
+
+!!! XML Error :: Line 2572 :: Message = Element 'xref', attribute 'ref-type': [facet 'enumeration'] The value 'custom' is not an element of the set {'aff', 'app', 'author-notes', 'bibr', 'boxed-text', 'chem', 'collab', 'contrib', 'corresp', 'disp-formula', 'fig', 'fn', 'kwd', 'list', 'other', 'plate', 'scheme', 'sec', 'statement', 'supplementary-material', 'table', 'table-fn'}.
+
+!!! XML Error :: Line 2572 :: Message = Element 'xref', attribute 'custom-type': The attribute 'custom-type' is not allowed.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 02_Goertz_et_alii.xml against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 02_Goertz_et_alii.xml failed validation against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+Error(s) as follows;
+---------------------------------------------------------------------------------------------------------------------------------------
+!!! XML Error :: Line 2572 :: Message = Element 'xref', attribute 'ref-type': [facet 'enumeration'] The value 'custom' is not an element of the set {'aff', 'app', 'author-notes', 'award', 'bibr', 'bio', 'boxed-text', 'chem', 'collab', 'contrib', 'corresp', 'disp-formula', 'fig', 'fn', 'kwd', 'list', 'other', 'plate', 'scheme', 'sec', 'statement', 'supplementary-material', 'table', 'table-fn'}.
+
+!!! XML Error :: Line 2572 :: Message = Element 'xref', attribute 'custom-type': The attribute 'custom-type' is not allowed.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 02_Goertz_et_alii.xml against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 02_Goertz_et_alii.xml passed validation against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+Starting JATS To OJS XML Import
+---------------------------------------------------------------------------------------------------------------------------------------
+Affiliation Keys :: affjcbcjcfiijb :: affjcbcjcfiijb
+Affiliation Keys :: affjcbcjcfiijb :: affjbjadjjhd
+Affiliation Keys :: affjcbcjcfiijb :: affjbajbjgaijf
+Affiliation Keys :: affjbjadjjhd :: affjcbcjcfiijb
+Affiliation Keys :: affjbjadjjhd :: affjbjadjjhd
+Affiliation Keys :: affjbjadjjhd :: affjbajbjgaijf
+Affiliation Keys :: affjbajbjgaijf :: affjcbcjcfiijb
+Affiliation Keys :: affjbajbjgaijf :: affjbjadjjhd
+Affiliation Keys :: affjbajbjgaijf :: affjbajbjgaijf
+DOI String :: doi
+---------------------------------------------------------------------------------------------------------------------------------------
+Created Article Object
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Found XML File :: 03_geus.xml
+Loaded XML document
+03_geus.xml
+---------------------------------------------------------------------------------------------------------------------------------------
+Starting JATS schema validation
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 03_geus.xml against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 03_geus.xml failed validation against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+Error(s) as follows;
+---------------------------------------------------------------------------------------------------------------------------------------
+!!! XML Error :: Line 19 :: Message = Element 'article-version': This element is not expected. Expected is one of ( article-id, article-categories, title-group ).
+
+!!! XML Error :: Line 1965 :: Message = Element 'xref', attribute 'ref-type': [facet 'enumeration'] The value 'custom' is not an element of the set {'aff', 'app', 'author-notes', 'bibr', 'boxed-text', 'chem', 'contrib', 'corresp', 'disp-formula', 'fig', 'fn', 'kwd', 'list', 'plate', 'scheme', 'sec', 'statement', 'supplementary-material', 'table', 'table-fn', 'other'}.
+
+!!! XML Error :: Line 1965 :: Message = Element 'xref', attribute 'custom-type': The attribute 'custom-type' is not allowed.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 03_geus.xml against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 03_geus.xml failed validation against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+Error(s) as follows;
+---------------------------------------------------------------------------------------------------------------------------------------
+!!! XML Error :: Line 19 :: Message = Element 'article-version': This element is not expected. Expected is one of ( article-id, article-categories, title-group ).
+
+!!! XML Error :: Line 1965 :: Message = Element 'xref', attribute 'ref-type': [facet 'enumeration'] The value 'custom' is not an element of the set {'aff', 'app', 'author-notes', 'bibr', 'boxed-text', 'chem', 'collab', 'contrib', 'corresp', 'disp-formula', 'fig', 'fn', 'kwd', 'list', 'other', 'plate', 'scheme', 'sec', 'statement', 'supplementary-material', 'table', 'table-fn'}.
+
+!!! XML Error :: Line 1965 :: Message = Element 'xref', attribute 'custom-type': The attribute 'custom-type' is not allowed.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 03_geus.xml against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 03_geus.xml failed validation against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+Error(s) as follows;
+---------------------------------------------------------------------------------------------------------------------------------------
+!!! XML Error :: Line 1965 :: Message = Element 'xref', attribute 'ref-type': [facet 'enumeration'] The value 'custom' is not an element of the set {'aff', 'app', 'author-notes', 'award', 'bibr', 'bio', 'boxed-text', 'chem', 'collab', 'contrib', 'corresp', 'disp-formula', 'fig', 'fn', 'kwd', 'list', 'other', 'plate', 'scheme', 'sec', 'statement', 'supplementary-material', 'table', 'table-fn'}.
+
+!!! XML Error :: Line 1965 :: Message = Element 'xref', attribute 'custom-type': The attribute 'custom-type' is not allowed.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 03_geus.xml against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 03_geus.xml passed validation against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+Starting JATS To OJS XML Import
+---------------------------------------------------------------------------------------------------------------------------------------
+Affiliation Keys :: affjbdcghfhedc :: affjbdcghfhedc
+Affiliation Keys :: affjbdcghfhedc :: affjbdcghfhedc
+DOI String :: doi
+DOI String :: publisher-id
+---------------------------------------------------------------------------------------------------------------------------------------
+Created Article Object
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Found XML File :: 04_Guckelsberger.xml
+Loaded XML document
+04_Guckelsberger.xml
+---------------------------------------------------------------------------------------------------------------------------------------
+Starting JATS schema validation
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 04_Guckelsberger.xml against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 04_Guckelsberger.xml failed validation against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+Error(s) as follows;
+---------------------------------------------------------------------------------------------------------------------------------------
+!!! XML Error :: Line 42 :: Message = Element 'city': This element is not expected.
+
+!!! XML Error :: Line 823 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 824 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 825 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 826 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 827 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 830 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 831 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 832 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 833 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 834 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 837 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 838 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 839 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 840 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 841 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 844 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 845 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 846 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 847 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 848 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 851 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 852 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 853 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 854 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 855 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 858 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 859 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 860 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 861 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 862 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 865 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 866 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 867 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 868 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 869 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 872 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 873 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 874 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 875 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 876 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 04_Guckelsberger.xml against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 04_Guckelsberger.xml failed validation against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+Error(s) as follows;
+---------------------------------------------------------------------------------------------------------------------------------------
+!!! XML Error :: Line 3 :: Message = Element 'article', attribute 'dtd-version': The value '1.0' does not match the fixed value constraint '1.1'.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 04_Guckelsberger.xml against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 04_Guckelsberger.xml failed validation against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+Error(s) as follows;
+---------------------------------------------------------------------------------------------------------------------------------------
+!!! XML Error :: Line 3 :: Message = Element 'article', attribute 'dtd-version': The value '1.0' does not match the fixed value constraint '1.2'.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 04_Guckelsberger.xml against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 04_Guckelsberger.xml passed validation against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+Starting JATS To OJS XML Import
+---------------------------------------------------------------------------------------------------------------------------------------
+Affiliation Keys :: affjbacjgecgig :: affjbacjgecgig
+DOI String :: doi
+---------------------------------------------------------------------------------------------------------------------------------------
+Created Article Object
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Found XML File :: 05Laureys.xml
+Loaded XML document
+05Laureys.xml
+---------------------------------------------------------------------------------------------------------------------------------------
+Starting JATS schema validation
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 05Laureys.xml against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 05Laureys.xml failed validation against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+Error(s) as follows;
+---------------------------------------------------------------------------------------------------------------------------------------
+!!! XML Error :: Line 18 :: Message = Element 'article-version': This element is not expected. Expected is one of ( article-id, article-categories, title-group ).
+
+!!! XML Error :: Line 1769 :: Message = Element 'xref', attribute 'ref-type': [facet 'enumeration'] The value 'custom' is not an element of the set {'aff', 'app', 'author-notes', 'bibr', 'boxed-text', 'chem', 'contrib', 'corresp', 'disp-formula', 'fig', 'fn', 'kwd', 'list', 'plate', 'scheme', 'sec', 'statement', 'supplementary-material', 'table', 'table-fn', 'other'}.
+
+!!! XML Error :: Line 1769 :: Message = Element 'xref', attribute 'custom-type': The attribute 'custom-type' is not allowed.
+
+!!! XML Error :: Line 1830 :: Message = Element 'xref', attribute 'ref-type': [facet 'enumeration'] The value 'custom' is not an element of the set {'aff', 'app', 'author-notes', 'bibr', 'boxed-text', 'chem', 'contrib', 'corresp', 'disp-formula', 'fig', 'fn', 'kwd', 'list', 'plate', 'scheme', 'sec', 'statement', 'supplementary-material', 'table', 'table-fn', 'other'}.
+
+!!! XML Error :: Line 1830 :: Message = Element 'xref', attribute 'custom-type': The attribute 'custom-type' is not allowed.
+
+!!! XML Error :: Line 1927 :: Message = Element 'xref', attribute 'ref-type': [facet 'enumeration'] The value 'custom' is not an element of the set {'aff', 'app', 'author-notes', 'bibr', 'boxed-text', 'chem', 'contrib', 'corresp', 'disp-formula', 'fig', 'fn', 'kwd', 'list', 'plate', 'scheme', 'sec', 'statement', 'supplementary-material', 'table', 'table-fn', 'other'}.
+
+!!! XML Error :: Line 1927 :: Message = Element 'xref', attribute 'custom-type': The attribute 'custom-type' is not allowed.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 05Laureys.xml against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 05Laureys.xml failed validation against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+Error(s) as follows;
+---------------------------------------------------------------------------------------------------------------------------------------
+!!! XML Error :: Line 18 :: Message = Element 'article-version': This element is not expected. Expected is one of ( article-id, article-categories, title-group ).
+
+!!! XML Error :: Line 1769 :: Message = Element 'xref', attribute 'ref-type': [facet 'enumeration'] The value 'custom' is not an element of the set {'aff', 'app', 'author-notes', 'bibr', 'boxed-text', 'chem', 'collab', 'contrib', 'corresp', 'disp-formula', 'fig', 'fn', 'kwd', 'list', 'other', 'plate', 'scheme', 'sec', 'statement', 'supplementary-material', 'table', 'table-fn'}.
+
+!!! XML Error :: Line 1769 :: Message = Element 'xref', attribute 'custom-type': The attribute 'custom-type' is not allowed.
+
+!!! XML Error :: Line 1830 :: Message = Element 'xref', attribute 'ref-type': [facet 'enumeration'] The value 'custom' is not an element of the set {'aff', 'app', 'author-notes', 'bibr', 'boxed-text', 'chem', 'collab', 'contrib', 'corresp', 'disp-formula', 'fig', 'fn', 'kwd', 'list', 'other', 'plate', 'scheme', 'sec', 'statement', 'supplementary-material', 'table', 'table-fn'}.
+
+!!! XML Error :: Line 1830 :: Message = Element 'xref', attribute 'custom-type': The attribute 'custom-type' is not allowed.
+
+!!! XML Error :: Line 1927 :: Message = Element 'xref', attribute 'ref-type': [facet 'enumeration'] The value 'custom' is not an element of the set {'aff', 'app', 'author-notes', 'bibr', 'boxed-text', 'chem', 'collab', 'contrib', 'corresp', 'disp-formula', 'fig', 'fn', 'kwd', 'list', 'other', 'plate', 'scheme', 'sec', 'statement', 'supplementary-material', 'table', 'table-fn'}.
+
+!!! XML Error :: Line 1927 :: Message = Element 'xref', attribute 'custom-type': The attribute 'custom-type' is not allowed.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 05Laureys.xml against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 05Laureys.xml failed validation against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+Error(s) as follows;
+---------------------------------------------------------------------------------------------------------------------------------------
+!!! XML Error :: Line 1769 :: Message = Element 'xref', attribute 'ref-type': [facet 'enumeration'] The value 'custom' is not an element of the set {'aff', 'app', 'author-notes', 'award', 'bibr', 'bio', 'boxed-text', 'chem', 'collab', 'contrib', 'corresp', 'disp-formula', 'fig', 'fn', 'kwd', 'list', 'other', 'plate', 'scheme', 'sec', 'statement', 'supplementary-material', 'table', 'table-fn'}.
+
+!!! XML Error :: Line 1769 :: Message = Element 'xref', attribute 'custom-type': The attribute 'custom-type' is not allowed.
+
+!!! XML Error :: Line 1830 :: Message = Element 'xref', attribute 'ref-type': [facet 'enumeration'] The value 'custom' is not an element of the set {'aff', 'app', 'author-notes', 'award', 'bibr', 'bio', 'boxed-text', 'chem', 'collab', 'contrib', 'corresp', 'disp-formula', 'fig', 'fn', 'kwd', 'list', 'other', 'plate', 'scheme', 'sec', 'statement', 'supplementary-material', 'table', 'table-fn'}.
+
+!!! XML Error :: Line 1830 :: Message = Element 'xref', attribute 'custom-type': The attribute 'custom-type' is not allowed.
+
+!!! XML Error :: Line 1927 :: Message = Element 'xref', attribute 'ref-type': [facet 'enumeration'] The value 'custom' is not an element of the set {'aff', 'app', 'author-notes', 'award', 'bibr', 'bio', 'boxed-text', 'chem', 'collab', 'contrib', 'corresp', 'disp-formula', 'fig', 'fn', 'kwd', 'list', 'other', 'plate', 'scheme', 'sec', 'statement', 'supplementary-material', 'table', 'table-fn'}.
+
+!!! XML Error :: Line 1927 :: Message = Element 'xref', attribute 'custom-type': The attribute 'custom-type' is not allowed.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 05Laureys.xml against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 05Laureys.xml passed validation against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+Starting JATS To OJS XML Import
+---------------------------------------------------------------------------------------------------------------------------------------
+Affiliation Keys :: affjbcibjffibe :: affjbcibjffibe
+DOI String :: doi
+---------------------------------------------------------------------------------------------------------------------------------------
+Created Article Object
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Found XML File :: 08_Richter.xml
+Loaded XML document
+08_Richter.xml
+---------------------------------------------------------------------------------------------------------------------------------------
+Starting JATS schema validation
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 08_Richter.xml against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 08_Richter.xml failed validation against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+Error(s) as follows;
+---------------------------------------------------------------------------------------------------------------------------------------
+!!! XML Error :: Line 43 :: Message = Element 'city': This element is not expected.
+
+!!! XML Error :: Line 307 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 308 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 313 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 314 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 319 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 320 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 324 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 325 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 329 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 330 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 336 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 337 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 341 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 342 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 345 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 346 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 350 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 351 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 355 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 356 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 399 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 400 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 405 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 406 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 410 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 411 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 415 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 416 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 420 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 421 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 425 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 426 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 481 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 482 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 483 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 484 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 485 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 486 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 487 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 488 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 489 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 490 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 495 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 496 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 497 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 498 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 499 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 500 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 501 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 502 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 503 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 504 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 507 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 508 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 509 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 510 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 511 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 512 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 513 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 514 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 515 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 516 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 519 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 520 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 521 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 523 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 525 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 526 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 528 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 530 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 531 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 532 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 536 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 537 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 538 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 540 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 541 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 542 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 543 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 544 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 546 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 547 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 583 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 584 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 585 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 586 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 587 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 588 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 589 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 590 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 595 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 596 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 597 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 598 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 599 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 600 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 601 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 602 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 605 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 606 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 607 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 608 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 609 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 610 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 611 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 612 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 615 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 616 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 617 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 618 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 619 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 620 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 621 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 622 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 625 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 626 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 627 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 628 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 629 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 630 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 631 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 632 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 666 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 667 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 672 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 673 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 676 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 677 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 680 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 681 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 684 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 685 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 688 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+!!! XML Error :: Line 689 :: Message = Element 'p': This element is not expected. Expected is one of ( email, ext-link, uri, hr, inline-supplementary-material, related-article, related-object, disp-formula, disp-formula-group, break ).
+
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 08_Richter.xml against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 08_Richter.xml failed validation against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+Error(s) as follows;
+---------------------------------------------------------------------------------------------------------------------------------------
+!!! XML Error :: Line 3 :: Message = Element 'article', attribute 'dtd-version': The value '1.0' does not match the fixed value constraint '1.1'.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 08_Richter.xml against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 08_Richter.xml failed validation against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+Error(s) as follows;
+---------------------------------------------------------------------------------------------------------------------------------------
+!!! XML Error :: Line 3 :: Message = Element 'article', attribute 'dtd-version': The value '1.0' does not match the fixed value constraint '1.2'.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 08_Richter.xml against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 08_Richter.xml passed validation against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+Starting JATS To OJS XML Import
+---------------------------------------------------------------------------------------------------------------------------------------
+Affiliation Keys :: affjbjfdiejifi :: affjbjfdiejifi
+DOI String :: doi
+---------------------------------------------------------------------------------------------------------------------------------------
+Created Article Object
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Found XML File :: 09Harvey.xml
+Loaded XML document
+09Harvey.xml
+---------------------------------------------------------------------------------------------------------------------------------------
+Starting JATS schema validation
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 09Harvey.xml against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 09Harvey.xml failed validation against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
+Error(s) as follows;
+---------------------------------------------------------------------------------------------------------------------------------------
+!!! XML Error :: Line 47 :: Message = Element 'city': This element is not expected.
+
+!!! XML Error :: Line 56 :: Message = Element 'city': This element is not expected.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 09Harvey.xml against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 09Harvey.xml failed validation against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+Error(s) as follows;
+---------------------------------------------------------------------------------------------------------------------------------------
+!!! XML Error :: Line 3 :: Message = Element 'article', attribute 'dtd-version': The value '1.0' does not match the fixed value constraint '1.1'.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 09Harvey.xml against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 09Harvey.xml failed validation against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
+Error(s) as follows;
+---------------------------------------------------------------------------------------------------------------------------------------
+!!! XML Error :: Line 3 :: Message = Element 'article', attribute 'dtd-version': The value '1.0' does not match the fixed value constraint '1.2'.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Trying XML document :: 09Harvey.xml against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: 09Harvey.xml passed validation against JATS V1.3 :: ./jats_xsd/1.3/JATS-journalpublishing1-3.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+Starting JATS To OJS XML Import
+---------------------------------------------------------------------------------------------------------------------------------------
+Affiliation Keys :: affbjiafcfejc :: affbjiafcfejc
+Affiliation Keys :: affbjiafcfejc :: affjbjhfcbibbh
+Affiliation Keys :: affjbjhfcbibbh :: affbjiafcfejc
+Affiliation Keys :: affjbjhfcbibbh :: affjbjhfcbibbh
+DOI String :: doi
+---------------------------------------------------------------------------------------------------------------------------------------
+Created Article Object
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------

@@ -26,6 +26,7 @@ try{
             
             if(!strcmp($info['extension'],"xml")){
                 $fcontent=file_get_contents($filename);
+            
                 $doc = new DOMDocument();
                 $doc->loadXML($fcontent); // load xml
                 if($verbose){
@@ -75,6 +76,8 @@ try{
                         }
 
                         $article = new Article();
+                        $article->setJatsXmlPath($filename);
+                        
                         //import the article
                         $article->setCoverImageFilePath("C:\\Users\\BHCT7767\\Downloads\\02_Goerz-000.png");
                         $article->setCoverImageAltText("Cover Image for this article");
@@ -123,7 +126,7 @@ function importArticle($fcontent,$articleObj){
 		
         if($c==0){
             $articleObj->setJournal((string)$article->{'journal-meta'}->{'journal-title-group'}->{'journal-title'});
-            $articleObj->setTitle((string)$article->{'article-meta'}->{'title-group'}->{'article-title'});
+            $articleObj->setTitle($this->to_utf((string)$article->{'article-meta'}->{'title-group'}->{'article-title'}));
             
             $authors=$article->{'article-meta'}->{'contrib-group'};
             $affiliations=$article->{'article-meta'}->{'aff'};
@@ -133,7 +136,7 @@ function importArticle($fcontent,$articleObj){
                 $affiliations=$article->{'article-meta'}->{'contrib-group'}->{'aff'};
             }
 
-            $articleObj->setAbstract((string)$article->{'article-meta'}->{'abstract'}->{'p'});
+            $articleObj->setAbstract($this->to_utf((string)$article->{'article-meta'}->{'abstract'}->{'p'}));
             $articleObj->setAuthors(getAuthors($authors,$affiliations));
             $articleObj->setDate(       (string)$article->{'article-meta'}->{'pub-date'}->{'year'}."-".
                                         (string)$article->{'article-meta'}->{'pub-date'}->{'month'}."-".
@@ -189,10 +192,10 @@ function getAuthors($authorxml,$affxml){
     foreach($authorxml->children() as $author) { 
         $authorObj=new Author();
 
-        $authorObj->setFirstName((string)$author->{'name'}->{'given-names'});
-        $authorObj->setLastName((string)$author->{'name'}->{'surname'});
-        $authorObj->setID((string)$author->{'contrib-id'});
-        $authorObj->setEmail((string)$author->{'email'});
+        $authorObj->setFirstName($this->to_utf((string)$author->{'name'}->{'given-names'}));
+        $authorObj->setLastName($this->to_utf((string)$author->{'name'}->{'surname'}));
+        $authorObj->setID($this->to_utf((string)$author->{'contrib-id'}));
+        $authorObj->setEmail($this->to_utf((string)$author->{'email'}));
 
         $affiliations=array();
         foreach($author->{'xref'} as $xref){
@@ -206,9 +209,9 @@ function getAuthors($authorxml,$affxml){
                         $orgname=$division="";
                         foreach($aff->{'institution'} as $inst){
                             if(!strcmp($inst->attributes()->{'content-type'},"orgname"))
-                                $affiliationObj->setName((string)$inst);
+                                $affiliationObj->setName($this->to_utf((string)$inst));
                             else if(!strcmp($inst->attributes()->{'content-type'},"orgdiv1"))
-                                $affiliationObj->setDivision((string)$inst);
+                                $affiliationObj->setDivision($this->to_utf((string)$inst));
                         }
                         array_push($affiliations, $affiliationObj);
                     }
@@ -226,15 +229,13 @@ function getAuthors($authorxml,$affxml){
 }
 
 
-function getHeaderString(){
-    return "issueTitle,sectionTitle,sectionAbbrev,authors,affiliation,DOI,articleTitle,year,datePublished,volume,issue,startPage,endPage,articleAbstract,galleyLabel,authorEmail,fileName,keywords,cover_image_filename,cover_image_alt_text";
-}
-
 function to_utf($text){
     if(!isset($text))return "";
+    $text=trim($text);
     $text= iconv(mb_detect_encoding($text, mb_detect_order(), true), "UTF-8", $text);
     $text = iconv('utf-8', 'ascii//TRANSLIT', $text);
-    $text=str_replace("\"","'",$text);
+    $text=str_replace("&","and",$text);
+   
     return $text;
 }
 ?>
