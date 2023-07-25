@@ -31,12 +31,14 @@ class Article {
 	private $endPage;			//end page
 	private $authorEmail;		//author email address
 	private $abstract;			//abstract of article
-	private $coverImage;		//path to cover image image file
 	private $keywords=array();	//article keywords
 	private $ojsUserName;		//OJS USER Name
 	private $sectionRef;		//OJS section refernce name
 	private $galleyFiles=array();	//galley image files for this article
 									//includes cover images
+	private $licenseUrl;		//license used for this article
+	private $copyRightHolder;	//copyright holder
+	private $copyRightYear;		//copyright year
 	 
 	/****************************************************************/
 	/*	CLASS CONSTRUCTOR											*/
@@ -160,6 +162,10 @@ class Article {
 		return $this->keywords;
 	}
 
+	public function setKeywords($a){
+		$this->keywords=$a;
+	}
+
 	public function setSectionRef($s){
 		$this->sectionRef=$s;
 	}
@@ -182,6 +188,30 @@ class Article {
 				return $galley;
 		}
 		return false;
+	}
+
+	public function setLicenseUrl($s){
+		$this->licenseUrl=$s;
+	}
+
+	public function getLicenseUrl(){
+		return $this->licenseUrl;
+	}
+
+	public function setCopyRightHolder($s){
+		$this->copyRightHolder=$s;
+	}
+
+	public function getCopyRightHolder(){
+		return $this->copyRightHolder;
+	}
+
+	public function setCopyRightYear($s){
+		$this->copyRightYear=$s;
+	}
+
+	public function getCopyRightYear(){
+		return $this->copyRightYear;
 	}
 }
 ?>

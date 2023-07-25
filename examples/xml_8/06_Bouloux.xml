@@ -1,0 +1,1577 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.3 20210610//EN" "https://jats.nlm.nih.gov/publishing/1.3/JATS-journalpublishing1-3.dtd">
+<article xml:lang="fr-FR" xmlns:mml="http://www.w3.org/1998/Math/MathML"
+    xmlns:xlink="http://www.w3.org/1999/xlink" article-type="original-article" dtd-version="1.0">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="publisher-id">HSAH</journal-id>
+            <journal-title-group>
+                <journal-title>Hertziana Studies in Art History</journal-title>
+                <abbrev-journal-title>HSAH</abbrev-journal-title>
+            </journal-title-group>
+            <issn/>
+            <publisher>
+                <publisher-name>Bibliotheca Hertziana - Max Planck Institute for Art
+                    History</publisher-name>
+                <publisher-loc>Rome, Italy</publisher-loc>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="doi">https://doi.org/10.48431/hsah.0106</article-id>
+            <article-categories>
+                <subj-group subj-group-type="display-channel">
+                    <subject>Original Article</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>L’usage des cartes dans l’Itala Illustrata de de Biondo Flavio</article-title>
+                <alt-title>L’usage des cartes</alt-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author" corresp="yes"  deceased="no"
+                    id="jcaggfgigee">
+                    <name>
+                        <surname>Bouloux</surname>
+                        <given-names>Nathalie</given-names>
+                    </name>
+                    <email>nathalie.bouloux@univ-tours.fr</email>
+                    <xref ref-type="aff" rid="affjbjicjejhed"/>
+                    <xref ref-type="corresp" rid="corr-jcaggfgigee">‐</xref>
+                </contrib>
+                <aff id="affjbjicjejhed"><institution content-type="orgname">Université de
+                        Tours</institution><institution content-type="orgdiv1">Département
+                        d'histoire et d'archéologie</institution><addr-line/><city/></aff>
+            </contrib-group>
+            <author-notes>
+                <corresp id="corr-jcaggfgigee">Corresponding author:
+                        <email>nathalie.bouloux@univ-tours.fr</email></corresp>
+            </author-notes>
+            <pub-date pub-type="epub">
+                <day>31</day>
+                <month>12</month>
+                <year>2022</year>
+            </pub-date>
+            <volume>1</volume>
+            <issue>1</issue>
+             <elocation-id>4</elocation-id>
+            <history>
+                <date date-type="received">
+                    <day>28</day>
+                    <month>5</month>
+                    <year>2020</year>
+                </date>
+                <date date-type="accepted">
+                    <day>28</day>
+                    <month>10</month>
+                    <year>2020</year>
+                </date>
+            </history>
+            <permissions>
+                <copyright-statement>This material is distributed under the terms of the Creative
+                    Commons Attribution License, which permits unrestricted use, distribution, and
+                    reproduction in any medium, provided the original work is properly
+                    cited.</copyright-statement>
+                <copyright-year>2022</copyright-year>
+                <copyright-holder>Bibliotheca Hertziana - Max Planck Institute for Art
+                    History</copyright-holder>
+                <license license-type="open-access"
+                    xlink:href="https://creativecommons.org/licenses/by/4.0/">
+                    <license-p>This work is licensed under Creative Commons Attribution 4.0
+                        International (CC BY 4.0).</license-p>
+                </license>
+            </permissions>
+            <abstract>
+                <p id="piq3ukm4rsj">Biondo Flavio's Italia Illustrata is a remarkable work from the
+                    15th century that exemplifies the geographical culture of humanism. Commissioned
+                    by Alphonse of Aragon, it aims to catalog illustrious figures in Italy but goes
+                    beyond by meticulously describing the Italian landscape and celebrating its
+                    connection to ancient Rome. This article examines three aspects of
+                        <italic>Italia Illustrata</italic>: the text's composition, the types of
+                    maps mentioned, and their significance in Biondo's work. By analyzing his
+                    sources and methods, we gain insights into the humanist's approach to portraying
+                    Italy's past and present.</p>
+            </abstract>
+                        <kwd-group kwd-group-type="author">
+                <kwd>Antique geography</kwd>
+                <kwd>maps</kwd>
+                <kwd>measurements</kwd>
+                <kwd>Biondo</kwd>
+            </kwd-group>
+        </article-meta>
+    </front>
+    <body>
+        <sec id="import-qu81hye9pn" sec-type="chapter">
+            <title>Introduction</title>
+            <p id="o36klkkcdm2x">L’<italic>Italia illustrata</italic> de Biondo Flavio est
+                certainement une de ses œuvres les plus originales et les plus nouvelles.<xref
+                    ref-type="fn" rid="fn1">1</xref> Écrite dans les années 1448–1453, alors qu’il a
+                quitté provisoirement ses fonctions à la curie pontificale à la suite de tensions
+                avec le nouveau pape Nicolas V, l’<italic>Italia illustrata</italic> est typique de
+                la culture géographique de l’humanisme. A l’origine, l’humaniste répond à une
+                commande d’Alphonse d’Aragon, désireux d’avoir un catalogue des hommes illustres
+                d’Italie. Il dépasse le cadre du projet en décrivant l’espace de l’Italie à partir
+                de recherches de topographie minutieuses, avant tout fondées sur une enquête dans
+                les textes de géographes et d’historiens antiques, et dans des cartes de nature
+                diverse. Le but ultime est de célébrer l’Italie moderne, héritière de la Rome
+                ancienne, divisée politiquement mais unie par une culture commune, l’humanisme, qui
+                trouve son espace d’origine et de diffusion dans la péninsule. L’<italic>Italia
+                    illustrata</italic> vise à mettre l’Italie en lumière en faisant rejaillir sur
+                elle la gloire du passé romain :</p>
+            <disp-quote>
+                <p id="db5jal66trx">Puisque la situation est meilleure, Dieu étant plus favorable à
+                    notre époque et que revivent les autres arts et surtout l’éloquence, ce qui a
+                    entraîné les hommes de notre temps à s’engager avec plus d’empressement dans
+                    l’étude de l’histoire, j’ai voulu voir, moi qui suis devenu expert dans la
+                    connaissance de l’Italie, si je pourrais accorder aux plus anciens lieux et
+                    peuples de nouveaux noms, aux nouveaux lieux le prestige, rappeler à la mémoire
+                    les lieux disparus et ramener de l’obscurité à la lumière l’histoire de
+                        l’Italie.<xref ref-type="fn" rid="fn2">2</xref></p>
+            </disp-quote>
+            <p id="pdyxwwheow47">L’originalité de cette description de l’Italie est d’être conduite
+                à l’échelle topographique, ce qui invite à s’interroger sur les instruments et les
+                méthodes de travail de l’humaniste. Biondo mentionne dans sa préface les principaux
+                textes géographiques et historiques antiques qu’il a utilisés. L’étude des sources
+                permet en général d’avoir une assez bonne idée de leur rôle dans la construction du
+                texte. La place des cartes est plus complexe à mettre en évidence, même si Biondo
+                indique parfois lorsqu’il les utilise.<xref ref-type="fn" rid="fn3">3</xref> En vue
+                d’éclairer la méthode de travail de Biondo et la fonction qu’il accorde aux
+                représentations cartographiques, j’aborderai trois aspects de <italic>l’Italia
+                    illustrata</italic> : les modes de composition du texte, la nature des cartes
+                qu’il mentionne et les modalités de leur usage.</p>
+        </sec>
+        <sec id="import-qa2kbs5i6x" sec-type="chapter">
+            <title>Nature et mode de composition de l’<italic>Italia illustrata</italic></title>
+            <p id="qneknch46hxj">Commençons par considérer un passage de l’<italic>Italia
+                    illustrata</italic> afin de comprendre le mode de construction du traité :</p>
+            <disp-quote>
+                <p id="rl9rfz84x55t">Prima post Auxerim sunt Arni ostia, a quibus paululum recedit
+                    Liburnium, Pisani Portus munitissima arx, apud quam in scopulo passus mille a
+                    continenti recedente fundata est turris pharea, nocturnum Tyrrheno mari
+                    navigantibus lumen quam remotissime praebens et Pisanum a longe ostendens
+                    Portum. Arnumque, recedentes tertio a mari milliario, Pisae pontibus iungunt
+                    superbisque aedificiis ornant. Eam urbem, vetustam et gestarum rerum gloria
+                    claram, ab Alpheis originem habuisse dicit Virgilius, et Plinius Pisas inter
+                    Auxerim et Arnum amnes a Pelope et Territanis graeca gente ortas asserit.
+                    Iustinus vero dicit Pisas in Liguribus graecos auctores habere ; et Lucanus in
+                    primo « Hinc Tyrrhena vado frangentes aequora Pisae » ; Livius XXI : « Ea […]
+                    causa consuli fuit, cum Pisas navibus venisset, […] ad Padum festinandi ». Pisae
+                    tertio Eugenio pontifice romano ornatae fuerunt. Eam urbem, florentibus
+                    Romanorum rebus, nullum habuisse potentatum videmus. Postquam vero maritimae
+                    urbes Etruscae hinc Luna inde Populonia deletae fuerunt, quiescentibus per
+                    Caroli Magni et filiorum tempora Italiae rebus, Pisae multos habuerunt
+                    praestantissimos maritimo bello viros, quorum gesta in nostris
+                        <italic>Historiis</italic> celebrantur. Sed ab annis quadraginta postquam ea
+                    civitas Florentinis subiecta fuit, infrequens populo opibusque exinanita penitus
+                    est reddita.<xref ref-type="fn" rid="fn4">4</xref></p>
+            </disp-quote>
+            <p id="fkaqm6j6mg5f">Cet extrait est représentatif de l’histoire des lieux que promeut
+                Biondo Flavio. La plupart du temps, dans le cas d’une région côtière, il construit
+                sa description en commençant par le littoral puis poursuit par l’intérieur des
+                terres, selon un ordre fréquemment utilisé par les géographes antiques. Pise est
+                caractérisée par sa situation près de l’embouchure de l’Arno. Le texte donne
+                l’impression d’un parcours (« Prima post Auxerim, paululum »), trait distinctif de
+                    l’<italic>Italia illustrata</italic> qui lui confère son caractère de
+                description géographique. Puis viennent des données qui établissent la singularité
+                du lieu (ici le phare), accompagnées de références historiques et littéraires issues
+                de sources antiques courantes (Tite-Live, Virgile, Pline, Lucain …), complétées par
+                des renseignements relatifs à l’histoire moderne de la ville. Biondo fait preuve,
+                selon son habitude, d’une grande attention portée aux modifications advenues entre
+                les temps romains (époque où la ville est très secondaire), les temps « médiévaux »
+                (la ville devient une des principales cités maritimes de l’Italie), et sa propre
+                époque où la conquête par Florence entraîne la décadence de Pise. Biondo élabore de
+                la sorte une histoire des lieux fondée sur la localisation géographique, le nom
+                moderne associé au nom ancien, l’histoire locale particulière faite de réminiscences
+                antiques et de considérations sur l’état actuel, auxquelles s’ajoutent parfois
+                l’évocation des propriétés naturelles, et pour les cités les plus importantes, le
+                catalogue des hommes illustres qui en sont issus. Cette histoire des lieux, que l’on
+                pourrait aussi qualifier de géo-histoire, a pour cadre une description géographique
+                à l’échelle topographique, où l’auteur s’applique à mentionner des centres mineurs
+                souvent dénués d’histoire mais indispensables pour donner une vue précise des
+                réalités italiennes. La « géographie » de Biondo est de nature historique dans la
+                mesure où il est conscient des changements qui se sont opérés dans l’espace depuis
+                l’empire romain, mais l’étude de l’espace du passé vise à comprendre et à célébrer
+                le présent.<xref ref-type="fn" rid="fn5">5</xref> De ce point de vue, l’expression
+                courante de « géographie antiquaire » pour qualifier l’œuvre n’est peut-être pas la
+                plus adaptée, ni celle de géographie historique (si l’on entend par là une
+                géographie qui considérerait le passé pour expliquer le passé). <xref ref-type="fn"
+                    rid="fn6">6</xref></p>
+            <p id="wut0m7rk60vg">Le programme de Biondo, qui implique un va-et-vient continuel entre
+                l’espace du passé et celui du présent, se heurte à des obstacles considérables qui
+                sont de deux ordres : les problèmes posés par la « mutatio nominum » (c’est-à-dire les
+                changements des noms de lieux entre l’Antiquité et l’époque moderne) et les
+                difficultés à suivre un schéma descriptif cohérent, afin de rendre compte avec
+                exactitude des réalités toponymiques. Dans les deux cas, les cartes jouent un rôle
+                notable.</p>
+            <p id="z0id6hd8pwj7j">La conscience du changement des noms depuis les temps romains
+                n’est pas une nouveauté. Dès le XII<sup>e</sup> siècle, certains savants latins en
+                avaient noté les effets quant aux difficultés à lire les descriptions du monde,
+                toujours fondées sur les textes antiques. Pétrarque est le premier à affronter le
+                problème en lui donnant un sens nouveau et en proposant une méthode pour le
+                    résoudre.<xref ref-type="fn" rid="fn7">7</xref> A ses yeux, les changements de
+                noms, associés aux contradictions des auteurs et à la méconnaissance des lieux,
+                engendraient des difficultés pour l’intelligence des textes antiques de toute
+                nature. Pour les lever, il recommandait de confronter les textes, les cartes et
+                l’inspection des lieux. C’est ce programme et cette méthode qui forment l’essentiel
+                du travail des géographes humanistes du XV<sup>e</sup> siècle. A cet égard,
+                    l’<italic>Italia</italic>
+                <italic>illustrata</italic> a certainement joué un rôle considérable de diffusion de
+                la méthode en constituant un modèle de référence.<xref ref-type="fn" rid="fn8"
+                    >8</xref></p>
+            <p id="kbw6rj604nh">Dans la préface du livre consacré à la première région, la Ligurie,
+                Biondo lie les deux obstacles, « mutatio nominum » et difficulté à choisir un ordre
+                descriptif cohérent :</p>
+            <disp-quote>
+                <p id="xv9huaqaly1">Est vero perdifficile in tanta mutatione rerum regionumque,
+                    quantam vident factam qui romanas historias attente legunt, modum adinvenire
+                    dividendis regionibus recensendisque ordine civitatum, oppidorum, montium
+                    fluminumque vocabulis.<xref ref-type="fn" rid="fn9">9</xref></p>
+            </disp-quote>
+            <p id="join9tmq6mne">Dans une lettre adressée au cardinal Prospero Colonna en décembre
+                1450, Biondo associe description de l’Italie et travail de comparaison entre les
+                noms anciens et les noms modernes (« describendae Italiae et conferendis priscorum
+                cum praesentibus locorum nominibus »).<xref ref-type="fn" rid="fn10">10</xref> De
+                fait, l’<italic>Italia</italic>
+                <italic>illustrata</italic> est ponctuée de noms antiques associés à leur forme
+                moderne (« olim [...] nunc »), de constats qu’un toponyme ancien s’est conservé ou
+                qu’il s’est au contraire considérablement transformé.<xref ref-type="fn" rid="fn11"
+                    >11</xref></p>
+            <p id="a0ua273f3p6m">Parmi les remarques de méthode qui jalonnent
+                    l’<italic>Italia</italic>
+                <italic>illustrata</italic>, l’une exprime au mieux les difficultés inextricables
+                rencontrées par Biondo :</p>
+            <disp-quote>
+                <p id="mkm0y3xcrs2o">Igitur a Velino lacu repetentes omnem ex veteri Umbria nobis
+                    reliquam regionem, ea quae ipsum Velinum et Reatinam urbem, Tiberim, Anienem
+                    flumina ac lacum Marsorum interiacent explicemus. Maximus autem is est montium
+                    et camporum globus et quem nec incolae satis norunt, in quo multa fuerunt prisci
+                    vocabuli loca quae praesentibus conferri nequeunt, tum quia interierunt quaedam,
+                    tum quia incomprehensibilis mutatio in aliis est facta.<xref ref-type="fn"
+                        rid="fn12">12</xref></p>
+            </disp-quote>
+            <p id="zrevuagxz8oe">L’humaniste met en application la méthode de Pétrarque, une méthode
+                « philologique » fondée sur la confrontation entre textes anciens et modernes, entre
+                textes et cartes, afin de résoudre la « mutatio nominum » et créer des liens entre
+                l’espace du passé et celui du présent. Le procédé mis en œuvre, qui reste implicite,
+                consiste à associer, lorsque c’est possible, proximité phonétique entre noms anciens
+                et modernes et localisation topographique.<xref ref-type="fn" rid="fn13">13</xref>
+                Un autre obstacle (lui aussi relevé par Pétrarque) réside dans les contradictions
+                entre les auteurs anciens, ce qui a pour effet de brouiller l’effet de continuité
+                entre espace antique et moderne. Parfois l’enquête débouche sur des apories. C’est
+                alors Biondo indique qu’il a comparé les textes aux cartes et expose le problème
+                qu’il tente de résoudre, en formulant des hypothèses et des conjectures qu’il soumet
+                à la sagacité du lecteur.</p>
+        </sec>
+        <sec id="import-a6v6hsx8ea" sec-type="chapter">
+            <title>Types de cartes</title>
+            <p id="e97qiy4uws6i">Quels types de cartes Biondo utilise-t-il ? La question est plus
+                complexe qu’il n’y paraît à première vue.</p>
+            <sec id="s-cartes-anciennes">
+                <title>Cartes anciennes</title>
+                <p id="dxki2lvy2l1b">Biondo mentionne quelquefois des cartes anciennes :</p>
+                <disp-quote>
+                    <p id="dcg2t2nhb0tk">In sinuque Lunensis sive Veneris portus intimo Spedia est,
+                        novum oppidum citra annos LX muro circumdatum, secus quam, inspecta Italiae
+                        descriptione ac pictura a maioribus facta, Tiguliam fuisse coniector.<xref
+                            ref-type="fn" rid="fn14">14</xref></p>
+                </disp-quote>
+                <disp-quote>
+                    <p id="ufkq8op8sh4l">Apud Ocelini turrem Padusae finem olim fuisse et Rhenum
+                        Bononiensem eo loco aut propinquo Padum influxisse indicant pervetusti
+                        utriusque amnis alvei, indicantque pariter Ptolemaei ac aliorum geographorum
+                        descriptio ac pictura.<xref ref-type="fn" rid="fn15">15</xref></p>
+                </disp-quote>
+                <p id="slaid2wsro5b">La deuxième citation montre sans aucun doute et sans surprise
+                    le recours aux cartes qui accompagnent la <italic>Géographie</italic> de
+                    Ptolémée, traité en passe de devenir au milieu du siècle un modèle nécessaire
+                    (mais, pour Biondo, critiquable, comme il sera rappelé plus loin).<xref
+                        ref-type="fn" rid="jhya4cge14ak">17</xref> La première citation est plus
+                    ambiguë. On pense immédiatement que Biondo a utilisé la carte de l’Italie de
+                    Ptolémée, qui porte en effet Tigulia. Mais comme l’a noté Paolo Pontari,
+                    l’identification entre la Spezia et Tigulia est une déduction personnelle de
+                    Biondo, qui s’oppose à celle de l’auteur de la source de ce passage, Giacomo
+                        Bracelli.<xref ref-type="fn" rid="fn17">18</xref> Celui-ci, ami de Biondo,
+                    avait composé en 1442 une description du rivage de la Ligurie, qu’il lui a
+                    envoyée en 1448 à sa demande, alors que Biondo commençait
+                        l’<italic>Italia</italic>
+                    <italic>illustrata.</italic> Giacomo Bracelli, lui aussi lecteur de Ptolémée,
+                    avait conjecturé que Tigulia était Sestri Levante.<xref ref-type="fn" rid="fn18"
+                        >19</xref> De son côté, Biondo identifie Sestri Levante à Segesta
+                    Tigulliorum en prenant appui sur le texte de Pline (et peut-être aussi sur celui
+                    de Pomponius Mela, II, 72, en tout cas pas sur celui de
+                        Ptolémée)<italic>.</italic> La <italic>pictura a maioribus facta</italic>
+                    est ici probablement la carte dessinée par Agrippa en collaboration avec
+                    Auguste, exposée sur le portique Vipsania, que Pline (III, 17) dit avoir
+                    utilisée pour sa description du monde. C’est donc bien en reprenant un passage
+                    de Pline (qui concorde avec celui d’un autre auteur, Pomponius Mela), dans
+                    lequel l’encyclopédiste antique dit s’être servi d’une carte, que Biondo
+                    conjecture la position de Tigulia. Dès lors, il convient d’être prudent dans
+                    l’interprétation : la mention d’une carte peut provenir d’une source textuelle
+                    sans signifier pour autant que Biondo en a fait lui-même usage.</p>
+            </sec>
+            <sec id="s-cartes-marines">
+                <title>Cartes marines</title>
+                <p id="zuf4ewszop7">Les cartes marines sont au milieu du XV<sup>e</sup> siècle des
+                    objets usuels dans le monde méditerranéen, tant chez les gens de mer que chez
+                    les savants. Un humaniste de la stature de Biondo, qui a été au service de
+                    Venise dans la première partie de sa carrière, ne peut manquer d’en avoir vu. De
+                    fait, certaines parties de son <italic>Italia illustrata</italic> suggèrent
+                    qu’il en a utilisé :</p>
+                <disp-quote>
+                    <p id="g2blrbmhkmyw">Insulam, quae illum ab Austro Africoque tutum reddat,
+                        natura obiecit, secus quam vastae se pandunt fauces, multis reflexibus
+                        tortuosae, in longum amplumque sinum qui passus quinque milia longitudine ac
+                        latitudine protenditur, navigia admittentes. Portusque ipse, omnium
+                        capacissimus navigiorum, Macra augetur […].<xref ref-type="fn" rid="fn19"
+                            >20</xref></p>
+                </disp-quote>
+                <p id="p2n9ak8d91v6">La description du golfe, la mention des vents
+                        (<italic>auster</italic>, <italic>africus</italic>), et la référence à la
+                    navigation constituent des indices de l’utilisation d’une telle carte (et
+                    peut-être d’un portulan, description des routes maritimes). En réalité, ce
+                    passage est entièrement inspiré de Giacomo Bracelli.<xref ref-type="fn"
+                        rid="fn20">21</xref></p>
+                <p id="wgvbpefabkq">En outre, l’expression « omnium capacissimus navigiorium » est
+                    le signe probable de la lecture de <italic>l’Itinerarium</italic> de Pétrarque,
+                    qui décrit d’une manière analogue cette région et a fourni un modèle d’écriture,
+                    aussi bien à Bracelli qu’à Biondo, du moins pour le littoral de la mer
+                        Tyrrhénienne.<xref ref-type="fn" rid="fn21">22</xref> Le reste de
+                        l’<italic>Italia illustrata</italic> ne paraît pas présenter de preuves
+                    formelles de l’utilisation de cartes marines. En fait, Biondo n’en avait pas
+                    nécessairement besoin, car il travaillait sur une ou plusieurs cartes modernes
+                    de l’Italie, qui reprennent souvent les toponymes littoraux des cartes marines
+                    et présentent l’avantage de fournir les informations indispensables pour
+                    conduire la description de l’intérieur des terres.</p>
+            </sec>
+            <sec id="s-cartes-modernes-de-litalie">
+                <title>Carte(s) moderne(s) de l’Italie</title>
+                <p id="hukywhy1q07e">De fait, Biondo mentionne à deux reprises l’utilisation d’une
+                    carte de l’Italie moderne selon lui dessinée par Pétrarque et le roi Robert
+                    d’Anjou, ce qui intrigue depuis longtemps les spécialistes :</p>
+                <disp-quote>
+                    <p id="ytdneroas9n">Ad eamque villam rectus et primarius Padi cursus qui
+                        praeterlabitur anno nunc centesimo tortuosiore veniebat alveo, quem nunc a
+                        vici incolis ‘Codeream’ corrupte pro Capite Eridani dictum, secus villam
+                        Belreguardam desiccatum videmus. Nam pictura Italiae quam in primis
+                        sequimur, Roberti regis Siciliae et Francisci Petrarchae eius amici opus,
+                        Vicuentiam Vicueriamque et Conam vicos profluenti Pado appositos habet.
+                        Quare partes ipsas Padi a Ferraria Cosandalum et a Coderea in mare nunc
+                        defluentes a centesimo anno initium habuisse non dubito.<xref ref-type="fn"
+                            rid="fn22">23</xref></p>
+                </disp-quote>
+                <disp-quote>
+                    <p id="brzbr7wrngkm">Hunc vero Ficaroli ramum inter annos centum proximos
+                        inchoasse ideo non dubitamus, quia Roberti regis Neapolitani et Francisci
+                        Petrarchae pictura Italiae, quam nos sequi supra diximus, ipsum non habet
+                            ramum.<xref ref-type="fn" rid="fn23">24</xref></p>
+                </disp-quote>
+                <p id="l2szaj4z9xug">Si la plupart des historiens considèrent aujourd’hui que la
+                    carte dont se servait Biondo n’a pas été dessinée par Pétrarque et Robert
+                        d’Anjou<xref ref-type="fn" rid="fn24">25</xref>, il reste que cette
+                    attribution lui confère prestige et autorité, ce qui justifie sans doute aux
+                    yeux de Biondo de l’indiquer comme l’une de ses sources. Il est d’ailleurs
+                    possible que cette carte, mentionnée seulement dans la partie consacrée à la
+                    Romagne, n’ait pas représenté toute l’Italie. Dans une lettre envoyée au
+                    cardinal Prospero Colonna le 21 décembre 1450, Biondo l’empresse de solliciter
+                    de sa part auprès du roi de Naples une carte du sud de l’Italie, indispensable
+                    pour décrire ces régions. Cette requête suggère qu’il ne disposait sans doute
+                    que d’une représentation du Nord de la péninsule :</p>
+                <disp-quote>
+                    <p id="zgfupz4m4016">Quare, si tibi videbitur, non ingratum mihi fuerit, si tu
+                        Latinam regionem eleganti exaratam volumine ad eum miseris et munere verbis
+                        ornato tuis meum illi aperueris desiderium, ut et picturam et praesentis
+                        temporis nominum declarationem longiusculamque narrationem a suis, quos
+                        habet multos, peritioribus factam ad me mittat. <xref ref-type="fn"
+                            rid="fn25">26</xref></p>
+                </disp-quote>
+                <p id="sajemama2b5f">La nécessité de recourir à des représentations cartographiques
+                    modernes pour conduire une description géographique ou une narration historique
+                    est déjà exprimée en 1443 dans une lettre à Alphonse d’Aragon, où Biondo se
+                    propose d’écrire une histoire de l’Espagne à son intention.<xref ref-type="fn"
+                        rid="fn26">27</xref></p>
+                <p id="ve51fgc3bmps">Les cartes de l’Italie moderne constituent un ensemble
+                    remarquable, encore assez peu étudié en dehors d’un article de Marica
+                        Milanesi.<xref ref-type="fn" rid="fn27">28</xref> Toutes différentes, elles
+                    ont néanmoins des caractéristiques communes : le trait de côte de la péninsule
+                    est proche de celui des cartes marines, la nomenclature est moderne, et le
+                    relief (principalement le cours des fleuves), sert à structurer l’ensemble.
+                    Elles sont d’une remarquable exactitude.<xref ref-type="fn" rid="fn28">29</xref>
+                    La plupart dessinent la péninsule dans son entier et donnent ainsi une
+                    représentation concrète de son unité géographique. Dans certains cas pourtant,
+                    la carte ne concerne qu’une partie de l’Italie. C’est le cas de celle conservée
+                    à Strasbourg.<xref ref-type="fn" rid="fn29">30</xref> L’étude de Kurt
+                    Guckelsberger, dans le présent volume, montre que celle conservée à Londres
+                    (British Library, Cotton roll. XIII. 44) est constituée de deux espaces dessinés
+                    à une échelle différente, la limite passant par la frontière entre le royaume de
+                    Naples et les États pontificaux, ce qui suggère que deux ensembles
+                    cartographiques distincts (vraisemblablement d’origine différente) ont été
+                    assemblés pour la fabriquer. Il n’est enfin pas impossible que Biondo ait eu
+                    aussi à sa disposition l’une ou l’autre des cartes régionales, nombreuses et
+                    précoces, notamment en Italie padane. En tout état de cause, il faudrait
+                    conduire des études détaillées sur les toponymes mentionnés par Biondo et les
+                    cartes que nous avons conservées<xref ref-type="fn" rid="fn30">31</xref>.</p>
+            </sec>
+        </sec>
+        <sec id="import-o87jrih7fh" sec-type="chapter">
+            <title>Usage de la carte : rapport avec les textes et construction d’une géographie
+                critique</title>
+            <p id="cb249vr76v3j">On peut distinguer plusieurs modalités d’utilisation des cartes :
+                construire le texte en les lisant; s’en servir pour localiser un nom de lieu et
+                confronter l’espace antique et l’espace moderne ; les critiquer en les comparant aux
+                textes et à d’autres cartes.</p>
+            <p id="zamxd4pzj1nj">Avant d’examiner ces aspects en détail, il convient de considérer
+                les rapports entre texte et carte. A lire les extraits cités ci-dessus, il saute aux
+                yeux qu’elles sont presque toujours associées à des textes (« Italiae descriptione
+                ac pictura a maioribus facta » ; « indicantque pariter Ptolemaei ac aliorum
+                geographorum descriptio ac pictura » ; « picturam et praesentis temporis nominum
+                declarationem longiusculamque narrationem »), ce qui est confirmé par une remarque
+                de méthode :</p>
+            <disp-quote>
+                <p id="w2l0gxqmhv3r">Difficilis vero est montium huiusmodi et sitorum in ipsis
+                    locorum descriptio quod saltuosissima sunt et rivis altisque rupibus quandoque
+                    ita dividuntur, ut ne pictura sit nec elocutio quae plenam illorum notitiam dare
+                        possit.<xref ref-type="fn" rid="fn31">32</xref></p>
+            </disp-quote>
+            <p id="j6tw8ol85zqe">Le travail du «  géographe » dépend des instruments dont il
+                dispose. Lorsque ceux-ci sont défectueux, il rencontre des difficultés parfois
+                insurmontables. Ces instruments sont la <italic>pictura</italic> et
+                    l’<italic>elocutio</italic>. Le premier terme désigne clairement une carte.
+                Celui d’<italic>elocutio</italic> renvoie à une notion plus complexe. C’est un terme
+                technique qui désigne la production d’un discours, selon les principes de la
+                    rhétorique.<xref ref-type="fn" rid="fn32">33</xref> Pour parler des textes
+                géographiques savants, Biondo utilise de manière préférentielle le terme de
+                    <italic>descriptio</italic>. Il est donc assez probable
+                    qu’<italic>elocutio</italic> désigne les connaissances qui transitent par le
+                langage, écrit ou oral, ce qui les distingue des images (<italic>pictura</italic>).
+                Comme les descriptions géographiques des Anciens ne peuvent suffire, Biondo a
+                recours à des données modernes de nature variée, écrits documentaires et
+                renseignements fournis par ceux qui connaissent la région. La description des lieux
+                repose aussi sur ce savoir local. Revenons un instant sur la lettre envoyée au
+                cardinal Prosper Colonna, dans laquelle Biondo réclame des documents en vue de
+                pallier ses connaissances incomplètes des réalités modernes, alors qu’il dit
+                disposer en suffisance de données antiques –par quoi il faut évidemment entendre les
+                textes géographiques et cosmographiques de l’Antiquité.<xref ref-type="fn"
+                    rid="fn33">34</xref> Ces documents sont de trois ordres, une carte, une
+                    <italic>declaratio</italic> fournissant les noms modernes et une
+                    <italic>longiuscula</italic>
+                <italic>narratio</italic>. <italic>Declaratio</italic> paraît renvoyer ici à un
+                texte court, possiblement sous la forme d’une liste de noms ;
+                    <italic>narratio</italic> évoque une description plus circonstanciée du royaume,
+                peut-être de nature historique ou administrative.<xref ref-type="fn" rid="fn34"
+                    >35</xref> Ceux qui doivent lui fournir ces documents sont des « experts en la
+                matière », capables, par leur connaissance des lieux, de pallier son ignorance
+                puisqu’il n’a pu ni les explorer, ni les connaître par un autre moyen (« nec satis
+                perlustravi nec alias plene novi »). Cette exigence de la connaissance des lieux
+                rappelle le prologue de l’<italic>Italia</italic>
+                <italic>illustrata</italic> où Biondo légitime son projet par sa qualité d’expert de
+                    l’Italie.<xref ref-type="fn" rid="fn35">36</xref> Il importe de retenir qu’il
+                travaille en associant et en comparant les données fournies par les cartes, les
+                textes, et les informations orales ou écrites données par ses interlocuteurs.</p>
+            <p id="u2nuiaf8bxxh">Examinons maintenant la façon dont Biondo utilise les cartes.
+                D’après le passage qui vient d’être analysé, elles lui servent de canevas pour
+                l’organisation topographique de sa description, c’est-à-dire pour en donner une
+                structure claire. A propos de la carte d’Italie moderne dont il se sert pour la
+                    <italic>Romandiola</italic>, il emploie à deux reprises le verbe « sequor », qui
+                désigne ici la lecture de la carte en vue d’en tirer l’ordonnance topographique
+                nécessaire à la description écrite. De là viennent les difficultés, lorsque ni les
+                cartes, ni les textes dont il dispose ne permettent d’exposer avec clarté la
+                conformation des lieux. La lecture de la carte explique certainement aussi la
+                méthode descriptive d’ensemble de l’<italic>Italia</italic>
+                <italic>illustrata.</italic> Comme les cartographes, Biondo s’appuie sur les
+                éléments du relief pour structurer sa description. Pour les parties proches du
+                littoral, le trait de côte est un point de repère naturel et facile à suivre.<xref
+                    ref-type="fn" rid="fn36">37</xref> Pour l’intérieur des terres, ce sont les
+                fleuves décrits de l’embouchure à la source qui jouent ce rôle, selon un sens
+                inverse de celui que nous suivons de nos jours. Biondo se place en effet du point de
+                vue d’un observateur qui regarde le fleuve depuis la mer, ce qui explique que la
+                « gauche » soit pour lui ce que nous qualifions de rive droite. C’est un indice de
+                la lecture de la carte. Étant donné le grand nombre de lieux modernes qu’il signale
+                et la précision de ses informations, il faut supposer que la (ou les) carte qu’il
+                utilisait constituait un instrument de travail indispensable et que certaines
+                parties de l’<italic>Italia illustrata</italic> en sont la description.<xref
+                    ref-type="fn" rid="fn37">38</xref> Mais dès qu’il dispose d’informations
+                écrites, la culture du texte prime. La composition du traité relève dès lors d’un
+                subtil équilibre entre ces différents instruments de travail. Leur confrontation
+                devient la pierre angulaire de la méthode. L’usage de la carte se limite alors à
+                préciser un élément ponctuel. C’est le cas du passage relatif à de la rivière Reno,
+                où Biondo décrit un détail visible sur les cartes et mentionné dans les textes
+                anciens (comme le montre l’emploi du terme « indicant »).</p>
+            <p id="chir22uet6rf">La carte peut donc toujours servir à fournir une information sur un
+                problème particulier et participe ainsi à la mise en œuvre d’une géographie
+                critique. Le cas évoqué ci-dessus à propos de Tigulia en est un exemple. Un autre,
+                plus développé, est fourni par l’exemple des Frentans, un peuple antique d’Italie
+                centrale :</p>
+            <disp-quote>
+                <p id="wiqlrw62uear">Marique contigua, vetustissima urbs Ortona, quam Ptolomaeus
+                    simul cum Aterni amnis ostio in Pelignis enumerat ; sed Plinius, cui in rebus
+                    Italiae magis credimus, quicquid est ab Aterni amnis ostio in Larinates
+                    Frentanorum orae attribuit. Quin ipse etiam Ptolomaeus, sicut et Plinius,
+                    Frentanam urbem Aterno sinistram, ubi nunc est Villafrancha, ponit, ut aut
+                    Ptolomaei picturam esse depravatam, quae contraria habeat, aut eos qui
+                    retulerunt sibi errasse non dubitemus.<xref ref-type="fn" rid="fn38"
+                    >39</xref></p>
+            </disp-quote>
+            <p id="r5d3yop5ohnd">Ce passage, complexe mais d’un grand intérêt, a été étudié en
+                détail dans un article de Paolo Pontari, que je résume ici.<xref ref-type="fn"
+                    rid="fn39">40</xref> Le problème est de localiser le territoire où se trouve
+                l’ancienne cité d’Ortona, celui des Frentans ou de celui des Péligniens. D’après
+                Ptolémée, Ortona est située à proximité de l’embouchure de l’Aterno dans le
+                territoire des Péligniens (Ptolémée, III, 1, 18-19) alors que Pline l’attribue à
+                celui des Frentans.<xref ref-type="fn" rid="fn40">41</xref> Le point de départ du
+                problème soulevé par Biondo est une contradiction entre deux auteurs antiques.
+                Biondo donne raison à Pline, en partant du principe qu’il est le plus crédible sur
+                les choses italiennes. L’argument en soi est digne d’intérêt : l’encyclopédiste est
+                plus crédible parce qu’il connaît mieux l’Italie, où il vit, que Ptolémée –on
+                retrouve ici l’argument de l’ « expertise » évoqué ci-dessus. Si l’on suit Pline,
+                Ortona relève des Frentans dont le territoire est compris entre l’embouchure de
+                l’Aterno et celui des Larinates. Biondo confirme cette première conclusion par
+                l’ajout d’une autre donnée, l’existence d’une ville côtière
+                    <italic>Frentana</italic> (son nom indique qu’elle relevait des Frentans). Le
+                problème est que cette <italic>Frentana</italic> antique est une « invention »
+                philologique, due à la corruption des textes de Tite-Live et de Pline, à partir
+                desquels l’humaniste conjecture son existence.<xref ref-type="fn" rid="fn41"
+                    >42</xref> Pour Biondo, la présence de la <italic>Frentana</italic> antique est
+                aussi confirmée parce qu’elle est identifiable à l’actuelle Francavilla a Mare. Ce
+                rapprochement vient vraisemblablement de la consultation d’une carte moderne de
+                l’Italie où est mentionné le toponyme Francavilla .<xref ref-type="fn" rid="fn42"
+                    >43</xref> C’est un exemple d’identification par l’association de la proximité
+                phonétique et de la localisation topographique. D’après Biondo, Ptolémée
+                mentionnerait lui aussi cette <italic>Frentana</italic> sur la rive gauche de
+                    l’Aterno.<xref ref-type="fn" rid="fn43">44</xref> L’humaniste ne précise pas
+                s’il s’agit de la carte ou du texte, mais comme il utilise le verbe
+                    <italic>pono</italic>, Paolo Pontari suggère que la ville se trouve sur la carte
+                consultée par Biondo.<xref ref-type="fn" rid="fn44">45</xref> La carte, qui porte
+                    <italic>Frentana</italic>, diffère donc du texte, qui ne la mentionne pas ; elle
+                est donc corrompue (<italic>depravata</italic>) par rapport au texte.<xref
+                    ref-type="fn" rid="fn45">46</xref> Elle donne une information vraie en soi (car
+                confirmée par d’autres auteurs antiques) mais <italic>depravata</italic> selon le
+                texte de Ptolémée.</p>
+            <p id="ukrrtjg5s6mj">L’enquête critique et philologique menée par Biondo l’amène à
+                mettre en doute la conformité de la carte d’Italie par rapport au texte de Ptolémée.
+                Si une carte joue légitimement un rôle dans l’établissement des faits géographiques
+                dans un cadre philologique, elle doit cependant être évaluée. Ce principe fait
+                évidemment émerger l’auteur comme ultime ordonnateur de l’ordre géographique, celui
+                qui « conjecture » et fait parfois part au lecteur de son raisonnement. De ce point
+                de vue, on ne peut qu’être frappé de l’occurrence régulière des termes
+                    <italic>confero</italic> et <italic>conjecto</italic> tout au long de
+                    l’<italic>Italia illustrata.</italic><xref ref-type="fn" rid="fn46">47</xref>
+                <italic>Conjecto</italic> est employé lorsque le géographe, ayant identifié un
+                problème (qui émerge le plus souvent d’une contradiction des sources), et après
+                avoir comparé ses instruments de travail, décide et choisit, en tenant le lecteur au
+                courant (ou non) de sa démarche critique. Dans ce dispositif, les cartes ont leur
+                place.</p>
+            <p id="vkq1zhr6bous">Aux yeux de Biondo, elles ont en outre la qualité de représenter
+                l’espace à un moment donné. L’utilisation qu’il fait de la carte qu’il attribue à
+                Pétrarque et à René d’Anjou est à cet égard éclairante. Constatant que sur la carte
+                du XIV<sup>e</sup> siècle, deux bras du Pô seulement sont dessinés alors qu’à son
+                époque il en existe trois, il conclut que la rupture des digues du Pô (événement
+                majeur dans l’histoire du delta qui modifia durablement le cours du fleuve et eut
+                des répercussions tout aussi importantes sur la vie des hommes) avait eu lieu moins
+                d’un siècle avant le moment où il écrit. On sait aujourd’hui que la rupture des
+                digues date de 1152. Biondo commet une erreur, confirmée parce qu’il lit dans des
+                actes conservés par des monastères de la région.<xref ref-type="fn" rid="fn47"
+                    >48</xref> Plutôt que l’erreur, c’est sa démarche critique qui est remarquable
+                et le rôle qu’y joue la carte, considérée comme un enregistrement graphique d’une
+                réalité topographique à un moment donné. Cela est nouveau, du moins dans une
+                description géographique et témoigne une fois encore de la sensibilité historique de
+                Biondo face à l’espace géographique.<xref ref-type="fn" rid="fn48">49</xref></p>
+            <p id="nb67al21ouh4">Cependant, il faut se garder de prêter à à l’humaniste un usage
+                systématique des cartes, ni même penser qu’il leur accorde une quelconque
+                supériorité sur les textes. Tout autant qu’une carte, un texte permet de donner une
+                structure « géographique » à la description. La région du Latium est un bon exemple
+                de ce procédé. Après avoir décrit le littoral, Biondo annonce un changement de
+                méthode et dit abandonner celle qui consiste à remonter le cours des fleuves de
+                l’embouchure à la source pour en adopter une spécifique au Latium, suivre les
+                itinéraires des voies antiques :</p>
+            <disp-quote>
+                <p id="lyrnlhkcq2da">Hac autem describenda mediterranea regione modum hactenus in
+                    aliis servatum a fluviorum ostiis fontibusque et discursu servare nequibimus,
+                    sed alium certius facturum satis qui in nulla reperiatur alia Italiae regione
+                    tenebimus, viis incedendo tribus : Appia, Latina et Tiburtina, quae, inter se
+                    diversae, ad Lirim amnem et Sinuessam Caietamque perducunt.<xref ref-type="fn"
+                        rid="fn49">50</xref></p>
+            </disp-quote>
+            <p id="oylcgo6dkl5">Ce nouveau procédé descriptif correspond en fait à la source
+                principale de Biondo pour le Latium, la <italic>Géographie</italic> de Strabon :</p>
+            <disp-quote>
+                <p id="wqbkr9m8u13">En ce qui concerne les autres villes du Latium, des points de
+                    repère permettent de déterminer la position de certaines d’entre elles, mais
+                    dans la plupart des cas on peut les situer au moyen des routes les plus fameuses
+                    qui sillonnent le territoire latin. En effet, elles sont toujours bâties ou sur
+                    ces routes, ou dans leurs abords ou entre deux d’entre elles. Les routes les
+                    plus célèbres sont la Via Appia, la Via Latina et la Via Valeria.<xref
+                        ref-type="fn" rid="fn50">51</xref></p>
+            </disp-quote>
+            <p id="i2zlohec3wbc">Biondo est un lecteur précoce de la traduction de la
+                    <italic>Géographie</italic> de Strabon par Garin de Vérone et Gregorio
+                    Tifernate.<xref ref-type="fn" rid="fn51">52</xref> S’il mentionne Strabon dans
+                sa préface comme une de ses sources, c’est seulement dans la description du Latium
+                qu’il l’utilise préférentiellement, comme il l’indique lui-même.<xref ref-type="fn"
+                    rid="fn52">53</xref> Dans la description du Latium, l’organisation géographique
+                adoptée donne parfois l’impression d’un recours à la carte (antique ou médiévale) et
+                la méthode mise en œuvre paraît résulter d’un choix mûrement réfléchi, alors qu’il
+                se contente de suivre l’ordre descriptif du texte de Strabon.</p>
+        </sec>
+        <sec id="import-x2v0kjd1t5" sec-type="chapter">
+            <title>Conclusion</title>
+            <p id="l9g5wrelnsw">Des incertitudes persistent au sujet des cartes que Biondo a
+                utilisées. La carte moderne de l’Italie ne représentait peut-être que la partie nord
+                et centrale de la péninsule, ce qui expliquerait que Biondo demande une carte de
+                l’Italie du Sud à Alphonse d’Aragon. Mais on pourrait tout aussi bien objecter qu’il
+                fait cette demande parce que celle qu’il utilise est incomplète... Par ailleurs,
+                a-t-il utilisé une seule carte, celle qu’il attribue à Robert d’Anjou et à
+                Pétrarque, ou a-t-il aussi eu accès à une ou d’autres cartes modernes ? La
+                comparaison systématique des toponymes mentionnés par Biondo avec ceux des cartes
+                d’Italie fabriquées au XV<sup>e</sup> siècle, apporterait certainement des éléments
+                nouveaux permettant une juste évaluation du rôle de(s) la carte(s) moderne(s) dans
+                    l’<italic>Italia</italic>
+                <italic>illustrata</italic>. Toutefois, la conformité totale entre une carte
+                particulière et le texte de Biondo risque d’être difficile à mettre en évidence, en
+                raison de sa méthode de travail qui associe des sources diverses, parfois mêlées à
+                des informations orales, parfois fondées sur son expérience en tant
+                qu’administrateur. De plus, la lecture d’une carte et sa transposition sous une
+                forme descriptive sont des opérations complexes et d’autant plus difficile à repérer
+                avec certitude que la manière de lire la carte n’est pas forcément identique à la
+                nôtre. Biondo commence par décrire le littoral, puis remonte le long des fleuves et
+                de ce fait inverse les repères « droite » et « gauche » par rapport aux nôtres. Le
+                cas du Latium montre qu’un texte où s’exprime une réflexion d’ordre méthodologique
+                sur le meilleur procédé pour décrire une région peut n’être que la reprise d’une
+                source écrite, qui fournit la structure topographique. De ce fait, il n’est pas
+                impossible que les parties de l’<italic>Italia illustrata</italic> donnant le plus
+                le sentiment d’être entièrement fondées sur une carte moderne soient en réalité le
+                produit d’une description écrite –par exemple sous la forme d’un itinéraire. Il faut
+                donc se garder d’exagérer le rôle des cartes dans l’écriture de l’<italic>Italia
+                    illustrata</italic> et conserver à l’esprit qu’elles sont le plus souvent
+                utilisées en association avec des sources écrites, preuve de la complexité des
+                rapports entre carte et texte à l’âge de l’humanisme.</p>
+            <p id="nl6ijgdqnyrn">Il convient enfin de pondérer l’originalité de Biondo. Il n’est ni
+                le premier ni le seul à utiliser des cartes pour décrire l’espace, que ce soit en
+                « lisant » la carte, en y cherchant un détail ou en l’associant avec un texte.<xref
+                    ref-type="fn" rid="fn53">54</xref> Cette pratique est en réalité très ancienne
+                dans la culture médiévale et certainement plus répandue qu’on ne le croit
+                    habituellement.<xref ref-type="fn" rid="fn54">55</xref> Ajoutons à cela qu’aux
+                yeux d’un humaniste comme Biondo penser que Pline s’est servi de la mappemonde
+                élaborée par Agrippa et Auguste pour décrire le monde apporte une légitimation
+                absolue de ce procédé intellectuel « médiéval ». Ce constat ne doit pas pour autant
+                conduire à sous-estimer les nouveautés apportées par Biondo. Il applique aux cartes
+                anciennes les méthodes de la philologique naissante, comme en témoigne l’enquête sur
+                les Frentans où la carte est jugée <italic>depravata</italic>. C’est en la
+                soumettant à la critique ou plus précisément parce qu’elle est critiquable, qu’elle
+                peut être utilisée comme un instrument fiable de connaissance de l’espace. L’apport
+                principal de Biondo vient cependant de sa conscience de l’historicité de la carte.
+                Il la considère comme un témoin de la réalité topographique à un moment donné,
+                réalité qui se modifie constamment, ce qui lui permet de comparer la carte attribuée
+                à Pétrarque et Robert d’Anjou avec l’organisation du delta du Pô à son époque, comme
+                il le fait entre celles de Ptolémée et l’espace moderne. C’est aussi à ce titre que
+                la carte joue un rôle dans l’établissement d’une géographie critique, trait
+                constitutif de la géographie humaniste.</p>
+        </sec>
+    </body>
+    <back>
+        <ref-list>
+            <title>References</title>
+            <ref id="schvaneveldt1990">
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author"/>
+                    <year>1990</year>
+                    <article-title>Pathfinder associative networks: Studies in knowledge
+                        organization</article-title>
+                </element-citation>
+            </ref>
+            <ref id="csikszentmihalyi1998findinglife">
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author"><name>
+                            <surname>Csikszentmihalyi</surname>
+                            <given-names>Mihaly</given-names>
+                        </name></person-group>
+                    <year>1998</year>
+                    <article-title>[Finding Flow: The Psychology of Engagement with Everyday
+                        Life]{.nocase}</article-title>
+                </element-citation>
+            </ref>
+            <ref id="fubini1968">
+                <element-citation publication-type="chapter">
+                    <person-group person-group-type="author"><name>
+                            <surname>Fubini</surname>
+                            <given-names>Riccardo</given-names>
+                        </name></person-group>
+                    <year>1968</year>
+                    <article-title>Biondo Flavio</article-title>
+                    <source>Dizionario biografico degli italiani. 10, Biagio-Boccaccio</source>
+                    <volume>10</volume>
+                </element-citation>
+            </ref>
+            <ref id="fubini2003">
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author"><name>
+                            <surname>Fubini</surname>
+                            <given-names>Riccardo</given-names>
+                        </name></person-group>
+                    <year>2003</year>
+                    <article-title>Storiografia dell’umanesimo in Italia da Leonardo Bruni ad Annio
+                        da Viterbo</article-title>
+                    <volume>217</volume>
+                </element-citation>
+            </ref>
+            <ref id="clavuot1990">
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author"><name>
+                            <surname>Clavuot</surname>
+                            <given-names>Ottavio</given-names>
+                        </name></person-group>
+                    <year>1990</year>
+                    <article-title>Biondos Italia illustrata - Summa oder Neuschöpfung? Über die
+                        Arbeitsmethoden eines Humanisten</article-title>
+                    <volume>69</volume>
+                </element-citation>
+            </ref>
+            <ref id="biondo2011">
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author"><name>
+                            <surname>Biondo</surname>
+                            <given-names>Flavio</given-names>
+                        </name></person-group>
+                    <year>2011</year>
+                    <article-title>Italia Illustrata: 1</article-title>
+                    <volume>4.1</volume>
+                </element-citation>
+            </ref>
+            <ref id="biondo2014">
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author"><name>
+                            <surname>Biondo</surname>
+                            <given-names>Flavio</given-names>
+                        </name></person-group>
+                    <year>2014</year>
+                    <article-title>Italia Illustrata: 2</article-title>
+                    <volume>4.2</volume>
+                </element-citation>
+            </ref>
+            <ref id="michalsky2019">
+                <element-citation publication-type="chapter">
+                    <person-group person-group-type="author"><name>
+                            <surname>Michalsky</surname>
+                            <given-names>Tanja</given-names>
+                        </name></person-group>
+                    <year>2019</year>
+                    <article-title>Mentale Karten der Frühen Neuzeit: Die Bewältigung des
+                        historischen Raumes in der Italia illustrata von Flavio
+                        Biondo</article-title>
+                    <source>Monumenta Illustrata</source>
+                </element-citation>
+            </ref>
+            <ref id="gambi1977">
+                <element-citation publication-type="paper-conference">
+                    <person-group person-group-type="author"><name>
+                            <surname>Gambi</surname>
+                            <given-names>Lucio</given-names>
+                        </name></person-group>
+                    <year>1977</year>
+                    <article-title>Per una rilettura di Biondo e Alberti, geografi</article-title>
+                    <source>Il Rinascimento nelle corti padane</source>
+                </element-citation>
+            </ref>
+            <ref id="milanesi2003">
+                <element-citation publication-type="article-journal">
+                    <person-group person-group-type="author"><name>
+                            <surname>Milanesi</surname>
+                            <given-names>Marica</given-names>
+                        </name></person-group>
+                    <year>2003</year>
+                    <article-title>Per una storia della geografia storica</article-title>
+                    <source>Geographia Antiqua</source>
+                    <volume>10</volume>
+                </element-citation>
+            </ref>
+            <ref id="dalche2012">
+                <element-citation publication-type="article-journal">
+                    <person-group person-group-type="author"><name>
+                            <surname>Dalché</surname>
+                            <given-names>Patrick Gautier</given-names>
+                        </name></person-group>
+                    <year>2012</year>
+                    <article-title>De Pétrarque à Raimondo Marliano: Aux origines de la géographie
+                        historique</article-title>
+                    <source>Archives d’histoire doctrinale et littéraire du Moyen Age</source>
+                    <pub-id pub-id-type="doi">10.3917/ahdlm.079.0161</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="castner2016">
+                <element-citation publication-type="chapter">
+                    <person-group person-group-type="author"><name>
+                            <surname>Castner</surname>
+                            <given-names>Catherine J.</given-names>
+                        </name></person-group>
+                    <year>2016</year>
+                    <article-title>The fortuna of Biondo Flavio’s Italia illustrata</article-title>
+                    <source>A New Sense of the Past</source>
+                </element-citation>
+            </ref>
+            <ref id="_c6xpir2d">
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author"><name>
+                            <surname>Biondo</surname>
+                            <given-names>Flavio</given-names>
+                        </name><name>
+                            <surname>Nogara</surname>
+                            <given-names>Bartolomeo</given-names>
+                        </name></person-group>
+                    <year>1927</year>
+                    <article-title>Scritti inediti e rari di Flavio Biondo</article-title>
+                    <volume>48</volume>
+                </element-citation>
+            </ref>
+            <ref id="biondo2017">
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author"><name>
+                            <surname>Biondo</surname>
+                            <given-names>Flavio</given-names>
+                        </name></person-group>
+                    <year>2017</year>
+                    <article-title>Italia Illustrata: 3</article-title>
+                    <volume>4.3</volume>
+                </element-citation>
+            </ref>
+            <ref id="gautierdalche2009">
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author"><name>
+                            <surname>Gautier Dalché</surname>
+                            <given-names>Patrick</given-names>
+                        </name></person-group>
+                    <year>2009</year>
+                    <article-title>La gǒgraphie de Ptolémě en Occident: (IVe - XVIe
+                        siècle)</article-title>
+                </element-citation>
+            </ref>
+            <ref id="andriani1924">
+                <element-citation publication-type="article-journal">
+                    <person-group person-group-type="author"><name>
+                            <surname>Andriani</surname>
+                            <given-names>Giuseppe</given-names>
+                        </name></person-group>
+                    <year>1924</year>
+                    <article-title>Giacomo Bracelli nella storia della geografia</article-title>
+                    <source>Atti della Società Ligure di Storia Patria</source>
+                    <volume>52</volume>
+                </element-citation>
+            </ref>
+            <ref id="petrarca1990">
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author"><name>
+                            <surname>Petrarca</surname>
+                            <given-names>Francesco</given-names>
+                        </name></person-group>
+                    <year>1990</year>
+                    <article-title>Itinerario in Terra Santa: 1358 ; testo latino a
+                        fronte</article-title>
+                    <volume>8</volume>
+                </element-citation>
+            </ref>
+            <ref id="pontari2009">
+                <element-citation publication-type="article-journal">
+                    <person-group person-group-type="author"><name>
+                            <surname>Pontari</surname>
+                            <given-names>Paolo</given-names>
+                        </name></person-group>
+                    <year>2009</year>
+                    <article-title>Pictura latens: La dispersa carta geografica d’Italia di Petrarca
+                        e Roberto d’Angiò</article-title>
+                    <source>Rinascimento</source>
+                </element-citation>
+            </ref>
+            <ref id="_s5bmjvf5">
+                <element-citation publication-type="article-journal">
+                    <person-group person-group-type="author"><name>
+                            <surname>Milanesi</surname>
+                            <given-names>Marica</given-names>
+                        </name></person-group>
+                    <year>2008</year>
+                    <article-title>Antico e moderno nella cartografia umanistica: le grandi carte
+                        d'Italia nel Quattrocento</article-title>
+                    <source>Geographia Antiqua</source>
+                    <volume>16–17</volume>
+                </element-citation>
+            </ref>
+            <ref id="guckelsberger2022">
+                <element-citation publication-type="paper-conference">
+                    <person-group person-group-type="author"><name>
+                            <surname>Guckelsberger</surname>
+                            <given-names>Kurt</given-names>
+                        </name><name>
+                            <surname>Geus</surname>
+                            <given-names>Klaus</given-names>
+                        </name></person-group>
+                    <year>2022</year>
+                    <article-title>Measurements, Maps, and Other Source Material in Biondo’s Italia
+                        Illustrata: The Example of Latium</article-title>
+                    <source>Walking through history. An Interdisciplinary Approach to Flavio
+                        Biondo’s Spaces in the Italia Illustrata</source>
+                    <pub-id pub-id-type="doi">\url{10.48431/hsah.0103}</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="_yaavrl7k">
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author"><name>
+                            <surname>Milanesi</surname>
+                            <given-names>Marica</given-names>
+                        </name></person-group>
+                    <article-title>I fiumi retici nelle carte dell'italia tra XV e XVI secolo: Breve
+                        storia di una rete impossibile</article-title>
+                </element-citation>
+            </ref>
+            <ref id="kirchner2008">
+                <element-citation publication-type="chapter">
+                    <person-group person-group-type="author"><name>
+                            <surname>Kirchner</surname>
+                            <given-names>Roderich</given-names>
+                        </name></person-group>
+                    <year>2008</year>
+                    <article-title>Elocutio: Latin Prose Style</article-title>
+                    <source>A Companion to Roman Rhetoric</source>
+                    <pub-id pub-id-type="doi">10.1002/9780470996485.ch14</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="lucarini2001">
+                <element-citation publication-type="article-journal">
+                    <person-group person-group-type="author"><name>
+                            <surname>Lucarini</surname>
+                            <given-names>Carlo M.</given-names>
+                        </name><name>
+                            <surname>Pontari</surname>
+                            <given-names>Paolo</given-names>
+                        </name></person-group>
+                    <year>2001</year>
+                    <article-title>Nuovi passi inediti dell’Italia illustrata di Biondo
+                        Flavio</article-title>
+                    <source>Rinascimento</source>
+                    <volume>41</volume>
+                </element-citation>
+            </ref>
+            <ref id="lucarini2001b">
+                <element-citation publication-type="article-journal">
+                    <person-group person-group-type="author"><name>
+                            <surname>Pontari</surname>
+                            <given-names>Paolo</given-names>
+                        </name></person-group>
+                    <year>2003</year>
+                    <article-title>Ancora su passi inediti dell’Italia illustrata</article-title>
+                    <source>Rinascimento</source>
+                    <volume>43</volume>
+                </element-citation>
+            </ref>
+            <ref id="pontari2009b">
+                <element-citation publication-type="paper-conference">
+                    <person-group person-group-type="author"><name>
+                            <surname>Pontari</surname>
+                            <given-names>Paolo</given-names>
+                        </name></person-group>
+                    <year>2009</year>
+                    <article-title>Picturae et elocutiones: fonti storiche e geografiche dell’Italia
+                        illustrata di Biondo</article-title>
+                    <source>Da Flavio Biondo a Leandro Alberti</source>
+                </element-citation>
+            </ref>
+            <ref id="pliniussecundus1998">
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author"><name>
+                            <surname>Plinius Secundus</surname>
+                            <given-names>Gaius</given-names>
+                        </name></person-group>
+                    <year>1998</year>
+                    <article-title>Histoire naturelle: Livre III</article-title>
+                    <volume>347</volume>
+                </element-citation>
+            </ref>
+            <ref id="rizzo1973">
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author"><name>
+                            <surname>Rizzo</surname>
+                            <given-names>Silvia</given-names>
+                        </name></person-group>
+                    <year>1973</year>
+                    <article-title>Il lessico filologico degli umanisti</article-title>
+                </element-citation>
+            </ref>
+            <ref id="fermon2018">
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author"><name>
+                            <surname>Fermon</surname>
+                            <given-names>Paul</given-names>
+                        </name></person-group>
+                    <year>2018</year>
+                    <article-title>Le peintre et la carte: Origines et essor de la vue figurée entre
+                        Rhône et Alpes (XIVe-XVe siècle)</article-title>
+                    <volume>14</volume>
+                </element-citation>
+            </ref>
+            <ref id="dalche2017">
+                <element-citation publication-type="chapter">
+                    <person-group person-group-type="author"><name>
+                            <surname>Dalché</surname>
+                            <given-names>Patrick Gautier</given-names>
+                        </name></person-group>
+                    <year>2017</year>
+                    <article-title>Strabo’s Reception in the West (Fifteenth–Sixteenth
+                        Centuries)</article-title>
+                    <source>The Routledge Companion to Strabo</source>
+                </element-citation>
+            </ref>
+            <ref id="bouloux2006">
+                <element-citation publication-type="article-journal">
+                    <person-group person-group-type="author"><name>
+                            <surname>Bouloux</surname>
+                            <given-names>Nathalie</given-names>
+                        </name></person-group>
+                    <year>2006</year>
+                    <article-title>Encore quelques reflexions sur l’usage des cartes par
+                        Pétrarque</article-title>
+                    <source>Quaderns d’Italià</source>
+                    <volume>11</volume>
+                </element-citation>
+            </ref>
+            <ref id="dalche2016">
+                <element-citation publication-type="chapter">
+                    <person-group person-group-type="author"><name>
+                            <surname>Dalché</surname>
+                            <given-names>Patrick Gautier</given-names>
+                        </name></person-group>
+                    <year>2016</year>
+                    <article-title>Comment et pourquoi décrire une mappemonde au Moyen Âge
+                        ?</article-title>
+                    <source>Figures de l’autorité médiévale</source>
+                </element-citation>
+            </ref>
+            <ref id="boulouxaparaitre">
+                <element-citation publication-type="article-journal">
+                    <person-group person-group-type="author"><name>
+                            <surname>Bouloux</surname>
+                            <given-names>Nathalie</given-names>
+                        </name></person-group>
+                    <article-title>La méthode géographique de Pétrarque : antécédents et
+                        postérité</article-title>
+                </element-citation>
+            </ref>
+            <ref id="boulouxaparaitreb">
+                <element-citation publication-type="article-journal">
+                    <person-group person-group-type="author"><name>
+                            <surname>Bouloux</surname>
+                            <given-names>Nathalie</given-names>
+                        </name></person-group>
+                    <article-title>Ancien et moderne0xa0 la Géographie de Sebastiano Compagni
+                        (1509)</article-title>
+                </element-citation>
+            </ref>
+            <ref id="milanesi2022">
+                <element-citation publication-type="paper-conference">
+                    <person-group person-group-type="author"><name>
+                            <surname>Milanesi</surname>
+                            <given-names>Marica</given-names>
+                        </name></person-group>
+                    <year>2022</year>
+                    <article-title>I fiumi retici nelle carte dell’italia tra XV e XVI secolo: Breve
+                        storia di una rete impossibile</article-title>
+                    <source>Territoires, régions, royaumes</source>
+                </element-citation>
+            </ref>
+            <ref id="guckelsberger2022b">
+                <element-citation publication-type="paper-conference">
+                    <person-group person-group-type="author"><name>
+                            <surname>Guckelsberger</surname>
+                            <given-names>Kurt</given-names>
+                        </name></person-group>
+                    <year>2022</year>
+                    <article-title>Two Great Maps of Italy – A Comparison</article-title>
+                    <source>Walking through history. An interdisciplinary approach to Flavio
+                        Biondo’s spaces in the Italia Illustrata</source>
+                    <pub-id pub-id-type="doi">10.48431/hsah.0104</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="biondo1927">
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author"><name>
+                            <surname>Biondo</surname>
+                            <given-names>Flavio</given-names>
+                        </name></person-group>
+                    <year>1927</year>
+                    <article-title>Scritti inediti e rari di Flavio Biondo</article-title>
+                    <volume>48</volume>
+                </element-citation>
+            </ref>
+            <ref id="dalche2009">
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author"><name>
+                            <surname>Dalché</surname>
+                            <given-names>Patrick Gautier</given-names>
+                        </name></person-group>
+                    <year>2009</year>
+                    <article-title>La géographie de Ptolémée en Occident: (IVe - XVIe
+                        siècle)</article-title>
+                </element-citation>
+            </ref>
+        </ref-list>
+        <fn-group content-type="footnotes">
+            <title>Footnotes</title>
+            <fn id="fn1">
+                <label>1</label>
+                <p>Sur Biondo Flavio et le caractère innovant de l’<italic>Italia</italic>
+                    <italic>illustrata</italic>, voir <xref ref-type="bibr" rid="fubini1968">(Fubini
+                        1968, 548‑51)</xref>; Riccardo Fubini, « La geografia storica
+                        dell’<italic>Italia illustrata</italic> di Biondo Flavio e le tradizioni
+                        dell’etnografia »<italic>,</italic> dans <xref ref-type="bibr"
+                        rid="fubini2003">(Fubini 2003, 217:53‑76)</xref>. Pour une présentation de
+                    Biondo et des caractéristiques de l’<italic>Italia</italic>
+                    <italic>illustrata</italic>, <xref ref-type="bibr" rid="clavuot1990">(Clavuot
+                        1990)</xref> et Paolo Pontari dans le premier volume de l’édition critique
+                    de l’<italic>Italia illustrata </italic>: <xref ref-type="bibr" rid="biondo2011"
+                        >(Biondo 2011, 4.1:26‑250)</xref> avec une bibliographie.</p>
+            </fn>
+            <fn id="fn2">
+                <label>2</label>
+                <p>« Itaque, postquam propitiore nobis Deo nostro meliora habet aetas nostra et cum
+                    ceterarum artium tum maxime eloquentiae studia revixerunt ac per ea historiarum
+                    diligentius noscendarum amor nostros cepit homines, tentare volui si per eam
+                    quam sum nactus Italiae rerum peritiam vetustioribus locis eius et populis
+                    nominum novitatem, novis auctoritatem, deletis vitam memoriae dare, denique
+                    rerum Italiae obscuritatem illustrare potero » (<xref ref-type="bibr"
+                        rid="biondo2014">(Biondo 2014, 4.2:4)</xref> praefatio, 6). Même programme
+                    énoncé dans la lettre de dédicace envoyée à Alphonse d’Aragon, écrite par
+                    l’humaniste vénitien Francesco Barbaro en collaboration avec Biondo : « ut tuis,
+                    ut ita loquar, auspiciis vetustis Italiae, locis populis novitas detur, novis
+                    auctoritas, deletis vita memoriae, denique ut obscuritas illustretur a nobis »,
+                    cité par <xref ref-type="bibr" rid="fubini2003">(Fubini 2003,
+                    217:58)</xref>.</p>
+            </fn>
+            <fn id="fn3">
+                <label>3</label>
+                <p>Sur l’utilisation des cartes par Biondo, voir <xref ref-type="bibr"
+                        rid="clavuot1990">(Clavuot 1990, 69:196‑200)</xref> ; Paolo Pontari dans
+                        <xref ref-type="bibr" rid="biondo2011">(Biondo 2011, 4.1:196‑200)</xref>.
+                    Tanja Michalsky propose d’analyser le texte à partir du concept de carte mentale
+                    guidant la perception des espaces décrits, voir <xref ref-type="bibr"
+                        rid="michalsky2019">(Michalsky 2019)</xref>.</p>
+            </fn>
+            <fn id="fn4">
+                <label>4</label>
+                <p><xref ref-type="bibr" rid="biondo2014">(Biondo 2014, 4.2:73‑75)</xref>, 16–18 :
+                    « Après le Serchio, vient d’abord l’embouchure de l’Arno, et un peu plus loin
+                    Livourne, Porto Pisano, le port fortifié des Pisans où un phare a été installé
+                    sur un rocher, à un mille du continent. Il est visible à une grande distance
+                    pour ceux qui naviguent la nuit sur la mer Tyrrhénienne, et montre au loin Porto
+                    Pisano. A trois milles vers l’intérieur, Pise enjambe l’Arno avec ses ponts et
+                    l’orne de ses somptueux édifices. Virgile écrit que cette ancienne cité, célèbre
+                    pour son histoire glorieuse, trouve son origine chez les
+                        <italic>Alphaei</italic>. Pline rapporte que Pise fut fondée entre le
+                    Serchio et l’Arno par les Pélopides et les <italic>Territani</italic>
+                    [Teutanes], un peuple grec. Justin quant à lui dit que Pise en Ligurie fut
+                    fondée par des Grecs. Et Lucain, au livre I : ‹ De ce côté Pise qui brise dans
+                    ses bas-fonds les eaux tyrrhéniennes › et Tite-Live ‹ C’est la raison pour
+                    laquelle le consul a pressé sa marche vers le Pô lorsqu’il eut débarqué à
+                    Pise. › Pise eut l’honneur d’avoir donné naissance au pontife romain Eugène III.
+                    Tant que les Romains fleurissaient, la ville n’avait pas de grands pouvoirs.
+                    Mais par la suite, après la destruction des villes côtières étrusques (Luni d’un
+                    côté, Populonia de l’autre), et alors que la paix régnait en Italie du temps de
+                    Charlemagne et de ses fils, Pise fournit un grand nombre d’hommes habiles à la
+                    guerre maritime, dont les exploits sont célébrés dans mes
+                        <italic>Histoires</italic>. Mais après être tombée sous le contrôle de
+                    Florence il y a quarante ans, elle s’est en partie vidée de sa population et
+                    presque entièrement de ses richesses. »</p>
+            </fn>
+            <fn id="fn5">
+                <label>5</label>
+                <p>Sur l’attention aux <italic>mutationes</italic> entre antiquité et Italie
+                    moderne, voir <xref ref-type="bibr" rid="gambi1977">(Gambi 1977,
+                    262)</xref>.</p>
+            </fn>
+            <fn id="fn6">
+                <label>6</label>
+                <p>Pour une appréciation de cet aspect de l’<italic>Italia illustrata</italic>, voir
+                        <xref ref-type="bibr" rid="fubini2003">(Fubini 2003)</xref>. Sur la
+                    géographie historique à l’âge de l’humanisme, voir <xref ref-type="bibr"
+                        rid="milanesi2003">(Milanesi 2003)</xref>; <xref ref-type="bibr"
+                        rid="dalche2012">(Dalché 2012)</xref>.</p>
+            </fn>
+            <fn id="fn7">
+                <label>7</label>
+                <p><xref ref-type="bibr" rid="boulouxaparaitre">(Bouloux, s.&amp;nbsp;d.)</xref>, à
+                    paraître.</p>
+            </fn>
+            <fn id="fn8">
+                <label>8</label>
+                <p>Sur la réception de l’<italic>Italia illustrata</italic>, voir <xref
+                        ref-type="bibr" rid="castner2016">(Castner 2016)</xref>.</p>
+            </fn>
+            <fn id="fn9">
+                <label>9</label>
+                <p><xref ref-type="bibr" rid="biondo2014">(Biondo 2014, 4.2:10)</xref> Liber primus,
+                    7 : « Il est extrêmement difficile de déterminer une manière correcte de diviser
+                    les régions et de situer en ordre les noms des cités, des villes fortes, des
+                    montagnes et des fleuves, en raison de tant de changements dans les choses et
+                    les régions, ce que les lecteurs attentifs des histoires romaines savent
+                    bien. »</p>
+            </fn>
+            <fn id="fn10">
+                <label>10</label>
+                <p>Lettre au cardinal Prospero Colonna (1450), éditée dans <xref ref-type="bibr"
+                        rid="biondo1927">(Biondo 1927, 48:163‑64)</xref>.</p>
+            </fn>
+            <fn id="fn11">
+                <label>11</label>
+                <p>Parmi les innombrables exemples : « Post Frusinatem, Ferentinatem et Anagninum,
+                    quae loca nunc, parva nominis mutatione facta, sunt notissima, ex Anagnino autem
+                    in Lavicanum venit, quem locum, maxima nominis mutatione facta, diximus
+                    Valmontonem nunc appellari » (<xref ref-type="bibr" rid="biondo2014">(Biondo
+                        2014, 4.2:271)</xref>, Regio tertia, Latina, 143) ; « Bagnacavallum, novi
+                    nominis oppidum, prius Tiberiacum, et aliquando ‘Ad Caballos ‘ appellatum »
+                        (<xref ref-type="bibr" rid="biondo2017">(Biondo 2017, 4.3:168)</xref> Regio
+                    sexta, Romandiola, 71).</p>
+            </fn>
+            <fn id="fn12">
+                <label>12</label>
+                <p><xref ref-type="bibr" rid="biondo2017">(Biondo 2017, 4.3:42)</xref> Regio quarta,
+                    Umbria, 60 : « Ainsi, pour revenir du lac Velino à tout le reste de l’ancienne
+                    Ombrie, rendons compte de ces terres situées entre ce lac Velino et la ville de
+                    Rieti, le Tibre et l’Aniene, jusqu’au lac des Marsiens. C’est un vaste ensemble
+                    de montages et de plaines dont même les habitants n’ont pas une connaissance
+                    suffisante. Il y avait là de nombreux lieux munis d’un nom ancien qui ne peuvent
+                    être identifiés aux lieux actuels, soit parce que certains n’existent plus, soit
+                    parce que dans certains cas, le nom s’est transformé de façon
+                    incompréhensible. »</p>
+            </fn>
+            <fn id="fn13">
+                <label>13</label>
+                <p>Je l’ai étudié en détail à propos de la <italic>Geographia</italic> de Sebastiano
+                    Compagni, un Ferrarais actif à Venise à la charnière du XV<sup>e</sup> et du
+                        XVI<sup>e</sup> siècle, dans <xref ref-type="bibr" rid="boulouxaparaitreb"
+                        >(Bouloux, s.&amp;nbsp;d., B)</xref><italic>,</italic> à paraître.</p>
+            </fn>
+            <fn id="fn14">
+                <label>14</label>
+                <p><xref ref-type="bibr" rid="biondo2014">(Biondo 2014, 4.2:55)</xref> Regio prima,
+                    Liguria, 48 : « Au fond du golfe de Luni ou de Portovenere, se trouve La Spezia,
+                    une localité récente, munie d’une enceinte il y a moins de soixante ans, près de
+                    laquelle, d’après l’examen de la description de l’Italie et d’une carte faite
+                    par les Anciens, je pense que se trouvait Tigulia. »</p>
+            </fn>
+            <fn id="fn15">
+                <label>15</label>
+                <p><xref ref-type="bibr" rid="biondo2017">(Biondo 2017, 4.3:190)</xref> Regio
+                        sexta<italic>, Romandiola</italic>, 112 : « L’ancien cours des deux rivières
+                    montre que la Padusa s’arrêtait autrefois à la tour d’Uccellino et que la
+                    rivière bolonaise Reno se jetait dans le Pô à cet endroit ou non loin, ce
+                    qu’indiquent également la carte et le texte de Ptolémée et d’autres géographes.
+                    »</p>
+            </fn>
+            <fn id="fn16">
+                <label>16</label>
+                <p><xref ref-type="bibr" rid="dalche2009">(Dalché 2009)</xref>.</p>
+            </fn>
+            <fn id="jhya4cge14ak">
+                <label>17</label>
+                <p><xref ref-type="fn" rid="fn16">16</xref></p>
+            </fn>
+            <fn id="fn17">
+                <label>18</label>
+                <p><xref ref-type="bibr" rid="biondo2014">(Biondo 2014, 4.2:55)</xref> 69.</p>
+            </fn>
+            <fn id="fn18">
+                <label>19</label>
+                <p>« Ab ostio Entellae vix quatuor passuum milia Segestum aspicimus, quam in
+                    Ptolemaei dimensiones sequuntur Tiguliam putant », Giacomo
+                        Bracelli<italic>,</italic> « Descriptio orae ligusticae », dans <xref
+                        ref-type="bibr" rid="andriani1924">(Andriani 1924, 236)</xref>.</p>
+            </fn>
+            <fn id="fn19">
+                <label>20</label>
+                <p>« La nature a placé en face [du port de Luna] une île qui le met à l’abri de
+                        l’<italic>auster</italic> et de <italic>l’africus</italic>, le long de
+                    laquelle se déploie un long goulet, renfermant de nombreuses et tortueuses
+                    petites criques. Il s’ouvre sur un immense golfe de cinq milles pas en longueur
+                    et en largeur, permettant le passage des navires. Le port lui-même, capable
+                    d’accueillir toutes sortes de bateaux, est baigné par le Macra. » <xref
+                        ref-type="bibr" rid="biondo2014">(Biondo 2014, 4.2:52‑53)</xref> Regio
+                    prima, Liguria, 44–45.</p>
+            </fn>
+            <fn id="fn20">
+                <label>21</label>
+                <p>« […] vastis faucibus sese pandenti, multisque reflexibus tortuoso insulam natura
+                    obiecit : quae illum ex Haustro et Africo tutum praestet […] Fugiunt introrsus
+                    terrae quinque passuum millia : quam longitudinem portus latitudo quoque
+                    adaequat », <xref ref-type="bibr" rid="andriani1924">(Andriani 1924,
+                    237)</xref>. Un autre exemple trouve aussi sa source chez Bracelli: « Pelagusque
+                    adiacens, quod Ligusticum appellari diximus, tres habet insulas, scopulis tamen
+                    quam insulis similiores : unam Albingauno oppositam, […] aliam Naulo ; tertiam
+                    Lunensis portus promontorio occidentali adeo propinquam ut continens videatur
+                    […].» (<xref ref-type="bibr" rid="biondo2014">(Biondo 2014, 4.2:56)</xref> Regio
+                    prima, Liguria, 50, <xref ref-type="bibr" rid="andriani1924">(Andriani 1924,
+                        237)</xref>).<ext-link ext-link-type="uri" xlink:href="#fnref20"
+                        >↩︎</ext-link></p>
+            </fn>
+            <fn id="fn21">
+                <label>22</label>
+                <p>« et nomine Veneris insignem portum, securum ventorum omnium et omnium que sub
+                    celo sunt classium capacem […] », <xref ref-type="bibr" rid="petrarca1990"
+                        >(Petrarca 1990, 8:cap. 18, 46)</xref>.</p>
+            </fn>
+            <fn id="fn22">
+                <label>23</label>
+                <p><xref ref-type="bibr" rid="biondo2017">(Biondo 2017, 4.3:203)</xref> Regio sexta,
+                    Romandiola, 132–133 : « Le Pô de Primaro, qui coule droit jusqu’à ce village
+                    [Consandalo], prenait un cours plus sinueux il y a un siècle entre Codrea (comme
+                    elle est appelée aujourd’hui par les habitants du lieu, corruption pour Caput
+                    Eridani), et le village de Belriguardo, que nous voyons aujourd’hui asséché. La
+                    carte d’Italie que je suis principalement, dessinée par le roi Robert de Sicile
+                    et son ami Pétrarque, porte les villages de Voghenza, Voghiera et Cona le long
+                    du cours du Pô. Si bien que je peux dire que les bras du Pô qui coulent de
+                    Ferrare à Consandalo et de Codrea à la mer se sont créés ces cent dernières
+                    années. »</p>
+            </fn>
+            <fn id="fn23">
+                <label>24</label>
+                <p><xref ref-type="bibr" rid="biondo2017">(Biondo 2017, 4.3:216)</xref> Regio sexta,
+                    Romandiola, 155 :« Je suis sûr que ce bras de Ficarolo s’est mis en place dans la
+                    dernière centaine d’années parce que la carte d’Italie de Robert de Naples et
+                    François Pétrarque que nous suivons, comme nous l’avons dit plus haut, ne
+                    dessine pas ce bras. »</p>
+            </fn>
+            <fn id="fn24">
+                <label>25</label>
+                <p>Mise au point sur cette question dans Paolo Pontari<xref ref-type="bibr"
+                        rid="pontari2009">(Pontari 2009)</xref>.</p>
+            </fn>
+            <fn id="fn25">
+                <label>26</label>
+                <p><xref ref-type="bibr" rid="biondo1927">(Biondo 1927, 48:163‑64)</xref> : « Aussi,
+                    si tu le veux bien, ce ne serait pas ingrat envers moi si tu lui remettais le
+                    beau volume contenant la région du Latium et si à l’aide d’un discours orné tu
+                    l’ouvrais à mon désir qu’il me fasse envoyer et une carte, et des renseignements
+                    sur les noms modernes ainsi qu’une description assez longue, faite par ceux de
+                    son entourage –ils sont nombreux– qui sont experts en ces matières. »</p>
+            </fn>
+            <fn id="fn26">
+                <label>27</label>
+                <p>« Est tamen haec ipsa, quam polliceor, historia maior quam quae a me uno et
+                    occupatissimo homine, decem filiolos ex manuum laboribus nutriente, absolvi
+                    possit, nisi omni ferme in orbis christiani provincia aliquos variis nactus
+                    essem artibus, qui regionum suarum chronica et quaecumque aliter vel scriptis
+                    vel pictura dari possit, notitiam impartiti essent » <xref ref-type="bibr"
+                        rid="biondo1927">(Biondo 1927, 48:149)</xref>.</p>
+            </fn>
+            <fn id="fn27">
+                <label>28</label>
+                <p><xref ref-type="bibr" rid="milanesi2003">(Milanesi 2003)</xref>.</p>
+            </fn>
+            <fn id="fn28">
+                <label>29</label>
+                <p>
+                    <xref ref-type="bibr" rid="guckelsberger2022b">(Guckelsberger 2022)</xref> dans
+                    ce volume.</p>
+            </fn>
+            <fn id="fn29">
+                <label>30</label>
+                <p>Strasbourg, Bibliothèque nationale et universitaire, 1816, URL: <ext-link
+                        ext-link-type="uri"
+                        xlink:href="https://bvmm.irht.cnrs.fr/iiif/17008/canvas/canvas-1420797/view"
+                        >https://bvmm.irht.cnrs.fr/iiif/17008/canvas/canvas-1420797/view</ext-link>.</p>
+            </fn>
+            <fn id="fn30">
+                <label>31</label>
+                <p>Un exemple de cette méthode dans <xref ref-type="bibr" rid="milanesi2022"
+                        >(Milanesi 2022)</xref>. Elle montre en particulier que les cours de
+                    l’Adige/Noce, de l’Adda et de l’Oglio, tels qu’ils sont décrits dans
+                        l’<italic>Italia illustrata</italic> correspondent parfaitement à la carte
+                    d’Italie de la British Libray <italic>Italie provincie modernus situs</italic>,
+                    BL Cotton roll XIII 44.</p>
+            </fn>
+            <fn id="fn31">
+                <label>32</label>
+                <p><xref ref-type="bibr" rid="biondo2017">(Biondo 2017, 4.3:104)</xref>
+                    <italic>Regio quinta, Picenum</italic>, 69 : « Mais il est difficile de décrire
+                    les régions montagneuses de ce genre avec leurs localités, parce qu’elles sont
+                    couvertes de forêts et divisées par d’innombrables cours d’eau et par des
+                    escarpements rocheux, si bien que ni carte ni discours ne peuvent en donner une
+                    pleine connaissance. »</p>
+            </fn>
+            <fn id="fn32">
+                <label>33</label>
+                <p><italic>Cic.</italic> 1. <italic>Invent.</italic> 7. 9. « Elocutio est idoneorum
+                    verborum et sententiarum ad inventionem accommodatio. » Voir aussi
+                        <italic>Quintil.</italic> 8. 1. 1. Voir <xref ref-type="bibr"
+                        rid="kirchner2008">(Kirchner 2008)</xref>. Le terme concerne la formulation
+                    d’un discours (oral principalement) qui doit avoir les qualités de la correction
+                    linguistique, de la clarté et de l’ornementation.</p>
+            </fn>
+            <fn id="fn33">
+                <label>34</label>
+                <p>« Est ultra Latinam regionem ea Italiae pars, quam regnum Siciliae appellamus, in
+                    aliquot divisa regiones, Campaniam scilicet veterem, Samnium sive Aprutium
+                    Apuliam Lucaniam Calabros Bruttios et Salentinos ; quarum regionum vetustates
+                    notissimas habeo, sed huius temporis locorum nomina situmque nec satis
+                    perlustravi nec alias plene novi. Quare auxilio mihi hae in parte maximo opus
+                    erit, quod video intelligoque a nemine alio quam ab Alphonso illustrissimo rege
+                    praestari posse » (<xref ref-type="bibr" rid="biondo1927">(Biondo 1927,
+                        48:163)</xref> Lettre à Prospero Colonna).</p>
+            </fn>
+            <fn id="fn34">
+                <label>35</label>
+                <p>Ces instruments ne sont cependant pas forcément de nature ‹ littéraire › ; en
+                    latin féodal, <italic>narratio</italic> peut signifier aussi la déclaration de
+                    l’étendue d’un fief ou le dénombrement d’un état.</p>
+            </fn>
+            <fn id="fn35">
+                <label>36</label>
+                <p>A quoi il faut ajouter les envois faits par Biondo de certains passages de
+                        l’<italic>Italia illustrata</italic> aux princes et aux rois, en vue de les
+                    faire corriger par leur entourage. Dans une lettre, adressée cette fois à
+                    Bartolomeo Fazio, il lui demande de faire circuler la partie de l’<italic>Italia
+                        illustrata</italic> destinée à Alphonse d’Aragon pour la faire vérifier par
+                    lui et ses amis (<xref ref-type="bibr" rid="biondo1927">(Biondo 1927,
+                        48:165‑66)</xref> Lettre à Bartolomeo Fazio). Il a procédé de même pour la
+                    Romandiola, à Malatesta Novello, seigneur de Césène et l’Étrurie, à Piero de’
+                    Medici. Voir <xref ref-type="bibr" rid="lucarini2001">(Lucarini et Pontari
+                        2001)</xref>; <xref ref-type="bibr" rid="lucarini2001b">(Pontari
+                        2003)</xref>.</p>
+            </fn>
+            <fn id="fn36">
+                <label>37</label>
+                <p>« Libet vero, priusquam mediterranea et ad dexteram Auxeris ripam sita attingam,
+                    ad certiorem locorum indaginem oram Etruriae maritimam usque ad Tiberim
+                    describere », <xref ref-type="bibr" rid="biondo2014">(Biondo 2014,
+                        4.2:72)</xref> Regio secunda, Etruria, 15.</p>
+            </fn>
+            <fn id="fn37">
+                <label>38</label>
+                <p>En voici un exemple : « Potentia amnis sequitur, ad cuius ostium vetusta interiit
+                    eiusdem nominis urbs inter primas Picentum aliquando numerata. Is amnis, in
+                    Apennino supra Matelicam et quasi e regione Nuceriae Alphateniae oriundus, habet
+                    intus ad dexteram et sub primis Apennini collibus ad duos mille passus distans
+                    Monticulum oppidum. Ad sinistram vero inferius Montem Sanctum, egregium in
+                    Picentibus oppidum. Superius vero, et ad primos Apennini colles, Potentia
+                    praeterlabitur Sanctum Severinum, nobile sed novum oppidum, ad ruinas
+                    aedificatum Septempedae oppidi vetustissimi, a Longobardis solo aequati »,
+                        (<xref ref-type="bibr" rid="biondo2017">(Biondo 2017, 4.3:92)</xref> Regio
+                    quinta Picenum, 50). On pourrait multiplier les exemples de ce type.</p>
+            </fn>
+            <fn id="fn38">
+                <label>39</label>
+                <p>Citation extraite de Paolo <xref ref-type="bibr" rid="pontari2009b">(Pontari
+                        2009b, 110)</xref> : « La très ancienne cité d’Ortona se trouve sur le
+                    littoral ; Ptolémée la mentionne avec l’embouchure de l’Aterno dans le
+                    territoire des Péligniens. Mais Pline, qui est à mon avis plus crédible sur les
+                    questions italiennes, assigne à la terre des Frentans toute la portion qui
+                    s’étend depuis l’embouchure de l’Aterno aux Larinates. Bien plus, Ptolémée
+                    lui-même, comme Pline, place la ville de Frentana à gauche de l’Aterno, où se
+                    trouve aujourd’hui Francavilla, si bien que je pense que soit la carte de
+                    Ptolémée, puisqu’elle montre le contraire, est corrompue, soit ceux qui ont
+                    transmis &lt;le texte&gt; se sont trompés. »</p>
+            </fn>
+            <fn id="fn39">
+                <label>40</label>
+                <p><xref ref-type="bibr" rid="pontari2009">(Pontari 2009)</xref>.</p>
+            </fn>
+            <fn id="fn40">
+                <label>41</label>
+                <p><italic>Pline</italic>, III, 106 : « Sur la côte des Frentans, en partant du
+                    Tiferne, il y a le fleuve Trinius qui offre un bon mouillage, les villes
+                    d’Histonium, Buca, Ortona, le fleuve Aternus. Dans l’intérieur, les habitants
+                    d’Anxanum avec le surnom des Frentans (<italic>Anxani cognomine
+                        Frentani</italic>), les Carécini supérieurs et inférieurs […]. » <xref
+                        ref-type="bibr" rid="pliniussecundus1998">(Plinius Secundus 1998,
+                        347:88)</xref>.</p>
+            </fn>
+            <fn id="fn41">
+                <label>42</label>
+                <p>Pour les détails de la démonstration, voir <xref ref-type="bibr"
+                        rid="pontari2009">(Pontari 2009a, 110‑20)</xref>.</p>
+            </fn>
+            <fn id="fn42">
+                <label>43</label>
+                <p>Francavilla est en général mentionnée sur les cartes marines. Elle l’est aussi
+                    parfois sur les cartes de l’Italie moderne. En voici deux exemples : la carte
+                    d’Italie conservée à Florence <ext-link ext-link-type="uri"
+                        xlink:href="https://archiviodistatofirenze.cultura.gov.it/archividigitali/unita-archivistica/?id=43"
+                        >ASFi CN10</ext-link> ; un manuscrit de la <italic>Géographie</italic> de
+                    Ptolémée, daté de la seconde moitié du XV<sup>e</sup> siècle, le Vatican
+                        <ext-link ext-link-type="uri"
+                        xlink:href="https://digi.vatlib.it/view/MSS_Urb.lat.277/0267">Urb. lat.
+                        277</ext-link>, f. 125r contient une carte de l’Italie moderne portant
+                    Francavilla (mais évidemment nulle Frentana sur la carte antique, pas plus que
+                    dans le texte).</p>
+            </fn>
+            <fn id="fn43">
+                <label>44</label>
+                <p>C’est en contradiction avec le passage de Ptolémée mentionné ci-dessus. Il n’y
+                    pas de trace de Frentana dans la tradition manuscrite du géographie antique.</p>
+            </fn>
+            <fn id="fn44">
+                <label>45</label>
+                <p>Dans le passage précédent, Biondo utilise <italic>enumero</italic>, ce qui
+                    renverrait cette fois au texte.</p>
+            </fn>
+            <fn id="fn45">
+                <label>46</label>
+                <p>Ou bien c’est le texte qui est fautif parce que les copistes qui l’ont transmis
+                    se sont trompés.</p>
+            </fn>
+            <fn id="fn46">
+                <label>47</label>
+                <p><italic>Conjecto</italic> dans le vocabulaire des humanistes du XV<sup>e</sup>
+                    siècle signifie « supposition, hypothèse, déduction logique » (voir <xref
+                        ref-type="bibr" rid="rizzo1973">(Rizzo 1973, 287)</xref>.</p>
+            </fn>
+            <fn id="fn47">
+                <label>48</label>
+                <p>Sur ce point, voir le commentaire de Paolo Pontari dans <xref ref-type="bibr"
+                        rid="biondo2017">(Biondo 2017, 4.3:216)</xref> n. 127.</p>
+            </fn>
+            <fn id="fn48">
+                <label>49</label>
+                <p>La notion qu’une carte dessine une réalité à un moment donné se retrouve dans la
+                    cartographie locale qui se développe particulièrement dans les deux derniers
+                    siècles du Moyen Age. Sur les rapports entre cartes locales et temporalité, voir
+                        <xref ref-type="bibr" rid="fermon2018">(Fermon 2018, 14:320)</xref>.</p>
+            </fn>
+            <fn id="fn49">
+                <label>50</label>
+                <p><xref ref-type="bibr" rid="biondo2014">(Biondo 2014, 4.2:204)</xref> Regio
+                    latina, 57 : Dans la description de l’intérieur de la région, nous ne pourrons
+                    pas emprunter la méthode que nous avons utilisée dans d’autres régions,
+                    commencer par les embouchures des rivières jusqu’à leur source. Mais nous en
+                    adopterons une autre, qui répondra mieux à nos besoins et qui ne pourra pas être
+                    appliquée à d’autres régions d’Italie, en suivant les trois voies, Appienne,
+                    Latine et Tiburtine, qui par des chemins différents mèneront au fleuve Liris, à
+                    Sinuessa et à Gaète. Pour une analyse du mode descriptif de la région du Latium,
+                    voir <xref ref-type="bibr" rid="michalsky2019">(Michalsky 2019,
+                    54‑56)</xref>.</p>
+            </fn>
+            <fn id="fn50">
+                <label>51</label>
+                <p>Strabon, <italic>Géographie</italic>, t. III (Livres V et VI), François Lasserre
+                    (texte établi et trad. par), Paris 1967, V, 3, 9, p. 92.</p>
+            </fn>
+            <fn id="fn51">
+                <label>52</label>
+                <p>Sur la réception de Strabon aux XV<sup>e</sup> et XVI<sup>e</sup> siècles, voir
+                        <xref ref-type="bibr" rid="dalche2017">(Dalché 2017)</xref>.</p>
+            </fn>
+            <fn id="fn52">
+                <label>53</label>
+                <p>« Unde peritissimum hunc vetustatis scriptorem et simul Plinium, qui ab eo
+                    sumpsit, secutari, eam Latinorum regionem nostrae nunc Campaniae et Maritimae
+                    cogimur applicare » (<xref ref-type="bibr" rid="biondo2014">(Biondo 2014,
+                        4.2:165)</xref> Regio tertia, Latina, 6). A la suite de ce passage, il
+                    reconnaît les difficultés qu’il a rencontrées à faire coïncider la région des
+                    Anciens avec l’actuelle et s’interroge sur sa capacité à atteindre le but qu’il
+                    s’est donné.</p>
+            </fn>
+            <fn id="fn53">
+                <label>54</label>
+                <p>Pétrarque est le premier à se servir de cartes « antiques » en vue de
+                    reconstituer l’espace antique : <xref ref-type="bibr" rid="bouloux2006">(Bouloux
+                        2006)</xref>. Sur la réception de la méthode de Pétrarque : voir <xref
+                        ref-type="bibr" rid="boulouxaparaitre">(Bouloux, s.&amp;nbsp;d.)</xref>.</p>
+            </fn>
+            <fn id="fn54">
+                <label>55</label>
+                <p><xref ref-type="bibr" rid="dalche2016">(Dalché 2016)</xref>.</p>
+            </fn>
+        </fn-group>
+    </back>
+</article>
