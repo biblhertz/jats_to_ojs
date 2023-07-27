@@ -24,7 +24,7 @@ class Author {
 	private $email="";			//email
 	private $orcID="";			//orcid
 	private $affiliations=array();	//affiliations collection
-	
+	private $correspondingAuthor=false;	//set to true if corresponding author	
 	 
 	/****************************************************************/
 	/*	CLASS CONSTRUCTOR											*/
@@ -71,6 +71,10 @@ class Author {
 		$this->orcID=$s;
 	}
 
+	public function getOrcID(){
+		return $this->orcID;
+	}
+
 	public function setAffiliations($s){
 		$this->affiliations=$s;
 	}
@@ -84,6 +88,14 @@ class Author {
 			return $this->affiliations[0]->getAffiliation();
 		};
 		return false;
+	}
+
+	public function setCorrespondingAuthor($b){
+		$this->correspondingAuthor=$b;
+	}
+	
+	public function getCorrespondingAuthor(){
+		return $this->correspondingAuthor;
 	}
 }
 ?>

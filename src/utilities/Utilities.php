@@ -16,16 +16,13 @@ class Utilities {
     /**
      * output XML parse errors to Logger
      */
-    public static function printXMLErrors(){
-        Logger::println();
-        $errors = libxml_get_errors();
-        foreach ($errors as $error) {
+    public static function printXMLErrors($errors){
+       Logger::println();
+       foreach ($errors as $error) {
                 Logger::print("!!! XML Parse Error :: Line ".$error->line);
                 Logger::print($error->message);
             }
-        libxml_clear_errors();
         Logger::println();
-        libxml_use_internal_errors(false);
     }
 
 }

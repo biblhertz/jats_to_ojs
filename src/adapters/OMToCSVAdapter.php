@@ -68,9 +68,15 @@ class OMToCSVAdapter {
         $csvFile=new FileCreator();
         $csvFile->setFileName($this->fileName);
         $csvFile->openFile();
-        $csvFile->writeCSV(array("Journal Name",$this->article->getJournalName()));
-        $csvFile->writeCSV(array("Journal Volume",$this->article->getVolume()));
-        $csvFile->writeCSV(array("Journal Issue",$this->article->getIssue()));
+        //$csvFile->writeCSV(array("Journal Name",$this->article->getJournalName()));
+        //$csvFile->writeCSV(array("Journal Volume",$this->article->getVolume()));
+        //$csvFile->writeCSV(array("Journal Issue",$this->article->getIssue()));
+        
+        $csvFile->writeCSV(array("Copyright Holder",$this->article->getCopyRightHolder()));
+        $csvFile->writeCSV(array("Copyright Year",$this->article->getCopyRightYear()));
+        $csvFile->writeCSV(array("License Url",$this->article->getLicenseUrl()));
+        
+
         $csvFile->writeCSV(array("Section reference",$this->article->getSectionRef()));
         $csvFile->writeCSV(array("Start Page",$this->article->getStartPage()));
         $csvFile->writeCSV(array("End Page",$this->article->getEndPage()));

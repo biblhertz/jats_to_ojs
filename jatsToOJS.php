@@ -3,9 +3,6 @@
 require 'vendor/autoload.php';
 
 use Biblhertz\JatsToOjs\om\Article;
-use Biblhertz\JatsToOjs\om\Author;
-use Biblhertz\JatsToOjs\om\GalleyFile;
-use Biblhertz\JatsToOjs\om\Affiliation;
 use Biblhertz\JatsToOjs\adapters\OMToOJSNativeAdapter;
 use Biblhertz\JatsToOjs\adapters\OMToOJSArticleAdapter;
 use Biblhertz\JatsToOjs\adapters\OMToCSVAdapter;
@@ -13,6 +10,7 @@ use Biblhertz\JatsToOjs\adapters\JATSToOMAdapter;
 use Biblhertz\JatsToOjs\adapters\CSVToOMAdapter;
 use Biblhertz\JatsToOjs\Config;
 use Biblhertz\JatsToOjs\utilities\Logger;
+use Biblhertz\JatsToOjs\utilities\Utilities;
 
 
 
@@ -45,6 +43,8 @@ class jatsToOJS {
         }
     
         Config::load("config.ini");
+        $this->verbose=Config::get('verbose');
+        
         if(!$error){
             $this->command = array_shift($argv);
             $this->ojsUser = array_shift($argv);
@@ -121,15 +121,18 @@ private function generateXML() {
        
         Logger::print("Running issue JATS-to-XML conversion...");
         Logger::println();
-        
         Logger::print("Input Directory Detected :: ".$this->inputDir);
+
         $files = scandir($this->inputDir);
         
         foreach($files as $file){
-            Logger::println();
+            
             $filename=$this->inputDir.DIRECTORY_SEPARATOR.$file;
             $info=pathinfo($filename);
-            Logger::print("Input File Detected :: ".$filename);
+            if(!is_dir($filename)){
+                Logger::println();
+                Logger::print("Input File Detected :: ".$filename);
+            }
 
             if(isset($info['extension'])&&!strcmp($info['extension'],"xml")){
                 Logger::print("Found XML File :: ".$filename);
@@ -154,7 +157,7 @@ private function generateXML() {
                     $valid=$omtoOJS->validateXML(Config::get('ojs_xsd'));
                     exit;
                 } else{
-                    Logger::print("!!! Error ::  Could not validate file as valid JATS XML :: ".$filename);
+                    Logger::print("!!! Error ::  Could not validate input file as valid JATS XML :: ".$filename);
                 }
             }
 
@@ -170,10 +173,12 @@ private function generateXML() {
         $files = scandir($this->inputDir);
         
         foreach($files as $file){
-            Logger::println();
             $filename=$this->inputDir.DIRECTORY_SEPARATOR.$file;
             $info=pathinfo($filename);
-            Logger::print("Input File Detected :: ".$filename);
+            if(!is_dir($filename)){
+                Logger::println();
+                Logger::print("Input File Detected :: ".$filename);
+            }
 
             if(isset($info['extension'])&&!strcmp($info['extension'],"xml")){
                 Logger::print("Found XML File :: ".$filename);
@@ -210,20 +215,26 @@ private function generateXML() {
         
         Logger::print("Input Directory Detected :: ".$this->inputDir);
         $files = scandir($this->inputDir);
-        
+        $csvDetected=false;
+
         foreach($files as $file){
-            Logger::println();
+            
             $filename=$this->inputDir.DIRECTORY_SEPARATOR.$file;
             $info=pathinfo($filename);
-            Logger::print("Input File Detected :: ".$filename);
+            if(!is_dir($filename)){
+                Logger::println();
+                Logger::print("Input File Detected :: ".$filename);
+            }
 
             if(isset($info['extension'])&&!strcmp($info['extension'],"csv")){
                 Logger::print("Found CSV File :: ".$filename);
+                $csvDetected=true;
                 
                 $csv=array();
                 $csvToOM=new CSVToOMAdapter();
                 $csvToOM->setInputDir($this->inputDir);
                
+                //load csv file
                 if (($handle = fopen($filename, "r")) !== FALSE) {
                     while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
                           $csv[$data[0]]=$data[1];
@@ -232,7 +243,6 @@ private function generateXML() {
                  }
                 
                 Logger::print("Loaded CSV File :: ".$filename);
-                //print_r($csv);
                 $csvToOM->setCSVArray($csv);
                 $csvToOM->setOJSUser($this->ojsUser);
                 $csvToOM->setVerbose($this->verbose);
@@ -250,8 +260,18 @@ private function generateXML() {
                 exit;
             } 
         }
+
+        if(!$csvDetected){
+            Logger::println();
+            Logger::print("!!! ERROR :: No CSV file was found in input directory :: ".$this->inputDir);
+            Logger::print("No file conversion can take place.... Exiting ....");
+        }
     }
 
+    /**
+     * Validate an input file against the JATS schemas
+     * Path of JATS schema files is stored in config.ini
+     */
 
     private function validateJATSXML($filename){
         
@@ -273,15 +293,17 @@ private function generateXML() {
 
         foreach($jats_xsd_path as $key => $value){
             Logger::println();
-            Logger::print("Trying XML document :: $filename against JATS V$key :: $value");;
+            Logger::print("Trying XML document :: $filename against JATS V$key :: $value");
+            libxml_use_internal_errors(true);
             $is_valid_xml = $doc->schemaValidate($value); // path to xsd file
 
             if(!$is_valid_xml){
                 Logger::println();
                 Logger::print("XML document :: $filename failed validation against JATS V$key :: $value");
                 Logger::print("Error(s) as follows;");
-                Logger::println();
-                Utilities::printXMLErrors();
+                Utilities::printXMLErrors(libxml_get_errors());
+                libxml_clear_errors();
+                libxml_use_internal_errors(false);
             } 
             else{
                 Logger::println();

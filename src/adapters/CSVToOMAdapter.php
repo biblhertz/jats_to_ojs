@@ -72,9 +72,13 @@ class CSVToOMAdapter {
         print_r($this->csvArray);
 
         $this->article->setOJSUserName($this->ojsUser);
-        $this->article->setJournalName($this->csvArray["Journal Name"]);
-        $this->article->setVolume($this->csvArray["Journal Volume"]);
-        $this->article->setIssue($this->csvArray["Journal Issue"]);
+        //$this->article->setJournalName($this->csvArray["Journal Name"]);
+        //$this->article->setVolume($this->csvArray["Journal Volume"]);
+        //$this->article->setIssue($this->csvArray["Journal Issue"]);
+        $this->article->setCopyRightHolder($this->csvArray["Copyright Holder"]);
+        $this->article->setCopyRightYear($this->csvArray["Copyright Year"]);
+        $this->article->setLicenseUrl($this->csvArray["License Url"]);
+
         $this->article->setSectionRef($this->csvArray["Section reference"]);
         $this->article->setStartPage($this->csvArray["Start Page"]);
         $this->article->setEndPage($this->csvArray["End Page"]);

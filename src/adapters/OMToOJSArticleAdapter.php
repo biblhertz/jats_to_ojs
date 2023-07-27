@@ -289,11 +289,12 @@ class OMToOJSArticleAdapter {
 
         if(null!=$this->article->getCopyrightHolder()){
             $this->xmlWriter->startElement("copyrightHolder");
+            $this->addLocaleAttribute();
             $this->xmlWriter->writeRaw($this->article->getCopyrightHolder());
             $this->xmlWriter->endElement();
         }
 
-        if(null!=$this->article->getCopyrightHolder()){
+        if(null!=$this->article->getCopyrightYear()){
             $this->xmlWriter->startElement("copyrightYear");
             $this->xmlWriter->writeRaw($this->article->getCopyrightYear());
             $this->xmlWriter->endElement();

@@ -29,7 +29,6 @@ class Article {
 	private $doi;				//doi of article
 	private $startPage;			//start page
 	private $endPage;			//end page
-	private $authorEmail;		//author email address
 	private $abstract;			//abstract of article
 	private $keywords=array();	//article keywords
 	private $ojsUserName;		//OJS USER Name
@@ -122,8 +121,10 @@ class Article {
 		return $this->authors;
 	}
 
-	public function addAuthor($s){
-		array_push($this->authors,$s);
+	public function addAuthor($author){
+		//assume that first author added is corresponding author
+		if(count($this->authors)==0)$author->setCorrespondingAuthor(true);	
+		array_push($this->authors,$author);
 	}
 
 
