@@ -4,6 +4,10 @@ namespace Biblhertz\JatsToOjs\adapters;
 
 use XmlWriter;
 use Biblhertz\JatsToOjs\om\GalleyFile;
+use DomDocument;
+use Biblhertz\JatsToOjs\utilities\Logger;
+use Biblhertz\JatsToOjs\utilities\Utilities;
+use Biblhertz\JatsToOjs\Config;
 
 /********************************************************************/
 /*		OJSNativeAdapter                   							*/
@@ -185,7 +189,7 @@ class OMToOJSArticleAdapter {
             $this->xmlWriter->writeAttribute("file_id", $id);
             $this->xmlWriter->writeAttribute("stage", "proof");
             $this->xmlWriter->writeAttribute("viewable", "false");
-            $this->xmlWriter->writeAttribute("genre", 'Article Text');
+            $this->xmlWriter->writeAttribute("genre", $galley->getGenre());
             $this->xmlWriter->writeAttribute("uploader", $this->article->getOJSUserName());
             $this->xmlWriter->writeAttribute("xsi:schemaLocation", "http://pkp.sfu.ca native.xsd");
 
@@ -233,7 +237,7 @@ class OMToOJSArticleAdapter {
         $this->writePublicationMetadata();
         $this->writeAuthors();
         $this->writeArticleGalley();
-        $this->writeIssueMetadata();
+        //$this->writeIssueMetadata();
 
         $this->xmlWriter->startElement("pages");
         $this->xmlWriter->writeRaw($this->article->getStartPage()."-".$this->article->getEndPage());
@@ -250,7 +254,6 @@ class OMToOJSArticleAdapter {
     /**
      * Writes out publication metadata, including, title, abstract, keywords, etc.
      *
-     * @param array $articleData
      */
     function writePublicationMetadata() {
 
@@ -278,17 +281,23 @@ class OMToOJSArticleAdapter {
         $this->xmlWriter->writeRaw($this->article->getAbstract());
         $this->xmlWriter->endElement();
 
-        $this->xmlWriter->startElement("licenseUrl");
-        $this->xmlWriter->writeRaw($this->article->getLicenseUrl());
-        $this->xmlWriter->endElement();
+        if(null!=$this->article->getLicenseUrl()){
+            $this->xmlWriter->startElement("licenseUrl");
+            $this->xmlWriter->writeRaw($this->article->getLicenseUrl());
+            $this->xmlWriter->endElement();
+        }
 
-        $this->xmlWriter->startElement("copyrightHolder");
-        $this->xmlWriter->writeRaw($this->article->getCopyrightHolder());
-        $this->xmlWriter->endElement();
+        if(null!=$this->article->getCopyrightHolder()){
+            $this->xmlWriter->startElement("copyrightHolder");
+            $this->xmlWriter->writeRaw($this->article->getCopyrightHolder());
+            $this->xmlWriter->endElement();
+        }
 
-        $this->xmlWriter->startElement("copyrightYear");
-        $this->xmlWriter->writeRaw($this->article->getCopyrightYear());
-        $this->xmlWriter->endElement();
+        if(null!=$this->article->getCopyrightHolder()){
+            $this->xmlWriter->startElement("copyrightYear");
+            $this->xmlWriter->writeRaw($this->article->getCopyrightYear());
+            $this->xmlWriter->endElement();
+        }
 
         $keywords=$this->article->getKeywords();
         if (count($keywords)) {
@@ -305,25 +314,19 @@ class OMToOJSArticleAdapter {
 
     /**
      * Adds all author objects
-     *
-     * @param array $articleData
+     * First author in collection is primary author
      */
     function writeAuthors() {
-       
-
         $this->xmlWriter->startElement("authors");
         $this->setXmlnsAttributes();
 
         $authorIndex = 0;
         foreach ($this->article->getAuthors() as $author) {
-            $authorData["seq"] = $authorIndex;
-            $authorData["currentId"] = 100;
             $this->writeAuthor($author,$authorIndex);
             $authorIndex += 1;
         }
 
         $this->xmlWriter->endElement();
-
     }
 
     /**
@@ -359,9 +362,6 @@ class OMToOJSArticleAdapter {
             $this->xmlWriter->endElement();
         }
 
-        /**$this->xmlWriter->startElement("country");
-        $this->xmlWriter->writeRaw(trim($autorData["country"]));
-        $this->xmlWriter->endElement();**/
 
         if (trim($author->getEmail()) != "") {
             $this->xmlWriter->startElement("email");
@@ -433,5 +433,38 @@ class OMToOJSArticleAdapter {
         $this->xmlWriter->writeRaw($currentId);
         $this->xmlWriter->endElement();
     }
+
+    /**
+     * Validates generated XML against OJS schema
+     */
+    public function validateXML($ojs_xsd_path){
+
+        $fcontent=file_get_contents($this->uri);
+        $doc = new DOMDocument();
+        $doc->loadXML($fcontent); // load xml
+        
+        Logger::print("Loaded generated OJS XML document from ".$this->uri);
+        Logger::print("Starting OJS schema validation");
+        
+        libxml_use_internal_errors(true);
+        $is_valid_xml=false;
+
+        Logger::print("Trying XML document :: ".$this->uri." against OJS :: ".$ojs_xsd_path);
+        $is_valid_xml = $doc->schemaValidate($ojs_xsd_path); // path to xsd file
+        if($is_valid_xml){
+            Logger::print("Validation Successful against OJS xsd");
+            Logger::print("Generated File ready for OJS import in :: ".$this->uri);
+            Logger::println();
+        }
+        else {
+            Logger::print("Validation Failed against OJS xsd");
+            Logger::print("Generated File cannot be imported at :: ".$this->uri);
+            Utilities::printXMLErrors();
+            Logger::println();
+        }
+
+        return $is_valid_xml;
+    }
 }
+
 ?>

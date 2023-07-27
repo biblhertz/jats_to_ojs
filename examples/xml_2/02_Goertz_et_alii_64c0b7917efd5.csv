@@ -51,11 +51,11 @@ Keywords,"spatial cognition;text analysis;text annotation;map annotation;Linked 
 "Affiliation 3","Departement of Art and Design, University of Europe for Applied Sciences Campus
                     Berlin"
 "Author Email",guenther.goerz@fau.de
-"Cover Image",".\examples\xml_2\\aqeyybeyaxor.png"
+"Cover Image","./examples/xml_2/\aqeyybeyaxor.png"
 "Cover Image Alt Text","Cover Image Galley File for this article"
-"Galley File",".\examples\xml_2\\02_Goertz_et_alii.xml"
-"Galley File Alt Text","JATS XML Galley File for this article"
-"Galley File",".\examples\xml_2\\02_Goertz_et_alii.html"
-"Galley File Alt Text","HTML Galley File for this article"
-"Galley File",".\examples\xml_2\\A_formal_ontology_for_historical_maps.pdf"
-"Galley File Alt Text","PDF Galley File for this article"
+"Galley File 1","./examples/xml_2/\02_Goertz_et_alii.xml"
+"Galley File Alt Text 1","JATS XML Galley File for this article"
+"Galley File 2","./examples/xml_2/\02_Goertz_et_alii.html"
+"Galley File Alt Text 2","HTML Galley File for this article"
+"Galley File 3","./examples/xml_2/\A_formal_ontology_for_historical_maps.pdf"
+"Galley File Alt Text 3","PDF Galley File for this article"

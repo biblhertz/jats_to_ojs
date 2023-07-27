@@ -223,7 +223,6 @@ private function getAuthors($authorxml,$affxml){
                     if($this->verbose)Logger::print( "Affiliation Keys :: $affKey :: $affid");
                     if(!strcmp($affid,$affKey)){
                         $affiliationObj=new Affiliation();
-                        $orgname=$division="";
                         foreach($aff->{'institution'} as $inst){
                             if(!strcmp($inst->attributes()->{'content-type'},"orgname"))
                                 $affiliationObj->setName(Utilities::to_utf((string)$inst));
@@ -243,16 +242,6 @@ private function getAuthors($authorxml,$affxml){
     }
 
     return $authors;
-}
-
-private function to_utf($text){
-    if(!isset($text))return "";
-    $text=trim($text);
-    $text= iconv(mb_detect_encoding($text, mb_detect_order(), true), "UTF-8", $text);
-    $text = iconv('utf-8', 'ascii//TRANSLIT', $text);
-    $text=str_replace("&","and",$text);
-   
-    return $text;
 }
 
 

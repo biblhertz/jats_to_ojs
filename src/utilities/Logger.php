@@ -52,6 +52,11 @@ class Logger {
 
         return $returner;
     }
+
+
+    public static function printLn(){
+        Logger::print("---------------------------------------------------------------------------------------------------------------------------------------");
+    }
 }
 
 Logger::__constructStatic();

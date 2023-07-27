@@ -54,9 +54,10 @@ class jatsToOJS {
        
        
         if (!in_array($this->command, $this->validCommands)) {
-            Logger::print( '[Error]: Valid commands are "jatsToXML" or "help"');
+            Logger::print( '[Error]: Valid commands are "jatsToXML", "jatsToCSV", "csvToXML" or "help"');
             Logger::print( '[Error]: To generate OJS XML from a JATS XML document use "php jatsToOJS.php jatsToXML <ojsUserName> <inputDirectory> <outputDirectory>"');
-            Logger::print( '[Error]: To generate CSV representation of the JATS XML document use "php jatsToOJS.php jatsToCSV <ojsUserName> <inputDirectory> <outputDirectory>"');
+            Logger::print( '[Error]: To generate a CSV representation of the JATS XML document use "php jatsToOJS.php jatsToCSV <ojsUserName> <inputDirectory> <outputDirectory>"');
+            Logger::print( '[Error]: To generate OJS XML representation of a CSV document generated from this program use "php jatsToOJS.php csvToXML <ojsUserName> <inputDirectory> <outputDirectory>"');
             Logger::print( '[Error]: The JATS XML document must only contain a single article');
             $error=true;
         }
@@ -85,6 +86,7 @@ class jatsToOJS {
         Logger::print( "Package to convert issue JATS XML for a journal article to OJS XML");
         Logger::print( 'To generate OJS XML from a JATS XML document use "php jatsToOJS.php jatsToXML <ojsUserName> <inputDirectory> <outputDirectory>"');
         Logger::print( 'To generate CSV from a JATS XML document use "php jatsToOJS.php jatsToCSV <ojsUserName> <inputDirectory> <outputDirectory>"');
+        Logger::print( 'To generate OJS XML representation of a CSV document generated from this program use "php jatsToOJS.php csvToXML <ojsUserName> <inputDirectory> <outputDirectory>"');
         Logger::print( 'The JATS XML document must only contain a single article');
     }
 
@@ -118,13 +120,13 @@ class jatsToOJS {
 private function generateXML() {
        
         Logger::print("Running issue JATS-to-XML conversion...");
-        $this->println();
+        Logger::println();
         
         Logger::print("Input Directory Detected :: ".$this->inputDir);
         $files = scandir($this->inputDir);
         
         foreach($files as $file){
-            $this->println();
+            Logger::println();
             $filename=$this->inputDir.DIRECTORY_SEPARATOR.$file;
             $info=pathinfo($filename);
             Logger::print("Input File Detected :: ".$filename);
@@ -140,15 +142,16 @@ private function generateXML() {
                     $jatstoOM->setOJSUser($this->ojsUser);
                     $jatstoOM->setVerbose($this->verbose);
                     $jatstoOM->generateObjectModel();
-                    $this->println();
+                    Logger::println();
                     Logger::print("Object Model has been constructed against :: $file");
-                    $this->println();
+                    Logger::println();
                     $outputFileName=$this->outputDir.DIRECTORY_SEPARATOR.str_replace(".xml","",$info['basename'])."_OJS_native.xml";
                     $omtoOJS=new OMToOJSArticleAdapter($jatstoOM->getArticle(),$outputFileName);
                     $omtoOJS->generateXml();
-                    $this->println();
+                    Logger::println();
                     Logger::print("OJS XML generated from Object Model and output to :: $outputFileName");
-                    $this->println();
+                    Logger::println();
+                    $valid=$omtoOJS->validateXML(Config::get('ojs_xsd'));
                     exit;
                 } else{
                     Logger::print("!!! Error ::  Could not validate file as valid JATS XML :: ".$filename);
@@ -161,13 +164,13 @@ private function generateXML() {
     private function generateCSV() {
        
         Logger::print("Running issue JATS-to-CSV conversion...");
-        $this->println();
+        Logger::println();
         
         Logger::print("Input Directory Detected :: ".$this->inputDir);
         $files = scandir($this->inputDir);
         
         foreach($files as $file){
-            $this->println();
+            Logger::println();
             $filename=$this->inputDir.DIRECTORY_SEPARATOR.$file;
             $info=pathinfo($filename);
             Logger::print("Input File Detected :: ".$filename);
@@ -183,15 +186,15 @@ private function generateXML() {
                     $jatstoOM->setOJSUser($this->ojsUser);
                     $jatstoOM->setVerbose($this->verbose);
                     $jatstoOM->generateObjectModel();
-                    $this->println();
+                    Logger::println();
                     Logger::print("Object Model has been constructed against :: $file");
-                    $this->println();
+                    Logger::println();
                     $outputFileName=$this->outputDir.DIRECTORY_SEPARATOR.str_replace(".xml","",$info['basename'])."_".uniqid().".csv";
                     $omtoOJS=new OMToCSVAdapter($jatstoOM->getArticle(),$outputFileName);
                     $omtoOJS->generateCSV();
-                    $this->println();
+                    Logger::println();
                     Logger::print("CSV Article representation generated from Object Model and output to :: $outputFileName");
-                    $this->println();
+                    Logger::println();
                     break;
                 }
             }
@@ -203,13 +206,13 @@ private function generateXML() {
     private function generateCSVToXML() {
        
         Logger::print("Running issue CSV-to-XML conversion...");
-        $this->println();
+        Logger::println();
         
         Logger::print("Input Directory Detected :: ".$this->inputDir);
         $files = scandir($this->inputDir);
         
         foreach($files as $file){
-            $this->println();
+            Logger::println();
             $filename=$this->inputDir.DIRECTORY_SEPARATOR.$file;
             $info=pathinfo($filename);
             Logger::print("Input File Detected :: ".$filename);
@@ -234,15 +237,16 @@ private function generateXML() {
                 $csvToOM->setOJSUser($this->ojsUser);
                 $csvToOM->setVerbose($this->verbose);
                 $csvToOM->generateObjectModel();
-                $this->println();
+                Logger::println();
                 Logger::print("Object Model has been constructed against :: $file");
-                $this->println();
+                Logger::println();
                 $outputFileName=$this->outputDir.DIRECTORY_SEPARATOR.str_replace(".xml","",$info['basename'])."_OJS_native.xml";
-                $omtoOJS=new OMToOJSNativeAdapter($csvToOM->getArticle(),$outputFileName);
+                $omtoOJS=new OMToOJSArticleAdapter($csvToOM->getArticle(),$outputFileName);
                 $omtoOJS->generateXml();
-                $this->println();
+                Logger::println();
                 Logger::print("OJS XML generated from Object Model and output to :: $outputFileName");
-                $this->println();
+                Logger::println();
+                $valid=$omtoOJS->validateXML(Config::get('ojs_xsd'));
                 exit;
             } 
         }
@@ -256,51 +260,43 @@ private function generateXML() {
         $doc->loadXML($fcontent); // load xml
         if($this->verbose){
             Logger::print("Loaded XML document from $filename");
-            $this->println();
+            Logger::println();
             Logger::print("Starting JATS schema validation");
-            $this->println();
+            Logger::println();
         }
 
         libxml_use_internal_errors(true);
         $is_valid_xml=false;
 
-        $this->println();
+        Logger::println();
         $jats_xsd_path=Config::get('jats_xsd');
 
         foreach($jats_xsd_path as $key => $value){
-            $this->println();
+            Logger::println();
             Logger::print("Trying XML document :: $filename against JATS V$key :: $value");;
             $is_valid_xml = $doc->schemaValidate($value); // path to xsd file
 
             if(!$is_valid_xml){
-                $this->println();
+                Logger::println();
                 Logger::print("XML document :: $filename failed validation against JATS V$key :: $value");
                 Logger::print("Error(s) as follows;");
-                $this->println();
-                $errors = libxml_get_errors();
-                foreach ($errors as $error) {
-                        Logger::print("!!! XML Parse Error :: Line ".$error->line);
-                        Logger::print($error->message);
-                        }
-                libxml_clear_errors();
-                $this->println();
+                Logger::println();
+                Utilities::printXMLErrors();
             } 
             else{
-                $this->println();
+                Logger::println();
                 Logger::print("XML document :: $filename passed validation against JATS V$key :: $value");
                 libxml_use_internal_errors(false);
                 return true;
             }   
         }
     
-        libxml_use_internal_errors(false);
+        
         return false;
     }
 
 
-    private function printLn(){
-        Logger::print("---------------------------------------------------------------------------------------------------------------------------------------");
-    }
+    
  
 }
 

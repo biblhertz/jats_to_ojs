@@ -33,6 +33,7 @@ class GalleyFile {
 	private $galleyFileAltText="";		//alt text
     private $galleyFileType=0;		    //type
     private $id;                        //id in OJS XML
+	private $genre="Article Text";		//genre setting in OJS XML
 	
 	
 	 
@@ -59,6 +60,14 @@ class GalleyFile {
 
     public function getType(){
 		return $this->galleyFileType;
+	}
+
+	public function setGenre($genre){
+		$this->genre=$genre;
+	}
+
+    public function getGenre(){
+		return $this->genre;
 	}
 
     public function setGalleyFilePath($path){
@@ -92,6 +101,21 @@ class GalleyFile {
 	public function getGalleyFileAsBase64(){
 		$data = file_get_contents($this->getGalleyFilePath());
        	return base64_encode($data);
+	}
+
+	public function setTypeFromFileType(){
+		$type=$this->getGalleyFileType();
+		switch($type){
+			case "pdf":
+				$this->galleyFileType=GalleyFile::$PDF;
+
+			case "xml":
+				$this->galleyFileType=GalleyFile::$XML;
+			
+			case "html":
+				$this->galleyFileType=GalleyFile::$HTML;
+		}
+		
 	}
 
 }

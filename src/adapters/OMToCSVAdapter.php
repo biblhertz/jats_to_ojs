@@ -101,10 +101,13 @@ class OMToCSVAdapter {
             $csvFile->writeCSV(array("Cover Image Alt Text",$coverImage->getGalleyFileAltText()));
         }
 
+        $c=1;
         foreach($this->article->getGalleyFiles() as $galley){
             if($galley->getType()!=GalleyFile::$COVER_IMAGE){
-                $csvFile->writeCSV(array("Galley File",$galley->getGalleyFilePath()));
-                $csvFile->writeCSV(array("Galley File Alt Text",$galley->getGalleyFileAltText()));
+                $csvFile->writeCSV(array("Galley File $c",$galley->getGalleyFilePath()));
+                $csvFile->writeCSV(array("Galley File Alt Text $c",$galley->getGalleyFileAltText()));
+                $csvFile->writeCSV(array("Galley File Genre $c",$galley->getGenre()));
+                $c++;
             }
         }
 

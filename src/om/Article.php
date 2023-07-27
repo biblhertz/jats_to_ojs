@@ -122,6 +122,11 @@ class Article {
 		return $this->authors;
 	}
 
+	public function addAuthor($s){
+		array_push($this->authors,$s);
+	}
+
+
 	public function setDOI($doi){
 		$this->doi=$doi;
 	}

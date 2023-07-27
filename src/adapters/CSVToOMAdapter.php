@@ -71,6 +71,7 @@ class CSVToOMAdapter {
 
         print_r($this->csvArray);
 
+        $this->article->setOJSUserName($this->ojsUser);
         $this->article->setJournalName($this->csvArray["Journal Name"]);
         $this->article->setVolume($this->csvArray["Journal Volume"]);
         $this->article->setIssue($this->csvArray["Journal Issue"]);
@@ -83,21 +84,65 @@ class CSVToOMAdapter {
         $this->article->setTitle($this->csvArray["Article Title"]);
         $this->article->setSubTitle($this->csvArray["Article Subtitle"]);
         $this->article->setDOI($this->csvArray["DOI"]);
-        $this->article->setKeywords(explode(";",$this->csvArray["Keywords"]));
+        $this->article->setAbstract($this->csvArray["Abstract"]);
+        $keywords=explode(";",$this->csvArray["Keywords"]);
+        $keyArr=array();
+        foreach($keywords as $key)
+            if(strlen($key))$keyArr[]=$key;
+        $this->article->setKeywords($keyArr);
 
         $c=1;
         $authors=array();
         while(isset($this->csvArray["Author $c"])){
-            $this->getAuthor($c,$authors);
+            $this->addAuthor($c,$authors);
             $c++;
         }
 
+        $galleys=array();
+        if(isset($this->csvArray["Cover Image"])){
+            $galley=new GalleyFile();
+            $galley->setGalleyFilePath($this->csvArray["Cover Image"]);
+            $galley->setGalleyFileAltText($this->csvArray["Cover Image Alt Text"]);
+            $galley->setType(GalleyFile::$COVER_IMAGE);
+            $this->article->addGalleyFile($galley);
+        }
 
+        $c=1;
+        while(isset($this->csvArray["Galley File $c"])){
+            $galley=new GalleyFile();
+            $galley->setGalleyFilePath($this->csvArray["Galley File $c"]);
+            $galley->setGalleyFileAltText($this->csvArray["Galley File Alt Text $c"]);  
+            if(isset($this->csvArray["Galley File Genre $c"]))$galley->setGenre($this->csvArray["Galley File Genre $c"]);         
+            $galley->setTypeFromFileType();
+            $this->article->addGalleyFile($galley);
+            $c++;
+        }
+
+        
     }
 
-    private function getAuthor($c){
+    private function addAuthor($c){
         $author=new Author();
         
+        $names=explode(",",$this->csvArray["Author $c"]);
+        if(count($names)==2){
+            $author->setFirstName($names[1]);
+            $author->setLastName($names[0]);
+        }
+        
+        if(isset($this->csvArray["Email $c"]))
+            $author->setEmail($this->csvArray["Email $c"]);
+        
+        if(isset($this->csvArray["Affiliation $c"])){
+            $affiliation = new Affiliation();
+            $names=explode(",",$this->csvArray["Affiliation $c"]);
+            if(isset($names[0]))$affiliation->setName($names[0]);
+            if(isset($names[1]))$affiliation->setDivision($names[1]);
+            $author->setAffiliations(array($affiliation));
+        }
+
+        $this->article->addAuthor($author);
+
     }
     
 
