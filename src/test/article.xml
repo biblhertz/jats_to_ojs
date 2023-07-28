@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<article xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" status="3" submission_progress="0" stage="production" current_publication_id="1" date_submitted="2022-12-01">
+ <id type="internal" advice="ignore">100</id>
+ <publication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" locale="en_US" version="1" status="3" date_published="2022-12-01" section_ref="CONF" seq="0">
+  <id type="internal" advice="ignore">100</id>
+  <id type="doi" advice="update">10.48431/hsah.xxxx</id>
+  <title locale="en_US">Test Title</title>
+  <subtitle locale="en_US">Subtitle</subtitle>
+  <abstract locale="en_US">Abstract goes here</abstract>
+  <licenseUrl>https://creativecommons.org/licenses/by/4.0/</licenseUrl>
+  <copyrightHolder locale="en_US">Bibliotheca Hertziana - Max Planck Institute for Art History</copyrightHolder>
+  <copyrightYear>2022</copyrightYear>
+  <keywords locale="en_US">
+   <keyword>spatial cognition</keyword>
+   <keyword>text analysis</keyword>
+   <keyword>text annotation</keyword>
+   <keyword>map annotation</keyword>
+   <keyword>Linked Open Data</keyword>
+  </keywords>
+  <authors xmlns="http://pkp.sfu.ca" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <author user_group_ref="Author" primary_contact="true" seq="0" id="100">
+    <givenname locale="en_US">John</givenname>
+    <familyname locale="en_US">Smith</familyname>
+    <affiliation locale="en_US"> Nowhereville, Test Institution</affiliation>
+    <email>john.smith@test.edu</email>
+   </author>
+   <author user_group_ref="Author" seq="1" id="100">
+    <givenname locale="en_US">Mick</givenname>
+    <familyname locale="en_US">Jones</familyname>
+    <affiliation locale="en_US"> Nowhere, Test institution</affiliation>
+    <email>i.jones@test.edu</email>
+   </author>
+  </authors>
+  <pages>22-45</pages>
+ </publication>
+</article>

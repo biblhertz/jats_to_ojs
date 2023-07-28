@@ -2,12 +2,16 @@
     "name": "biblhertz/jats_to_ojs",
     "description": "JATS to OJS native XML conversion package",
     "type": "project",
-    "license": "open_source",
+    "license": "GPL-3.0-or-later",
     "autoload": {
         "psr-4": {
             "Biblhertz\\JatsToOjs\\": "src/"
         }
     },
     "minimum-stability": "dev",
-    "require": {}
+    "require-dev": {
+        "phpunit/phpunit": "10",
+		"php": ">=8.1.0"
+    }
+	
 }

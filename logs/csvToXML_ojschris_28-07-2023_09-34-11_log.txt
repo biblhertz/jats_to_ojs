@@ -1,45 +1,43 @@
-Running issue JATS-to-CSV conversion...
+Running issue CSV-to-XML conversion...
 ---------------------------------------------------------------------------------------------------------------------------------------
-Input Directory Detected :: .\examples\xml_1\
+Input Directory Detected :: ./examples/xml_3/
 ---------------------------------------------------------------------------------------------------------------------------------------
-Input File Detected :: .\examples\xml_1\\.
+Input File Detected :: ./examples/xml_3/\03_geus.xml
 ---------------------------------------------------------------------------------------------------------------------------------------
-Input File Detected :: .\examples\xml_1\\..
+Input File Detected :: ./examples/xml_3/\03_geus_64c259f42a468.csv
+Found CSV File :: ./examples/xml_3/\03_geus_64c259f42a468.csv
+Loaded CSV File :: ./examples/xml_3/\03_geus_64c259f42a468.csv
 ---------------------------------------------------------------------------------------------------------------------------------------
-Input File Detected :: .\examples\xml_1\\01Intro_hsah.0101.xml
-Found XML File :: .\examples\xml_1\\01Intro_hsah.0101.xml
----------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------
-Trying XML document :: .\examples\xml_1\\01Intro_hsah.0101.xml against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
----------------------------------------------------------------------------------------------------------------------------------------
-XML document :: .\examples\xml_1\\01Intro_hsah.0101.xml failed validation against JATS V1.0 :: ./jats_xsd/1.0/JATS-journalpublishing1.xsd
-Error(s) as follows;
----------------------------------------------------------------------------------------------------------------------------------------
-!!! XML Parse Error :: Line 17
-Element 'article-version': This element is not expected. Expected is one of ( article-id, article-categories, title-group ).
-
+Object Model has been constructed against :: 03_geus_64c259f42a468.csv
 ---------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------
-Trying XML document :: .\examples\xml_1\\01Intro_hsah.0101.xml against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
+OJS XML generated from Object Model and output to :: ./examples/xml_3/\03_geus_64c259f42a468.csv_OJS_native.xml
 ---------------------------------------------------------------------------------------------------------------------------------------
-XML document :: .\examples\xml_1\\01Intro_hsah.0101.xml failed validation against JATS V1.1 :: ./jats_xsd/1.1/JATS-journalpublishing1.xsd
-Error(s) as follows;
----------------------------------------------------------------------------------------------------------------------------------------
-!!! XML Parse Error :: Line 17
-Element 'article-version': This element is not expected. Expected is one of ( article-id, article-categories, title-group ).
-
----------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------
-Trying XML document :: .\examples\xml_1\\01Intro_hsah.0101.xml against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
----------------------------------------------------------------------------------------------------------------------------------------
-XML document :: .\examples\xml_1\\01Intro_hsah.0101.xml passed validation against JATS V1.2 :: ./jats_xsd/1.2/JATS-journalpublishing1.xsd
-Adding JATS XML Galley File to OM :: .\examples\xml_1\\01Intro_hsah.0101.xml
-Added Cover Image File to OM :: 02_Harvey.jpg
-Added PDF Galley File to OM :: 10.1515_bgsl.2005.141.pdf
-Added HTML Galley File to OM :: manuscript.0105.html
----------------------------------------------------------------------------------------------------------------------------------------
-Object Model has been constructed against :: 01Intro_hsah.0101.xml
+Loaded generated OJS XML document from ./examples/xml_3/\03_geus_64c259f42a468.csv_OJS_native.xml
+Starting OJS schema validation
+Trying XML document :: ./examples/xml_3/\03_geus_64c259f42a468.csv_OJS_native.xml against OJS :: ./jats_xsd/ojs_xsd/native.xsd
+Validation Successful against OJS xsd
+Generated File ready for OJS import in :: ./examples/xml_3/\03_geus_64c259f42a468.csv_OJS_native.xml
 ---------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------
-CSV Article representation generated from Object Model and output to :: ./output\01Intro_hsah.0101_ARTICLE_CSV.csv
+Input File Detected :: ./examples/xml_3/\03_geus_64c259f42a468.csv_OJS_native.xml
 ---------------------------------------------------------------------------------------------------------------------------------------
+Input File Detected :: ./examples/xml_3/\03_geus_64c25f722d488.csv
+Found CSV File :: ./examples/xml_3/\03_geus_64c25f722d488.csv
+Loaded CSV File :: ./examples/xml_3/\03_geus_64c25f722d488.csv
+---------------------------------------------------------------------------------------------------------------------------------------
+Object Model has been constructed against :: 03_geus_64c25f722d488.csv
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+OJS XML generated from Object Model and output to :: ./examples/xml_3/\03_geus_64c25f722d488.csv_OJS_native.xml
+---------------------------------------------------------------------------------------------------------------------------------------
+Loaded generated OJS XML document from ./examples/xml_3/\03_geus_64c25f722d488.csv_OJS_native.xml
+Starting OJS schema validation
+Trying XML document :: ./examples/xml_3/\03_geus_64c25f722d488.csv_OJS_native.xml against OJS :: ./jats_xsd/ojs_xsd/native.xsd
+Validation Successful against OJS xsd
+Generated File ready for OJS import in :: ./examples/xml_3/\03_geus_64c25f722d488.csv_OJS_native.xml
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Input File Detected :: ./examples/xml_3/\03_geus_64c25f722d488.csv_OJS_native.xml
+---------------------------------------------------------------------------------------------------------------------------------------
+Input File Detected :: ./examples/xml_3/\Abstracts for Biondo papers.pdf

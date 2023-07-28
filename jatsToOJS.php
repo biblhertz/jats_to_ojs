@@ -44,7 +44,7 @@ class jatsToOJS {
     
         Config::load("config.ini");
         $this->verbose=Config::get('verbose');
-        
+
         if(!$error){
             $this->command = array_shift($argv);
             $this->ojsUser = array_shift($argv);
@@ -155,7 +155,6 @@ private function generateXML() {
                     Logger::print("OJS XML generated from Object Model and output to :: $outputFileName");
                     Logger::println();
                     $valid=$omtoOJS->validateXML(Config::get('ojs_xsd'));
-                    exit;
                 } else{
                     Logger::print("!!! Error ::  Could not validate input file as valid JATS XML :: ".$filename);
                 }
@@ -257,7 +256,6 @@ private function generateXML() {
                 Logger::print("OJS XML generated from Object Model and output to :: $outputFileName");
                 Logger::println();
                 $valid=$omtoOJS->validateXML(Config::get('ojs_xsd'));
-                exit;
             } 
         }
 

@@ -10,7 +10,7 @@ use Biblhertz\JatsToOjs\utilities\Utilities;
 use Biblhertz\JatsToOjs\utilities\FileCreator;
 
 /********************************************************************/
-/*		JATSToOMAdapter                   							*/
+/*		CSVToOMAdapter                   							*/
 /*                                                                  */
 /*		Author 	: 	Chris Tomlinson                             	*/
 /*      Date	:	11th July 2023                               	*/
@@ -83,7 +83,11 @@ class CSVToOMAdapter {
         $this->article->setStartPage($this->csvArray["Start Page"]);
         $this->article->setEndPage($this->csvArray["End Page"]);
 
-        $this->article->setDate($this->csvArray["Date"]);
+        $date=$this->csvArray["Date"];
+        $parts=explode("/",$date);
+        if(count($parts)==3)
+            $date = date("Y-m-d", strtotime($date));
+        $this->article->setDate($date);
         $this->article->setYear($this->csvArray["Year"]);
         $this->article->setTitle($this->csvArray["Article Title"]);
         $this->article->setSubTitle($this->csvArray["Article Subtitle"]);

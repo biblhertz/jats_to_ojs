@@ -83,7 +83,7 @@ class OMToCSVAdapter {
         $csvFile->writeCSV(array("Date",$this->article->getDate()));
         $csvFile->writeCSV(array("Year",$this->article->getYear()));
         $csvFile->writeCSV(array("Article Title",$this->article->getTitle()));
-        $csvFile->writeCSV(array("Article Subtitle","\"".$this->article->getSubTitle()));
+        $csvFile->writeCSV(array("Article Subtitle",$this->article->getSubTitle()));
         $csvFile->writeCSV(array("DOI",$this->article->getDOI()));
         $csvFile->writeCSV(array("Abstract",$this->article->getAbstract()));
         $keyStr="";
