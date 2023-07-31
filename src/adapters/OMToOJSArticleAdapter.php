@@ -168,12 +168,9 @@ class OMToOJSArticleAdapter {
 
         $this->writeIdElement(100);
         $this->writeSubmissionFiles();
-        $this->writePublication();
-        
+        $this->writePublication(); 
 
         $this->xmlWriter->endElement();
-        
-
     }
 
    private  function writeSubmissionFiles() {

@@ -214,8 +214,7 @@ private function getAuthors($authorxml,$affxml){
         $authorObj->setID(Utilities::to_utf((string)$author->{'contrib-id'}));
         $authorObj->setEmail(Utilities::to_utf((string)$author->{'email'}));
 
-        $affiliations=array();
-        foreach($author->{'xref'} as $xref){
+       foreach($author->{'xref'} as $xref){
             if(!strcmp($xref->attributes()->{'ref-type'},"aff")){
                 $affKey=(string)$xref->attributes()->{'rid'};
                 foreach($affxml as $aff){
@@ -229,13 +228,13 @@ private function getAuthors($authorxml,$affxml){
                             else if(!strcmp($inst->attributes()->{'content-type'},"orgdiv1"))
                                 $affiliationObj->setDivision(Utilities::to_utf((string)$inst));
                         }
-                        array_push($affiliations, $affiliationObj);
+                        $authorObj->addAffiliation($affiliationObj);
                     }
                 }
             }
         }
 
-        $authorObj->setAffiliations($affiliations);
+       
 
         if(strcmp("",$authorObj->getFirstName())||strcmp("",$authorObj->getLastName()))
             array_push($authors,$authorObj);

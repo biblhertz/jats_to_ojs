@@ -146,7 +146,7 @@ class CSVToOMAdapter {
             $names=explode(",",$this->csvArray["Affiliation $c"]);
             if(isset($names[0]))$affiliation->setName($names[0]);
             if(isset($names[1]))$affiliation->setDivision($names[1]);
-            $author->setAffiliations(array($affiliation));
+            $author->addAffiliation($affiliation);
         }
 
         $this->article->addAuthor($author);

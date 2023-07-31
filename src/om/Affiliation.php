@@ -51,5 +51,12 @@ class Affiliation {
 	public function getAffiliation(){
 		return $this->getDivision().", ".$this->getName();
 	}
+
+	public function affiliationExists($affiliation):bool{
+		if($this->getName()==$affiliation->getName() &&
+		  $this->getDivision()==$affiliation->getDivision())
+		  	return true;
+		return false;
+	}
 }
 ?>

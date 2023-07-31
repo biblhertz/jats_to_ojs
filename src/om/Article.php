@@ -123,8 +123,13 @@ class Article {
 
 	public function addAuthor($author){
 		//assume that first author added is corresponding author
-		if(count($this->authors)==0)$author->setCorrespondingAuthor(true);	
-		array_push($this->authors,$author);
+		if(count($this->authors)==0)$author->setCorrespondingAuthor(true);
+		$exists=false;	
+		foreach($this->authors as $a){
+			if($author->authorExists($a))
+				$exists=true;
+		}
+		if(!$exists)array_push($this->authors,$author);
 	}
 
 

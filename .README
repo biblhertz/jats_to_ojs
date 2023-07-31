@@ -1,27 +1,62 @@
-[General]
-; Required fields for OJS. To be applied across all conversions
-author_country = "IT"
-locale = "en_US"
+This is a command line tool for generating OJS native XML journal articles
+These can then be uploaded to OJS with the OJS native importer plugin.
 
-; For use when formatting dates via DateTime::createFromFormat()
-dateFormat = "d/m/Y"
+Requirements
+==============
+PHP >= 8.1 installed on your system
 
-
-[xsd]
-jats_xsd[1.0] = "./jats_xsd/1.0/JATS-journalpublishing1.xsd"
-jats_xsd[1.1] = "./jats_xsd/1.1/JATS-journalpublishing1.xsd"
-jats_xsd[1.2] = "./jats_xsd/1.2/JATS-journalpublishing1.xsd"
-jats_xsd[1.3] = "./jats_xsd/1.3/JATS-journalpublishing1-3.xsd"
-
-ojs_xsd = "./jats_xsd/ojs_xsd/native.xsd"
-
-[output]
-; default output directory
-outputDir = "./output"
-; Outputs info written to console and to a log file for reference
-logLocation = "./logs"
+It has been tested with OJS version 3.3.0.10 and the documents produced will upload to this version
+The xsd file that output documents are validated against (in ./xsd/ojs/) is for version 3.3.0.10 of OJS.
+Input JATS files are also validated against the JATS dtd schema (in the order v1.3, v1.2, v1.1 and v1.0). The validation process stops when a document passes validation against one of the xsd files. These are stored in the appropriate directory ./xsd/jats_vx.x.
+The ouput files produced can work against later versions of OJS
 
 
+Usage
+================
+There are three modes of usage for the package
+1) Input an XML file in JATS format and output an XML file in OJS format
+2) Input an XML file in JATS format and output a CSV file in our proprietry format
+3) Input a CSV file in our proprietry format and output an XML file in OJS formatCase 3)
 
+Use cases 2) and 3) are so that users can inspect and alter the spreadsheet, which should be easier than altering xsd documents.
+
+In addition to generating the XML from the JATS file the package will add galley and cover files to the generated OJS XML.
+Any file in the input directory in the format XML, PDF or HTML will be added as a galley file in the generated OJS XML.
+The first file found in an image format (jpg, jpeg, gif or png) will be added as the cover image for the article.
+Usage is as follows (from root directory of package and assuming that PHP => 8.1 is installed on the system);
+
+Case 1) JATS XML => OJS XML
+php jatsToOJS.php jatsToXML <ojsUserName> <inputDirectory> <outputDirectory>
+
+Case 2) JATS XML => CSV
+php jatsToOJS.php jatsToCSV <ojsUserName> <inputDirectory> <outputDirectory>
+
+Case 3) CSV => OJS XML
+php jatsToOJS.php csvToXML <ojsUserName> <inputDirectory> <outputDirectory>
+
+Testing
+==============
+Some simple unit tests using the package PHPUnit are included in the directory ./src/tests in the class UnitTest.php.
+To run these;
+
+./vendor/bin/phpunit -v ./src/test/UnitTest.php
+
+These should all pass.
+
+
+Software Design
+================
+The software is designed to be extensible so that other representations of the data can be produced if needed and other types of input can be added if needed.
+There are two main components to the software;
+
+1) An object model that represents an article
+The components of this are contained in the directory ./src/om.
+The object model itself is very simple; the Article object contains the various properties of an Article along with a collection of Authors and a collection of Galley Files. 
+The Author object contains the various properties of an ASuthor along with a collection of Affiliations for an author.
+
+2) A collection of adapters that transform other data representations to and from the object model representation (./src/adapters).
+Transformations to and from other un-supported representations can be added in this by writing a new adapter class.
+
+The jatsToOJS.php class reads input from the command line and calls the appropriate adapters to perform the transformations
 
                   

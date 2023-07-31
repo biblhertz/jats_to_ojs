@@ -90,12 +90,26 @@ class Author {
 		return false;
 	}
 
+	public function addAffiliation($affiliation){
+		$exists=false;	
+		foreach($this->affiliations as $a){
+			if($affiliation->affiliationExists($a))
+				$exists=true;
+		}
+		if(!$exists)array_push($this->affiliations,$affiliation);
+	}
+
 	public function setCorrespondingAuthor($b){
 		$this->correspondingAuthor=$b;
 	}
 	
 	public function getCorrespondingAuthor(){
 		return $this->correspondingAuthor;
+	}
+
+	public function authorExists($author):bool{
+		if($author->getEmail()==$this->email)return true;
+		return false;
 	}
 }
 ?>
