@@ -155,6 +155,7 @@ private function generateXML() {
                     Logger::print("OJS XML generated from Object Model and output to :: $outputFileName");
                     Logger::println();
                     $valid=$omtoOJS->validateXML(Config::get('ojs_xsd'));
+                    break;
                 } else{
                     Logger::print("!!! Error ::  Could not validate input file as valid JATS XML :: ".$filename);
                 }
@@ -256,6 +257,7 @@ private function generateXML() {
                 Logger::print("OJS XML generated from Object Model and output to :: $outputFileName");
                 Logger::println();
                 $valid=$omtoOJS->validateXML(Config::get('ojs_xsd'));
+                break;
             } 
         }
 

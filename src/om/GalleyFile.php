@@ -25,6 +25,7 @@ class GalleyFile {
     public static $PDF=2;
     public static $HTML=3;
     public static $COVER_IMAGE=4;
+	public static $IMAGE=5;
 
  	/****************************************************************/
 	/*	INSTANCE VARIABLES											*/

@@ -36,7 +36,7 @@ class Logger {
         $timestamp = time();
         $dt = new DateTime("now", new DateTimeZone($tz)); //first argument "must" be a string
         $dt->setTimestamp($timestamp); //adjust the object to correct timestamp
-        self::$fileName = $dt->format('d-m-Y@H:i:s'). '_log.txt';
+        self::$fileName = $dt->format('d-m-Y@H_i_s'). '_log.txt';
     }
 
      

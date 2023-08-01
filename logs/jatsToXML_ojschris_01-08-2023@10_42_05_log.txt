@@ -1,43 +1,49 @@
-Running issue CSV-to-XML conversion...
+Running issue JATS-to-XML conversion...
 ---------------------------------------------------------------------------------------------------------------------------------------
-Input Directory Detected :: ./examples/xml_3/
+Input Directory Detected :: .\examples\xml_3\
 ---------------------------------------------------------------------------------------------------------------------------------------
-Input File Detected :: ./examples/xml_3/\03_geus.xml
+Input File Detected :: .\examples\xml_3\\03_geus.xml
+Found XML File :: .\examples\xml_3\\03_geus.xml
+Loaded XML document from .\examples\xml_3\\03_geus.xml
 ---------------------------------------------------------------------------------------------------------------------------------------
-Input File Detected :: ./examples/xml_3/\03_geus_64c259f42a468.csv
-Found CSV File :: ./examples/xml_3/\03_geus_64c259f42a468.csv
-Loaded CSV File :: ./examples/xml_3/\03_geus_64c259f42a468.csv
----------------------------------------------------------------------------------------------------------------------------------------
-Object Model has been constructed against :: 03_geus_64c259f42a468.csv
+Starting JATS schema validation
 ---------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------
-OJS XML generated from Object Model and output to :: ./examples/xml_3/\03_geus_64c259f42a468.csv_OJS_native.xml
 ---------------------------------------------------------------------------------------------------------------------------------------
-Loaded generated OJS XML document from ./examples/xml_3/\03_geus_64c259f42a468.csv_OJS_native.xml
+Trying XML document :: .\examples\xml_3\\03_geus.xml against JATS V1.3 :: ./xsd/1.3/JATS-journalpublishing1-3.xsd
+---------------------------------------------------------------------------------------------------------------------------------------
+XML document :: .\examples\xml_3\\03_geus.xml passed validation against JATS V1.3 :: ./xsd/1.3/JATS-journalpublishing1-3.xsd
+Adding JATS XML Galley File to OM :: .\examples\xml_3\\03_geus.xml
+Added PDF Galley File to OM :: Abstracts for Biondo papers.pdf
+Added Cover Image File to OM :: image_1.png
+Added Cover Image File to OM :: image_2.png
+Added Cover Image File to OM :: image_3.png
+Added Cover Image File to OM :: image_4.png
+Affiliation Keys :: affjbdcghfhedc :: affjbdcghfhedc
+Affiliation Keys :: affjbdcghfhedc :: affjbdcghfhedc
+---------------------------------------------------------------------------------------------------------------------------------------
+Created Article Object
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+Object Model has been constructed against :: 03_geus.xml
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+OJS XML generated from Object Model and output to :: .\examples\xml_3\\03_geus_OJS_native.xml
+---------------------------------------------------------------------------------------------------------------------------------------
+Loaded generated OJS XML document from .\examples\xml_3\\03_geus_OJS_native.xml
 Starting OJS schema validation
-Trying XML document :: ./examples/xml_3/\03_geus_64c259f42a468.csv_OJS_native.xml against OJS :: ./jats_xsd/ojs_xsd/native.xsd
+Trying XML document :: .\examples\xml_3\\03_geus_OJS_native.xml against OJS :: ./xsd/ojs_xsd/native.xsd
 Validation Successful against OJS xsd
-Generated File ready for OJS import in :: ./examples/xml_3/\03_geus_64c259f42a468.csv_OJS_native.xml
+Generated File ready for OJS import in :: .\examples\xml_3\\03_geus_OJS_native.xml
 ---------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------
-Input File Detected :: ./examples/xml_3/\03_geus_64c259f42a468.csv_OJS_native.xml
+Input File Detected :: .\examples\xml_3\\Abstracts for Biondo papers.pdf
 ---------------------------------------------------------------------------------------------------------------------------------------
-Input File Detected :: ./examples/xml_3/\03_geus_64c25f722d488.csv
-Found CSV File :: ./examples/xml_3/\03_geus_64c25f722d488.csv
-Loaded CSV File :: ./examples/xml_3/\03_geus_64c25f722d488.csv
+Input File Detected :: .\examples\xml_3\\image_1.png
 ---------------------------------------------------------------------------------------------------------------------------------------
-Object Model has been constructed against :: 03_geus_64c25f722d488.csv
+Input File Detected :: .\examples\xml_3\\image_2.png
 ---------------------------------------------------------------------------------------------------------------------------------------
+Input File Detected :: .\examples\xml_3\\image_3.png
 ---------------------------------------------------------------------------------------------------------------------------------------
-OJS XML generated from Object Model and output to :: ./examples/xml_3/\03_geus_64c25f722d488.csv_OJS_native.xml
----------------------------------------------------------------------------------------------------------------------------------------
-Loaded generated OJS XML document from ./examples/xml_3/\03_geus_64c25f722d488.csv_OJS_native.xml
-Starting OJS schema validation
-Trying XML document :: ./examples/xml_3/\03_geus_64c25f722d488.csv_OJS_native.xml against OJS :: ./jats_xsd/ojs_xsd/native.xsd
-Validation Successful against OJS xsd
-Generated File ready for OJS import in :: ./examples/xml_3/\03_geus_64c25f722d488.csv_OJS_native.xml
----------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------------------------------------------------------------------
-Input File Detected :: ./examples/xml_3/\03_geus_64c25f722d488.csv_OJS_native.xml
----------------------------------------------------------------------------------------------------------------------------------------
-Input File Detected :: ./examples/xml_3/\Abstracts for Biondo papers.pdf
+Input File Detected :: .\examples\xml_3\\image_4.png

@@ -109,11 +109,21 @@ class JATSToOMAdapter {
                     !strcmp($info['extension'],"jpeg")||
                     !strcmp($info['extension'],"gif")){
                 
-                Logger::print("Added Cover Image File to OM :: ".$file);
+               
                 $galley = new GalleyFile();
                 $galley->setGalleyFilePath($fname);
-                $galley->setGalleyFileAltText("Cover Image Galley File for this article");
-                $galley->setType(GalleyFile::$COVER_IMAGE);
+                
+                if(!$this->article->getCoverImageFile()){
+                    $galley->setType(GalleyFile::$COVER_IMAGE);
+                    $galley->setGalleyFileAltText("Cover Image Galley File for this article");
+                    Logger::print("Added Cover Image File to OM :: ".$file);
+                }
+                else {
+                    $galley->setType(GalleyFile::$IMAGE);
+                    $galley->setGalleyFileAltText("Image Galley File for this article");
+                    Logger::print("Added Image File to OM :: ".$file);
+                }
+
                 $galley->setID($id);
                 $this->article->addGalleyFile($galley);
             }
@@ -189,11 +199,11 @@ try{
 
 
         if($this->verbose){
-            $this->println();
+            Logger::println();
             Logger::print( "Created Article Object");
-            $this->println();
+            Logger::println();
             print_r($this->article);
-            $this->println();
+            Logger::println();
         }
 
         } catch(Exception $e){

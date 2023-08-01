@@ -8,7 +8,7 @@
 Date,2022-12-31
 Year,2022
 "Article Title","Measurements, Maps, and Other Source Material in Biondo's"
-"Article Subtitle",""""
+"Article Subtitle",
 DOI,10.48431/hsah.0103
 Abstract,"In his chorographic work ,
                     Flavio Biondo wishes to generate in his readers' minds a more or less complete
@@ -30,9 +30,17 @@ Keywords,"spatial cognition;text analysis;text annotation;map annotation;Linked 
 "Email 2",klaus.geus@fu-berlin.de
 "Affiliation 2","Friedrich-Meinecke-Institut, Freie Universit""at Berlin"
 "Author Email",kurt.guckelsberger@gmx.de
-"Galley File 1","./examples/xml_3/\03_geus.xml"
+"Cover Image",".\examples\xml_3\\image_1.png"
+"Cover Image Alt Text","Cover Image Galley File for this article"
+"Galley File 1",".\examples\xml_3\\03_geus.xml"
 "Galley File Alt Text 1","JATS XML Galley File for this article"
 "Galley File Genre 1","Article Text"
-"Galley File 2","./examples/xml_3/\Abstracts for Biondo papers.pdf"
+"Galley File 2",".\examples\xml_3\\Abstracts for Biondo papers.pdf"
 "Galley File Alt Text 2","PDF Galley File for this article"
 "Galley File Genre 2","Article Text"
+"Galley File 3",".\examples\xml_3\\image_3.png"
+"Galley File Alt Text 3","Image Galley File for this article"
+"Galley File Genre 3","Article Text"
+"Galley File 4",".\examples\xml_3\\image_4.png"
+"Galley File Alt Text 4","Image Galley File for this article"
+"Galley File Genre 4","Article Text"
