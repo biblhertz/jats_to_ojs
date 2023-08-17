@@ -35,14 +35,17 @@ class jatsToOJS {
     function __construct($argv = array()) {
         $error = false;
 
+        Config::load("config.ini");
+        Logger::__constructStatic();
+
         array_shift($argv);
 
         if (sizeof($argv) != 4) {
             $this->usage();
             $error=true;
         }
-    
-        Config::load("config.ini");
+
+       
         $this->verbose=Config::get('verbose');
 
         if(!$error){

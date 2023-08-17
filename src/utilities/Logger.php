@@ -78,6 +78,6 @@ class Logger {
     }
 }
 
-Logger::__constructStatic();
+
 
 ?>

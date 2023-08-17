@@ -81,55 +81,82 @@ class JATSToOMAdapter {
         //pdf and html files will be added a galley files
         //any image file found in the directory (jpg,jpeg,png,gif formats)
         //will be added as an article cover image
-        $files = scandir($this->inputDir);
-        foreach($files as $file){
-            $fname=$this->inputDir.DIRECTORY_SEPARATOR.$file;
-            $info=pathinfo($fname);
+        if(is_dir($this->inputDir.DIRECTORY_SEPARATOR."galley_files")){
+            $files = scandir($this->inputDir.DIRECTORY_SEPARATOR."galley_files");
+            
+            foreach($files as $file){
+                $fname=$this->inputDir.DIRECTORY_SEPARATOR."galley_files".DIRECTORY_SEPARATOR.$file;
+                $info=pathinfo($fname);
 
-            if(!strcmp($info['extension'],"pdf")){
-                Logger::print("Added PDF Galley File to OM :: ".$file);
                 $galley = new GalleyFile();
                 $galley->setGalleyFilePath($fname);
-                $galley->setGalleyFileAltText("PDF Galley File for this article");
-                $galley->setType(GalleyFile::$PDF);
                 $galley->setID($id);
-                $this->article->addGalleyFile($galley);
-            }
-            else if(!strcmp($info['extension'],"html")){
-                Logger::print("Added HTML Galley File to OM :: ".$file);
-                $galley = new GalleyFile();
-                $galley->setGalleyFilePath($fname);
-                $galley->setGalleyFileAltText("HTML Galley File for this article");
-                $galley->setType(GalleyFile::$HTML);
-                $galley->setID($id);
-                $this->article->addGalleyFile($galley);
-            } 
-            else if(!strcmp($info['extension'],"png") ||
-                    !strcmp($info['extension'],"jpg") ||
-                    !strcmp($info['extension'],"jpeg")||
-                    !strcmp($info['extension'],"gif")){
-                
                
-                $galley = new GalleyFile();
-                $galley->setGalleyFilePath($fname);
-                
-                if(!$this->article->getCoverImageFile()){
-                    $galley->setType(GalleyFile::$COVER_IMAGE);
-                    $galley->setGalleyFileAltText("Cover Image Galley File for this article");
-                    Logger::print("Added Cover Image File to OM :: ".$file);
-                }
-                else {
-                    $galley->setType(GalleyFile::$IMAGE);
-                    $galley->setGalleyFileAltText("Image Galley File for this article");
-                    Logger::print("Added Image File to OM :: ".$file);
+                switch($info['extension']){
+
+                    case "pdf":
+                    case "PDF":
+
+                        Logger::print("Added PDF Galley File to OM :: ".$file);
+                        $galley->setGalleyFileAltText("PDF Galley File for this article");
+                        $galley->setType(GalleyFile::$PDF);
+                        $this->article->addGalleyFile($galley);
+                        break;
+
+                    case "html":
+                    case "HTML":
+
+                        Logger::print("Added HTML Galley File to OM :: ".$file);              
+                        $galley->setGalleyFileAltText("HTML Galley File for this article");
+                        $galley->setType(GalleyFile::$HTML);
+                        $this->article->addGalleyFile($galley);
+                        break;
+
+                    case "png":
+                    case "PNG":
+                    case "jpg":
+                    case "JPG":
+                    case "jpeg":
+                    case "JPEG":
+                    case "gif":
+                    case "GIF":    
+
+                        $galley->setType(GalleyFile::$IMAGE);
+                        $galley->setGalleyFileAltText("Image Galley File for this article");
+                        Logger::print("Added Image File to OM :: ".$file);
+                        $this->article->addGalleyFile($galley);
+                        break;
                 }
 
-                $galley->setID($id);
-                $this->article->addGalleyFile($galley);
+                $id++;
             }
-
-            $id++;
         }
+
+        if(is_dir($this->inputDir.DIRECTORY_SEPARATOR."cover_image")){
+            $files = scandir($this->inputDir.DIRECTORY_SEPARATOR."cover_image");
+            foreach($files as $file){
+                $fname=$this->inputDir.DIRECTORY_SEPARATOR."cover_image".DIRECTORY_SEPARATOR.$file;
+                $info=pathinfo($fname);
+
+                if(!$this->article->getCoverImageFile()){
+                   if(  !strcmp($info['extension'],"png") ||
+                        !strcmp($info['extension'],"jpg") ||
+                        !strcmp($info['extension'],"jpeg")||
+                        !strcmp($info['extension'],"gif")){
+                        
+                    
+                        $galley = new GalleyFile();
+                        $galley->setGalleyFilePath($fname);
+                        $galley->setType(GalleyFile::$COVER_IMAGE);
+                        $galley->setGalleyFileAltText("Cover Image File for this article");
+                        Logger::print("Added Cover Image File to OM :: ".$file);
+                        $galley->setID($id);
+                        $this->article->addGalleyFile($galley);
+                    }
+                }
+            }
+        }
+        
         
 
         $this->article->setOJSUserName($this->ojsUser);
@@ -165,7 +192,7 @@ try{
             $keywords=$xmlarticle->{'article-meta'}->{'kwd-group'}->{'kwd'};
             if(isset($keywords))
                 foreach($keywords as $keyword){
-                    $this->article->setKeyword($keyword);
+                    $this->article->setKeyword((string)$keyword);
                 }
             
 

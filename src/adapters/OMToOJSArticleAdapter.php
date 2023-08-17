@@ -457,7 +457,7 @@ class OMToOJSArticleAdapter {
         else {
             Logger::print("Validation Failed against OJS xsd");
             Logger::print("Generated File cannot be imported at :: ".$this->uri);
-            Utilities::printXMLErrors();
+            Utilities::printXMLErrors(libxml_get_errors());
             Logger::println();
         }
 

@@ -1,0 +1,21 @@
+Running issue CSV-to-XML conversion...
+---------------------------------------------------------------------------------------------------------------------------------------
+Input Directory Detected :: ./examples/xml_1
+---------------------------------------------------------------------------------------------------------------------------------------
+Input File Detected :: ./examples/xml_1\01Intro_hsah.0101.xml
+---------------------------------------------------------------------------------------------------------------------------------------
+Input File Detected :: ./examples/xml_1\01Intro_hsah.0101_64dccc1538de7.csv
+Found CSV File :: ./examples/xml_1\01Intro_hsah.0101_64dccc1538de7.csv
+Loaded CSV File :: ./examples/xml_1\01Intro_hsah.0101_64dccc1538de7.csv
+---------------------------------------------------------------------------------------------------------------------------------------
+Object Model has been constructed against :: 01Intro_hsah.0101_64dccc1538de7.csv
+---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
+OJS XML generated from Object Model and output to :: ./examples/xml_1\01Intro_hsah.0101_64dccc1538de7.csv_OJS_native.xml
+---------------------------------------------------------------------------------------------------------------------------------------
+Loaded generated OJS XML document from ./examples/xml_1\01Intro_hsah.0101_64dccc1538de7.csv_OJS_native.xml
+Starting OJS schema validation
+Trying XML document :: ./examples/xml_1\01Intro_hsah.0101_64dccc1538de7.csv_OJS_native.xml against OJS :: ./xsd/ojs_xsd/native.xsd
+Validation Successful against OJS xsd
+Generated File ready for OJS import in :: ./examples/xml_1\01Intro_hsah.0101_64dccc1538de7.csv_OJS_native.xml
+---------------------------------------------------------------------------------------------------------------------------------------
