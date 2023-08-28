@@ -7,6 +7,7 @@ use Biblhertz\JatsToOjs\om\Author;
 use Biblhertz\JatsToOjs\om\Affiliation;
 use Biblhertz\JatsToOjs\utilities\Logger;
 use Biblhertz\JatsToOjs\utilities\Utilities;
+use SimpleXMLElement;
 
 /********************************************************************/
 /*		JATSToOMAdapter                   							*/
@@ -178,8 +179,8 @@ try{
 
         if($c==0){
             $this->article->setJournalName((string)$xmlarticle->{'journal-meta'}->{'journal-title-group'}->{'journal-title'});
-            $this->article->setTitle(Utilities::to_utf((string)$xmlarticle->{'article-meta'}->{'title-group'}->{'article-title'}));
-            $this->article->setSubTitle(Utilities::to_utf((string)$xmlarticle->{'article-meta'}->{'title-group'}->{'alt-title'}));
+            $this->article->setTitle(Utilities::to_utf($xmlarticle->{'article-meta'}->{'title-group'}->{'article-title'}->asXML()));
+            $this->article->setSubTitle(Utilities::to_utf($xmlarticle->{'article-meta'}->{'title-group'}->{'alt-title'}->asXML()));
             
             $authors=$xmlarticle->{'article-meta'}->{'contrib-group'};
             $affiliations=$xmlarticle->{'article-meta'}->{'aff'};
@@ -196,7 +197,8 @@ try{
                 }
             
 
-            $this->article->setAbstract(Utilities::to_utf((string)$xmlarticle->{'article-meta'}->{'abstract'}->{'p'}));
+
+            $this->article->setAbstract(Utilities::to_utf($xmlarticle->{'article-meta'}->{'abstract'}->{'p'}->asXML()));
             $this->article->setAuthors($this->getAuthors($authors,$affiliations));
             $this->article->setDate(       (string)$xmlarticle->{'article-meta'}->{'pub-date'}->{'year'}."-".
                                         (string)$xmlarticle->{'article-meta'}->{'pub-date'}->{'month'}."-".
@@ -205,8 +207,8 @@ try{
             $this->article->setYear((string)$xmlarticle->{'article-meta'}->{'pub-date'}->{'year'});
             //$license=$xmlarticle->{'article-meta'}->{'permissions'}->{'license'}->children("xlink",true);
 
-            $this->article->setCopyRightHolder(Utilities::to_utf((string)$xmlarticle->{'article-meta'}->{'permissions'}->{'copyright-holder'}));
-            $this->article->setCopyRightYear(Utilities::to_utf((string)$xmlarticle->{'article-meta'}->{'permissions'}->{'copyright-year'}));
+            $this->article->setCopyRightHolder(Utilities::to_utf($xmlarticle->{'article-meta'}->{'permissions'}->{'copyright-holder'}->asXML()));
+            $this->article->setCopyRightYear(Utilities::to_utf($xmlarticle->{'article-meta'}->{'permissions'}->{'copyright-year'}->asXML()));
             $this->article->setLicenseUrl("https://creativecommons.org/licenses/by/4.0/"); //hard coded because JATS XML won't parse with simple_xml element
 
             $issue=$startPage=$endPage="";
