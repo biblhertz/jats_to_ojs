@@ -1,5 +1,5 @@
 # jats_to_ojs
-JATS XML to OJS native XML
+JATS XML to OJS native XML (3.3.0)
 
 ### Requirements
 PHP 8.1
