@@ -1,7 +1,7 @@
 # jats_to_ojs
 JATS XML to OJS native XML (3.3.0)
 
-# Introduction
+### Introduction
 Jats to OJS is a command line tool that will transform XML documents from JATS XML to OJS XML (version 3.3.0).
 Detailed documentation is in the .README file
 
