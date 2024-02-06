@@ -22,7 +22,7 @@ Usage
 There are three modes of usage for the package
 1) Input an XML file in JATS format and output an XML file in OJS format
 2) Input an XML file in JATS format and output a CSV file in our own proprietry format
-3) Input a CSV file in our proprietry format and output an XML file in OJS formatCase 3)
+3) Input a CSV file in our proprietry format and output an XML file in OJS format
 
 Use cases 2) and 3) are so that users can inspect and alter the spreadsheet, which should be easier than inspecting and altering xml documents.
 
