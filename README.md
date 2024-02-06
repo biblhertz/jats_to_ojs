@@ -3,7 +3,7 @@ JATS XML to OJS native XML (3.3.0)
 
 ### Introduction
 Jats to OJS is a command line tool that will transform XML documents from JATS XML to OJS XML (version 3.3.0).
-Detailed documentation is in the .README file
+Detailed documentation is in the .README file (this file is .README.md, detailed info in .README - with no file extension)
 
 ### Requirements
 PHP 8.1
