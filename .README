@@ -22,7 +22,7 @@ Usage
 There are three modes of usage for the package
 1) Input an XML file in JATS format and output an XML file in OJS format
 2) Input an XML file in JATS format and output a CSV file in our own proprietry format
-3) Input a CSV file in our proprietry format and output an XML file in OJS formatCase 3)
+3) Input a CSV file in our proprietry format and output an XML file in OJS format
 
 Use cases 2) and 3) are so that users can inspect and alter the spreadsheet, which should be easier than inspecting and altering xml documents.
 
@@ -44,7 +44,7 @@ php jatsToOJS.php jatsToCSV <ojsUserName> <inputDirectory> <outputDirectory>
 Case 3) CSV => OJS XML
 php jatsToOJS.php csvToXML <ojsUserName> <inputDirectory> <outputDirectory>
 
-<ojsUserName> is th euser name in OJS that will uploade the documents, this is a requirement of OJS
+<ojsUserName> is the user name in OJS that will upload the documents, this is a requirement of OJS
 <inputDirectory> is a directory containing the input files. It should contain a single XML file in JATS format, a single image cover file (if required) and galley files in HTML and / or PDF format (if required)
 If the csvTOXML option is chosen then the CSV input file should also be in the input directory
 Subdirectories of the input directory are <galley_files> and <cover_image> as described above.
@@ -89,5 +89,5 @@ https://github.com/ualbertalib/ojsxml
 Limitations
 ===================
 There is a limit on the size of the files that can be uploaded to OJS (3.3.0.10) of around 2MB. Generated files that are greater than this will not upload.
-A strategy to mitigate this could be to make the size of any image files to be oincluded smaller (either through compression or cutting the image).
+A strategy to mitigate this could be to make the size of any image files to be included smaller (either through compression or cutting the image).
 
