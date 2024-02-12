@@ -35,15 +35,15 @@ To generate OJS XML representation of a CSV document generated from this program
     
 The JATS XML document must only contain a single article
 
-##Detailed Description
-###Requirements
+## Detailed Description
+### Requirements
 PHP >= 8.1 installed on your system
 
 It has been tested with OJS version 3.3.0.10 and the documents produced will upload to this version
 We have also used it with slightly later versions of OJS.
 
 
-###XML validation
+### XML validation
 
 The xsd file that output documents are validated against (in ./xsd/ojs/) is for version 3.3.0.10 of OJS. This can be updated if need be. The directory of the xsd file is set in the config.ini file.
 Input JATS files are also validated against the JATS dtd schema (in the order v1.3, v1.2, v1.1 and v1.0). The validation process stops when a document passes validation against one of the xsd files. These are stored in the appropriate directory ./xsd/jats_vx.x.
@@ -51,7 +51,7 @@ The output files produced can work against later versions of OJS.
 The JATS xml validation order can be changed by changing the ordering of the files in config.ini.
 
 
-###Usage
+### Usage
 There are three modes of usage for the package
 1) Input an XML file in JATS format and output an XML file in OJS format
 2) Input an XML file in JATS format and output a CSV file in our own proprietry format
@@ -88,7 +88,7 @@ php .\jatsToOJS.php csvToXML ojschris .\examples\xml_3\ .\examples\xml_3\
 
 csv to OJS XML transformation for username ojschris using input directory .\examples\xml_3\ and outputting to the same directory.
 
-###Testing
+### Testing
 Some simple unit tests using the package PHPUnit are included in the directory ./src/tests in the class UnitTest.php.
 To run these;
 
@@ -97,7 +97,7 @@ To run these;
 These should all pass.
 
 
-###Software Design
+### Software Design
 The software is designed to be extensible so that other output representations of the data can be produced if needed and other types of input data representation can be added if needed.
 There are two main components to the software;
 
@@ -111,12 +111,12 @@ Transformations to and from other un-supported representations can be added in t
 
 The jatsToOJS.php class reads input from the command line and calls the appropriate adapters to perform the transformations
 
-###Acknowledgements
+### Acknowledgements
 The software has used some code from an open-source package for CSV input to OJS native XML by Jeremy Hennig and ewhanson of the Univesrsity of Alberta;
 https://github.com/ualbertalib/ojsxml
 
 
-###Limitations
+### Limitations
 There is a limit on the size of the files that can be uploaded to OJS (3.3.0.10) of around 2MB. Generated files that are greater than this will not upload.
 A strategy to mitigate this could be to make the size of any image files to be included smaller (either through compression or cutting the image).
 
