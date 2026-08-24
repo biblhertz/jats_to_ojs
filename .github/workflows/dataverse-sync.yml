@@ -1,0 +1,19 @@
+name: Sync to Dataverse (Edmond)
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  dataverse-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Upload snapshot to Edmond
+        uses: IQSS/dataverse-uploader@v1.6
+        with:
+          DATAVERSE_TOKEN: ${{ secrets.DATAVERSE_TOKEN }}
+          DATAVERSE_SERVER: https://edmond.mpg.de
+          DATAVERSE_DATASET_DOI: doi:10.17617/3.R6DRYA
+          DELETE: True
+          PUBLISH: True

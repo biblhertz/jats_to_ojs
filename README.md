@@ -120,6 +120,9 @@ https://github.com/ualbertalib/ojsxml
 There is a limit on the size of the files that can be uploaded to OJS (3.3.0.10) of around 2MB. Generated files that are greater than this will not upload.
 A strategy to mitigate this could be to make the size of any image files to be included smaller (either through compression or cutting the image).
 
+### Funding
+Development of this tool was made possible by a grant from the Deutsche Forschungsgemeinschaft (DFG) — Project number [501142032](https://gepris.dfg.de/gepris/projekt/501142032).
+
 ### License
 GPL-3.0-or-later — see [LICENSE](LICENSE) / [docs/COPYING](docs/COPYING). This project incorporates GPL-3.0 schema files (`xsd/ojs_xsd/`) from the Open Journal Systems (PKP) project, copyright Simon Fraser University and John Willinsky.
 
