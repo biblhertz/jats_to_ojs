@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Upload snapshot to Edmond
-        uses: IQSS/dataverse-uploader@v1.6
+        uses: IQSS/dataverse-uploader@v1.7
         with:
           DATAVERSE_TOKEN: ${{ secrets.DATAVERSE_TOKEN }}
           DATAVERSE_SERVER: https://edmond.mpg.de
